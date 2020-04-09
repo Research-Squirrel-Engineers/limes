@@ -1,0 +1,1153 @@
+ID	lat	long	limesobject	limescategory	limestown	limestownpard
+1	50.189704	8.203443	Zugmantel	Kastell	Taunusstein	Orlen
+2	50.205588	8.333088	Alteburg-Heftrich	Kastell	Idstein	Heftrich
+3	50.227149	8.444662	Feldberg	Kastell	Schmitten	Niederreifenberg
+4	50.271522	8.566659	Saalburg	Kastell	Bad Homburg	???
+5	50.313041	8.635664	Kapersburg	Kastell	Rosbach	Ober-Rosbach
+6	50.341669	8.753502	Friedberg	Kastell	Friedberg	???
+7	50.487393	8.784294	Arnsburg	Kastell	Lich	Muschenheim
+8	50.080342	8.980408	Gross-Krotzenburg	Kastell	Großkrotzenburg	???
+9	50.222685	8.98419	Marköbel	Kastell	Hammersbach	Marköbel
+10	49.801302	9.144737	Wörth	Kastell	Wörth a.Main	Stadt Wörth a.Main
+11	49.427522	9.423646	Osterburken-Kohortenkastell	Kastell	Osterburken	???
+12	49.426728	9.424439	Osterburken-Annexkastell	Kastell	Osterburken	???
+13	49.310942	9.469169	Jagsthausen	Kastell	Jagsthausen	???
+14	49.081095	9.556183	Mainhardt	Kastell	Mainhardt	???
+15	48.871517	9.642325	Welzheim-Ost	Kastell	Welzheim	???
+16	48.798115	9.688578	Lorch	Kastell	Lorch	???
+17	48.786795	9.777356	Schirenhof	Kastell	Schwäbisch Gmünd	???
+18	48.819042	9.923602	Unterböbingen	Kastell	Böbingen	Unterböbingen
+19	48.835827	10.085005	Aalen	Kastell	Aalen	???
+20	48.909705	10.145006	Rainau-Buch	Kastell	Rainau	Buch
+21	48.983138	10.285661	Halheim	Kastell	Ellwangen	Pfahlheim
+22	49.102804	10.578748	Dambach	Kastell	Ehingen	Dambach | Dennenlohe
+23	49.057194	10.704499	Gnotzheim	Kastell	Gnotzheim	???
+24	49.030803	10.9624	Weissenburg	Kastell	Weißenburg	Stadt Weißenburg i. Bay.
+25	49.06389	10.987994	Ellingen	Kastell	Ellingen	???
+26	49.0193	11.0765	Burgsalach	Kastell	Burgsalach	???
+27	48.883931	11.263661	Pfünz	Kastell	Walting	Pfünz
+28	48.946155	11.360479	Böhming	Kastell	Kipfenberg	Böhming
+29	48.818523	11.682227	Pförring	Kastell	Pförring	Teilgemeinde, Pförring
+30	48.849843	11.770968	Eining Kohortenkastell	Kastell	Neustadt a.d.Donau	Eining
+31	48.859567	11.776493	Eining Unterfeld	Kastell	Neustadt a.d.Donau	Eining
+32	50.436637	7.469069	Heddesdorf	Kastell	Neuwied	Heddesdorf
+33	50.467026	7.471947	Niederbieber	Kastell	Neuwied	Niederbieber-Segendorf
+34	50.368855	7.627335	Niederberg	Kastell	Koblenz	Niederberg
+35	50.335923	7713	Bad Ems	Kastell	Bad Ems	???
+36	50.375325	7.745646	Arzbach	Kastell	Arzbach	???
+37	50.240273	7.810763	Marienfels	Kastell	Marienfels	???
+38	50.24665	7.827849	Hunzel	Kastell	Hunzel	???
+39	50.214881	7.947468	Holzhausen	Kastell	Holzhausen a.d. Haide	???
+40	50.165468	8.016058	Kemel	Kastell	Heidenrod	Kemel
+41	50.365103	8.644794	Langenhain	Kastell	Ober-Mörlen	Langenhain-Ziegenberg
+42	50.439681	8.665183	Butzbach	Kastell	Butzbach	???
+43	50.323804	8.876774	Ober-Florstadt	Kastell	Florstadt	Ober-Florstadt
+44	50.393087	8.883176	Echzell	Kastell	Echzell	???
+45	50.460569	8.907951	Hungen-Inheiden	Kastell	Hungen	Inheiden
+46	50.285161	8.941192	Altenstadt	Kastell	Altenstadt	???
+47	50.044011	8.976095	Seligenstadt	Kastell	Seligenstadt	???
+48	50.154728	8.981344	Rückingen	Kastell	Erlensee	Rückingen
+49	49.91415	9.140716	Niedernberg	Kastell	Niedernberg	???
+50	49.841111	9.146593	Obernburg	Kastell	Obernburg	Stadt Obernburg
+51	49.777844	9.177849	Trennfurt	Kastell	Klingenberg	Trennfurt
+52	49.708882	9.229949	Miltenberg-Altstadt	Kastell	Miltenberg	???
+53	49.705317	9.261513	Miltenberg-Ost	Kastell	Bürgstadt und Miltenberg	???
+54	49.57857	9.386719	Walldürn	Kastell	Walldürn	???
+55	49.230773	9.50327	Westernbach	Kastell	Zweiflingen	Westernbach
+56	48.977053	9.582358	Murrhardt	Kastell	Murrhardt	???
+57	49.046446	10.480547	Ruffenhofen	Kastell	Weiltingen | Wittelshofen	Frankenhofen | Weiltingen
+58	49.069528	10.62242	Unterschwaningen	Kastell	Unterschwaningen	Unterschwaningen | Altent
+59	49.089237	10.84409	Theilenhofen Erdkastell	Kastell	Theilenhofen	???
+60	49.089432	10.847123	Theilenhofen	Kastell	Theilenhofen	???
+61	49.034459	11.053059	Oberhochstatt	Kastell	Weißenburg	Oberhochstatt
+62	49.016608	11.079642	Burgsalach Erdkastell	Kastell	Burgsalach	???
+63	50.481347	7.538413	Anhausen	Kleinkastell	Neuwied	Heimbach-Weis
+64	50.412622	7.704296	Hillscheid	Kleinkastell	Hillscheid	???
+65	50.28661	7.738396	Becheln	Kleinkastell	Lahnstein	Oberlahnstein/Becheln
+66	50.226566	7.890201	Pfarrhofen	Kleinkastell	Miehlen	???
+67	50.197474	7.995022	Dörsterberg	Kleinkastell	Heidenrod	Laufenselden
+68	50.201068	8.316399	Eichelgarten	Kleinkastell	Idstein	Lenzhahn/Dasbach
+69	50.218544	8.390579	Maisel	Kleinkastell	Glashütten	???
+70	50.244586	8.492966	Altes Jagdhaus	Kleinkastell	Oberursel	Oberstedten
+71	50.253706	8.512934	Heidenstock	Kleinkastell	Bad Homburg	Ober-Eschbach
+72	50.272769	8.568471	Saalburg 1	Kleinkastell	Bad Homburg	???
+73	50.27216	8.568939	Saalburg 2	Kleinkastell	Bad Homburg	???
+74	50.28213	8.586331	Lochmühle	Kleinkastell	Friedrichsdorf	Köppern
+75	50.305565	8.62539	Rittergräber	Kleinkastell	Rosbach	Nieder-Rosbach
+76	50.414587	8.6284	Hunnenkirchhof 1	Kleinkastell	Butzbach	Nieder-Weisel
+77	50.41449	8.629062	Hunnenkirchhof 2	Kleinkastell	Butzbach	Nieder-Weisel
+78	50.319621	8.638337	Ockstädter Wald	Kleinkastell	Friedberg	Ockstadt
+79	50.356513	8.640278	Eichkopf	Kleinkastell	Ober-Mörlen	Langenhain-Ziegenberg
+80	50.336998	8.64676	Kaisergrube	Kleinkastell	Ober-Mörlen	???
+81	50.432994	8.650381	Schrenzer	Kleinkastell	Butzbach	???
+82	50.470322	8.67608	Dicker Wald 2	Kleinkastell	Münzenberg	Gambach
+83	50.466075	8.677771	Dicker Wald 1	Kleinkastell	Münzenberg	Gambach
+84	50.499817	8.69936	Holzheimer Unterwald	Kleinkastell	Pohlheim	Holzheim
+85	50.471082	8.873857	Feldheimer Wald	Kleinkastell	Hungen	Inheiden
+86	50.260375	8.961192	Buchkopf	Kleinkastell	Altenstadt	Höchst
+87	50.11126	8.982996	Neuwirtshaus	Kleinkastell	Hanau	Wolfgang
+88	49.633402	9.330439	Haselburg	Kleinkastell	Walldürn	Reinhardsachsen
+89	49.542873	9.387543	Rehberg	Kleinkastell	Buchen	Hettingen
+90	49.449848	9.42348	Hintere Kalbe	Kleinkastell	Osterburken	???
+91	49.055125	9.571011	Hankertsmühle	Kleinkastell	Mainhardt	???
+92	48.925947	9.619291	Ebnisee	Kleinkastell	Kaisersbach	???
+93	48.88659	9.633845	Rötelsee	Kleinkastell	Welzheim	???
+94	48.797321	9.754924	Kleindeinbach	Kleinkastell	Schwäbisch Gmünd	Großdeinbach
+95	48.791553	9.763711	Freimühle	Kleinkastell	Schwäbisch Gmünd	???
+96	49.116839	10.780904	Hinterer Schlossberg	Kleinkastell	Gunzenhausen	???
+97	49.0865	10.951999	Gündersbach	Kleinkastell	Pfofeld	Sankt Veit, (Gündersbach)
+98	49.015709	11.105936	Raitenbuch	Kleinkastell	Raitenbuch	???
+99	48.983454	11.1511	Kaldorf	Kleinkastell	Titting	Kaldorf
+100	48.975256	11.265951	Biebig	Kleinkastell	Titting	Altdorf
+101	48.975771	11.271316	Hegelohe	Kleinkastell	Titting	Altdorf
+102	48.913671	11.539056	Güssgraben	Kleinkastell	Altmannstein	Schambach
+103	48.905277	11.572464	Hinterer Seeberg	Kleinkastell	Altmannstein	Steinsdorf (i), Schambach
+104	50.503527	7.319315	Rheinbrohl	Kleinkastell	Rheinbrohl	???
+105	50.430389	7.65227	Ferbach	Kleinkastell	Weitersburg / Höhr-Grenzhausen	???
+106	50.251174	7.868022	Pohl	Kleinkastell	Pohl	???
+107	50.167456	8.016199	Kemel 2	Kleinkastell	Heidenrod	Kemel
+108	50.167774	8.016542	Kemel 1	Kleinkastell	Heidenrod	Kemel
+109	50.16494	8.077694	Adolfseck	Kleinkastell	Bad Schwalbach	Adolfseck
+110	50.21039	8.336425	Alteburg-Heftrich 2	Kleinkastell	Idstein	Heftrich
+111	50.211682	8.339083	Alteburg-Heftrich 1	Kleinkastell	Idstein	Heftrich
+112	50.443519	8.655724	Degerfeld	Kleinkastell	Butzbach	???
+113	50.52089	8.725101	Hainhaus	Kleinkastell	Pohlheim	Grüningen
+114	50.482998	8.85455	Langsdorf	Kleinkastell	Lich	Bettenhausen
+115	50.361023	8.89565	Lochberg	Kleinkastell	Echzell	Bingenheim
+116	50.388546	8.901594	Haselheck	Kleinkastell	Echzell	Bisses
+117	50.46017	8.903685	Inheiden 1	Kleinkastell	Hungen	Inheiden
+118	50.461008	8.906795	Inheiden 2	Kleinkastell	Hungen	Inheiden
+119	50.422543	8.908644	Unter-Widdersheim	Kleinkastell	Nidda	Unter-Widdersheim
+120	50.451806	8.91015	Wingertsberg	Kleinkastell	Hungen	Steinheim
+121	50.326418	8.915133	Staden	Kleinkastell	Florstadt	Staden
+122	50.437561	8.91616	Massohl	Kleinkastell	Hungen	Steinheim
+123	50.31257	8.923034	Stammheim	Kleinkastell	Florstadt	Stammheim
+124	50.167989	8.985621	Langendiebach	Kleinkastell	Erlensee	Langendiebach
+125	49.545215	9.383568	Altheimer Straße	Kleinkastell	Buchen	Hettingen
+126	49.515019	9.395263	Holderbusch	Kleinkastell	Buchen	Rinschheim
+127	49.43113	9.430446	Salzberg	Kleinkastell	Osterburken	???
+128	49.350652	9.457339	Lehnenwiesen	Kleinkastell	Widdern	Unterkessach
+129	49.279712	9.47859	Sindringen	Kleinkastell	Forchtenberg	Sindringen
+130	49.080419	9.561952	Herrenwiesen	Kleinkastell	Mainhardt	???
+131	50.456846	7.572206	Turm 1/48	Turm	Neuwied	Heimbach-Weis
+132	49.535081	9.391709	Turm 8/2	Turm	Buchen	Hettingen
+133	49.602099	9.370498	Turm 7/32	Turm	Walldürn	Glashofen
+134	49.60579	9.366459	Turm 7/31	Turm	Walldürn	Glashofen
+135	49.605682	9.366527	Turm 7/31	Turm	Walldürn	Glashofen
+136	49.598888	9.373822	Turm 7/33	Turm	Walldürn	???
+137	49.593294	9.379879	Turm 7/35	Turm	Walldürn	???
+138	49.548856	9.386347	Turm 7/48	Turm	Buchen	Hettingen
+139	49.493695	9.407142	Turm 8/13	Turm	Buchen	Götzingen
+140	49.541041	9.38949	Turm 8/1	Turm	Buchen	Hettingen
+141	49.499799	9.404929	Turm 8/11	Turm	Buchen	Götzingen
+142	49.46393	9.418193	Turm 8/21	Turm	Osterburken	Bofsheim
+143	49.45679	9.420891	Turm 8/23	Turm	Osterburken	Bofsheim
+144	49.399382	9.442196	Turm 8/37	Turm	Adelsheim	???
+145	49.391791	9.44502	Turm 8/39	Turm	Adelsheim	???
+146	49.344938	9.462791	Turm 8/51	Turm	Widdern	Unterkessach
+147	49.354799	9.459084	Turm 8/48	Turm	Widdern	Unterkessach
+148	49.348324	9.461515	Turm 8/50	Turm	Schöntal	???
+149	49.270659	9.490966	Turm 9/15	Turm	Forchtenberg	Sindringen
+150	49.273856	9.489802	Turm 9/14	Turm	Forchtenberg	Sindringen
+151	49.264463	9.493308	Turm 9/17	Turm	Zweiflingen	???
+152	49.267786	9.492064	Turm 9/16	Turm	Zweiflingen	???
+153	49.261905	9.494258	Turm 9/18	Turm	Zweiflingen	???
+154	49.210262	9.513671	Turm 9/33	Turm	öhringen	Büttelborn
+155	48.854277	9.645824	Turm 9/136	Turm	Welzheim	???
+156	49.145402	9.537864	Turm 9/51	Turm	Pfedelbach	???
+157	48.929207	9.618458	Turm 9/116	Turm	Kaisersbach	???
+158	49.108352	9.551858	Turm 9/62	Turm	Mainhardt	Geißelhardt
+159	49.141613	9.536631	Turm 9/52	Turm	Pfedelbach	???
+160	49.139149	9.534781	Turm 9/53	Turm	Pfedelbach	???
+161	49.1061	9.552669	Turm 9/63	Turm	Mainhardt	Geißelhardt
+162	49.102254	9.554119	Turm 9/64	Turm	Mainhardt	???
+163	49.124566	9.54579	Turm 9/57	Turm	Mainhardt	Geißelhardt
+164	49.052717	9.57242	Turm 9/77	Turm	Mainhardt	Hütten
+165	49.059941	9.569931	Turm 9/75	Turm	Mainhardt	Hütten
+166	49.068689	9.566609	Turm 9/72	Turm	Mainhardt	Hütten
+167	49.031059	9.580637	Turm 9/83	Turm	Großerlach	Grab
+168	48.963317	9.60607	Turm 9/104	Turm	Murrhardt	???
+169	48.80587	9.696853	Turm 12/12	Turm	Lorch	???
+170	48.800449	9.727215	Turm 12/17	Turm	Lorch	???
+171	48.803024	9.700598	Turm 12/13	Turm	Lorch	???
+172	48.811517	9.690886	Turm 12/11	Turm	Lorch	???
+173	48.969228	9.60382	Turm 9/102	Turm	Murrhardt	???
+174	48.953254	9.609662	Turm 9/107	Turm	Murrhardt	Fornsbach
+175	48.98585	9.59764	Turm 9/96a	Turm	Murrhardt	???
+176	49.45046	9.42343	Turm 8/25	Turm	Osterburken	???
+177	49.40979	9.438362	Turm 8/34	Turm	Osterburken	???
+178	49.627404	9.340004	Turm 7/24	Turm	Walldürn	Gerolzahn
+179	48.826891	9.686903	Turm 12/8	Turm	Alfdorf	Pfahlbronn
+180	48.842224	9.665355	Turm 12/3	Turm	Alfdorf	Pfahlbronn
+181	48.831472	9.68484	Turm 12/7	Turm	Alfdorf	Pfahlbronn
+182	48.822313	9.687085	Turm 12/9	Turm	Lorch	???
+183	48.905496	10.112935	Turm 12/74	Turm	Hüttlingen	???
+184	48.916102	10.131004	Turm 12/77	Turm	Rainau	Schwabsberg
+185	48.838455	9.949229	Turm 12/46	Turm	Mögglingen	???
+186	48.837379	9.943406	Turm 12/45	Turm	Heuchlingen	???
+187	48.798063	9.736219	Turm 12/19	Turm	Schwäbisch Gmünd	Großdeinbach
+188	50.121158	8.984587	Turm 5/12	Turm	Hanau	Wolfgang
+189	48.980373	9.599542	Turm 9/99	Turm	Murrhardt	???
+190	48.90495	9.627557	Turm 9/123	Turm	Welzheim	???
+191	48.861352	9.642876	Turm 9/134	Turm	Welzheim	???
+192	48.944118	9.613046	Turm 9/111	Turm	Murrhardt	Fornsbach
+193	49.000275	9.5921	Turm 9/91	Turm	Murrhardt	???
+194	48.981166	9.599292	Turm 9/98	Turm	Murrhardt	???
+195	49.01851	9.585344	Turm 9/87	Turm	Murrhardt	???
+196	48.985833	9.597544	Turm 9/96b	Turm	Murrhardt	???
+197	50.098161	8.982498	Turm 5/15	Turm	Hanau	Großauheim
+198	50.129618	8.985171	Turm 5/11	Turm	Hanau	Wolfgang
+199	50.221255	8.414309	Turm 3/42	Turm	Glashütten	???
+200	50.191096	8.22717	Turm 3/18	Turm	Idstein	Orlen/Eschenhahn
+201	50.088694	8.982124	Turm 5/16	Turm	Großkrotzenburg	???
+202	50.1919	8.219777	Turm 3/17a	Turm	Taunusstein	Orlen
+203	50.217364	8.38342	Turm 3/38	Turm	Glashütten	Schlossborn
+204	50.1921	8.236256	Turm 3/19	Turm	Idstein	Eschenhahn
+205	50.212015	8.383433	Turm 3/38	Turm	Glashütten	Schlossborn
+206	50.434461	8.64802	Turm 4/33	Turm	Butzbach	???
+207	50.319773	8.63814	Turm 4/11	Turm	Friedberg	Ockstadt
+208	50.221383	8.414756	Turm 3/42	Turm	Glashütten	???
+209	50.319621	8.638211	Turm 4/11	Turm	Friedberg	Ockstadt
+210	50.300122	7.716128	Turm unknown	Turm	Lahnstein	Oberlahnstein
+211	50.292418	7.727689	Turm 2/6	Turm	Becheln	???
+212	50.284449	7.743897	Turm 2/8	Turm	Lahnstein	Oberlahnstein
+213	50.423314	7.667107	Turm 1/65	Turm	Vallendar	???
+214	50.249131	7.852128	Turm 2/21	Turm	Pohl	???
+215	50.214055	7.942638	Turm 2/34	Turm	Holzhausen a.d. Haide	???
+216	50.249133	7.852353	Turm unknown	Turm	Pohl	???
+217	50.210384	7.93451	Turm 2/33	Turm	Holzhausen a.d. Haide	???
+218	50.263894	7.789333	Turm 2/14	Turm	Geisig	???
+219	50.273123	7.770989	Turm 2/12	Turm	Oberwies	???
+220	50.269815	7.781272	Turm 2/13	Turm	Dornholzhausen	???
+221	50.499873	7.379915	Turm 1/12	Turm	Rheinbrohl	???
+222	50.482232	7.404528	Turm 1/18	Turm	Neuwied	Wollendorf
+223	50.397308	7.723476	Turm 1/75	Turm	Eitelborn	???
+224	50.403061	7.716865	Turm 1/73	Turm	Hillscheid	???
+225	50.292489	7.727518	Turm unknown	Turm	Becheln	???
+226	50.289503	7.733169	Turm 2/7	Turm	Becheln	???
+227	50.300319	7.716067	Turm 2/4	Turm	Lahnstein	Oberlahnstein
+228	50.417985	7.681538	Turm 1/67	Turm	Hillscheid	???
+229	50.396443	7.740672	Turm 1/78	Turm	Kadenbach	???
+230	50.233776	7.889206	Turm 2/27	Turm	Obertiefenbach	???
+231	50.478747	7.480037	Turm 1/33	Turm	Neuwied	Altwied
+232	50.407437	7.712611	Turm 1/72	Turm	Hillscheid	???
+233	50.44307	7.585967	Turm 1/52	Turm	Bendorf	Sayn
+234	50.233901	7.889161	Turm 2/27	Turm	Obertiefenbach	???
+235	50.243971	7.876156	Turm 2/25	Turm	Pohl	???
+236	50.244051	7.876028	Turm 2/25	Turm	Pohl	???
+237	50.358323	7.760611	Turm 1/88	Turm	Kemmenau	???
+238	50.304342	7.714007	Turm 2/3	Turm	Lahnstein	Oberlahnstein
+239	50.494723	7.386518	Turm 1/13	Turm	Hammerstein	Niederhammerstein
+240	50.494397	7.392843	Turm 1/14	Turm	Hammerstein	Oberhammerstein
+241	50.337706	7.737043	Turm 1/92	Turm	Bad Ems	???
+242	50.315202	7.722124	Turm 2/2	Turm	Lahnstein	Oberlahnstein
+243	50.284361	7.744012	Turm 2/8	Turm	Lahnstein	Oberlahnstein
+244	50.437146	7.64031	Turm 1/60	Turm	Bendorf	???
+245	50.513239	7.3427	Turm 1/5	Turm	Rheinbrohl	???
+246	50.513817	7.356187	Turm 1/7	Turm	Rheinbrohl	???
+247	50.43736	7.640206	Turm 1/60	Turm	Bendorf	???
+248	50.513176	7.365572	Turm 1/8	Turm	Rheinbrohl	???
+249	50.510306	7.375723	Turm 1/10	Turm	Rheinbrohl	???
+250	50.513106	7.365729	Turm 1/8	Turm	Rheinbrohl	???
+251	50.504064	7.376839	Turm 1/11	Turm	Rheinbrohl	???
+252	50.478353	7.517794	Turm 1/38	Turm	Neuwied	Gladbach
+253	50.437524	7.62207	Turm 1/58	Turm	Bendorf	Bendorf
+254	50.494711	7.386307	Turm 1/13	Turm	Hammerstein	Niederhammerstein
+255	50.438074	7.632809	Turm 1/59	Turm	Bendorf	Bendorf
+256	50.437605	7.622814	Turm 1/58	Turm	Bendorf	Bendorf
+257	50.511508	7.371635	Turm 1/9	Turm	Rheinbrohl	???
+258	50.438061	7.633232	Turm 1/59	Turm	Bendorf	Bendorf
+259	50.438359	7.632632	Turm 1/59	Turm	Bendorf	Bendorf
+260	50.438077	7.633062	Turm 1/59	Turm	Bendorf	Bendorf
+261	50.442331	7.605178	Turm 1/55	Turm	Bendorf	Sayn
+262	50.442257	7.613275	Turm 1/56	Turm	Bendorf	Sayn
+263	50.441922	7.598108	Turm 1/54	Turm	Bendorf	Sayn
+264	50.437723	7.622923	Turm 1/58	Turm	Bendorf	Bendorf
+265	50.491331	7.398725	Turm 1/16	Turm	Leutesdorf	???
+266	50.487172	7.399585	Turm 1/17	Turm	Neuwied	Wollendorf
+267	50.487054	7.39949	Turm 1/17	Turm	Neuwied	Wollendorf
+268	50.464226	7.568462	Turm 1/47	Turm	Neuwied	Heimbach-Weis
+269	50.466834	7.419203	Turm 1/22	Turm	Neuwied	Wollendorf
+270	50.466066	7.425539	Turm 1/23	Turm	Neuwied	Wollendorf
+271	50.466832	7.41971	Turm 1/22	Turm	Neuwied	Wollendorf
+272	50.48222	7.404331	Turm 1/18	Turm	Neuwied	Wollendorf
+273	50.472777	7.407396	Turm 1/20	Turm	Neuwied	Gönnersdorf
+274	50.476509	7.406102	Turm 1/19	Turm	Neuwied	Hüllenberg
+275	50.477762	7.509515	Turm 1/37	Turm	Neuwied	Oberbieber
+276	50.481955	7.538169	Turm 1/41	Turm	Neuwied	Heimbach-Weis
+277	50.481206	7.531443	Turm 1/40	Turm	Neuwied	Gladbach
+278	50.478127	7.543274	Turm 1/42	Turm	Neuwied	Heimbach-Weis
+279	50.479321	7.523188	Turm 1/39	Turm	Neuwied	Gladbach
+280	50.474586	7.549849	Turm 1/43	Turm	Neuwied	Heimbach-Weis
+281	50.474536	7.550147	Turm 1/43	Turm	Neuwied	Heimbach-Weis
+282	50.47357	7.560009	Turm 1/44	Turm	Neuwied	Heimbach-Weis
+283	50.485637	8.68791	Turm 4/44	Turm	Münzenberg	Gambach
+284	50.206271	7.967899	Turm 2/39	Turm	Heidenrod	Laufenselden
+285	50.456664	7.572085	Turm 1/48	Turm	Neuwied	Heimbach-Weis
+286	50.463531	7.568976	Turm 1/47	Turm	Neuwied	Heimbach-Weis
+287	50.456711	7.572252	Turm 1/48	Turm	Neuwied	Heimbach-Weis
+288	50.165722	8.07096	Turm 2/55	Turm	Bad Schwalbach	Lindschied
+289	50.205829	8.323489	Turm 3/31	Turm	Idstein	Heftrich
+290	50.339109	8.643485	Turm 4/16	Turm	Ober-Mörlen	???
+291	50.241455	8.975156	Turm 4/105	Turm	Hammersbach	Langen-Bergheim
+292	50.214831	7.964954	Turm 2/36	Turm	Heidenrod	Laufenselden
+293	50.179103	8.00931	Turm 2/47	Turm	Heidenrod	Huppert
+294	50.169531	8.114237	Turm 3/5	Turm	Taunusstein	Watzhahn
+295	50.209547	7.967268	Turm 2/38	Turm	Heidenrod	Laufenselden
+296	50.212749	7.9664	Turm 2/37	Turm	Heidenrod	Laufenselden
+297	50.21597	7.95557	Turm 2/35	Turm	Heidenrod	Laufenselden
+298	50.203406	7.973298	Turm 2/40	Turm	Heidenrod	Laufenselden
+299	50.504195	8.702673	Turm 4/47	Turm	Pohlheim	Grüningen
+300	50.195045	8.260732	Turm 3/23	Turm	Idstein	???
+301	50.17212	8.111851	Turm 3/5	Turm	Taunusstein	Watzhahn
+302	50.173434	8.012899	Turm 2/48	Turm	Heidenrod	Kemel
+303	50.170006	8.103562	Turm 3/4	Turm	Hohenstein	Born
+304	50.198801	7.989518	Turm 2/42	Turm	Heidenrod	Laufenselden
+305	50.16238	8.046827	Turm 2/52	Turm	Bad Schwalbach	Lindschied
+306	50.165732	8.104188	Turm 3/4	Turm	Hohenstein	Born
+307	50.165811	8.103948	Turm 3/4	Turm	Hohenstein	Born
+308	50.169561	8.114642	Turm 3/5	Turm	Taunusstein	Watzhahn
+309	50.184104	8.172802	Turm 3/11	Turm	Taunusstein	Orlen
+310	50.194785	8.258061	Turm 3/22	Turm	Idstein	???
+311	50.173593	8.117633	Turm 3/6	Turm	Hohenstein	Steckenroth
+312	50.193135	8.246099	Turm 3/20	Turm	Idstein	Eschenhahn
+313	50.182351	8.162794	Turm 3/10	Turm	Hohenstein	Steckenroth
+314	50.192176	8.198192	Turm 3/14	Turm	Taunusstein	Orlen
+315	50.519452	8.745231	Turm 4/52	Turm	Pohlheim	Grüningen
+316	50.214139	8.352331	Turm 3/35	Turm	Idstein	Heftrich
+317	50.196683	8.273885	Turm 3/25	Turm	Idstein	???
+318	50.429206	8.796338	Stadt/Gemeinde:	Turm:	Teilort:	???
+319	50.193801	8.250332	Turm 3/21	Turm	Idstein	Eschenhahn
+320	50.365261	8.726605	Stadt/Gemeinde:	Turm:	???	???
+321	50.202027	8.314354	Turm 3/29	Turm	Idstein	Dasbach/Idstein
+322	50.204151	8.319366	Turm 3/30	Turm	Idstein	Heftrich
+323	50.215755	8.371574	Turm 3/37	Turm	Glashütten	Schlossborn
+324	50.224728	8.438608	Turm 3/45	Turm	Glashütten	???
+325	50.223675	8.421679	Turm 3/43	Turm	Glashütten	???
+326	50.514059	8.710831	Turm 4/48a	Turm	Pohlheim	Grüningen
+327	50.224717	8.43816	Turm 3/45	Turm	Glashütten	???
+328	50.488273	8.81498	Turm 4/62	Turm	Lich	Muschenheim
+329	50.248342	8.503049	Turm 3/55	Turm	Bad Homburg	???
+330	50.518209	8.756616	Turm 4/53	Turm	Pohlheim	Grüningen
+331	50.519378	8.744174	Turm 4/52	Turm	Pohlheim	Grüningen
+332	50.518182	8.756828	Turm 4/53	Turm	Pohlheim	Grüningen
+333	50.519397	8.744611	Turm 4/52	Turm	Pohlheim	Grüningen
+334	50.518183	8.757082	Turm 4/53	Turm	Pohlheim	Grüningen
+335	50.518039	8.757238	Turm 4/53	Turm	Pohlheim	Grüningen
+336	50.518012	8.756899	Turm 4/53	Turm	Pohlheim	Güningen
+337	50.508988	8.780545	Turm 4/56	Turm	Lich	Arnsburg
+338	50.509284	8.780289	Turm 4/56	Turm	Lich	Arnsburg
+339	50.237597	8.458347	Turm 3/49	Turm	Oberursel	???
+340	50.499747	8.795725	Turm 4/59	Turm	Lich	Arnsburg
+341	50.240153	8.472533	Turm 3/51	Turm	Oberursel	???
+342	50.242893	8.48003	Turm 3/52	Turm	Oberursel	Oberstedten
+343	50.248423	8.502922	Turm 3/55	Turm	Bad Homburg	???
+344	50.258654	8.533372	Turm 3/60	Turm	Bad Homburg	???
+345	50.252753	8.966737	Turm 4/103	Turm	Limeshain	Himbach
+346	50.303305	8.929099	Turm 4/96	Turm	Florstadt/Altenstadt	Stammheim
+347	50.261521	8.537776	Turm 3/61	Turm	Wehrheim	Obernhain
+348	50.261576	8.537929	Turm 3/61	Turm	Wehrheim	Obernhain
+349	50.241644	8.97524	Turm 4/105	Turm	Hammersbach	Langen-Bergheim
+350	50.274984	8.576657	Turm 3/68	Turm	Friedrichsdorf	Dillingen
+351	50.298464	8.617712	Turm 4/6	Turm	Rosbach	Rodheim
+352	50.480826	8.684025	Turm 4/43	Turm	Münzenberg	Gambach
+353	50.491519	8.692339	Turm 4/45	Turm	Pohlheim	Holzheim
+354	50.45879	8.667104	Turm 4/38	Turm	Butzbach	Griedel
+355	50.46834	8.674333	Turm 4/40	Turm	Münzenberg	Gambach
+356	50.466219	8.678122	Turm 4/40	Turm	Münzenberg	Gambach
+357	50.476448	8.680687	Turm 4/42	Turm	Münzenberg	Gambach
+358	50.464093	8.67325	Turm 4/39	Turm	Münzenberg	Gambach
+359	50.453804	8.668406	Turm 4/37	Turm	Butzbach	Griedel
+360	50.293564	8.609317	Turm 4/5	Turm	Rosbach	Rodheim
+361	50.28996	8.591231	Turm 4/2	Turm	Friedrichsdorf	Köppern
+362	50.293593	8.609822	Turm 4/5	Turm	Rosbach	Rodheim
+363	50.49179	8.692576	Turm 4/45	Turm	Pohlheim	Holzheim
+364	50.261638	8.537648	Turm 3/61	Turm	Wehrheim	Obernhain
+365	50.491645	8.692465	Turm 4/45	Turm	Pohlheim	Holzheim
+366	50.257371	8.527228	Turm 3/59	Turm	Bad Homburg	Ober-Eschbach
+367	50.257218	8.527258	Turm 3/59	Turm	Bad Homburg	Ober-Eschbach
+368	50.257335	8.527425	Turm 3/59	Turm	Bad Homburg	Ober-Eschbach
+369	50.274929	8.576363	Turm 3/68	Turm	Friedrichsdorf	Dillingen
+370	50.261521	8.537537	Turm 3/61	Turm	Wehrheim	Obernhain
+371	50.267697	8.551433	Turm 3/63	Turm	Bad Homburg	???
+372	50.257147	8.527553	Turm 3/59	Turm	Bad Homburg	Ober-Eschbach
+373	50.267831	8.55118	Turm 3/63	Turm	Bad Homburg	???
+374	50.267616	8.551294	Turm 3/63	Turm	Bad Homburg	???
+375	50.274847	8.576084	Turm 3/68	Turm	Friedrichsdorf	Dillingen
+376	50.334369	8.648465	Turm 4/14	Turm	Ober-Mörlen	???
+377	50.334665	8.648463	Turm 4/14	Turm	Ober-Mörlen	???
+378	50.278717	8.582264	Turm 3/69	Turm	Friedrichsdorf	Dillingen
+379	50.285427	8.588309	Turm 4/1	Turm	Friedrichsdorf	Köppern
+380	50.290557	8.5974	Turm 4/3	Turm	Rosbach	Rodheim
+381	50.30495	8.624243	Turm 4/8	Turm	Rosbach	Nieder-Rosbach
+382	50.235987	8.458127	Turm 3/49	Turm	Oberursel	???
+383	50.434579	8.648174	Turm 4/33	Turm	Butzbach	???
+384	50.308647	8.630798	Turm 4/9	Turm	Rosbach	Nieder-Rosbach
+385	50.304152	8.622355	Turm 4/7	Turm	Rosbach	Rodheim
+386	50.305257	8.624774	Turm 4/8	Turm	Rosbach	Nieder-Rosbach
+387	50.294078	8.609776	Turm 4/5	Turm	Rosbach	Rodheim
+388	50.335061	8.648544	Turm 4/14	Turm	Ober-Mörlen	???
+389	50.343642	8.643985	Turm 4/17	Turm	Ober-Mörlen	???
+390	50.324728	8.641458	Turm 4/12	Turm	Wehrheim	Pfaffenwiesbach
+391	50.189726	8.252804	Turm 3/21	Turm	Idstein	???
+392	50.428925	8.6398	Turm 4/32	Turm	Butzbach	Nieder-Weisel
+393	50.243073	8.480253	Turm 3/52	Turm	Oberursel/Schmitten	Oberursel/Arnoldshain
+394	50.349106	8.6406	Turm 4/18	Turm	Ober-Mörlen	Langenhain-Ziegenberg
+395	50.24008	8.472253	Turm 3/51	Turm	Oberursel	???
+396	50.343373	8.644156	Turm 4/17	Turm	Ober-Mörlen	???
+397	50.239177	8.467525	Turm 3/50	Turm	Oberursel	???
+398	50.432975	8.650184	Turm 4/33	Turm	Butzbach	???
+399	50.42384	8632	Turm 4/31	Turm	Butzbach	Nieder-Weisel
+400	50.252448	8.967046	Turm 4/103	Turm	Limeshain	Himbach
+401	50.466338	8.6786	Turm 4/40	Turm	Münzenberg	Gambach
+402	50.427387	8.636645	Turm 4/31	Turm	Butzbach	Nieder-Weisel
+403	50.113705	8.98389	Turm 5/13	Turm	Hanau	Wolfgang
+404	50.303521	8929	Turm 4/96	Turm	Florstadt/Altenstadt	Stammheim
+405	50.423921	8.632197	Turm 4/31	Turm	Butzbach	Nieder-Weisel
+406	50.113562	8.983904	Turm 5/13	Turm	Hanau	Wolfgang
+407	50.192453	8.213788	Turm 3/17	Turm	Taunusstein	Orlen
+408	50.179669	8.14142	Turm 3/8	Turm	Hohenstein	Steckenroth
+409	50.179513	8.141003	Turm 3/8	Turm	Hohenstein	Steckenroth
+410	50.216475	8.37843	Turm 3/37a	Turm	Glashütten	Schlossborn
+411	50.515382	8.772239	Turm 4/54a	Turm	Lich	Arnsburg
+412	50.224278	8.425609	Turm 3/44	Turm	Glashütten	???
+413	50.515372	8.772055	Turm 4/54a	Turm	Lich	Arnsburg
+414	50.263798	8.542859	Turm 3/62	Turm	Bad Homburg	???
+415	50.464051	8.670968	Turm 4/39	Turm	Münzenberg	Gambach
+416	50.491718	8.692802	Turm 4/45	Turm	Pohlheim	Holzheim
+417	50.464294	8.671136	Turm 4/39	Turm	Münzenberg	Gambach
+418	48.883473	11.775336	Turm 15/46	Turm	Neustadt a.d.Donau	Hienheim
+419	49.112248	10.678016	Turm 13/45	Turm	Gunzenhausen	Wald (Unterhambach)
+420	49.051204	11.047961	Turm 14/39	Turm	Ettenstatt	Hundsdorf
+421	49.673395	9.289715	Turm 7/11	Turm	Miltenberg	Wenschdorf
+422	49.669862	9.289486	Turm 7/12	Turm	Miltenberg	Wenschdorf
+423	48.89084	11.646066	Turm 15/32-1	Turm	Altmannstein	???
+424	48.890738	11.646211	Turm 15/32-2	Turm	Altmannstein	???
+425	48.931786	11.46856	Turm 15/11	Turm	Denkendorf	Zandt
+426	49.10327	10.883397	Turm 14/18	Turm	Pleinfeld	Dorsbrunn
+427	49.105205	10.591123	Turm 13/36	Turm	Unterschwaningen	Dennenlohe
+428	49.664316	9.289107	Turm 7/13	Turm	Amorbach	Reichartshausen
+429	49.014381	10.37277	Turm 13/3	Turm	Mönchsroth	???
+430	49.020884	10.391407	Turm 13/5	Turm	Wilburgstetten	???
+431	49.030233	10.418253	Turm 13/8	Turm	Weiltingen	???
+432	49.008712	10.356347	Turm 13/1	Turm	Mönchsroth	???
+433	49.654635	9.302331	Turm 7/16	Turm	Amorbach	Reichartshausen
+434	49.02741	10.410173	Turm 13/7	Turm	Wilburgstetten	???
+435	49.657811	9.297988	Turm 7/15	Turm	Amorbach	Reichartshausen
+436	49.111546	10.662528	Turm 13/43	Turm	Gunzenhausen	Wald (Unterhambach)
+437	49.688442	9.287837	Turm 7/6	Turm	Miltenberg	???
+438	49.090305	10.483795	Turm 13/24	Turm	Wittelshofen	Dühren
+439	49.10768	10.608502	Turm 13/38	Turm	Unterschwaningen	Dennenlohe
+440	48.90478	11.582206	Turm 15/23	Turm	Altmannstein	Schamhaupten
+441	48.906669	11.600203	Turm 15/25	Turm	Altmannstein	Sandersdorf
+442	48.90479	11.581784	Turm 15/23	Turm	Altmannstein	Schamhaupten
+443	49.014307	11.108338	Turm 14/50	Turm	Raitenbuch	???
+444	49.116825	10.771861	Turm 14/4	Turm	Gunzenhausen	???
+445	49.008643	10.356154	Turm 13/1	Turm	Mönchsroth	???
+446	48.931889	11.468374	Turm 15/11	Turm	Denkendorf	Zandt
+447	48.921862	11.508343	Turm 15/15	Turm	Denkendorf	Zandt
+448	49.112226	10.678276	Turm 13/45	Turm	Gunzenhausen	Wald (Unterhambach)
+449	48.922012	11.508473	Turm 15/15	Turm	Denkendorf	Zandt
+450	49.020815	10.391186	Turm 13/5	Turm	Wilburgstetten	???
+451	48.948598	11.400259	Turm 15/3	Turm	Kipfenberg	???
+452	49.014339	10.372523	Turm 13/3	Turm	Mönchsroth	???
+453	48.954042	11.363527	Turm 14/77	Turm	Kipfenberg	???
+454	48.9487	11.4001	Turm 15/3	Turm	Kipfenberg	???
+455	49.030173	10.41806	Turm 13/8	Turm	Weiltingen	???
+456	49.116925	10.774153	Turm 14/5	Turm	Gunzenhausen	???
+457	49.111552	10.66272	Turm 13/43	Turm	Gunzenhausen	Wald (Unterhambach)
+458	48.950968	11.376136	Turm 14/78	Turm	Kipfenberg	???
+459	48.951018	11.375933	Turm 14/78	Turm	Kipfenberg	???
+460	49.022884	11.097078	Turm 14/48	Turm	Burgsalach	???
+461	48.975263	11.284285	Turm 14/68	Turm	Kipfenberg	Hirnstetten
+462	49.117067	10.782419	Turm 14/6	Turm	Gunzenhausen	???
+463	48.959379	11.348812	Turm 14/75	Turm	Kipfenberg	Pfahldorf
+464	49.117092	10.781981	Turm 14/6	Turm	Gunzenhausen	???
+465	49.104321	10.874041	Turm 14/17	Turm	Theilenhofen	Theilenhofen (Rittern)
+466	48.976284	11.265793	Turm 14/66	Turm	Titting	Altdorf
+467	48.987652	11.143916	Turm 14/55	Turm	Raitenbuch	Raitenbuch, Reuth a. Wald
+468	49.084842	10.970211	Turm 14/28	Turm	Ellingen	???
+469	49.103227	10.883806	Turm 14/18	Turm	Pleinfeld	Dorsbrunn
+470	49.090533	10.935767	Turm 14/24	Turm	Ellingen | Pleinfeld	Stopfenheim | St. Veit
+471	49.099527	10.901031	Turm 14/20	Turm	Pleinfeld	Dorsbrunn
+472	49.084775	10.970455	Turm 14/28	Turm	Ellingen	???
+473	49.090465	10.936038	Turm 14/24	Turm	Ellingen | Pleinfeld	Stopfenheim | St. Veit
+474	49.00063	11.126363	Turm 14/53	Turm	Raitenbuch	???
+475	48.945286	11.41419	Turm 15/5	Turm	Kipfenberg	???
+476	48.90983	11.555793	Turm 15/20	Turm	Altmannstein	Schamhaupten
+477	48.909726	11.556019	Turm 15/20	Turm	Altmannstein	Schamhaupten
+478	48.97678	11.252864	Turm 14/65	Turm	Titting	Emsing
+479	48.994355	11.134528	Turm 14/54	Turm	Raitenbuch	Raitenbuch, Reuth a.W.
+480	48.94118	11.430675	Turm 15/7	Turm	Denkendorf	Gelbelsee
+481	49.653182	9.30433	Turm 7/17	Turm	Amorbach	Reichartshausen
+482	48.893562	11.642282	Turm 15/31	Turm	Altmannstein	???
+483	48.914171	11.538003	Turm 15/18	Turm	Altmannstein	Schamhaupten
+484	48.977419	11.243603	Turm 14/64	Turm	Titting	Emsing
+485	48.977416	11.243767	Turm 14/64	Turm	Titting	Emsing
+486	48.941274	11.430461	Turm 15/7	Turm	Denkendorf	Gelbelsee
+487	48.975295	11.284027	Turm 14/68	Turm	Kipfenberg	Hirnstetten
+488	48.884908	11.740177	Turm 15/42	Turm	Neustadt a.d.Donau	Hienheim
+489	48.976911	11.253089	Turm 14/65	Turm	Titting	Emsing
+490	48.906727	11.600438	Turm 15/25	Turm	Altmannstein	Sandersdorf
+491	49.027479	10.41038	Turm 13/7	Turm	Wilburgstetten	???
+492	48.890691	11.64629	Turm 15/32-3	Turm	Altmannstein	???
+493	48.945379	11.414017	Turm 15/5	Turm	Kipfenberg	???
+494	48.883394	11.775604	Turm 15/46	Turm	Neustadt a.d.Donau	Hienheim
+495	48.893819	11.642036	Turm 15/31	Turm	Altmannstein	???
+496	48.884527	11.749743	Turm 15/43	Turm	Neustadt a.d.Donau	Hienheim
+497	48.884153	11.758982	Turm 15/44	Turm	Neustadt a.d.Donau	Hienheim
+498	48.885099	11.740078	Turm 15/42	Turm	Neustadt a.d.Donau	Hienheim
+499	48.884197	11.759407	Turm 15/44	Turm	Neustadt a.d.Donau	Hienheim
+500	48.813847	9.808356	Turm 12/30	Turm	Mutlangen	???
+501	49.135463	9.538428	Turm 9/54	Turm	Pfedelbach	???
+502	49.360967	9.456705	Turm 8/47	Turm	Schöntal	Oberkessach
+503	49.645827	9.314586	Turm 7/19	Turm	Walldürn	Gottersdorf
+504	49.63913	9.323888	Turm 7/21	Turm	Walldürn	Reinhardsachsen
+505	49.320227	9.47216	Turm 8/58	Turm	Jagsthausen	???
+506	49.317517	9.473207	Turm 9/1	Turm	Jagsthausen	???
+507	49.315058	9.474174	Turm 9/2	Turm	Jagsthausen	???
+508	49.635555	9.328931	Turm 7/22	Turm	Walldürn	Reinhardsachsen
+509	49.641567	9.320429	Turm 7/20	Turm	Walldürn	Reinhardsachsen
+510	49.649861	9.309018	Turm 7/18	Turm	Walldürn	Reinhardsachsen
+511	49.613035	9.358266	Turm 7/29	Turm	Walldürn	Glashofen
+512	49.618973	9.351321	Turm 7/27	Turm	Walldürn	Glashofen
+513	49.621789	9.347605	Turm 7/26	Turm	Walldürn	Glashofen-Neusaß
+514	49.615191	9.356026	Turm 7/28	Turm	Walldürn	Glashofen
+515	49.609767	9.362435	Turm 7/30	Turm	Walldürn	Glashofen
+516	49.576235	9.391292	Turm 7/40	Turm	Walldürn	???
+517	49.590478	9.383065	Turm 7/36	Turm	Walldürn	???
+518	49.596677	9.376336	Turm 7/34	Turm	Walldürn	???
+519	49.584143	9.389861	Turm 7/38	Turm	Walldürn	???
+520	49.587537	9.38614	Turm 7/37	Turm	Walldürn	???
+521	49.581238	9.392866	Turm 7/39	Turm	Walldürn	???
+522	49.557329	9.385197	Turm 7/45	Turm	Walldürn	???
+523	49.564236	9.387422	Turm 7/43	Turm	Walldürn	???
+524	49.571305	9.38969	Turm 7/41	Turm	Walldürn	???
+525	49.560733	9.386261	Turm 7/44	Turm	Walldürn	???
+526	49.551835	9.385444	Turm 7/47	Turm	Walldürn	???
+527	49.554923	9.384225	Turm 7/46	Turm	Walldürn	???
+528	49.481009	9.411908	Turm 8/16	Turm	Osterburken	Bofsheim
+529	49.524457	9.395837	Turm 8/5	Turm	Buchen	Rinschheim
+530	49.530599	9.393179	Turm 8/3	Turm	Buchen	Rinschheim
+531	49.52119	9.396984	Turm 8/6	Turm	Buchen	Rinschheim
+532	49.511386	9.400564	Turm 8/8	Turm	Buchen	Rinschheim
+533	49.527752	9.394606	Turm 8/4	Turm	Buchen	Rinschheim
+534	49.516292	9.398836	Turm 8/7	Turm	Buchen	Rinschheim
+535	49.5071	9.402338	Turm 8/9	Turm	Buchen	Götzingen
+536	49.496819	9.406119	Turm 8/12	Turm	Buchen	Götzingen
+537	49.503958	9.403417	Turm 8/10	Turm	Buchen	Götzingen
+538	49.490562	9.408303	Turm 8/14	Turm	Buchen	Götzingen
+539	49.487068	9.409668	Turm 8/15	Turm	Buchen	Götzingen
+540	49.478551	9.41284	Turm 8/17	Turm	Osterburken	Bofsheim
+541	49.396743	9.443178	Turm 8/38	Turm	Adelsheim	???
+542	49.471583	9.41543	Turm 8/19	Turm	Osterburken	Bofsheim
+543	49.475184	9.414053	Turm 8/18	Turm	Osterburken	Bofsheim
+544	49.461013	9.4193	Turm 8/22	Turm	Osterburken	Bofsheim
+545	49.467919	9.416696	Turm 8/20	Turm	Osterburken	Bofsheim
+546	49.374547	9.451488	Turm 8/44	Turm	Schöntal	Oberkessach
+547	49.389234	9.445975	Turm 8/40	Turm	Schöntal	Oberkessach
+548	49.385812	9.447253	Turm 8/41	Turm	Schöntal	Oberkessach
+549	49.379968	9.449431	Turm 8/42	Turm	Schöntal/Adelsheim	Oberkessach/Leibenstadt
+550	49.377303	9.450453	Turm 8/43	Turm	Adelsheim	Leibenstadt
+551	49.364723	9.455253	Turm 8/46	Turm	Schöntal	Oberkessach
+552	49.243469	9.501175	Turm 9/23	Turm	Zweiflingen	???
+553	49.278774	9.487858	Turm 9/12a	Turm	Forchtenberg	Sindringen
+554	49.324289	9.470576	Turm 8/56	Turm	Jagsthausen	???
+555	49.338248	9.465287	Turm 8/52	Turm	Widdern	Unterkessach
+556	49.330872	9.468079	Turm 8/54	Turm	Jagsthausen	???
+557	49.333592	9.467046	Turm 8/53	Turm	Widdern	Unterkessach
+558	49.327423	9.469395	Turm 8/55	Turm	Jagsthausen	???
+559	49.301387	9.479432	Turm 9/5	Turm	Jagsthausen	???
+560	49.30897	9.476549	Turm 9/3	Turm	Jagsthausen	???
+561	49.312203	9.475329	Turm 9/2	Turm	Jagsthausen	???
+562	49.303819	9.478535	Turm 9/4	Turm	Jagsthausen	???
+563	49.295705	9.481536	Turm 9/7	Turm	Forchtenberg	Sindringen
+564	49.293453	9.482366	Turm 9/8	Turm	Forchtenberg	Sindringen
+565	49.299163	9.480236	Turm 9/6	Turm	Forchtenberg	Sindringen
+566	49.287879	9.484497	Turm 9/10	Turm	Forchtenberg	Sindringen
+567	49.282763	9.486413	Turm 9/11	Turm	Forchtenberg	Sindringen
+568	49.28053	9.48727	Turm 9/12	Turm	Forchtenberg	Sindringen
+569	49.286077	9.485167	Turm 9/10a	Turm	Forchtenberg	Sindringen
+570	49.276063	9.488807	Turm 9/13	Turm	Forchtenberg	Sindringen
+571	49.291517	9.483158	Turm 9/9	Turm	Forchtenberg	Sindringen
+572	49.258816	9.495409	Turm 9/19	Turm	Zweiflingen	???
+573	49.25198	9.498033	Turm 9/21	Turm	Zweiflingen	???
+574	49.255853	9.49652	Turm 9/20	Turm	Zweiflingen	???
+575	49.248684	9.49925	Turm 9/22	Turm	Zweiflingen	???
+576	49.180458	9.524788	Turm 9/40	Turm	Pfedelbach	Oberohrn
+577	49.21971	9.510104	Turm 9/30	Turm	öhringen	Büttelborn
+578	49.239119	9.502833	Turm 9/24	Turm	Zweiflingen	Westernbach
+579	49.233716	9.504797	Turm 9/26	Turm	Zweiflingen	Westernbach
+580	49.229465	9.506223	Turm 9/27	Turm	Zweiflingen	Westernbach
+581	49.236561	9.503769	Turm 9/25	Turm	Zweiflingen	Westernbach
+582	49.223016	9.508861	Turm 9/29	Turm	öhringen	Büttelborn
+583	49.226906	9.507391	Turm 9/28	Turm	öhringen	Büttelborn
+584	49.216792	9.511213	Turm 9/31	Turm	öhringen	Büttelborn
+585	49.206065	9.515288	Turm 9/34	Turm	öhringen	???
+586	49.212388	9.512842	Turm 9/32	Turm	öhringen	Büttelborn
+587	49.202219	9.516634	Turm 9/35	Turm	öhringen	???
+588	49.175153	9.52683	Turm 9/42	Turm	Pfedelbach	Oberohrn
+589	49.195815	9.519037	Turm 9/36	Turm	öhringen	???
+590	49.178044	9.525736	Turm 9/41	Turm	Pfedelbach	Oberohrn
+591	49.162948	9.531431	Turm 9/46	Turm	Pfedelbach	Harsberg
+592	49.149445	9.536482	Turm 9/50	Turm	Pfedelbach	Harsberg
+593	49.187025	9.522279	Turm 9/38	Turm	Pfedelbach	Oberohrn
+594	49.183295	9.523721	Turm 9/39	Turm	Pfedelbach	Oberohrn
+595	49.190915	9.520838	Turm 9/37	Turm	Pfedelbach	Oberohrn
+596	49.15594	9.533961	Turm 9/48	Turm	Pfedelbach	Harsberg
+597	49.151823	9.535589	Turm 9/49	Turm	Pfedelbach	Harsberg
+598	49.159669	9.532644	Turm 9/47	Turm	Pfedelbach	Harsberg
+599	49.168406	9.529351	Turm 9/44	Turm	Pfedelbach	Harsberg
+600	49.1661	9.530286	Turm 9/45	Turm	Pfedelbach	Harsberg
+601	49.172423	9.527844	Turm 9/43	Turm	Pfedelbach	Harsberg
+602	49.131658	9.542648	Turm 9/55	Turm	Pfedelbach	???
+603	49.129755	9.543833	Turm 9/56	Turm	Pfedelbach	???
+604	49.403559	9.440759	Turm 8/36	Turm	Osterburken	???
+605	49.071824	9.565386	Turm 9/71	Turm	Mainhardt	Hütten
+606	49.120377	9.547402	Turm 9/58	Turm	Mainhardt	Geißelhardt
+607	49.114261	9.549636	Turm 9/60	Turm	Mainhardt	Geißelhardt
+608	49.112072	9.550461	Turm 9/61	Turm	Mainhardt	Geißelhardt
+609	49.117297	9.548519	Turm 9/59	Turm	Mainhardt	Geißelhardt
+610	49.091444	9.558147	Turm 9/66	Turm	Mainhardt	???
+611	49.096633	9.556137	Turm 9/65	Turm	Mainhardt	???
+612	49.082705	9.561567	Turm 9/68	Turm	Mainhardt	???
+613	49.087255	9.559619	Turm 9/67	Turm	Mainhardt	???
+614	49.076022	9.563901	Turm 9/70	Turm	Mainhardt	???
+615	49.066283	9.567567	Turm 9/73	Turm	Mainhardt	Hütten
+616	48.892805	9.631987	Turm 9/126	Turm	Welzheim	???
+617	49.06304	9.568844	Turm 9/74	Turm	Mainhardt	Hütten
+618	49.05751	9.570669	Turm 9/76	Turm	Mainhardt	???
+619	49.049662	9.57378	Turm 9/78	Turm	Mainhardt	Hütten
+620	49.035446	9.579197	Turm 9/82	Turm	Großerlach	Grab
+621	49.042635	9.57649	Turm 9/80	Turm	Großerlach	Grab
+622	49.045302	9.575331	Turm 9/79	Turm	Großerlach	Grab
+623	49.037959	9.578255	Turm 9/81	Turm	Großerlach	Grab
+624	49.027275	9.58211	Turm 9/84	Turm	Großerlach	Grab
+625	49.024762	9.583024	Turm 9/85	Turm	Großerlach	Grab
+626	48.932405	9.61731	Turm 9/115	Turm	Kaisersbach	???
+627	48.934658	9.616451	Turm 9/114	Turm	Kaisersbach	???
+628	48.936982	9.615606	Turm 9/113	Turm	Kaisersbach	???
+629	48.800189	9.712755	Turm 12/15	Turm	Lorch	???
+630	48.800326	9.719536	Turm 12/16	Turm	Lorch	???
+631	48.950254	9.610704	Turm 9/108	Turm	Murrhardt	Fornsbach
+632	48.816159	9.689112	Turm 12/10	Turm	Lorch	???
+633	48.948785	9.611273	Turm 9/109	Turm	Murrhardt	Fornsbach
+634	48.967407	9.604522	Turm 9/103	Turm	Murrhardt	???
+635	49.436442	9.428535	Turm 8/28	Turm	Osterburken	???
+636	49.454278	9.421808	Turm 8/24	Turm	Osterburken	Bofsheim
+637	48.988338	9.596509	Turm 9/95	Turm	Murrhardt	???
+638	48.979218	9.600361	Turm 9/99a	Turm	Murrhardt	???
+639	49.445176	9.425205	Turm 8/26	Turm	Osterburken	???
+640	49.440971	9.426768	Turm 8/27	Turm	Osterburken	???
+641	49.420352	9.4345	Turm 8/32	Turm	Osterburken	???
+642	49.427528	9.43182	Turm 8/30	Turm	Osterburken	???
+643	49.4323	9.43007	Turm 8/29	Turm	Osterburken	???
+644	49.423845	9.433263	Turm 8/31	Turm	Osterburken	???
+645	49.415328	9.436303	Turm 8/33	Turm	Osterburken	???
+646	49.406522	9.4396	Turm 8/35	Turm	Osterburken	???
+647	48.943022	10.216974	Turm 12/90	Turm	Ellwangen	Röhlingen
+648	48.997854	10.32503	Turm 12/110	Turm	Stödtlen	???
+649	48.842404	9.673055	Turm 12/4	Turm	Alfdorf	Pfahlbronn
+650	49.568053	9.388613	Turm 7/42	Turm	Walldürn	???
+651	49.631259	9.334716	Turm 7/23	Turm	Walldürn	Gerolzahn
+652	49.624461	9.343928	Turm 7/25	Turm	Walldürn	Gerolzahn/Glashofen
+653	48.842748	9.65712	Turm 12/2	Turm	Alfdorf	Pfahlbronn
+654	48.85032	9.647504	Turm 9/137	Turm	Alfdorf	Pfahlbronn
+655	48.845534	9.649349	Turm 9/138 = 12/1	Turm	Alfdorf	Pfahlbronn
+656	48.837815	9.682693	Turm 12/6	Turm	Alfdorf	Pfahlbronn
+657	48.840834	9.681562	Turm 12/5	Turm	Alfdorf	Pfahlbronn
+658	49.006311	10.349516	Turm 12/113	Turm	Stödtlen	???
+659	48.970151	10.26798	Turm 12/100	Turm	Ellwangen	Pfahlheim
+660	48.989067	10.301459	Turm 12/106	Turm	Stödtlen	???
+661	48.992178	10.310217	Turm 12/108	Turm	Stödtlen	???
+662	49.000568	10.333015	Turm 12/111	Turm	Stödtlen	???
+663	48.988708	10.299796	Turm 12/106	Turm	Stödtlen	???
+664	48.985919	10.287071	Turm 12/104	Turm	Ellwangen	Pfahlheim
+665	48.987358	10.293489	Turm 12/105	Turm	Stödtlen	???
+666	48.97652	10.276775	Turm 12/102	Turm	Ellwangen	Pfahlheim
+667	48.956193	10.24175	Turm 12/94	Turm	Ellwangen	Röhlingen/Pfahlheim
+668	48.9621	10.252631	Turm 12/97	Turm	Ellwangen	Pfahlheim
+669	48.967914	10.263676	Turm 12/99	Turm	Ellwangen	Pfahlheim
+670	48.958088	10.245279	Turm 12/95	Turm	Ellwangen	Pfahlheim
+671	48.949879	10.230056	Turm 12/92	Turm	Ellwangen	Röhlingen
+672	48.952577	10.235079	Turm 12/93	Turm	Ellwangen	Röhlingen
+673	48.946767	10.224246	Turm 12/91	Turm	Ellwangen	Röhlingen
+674	48.82129	9.889244	Turm 12/39	Turm	Schwäbisch Gmünd	Herlikofen
+675	48.922219	10.139861	Turm 12/78	Turm	Rainau	Schwabsberg
+676	48.92388	10.170657	Turm 12/82a	Turm	Rainau	Dalkingen
+677	48.93469	10.20117	Turm 12/87	Turm	Ellwangen	Röhlingen
+678	48.93812	10.207641	Turm 12/88	Turm	Ellwangen	Röhlingen
+679	48.924779	10.176014	Turm 12/83	Turm	Rainau	Dalkingen
+680	48.927351	10.144741	Turm 12/80	Turm	Rainau	Schwabsberg
+681	48.924047	10.16568	Turm 12/82	Turm	Rainau	Dalkingen
+682	48.926205	10.141508	Turm 12/79	Turm	Rainau	Schwabsberg
+683	48.900215	10.103802	Turm 12/72	Turm	Hüttlingen	???
+684	48.912686	10.125306	Turm 12/76	Turm	Rainau	Schwabsberg
+685	48.903204	10.109024	Turm 12/73	Turm	Hüttlingen	???
+686	48.894247	10.091219	Turm 12/69	Turm	Hüttlingen	???
+687	48.896857	10.093813	Turm 12/70	Turm	Hüttlingen	???
+688	48.820613	9.880326	Turm 12/38	Turm	Iggingen	???
+689	48.839667	9.990121	Turm 12/51	Turm	Essingen	???
+690	48.838948	9.963556	Turm 12/48	Turm	Mögglingen	???
+691	48.830663	9.924401	Turm 12/43	Turm	Böbingen	???
+692	48.833326	9.932024	Turm 12/44	Turm	Böbingen	???
+693	48.823343	9.899372	Turm 12/40	Turm	Böbingen	???
+694	48.842638	10.01255	Turm 12/55	Turm	Essingen	???
+695	48.839599	9.980148	Turm 12/50	Turm	Mögglingen	???
+696	48.839666	9.999562	Turm 12/53	Turm	Essingen	???
+697	48.80183	9.780107	Turm 12/26	Turm	Schwäbisch Gmünd	???
+698	48.797663	9.743876	Turm 12/20	Turm	Schwäbisch Gmünd	Großdeinbach
+699	48.799648	9.73013	Turm 12/18	Turm	Schwäbisch Gmünd	Großdeinbach
+700	48.79848	9.762033	Turm 12/23	Turm	Schwäbisch Gmünd	???
+701	48.810298	9.795038	Turm 12/28	Turm	Schwäbisch Gmünd	???
+702	48.807543	9.790256	Turm 12/27	Turm	Schwäbisch Gmünd	???
+703	48.812927	9.799681	Turm 12/29	Turm	Schwäbisch Gmünd	???
+704	50.333625	7.732923	Turm 1/93	Turm	Bad Ems	???
+705	48.878936	9.637266	Turm 9/130	Turm	Welzheim	???
+706	48.888589	10.085724	Turm 12/68	Turm	Hüttlingen	???
+707	48.816003	9.830218	Turm 12/33	Turm	Schwäbisch Gmünd	???
+708	48.874753	10.064048	Turm 12/64	Turm	Aalen	Wasseralfingen
+709	48.818551	9.85921	Turm 12/36	Turm	Schwäbisch Gmünd	Herlikofen
+710	48.815384	9.823685	Turm 12/32	Turm	Schwäbisch Gmünd	???
+711	48.814519	9.815011	Turm 12/31	Turm	Schwäbisch Gmünd	???
+712	48.817911	9.849708	Turm 12/35	Turm	Schwäbisch Gmünd	Herlikofen
+713	48.868713	10.054037	Turm 12/62	Turm	Aalen	Wasseralfingen
+714	48.854583	10.031406	Turm 12/58	Turm	Aalen	Dewangen
+715	48.872832	10.06079	Turm 12/63	Turm	Aalen	Wasseralfingen
+716	48.878956	10.070491	Turm 12/65 N	Turm	Aalen	Wasseralfingen
+717	48.878743	10.070159	Turm 12/65	Turm	Aalen	Wasseralfingen
+718	48.926926	10.155717	Turm 12/81	Turm	Rainau	Dalkingen
+719	48.965009	10.258003	Turm 12/98	Turm	Ellwangen	Pfahlheim
+720	48.990592	10.306541	Turm 12/107	Turm	Stödtlen	???
+721	49.00377	10.342244	Turm 12/112	Turm	Stödtlen	???
+722	48.862298	10.043531	Turm 12/60	Turm	Aalen	Wasseralfingen
+723	48.995121	10.317086	Turm 12/109	Turm	Stödtlen	???
+724	48.972408	10.272122	Turm 12/101	Turm	Ellwangen	Pfahlheim
+725	48.979736	10.280286	Turm 12/103	Turm	Ellwangen	Pfahlheim
+726	48.972338	10.271928	Turm 12/101	Turm	Ellwangen	Pfahlheim
+727	48.928578	10.189614	Turm 12/85	Turm	Ellwangen	Röhlingen
+728	48.94027	10.211856	Turm 12/89	Turm	Ellwangen	Röhlingen
+729	48.959913	10.24867	Turm 12/96	Turm	Ellwangen	Pfahlheim
+730	48.932309	10.196664	Turm 12/86	Turm	Ellwangen	Röhlingen
+731	48.908909	10.118932	Turm 12/75	Turm	Hüttlingen/Rainau	Hüttlingen/Schwabsberg
+732	48.924741	10.182345	Turm 12/84	Turm	Rainau	Dalkingen
+733	48.908696	10.118572	Turm 12/75	Turm	Hüttlingen	???
+734	48.857231	9.644976	Turm 9/135	Turm	Alfdorf	Pfahlbronn
+735	48.84818	10.021396	Turm 12/56	Turm	Essingen	???
+736	48.828905	9.919343	Turm 12/42	Turm	Böbingen	???
+737	48.882767	10.076544	Turm 12/66	Turm	Hüttlingen	???
+738	48.885655	10.081106	Turm 12/67	Turm	Hüttlingen	???
+739	48.820017	9.872267	Turm 12/37	Turm	Iggingen	???
+740	48.838721	9.95734	Turm 12/47	Turm	Mögglingen	???
+741	48.825265	9.908803	Turm 12/41	Turm	Böbingen	???
+742	48.839351	9.972296	Turm 12/49	Turm	Heuchlingen	???
+743	48.800016	9.771666	Turm 12/25	Turm	Schwäbisch Gmünd	???
+744	48.797497	9.750108	Turm 12/21	Turm	Schwäbisch Gmünd	Großdeinbach
+745	48.839692	10.008009	Turm 12/54	Turm	Essingen	???
+746	48.798934	9.766668	Turm 12/24	Turm	Schwäbisch Gmünd	???
+747	48.858228	10.037136	Turm 12/59	Turm	Aalen	Dewangen
+748	48.817078	9.840666	Turm 12/34	Turm	Schwäbisch Gmünd	Herlikofen
+749	48.866311	10.050157	Turm 12/61	Turm	Aalen	Wasseralfingen
+750	48.975417	9.601491	Turm 9/100	Turm	Murrhardt	???
+751	48.914673	9.623873	Turm 9/120	Turm	Welzheim	???
+752	48.868729	9.640762	Turm 9/132	Turm	Welzheim	???
+753	48.865296	9.64204	Turm 9/133	Turm	Welzheim	???
+754	48.884658	9.635171	Turm 9/129	Turm	Welzheim	???
+755	48.938956	9.614811	Turm 9/112	Turm	Kaisersbach	???
+756	48.917736	9.622806	Turm 9/119	Turm	Welzheim	???
+757	48.954821	9.609135	Turm 9/106	Turm	Murrhardt	???
+758	49.005609	9.590045	Turm 9/90	Turm	Murrhardt	???
+759	48.995103	9.59413	Turm 9/93	Turm	Murrhardt	???
+760	48.972182	9.602763	Turm 9/101	Turm	Murrhardt	???
+761	48.997716	9.593136	Turm 9/92	Turm	Murrhardt	???
+762	49.021888	9.584139	Turm 9/86	Turm	Murrhardt	???
+763	49.009365	9.588763	Turm 9/89	Turm	Murrhardt	???
+764	48.90032	9.62915	Turm 9/124	Turm	Welzheim	???
+765	48.982202	9.598854	Turm 9/97	Turm	Murrhardt	???
+766	48.992033	9.594995	Turm 9/94	Turm	Murrhardt	???
+767	48.920871	9.621698	Turm 9/118	Turm	Kaisersbach	???
+768	48.908519	9.626224	Turm 9/122	Turm	Welzheim	???
+769	48.89038	9.632952	Turm 9/127	Turm	Welzheim	???
+770	48.911195	9.625125	Turm 9/121	Turm	Welzheim	???
+771	48.958325	9.607949	Turm 9/105	Turm	Murrhardt	???
+772	48.946443	9.612118	Turm 9/110	Turm	Murrhardt	Fornsbach
+773	49.014176	9.586975	Turm 9/88	Turm	Murrhardt	???
+774	49.542805	9.388952	Turm 	Turm	Buchen	Hettingen
+775	48.839705	9.994086	Turm 12/52	Turm	Essingen	???
+776	48.897625	9.630248	Turm 9/125	Turm	Welzheim	???
+777	48.799671	9.704798	Turm 12/14	Turm	Lorch	???
+778	48.875458	9.638585	Turm 9/131	Turm	Welzheim	???
+779	48.88227	10.075756	Turm 	Turm	Hüttlingen	???
+780	48.851657	10.026794	Turm 	Turm	Aalen	Dewangen
+781	48.89873	10.099241	Turm 	Turm	Hüttlingen	???
+782	50.139094	8.985966	Turm 5/10	Turm	Hanau	Wolfgang
+783	49.322695	9.471179	Turm 	Turm	Jagsthausen	???
+784	49.368028	9.453934	Turm 	Turm	Schöntal	Oberkessach
+785	50.105731	8.983334	Turm 5/14	Turm	Hanau	Großauheim
+786	50.254466	7.807857	Turm 2/16	Turm	Berg	???
+787	50.188487	8.243371	Turm 3/19	Turm	Idstein	Eschenhahn
+788	50.21217	7.924369	Turm 2/32	Turm	Holzhausen a.d. Haide	???
+789	50.362808	7.768098	Turm 1/87	Turm	Kemmenau	???
+790	50.430547	7.653448	Turm 1/63	Turm	Höhr-Grenzhausen	???
+791	50.445895	7.580983	Turm 1/51	Turm	Bendorf	Sayn
+792	50.283088	7.754428	Turm 2/9	Turm	Schweighausen	???
+793	50.41201	7.705017	Turm 1/70	Turm	Hillscheid	???
+794	50.394929	7.728716	Turm 1/76	Turm	Kadenbach	???
+795	50.399455	7.718468	Turm 1/74	Turm	Eitelborn	???
+796	50.396695	7.734829	Turm 1/77	Turm	Kadenbach	???
+797	50.255949	7.80172	Turm 2/15a	Turm	Geisig	???
+798	50.43507	7.644269	Turm 1/61	Turm	Weitersburg	???
+799	50.213203	7.914608	Turm 2/31	Turm	Holzhausen a.d. Haide	???
+800	50.467285	7.464305	Turm 1/30	Turm	Neuwied	Niederbieber-Segendorf
+801	50.414787	7.689703	Turm 1/68	Turm	Hillscheid	???
+802	50.248888	7.871399	Turm 2/24	Turm	Pohl	???
+803	50.217666	7.908328	Turm 2/30	Turm	Holzhausen a.d. Haide	???
+804	50.211979	7.919316	Turm 2/31a	Turm	Holzhausen a.d. Haide	???
+805	50.50896	7.323267	Turm 1/2	Turm	Bad Hönningen	???
+806	50.385686	7.739397	Turm 1/80	Turm	Kadenbach	???
+807	50.442539	7.592614	Turm 1/53	Turm	Bendorf	Sayn
+808	50.494439	7.390037	Turm 1/13A	Turm	Hammerstein	Oberhammerstein
+809	50.432839	7.648795	Turm 1/62	Turm	Weitersburg	???
+810	50.342469	7.741005	Turm 1/91	Turm	Bad Ems	???
+811	50.309662	7.717837	Turm 2/2a	Turm	Lahnstein	Oberlahnstein
+812	50.513504	7.349317	Turm 1/6	Turm	Rheinbrohl	???
+813	50.366568	7.772554	Turm 1/86	Turm	Welschneudorf	???
+814	50.370747	7.765615	Turm 1/85	Turm	Arzbach	???
+815	50.376848	7.744298	Turm 1/82	Turm	Arzbach	???
+816	50.510516	7.33146	Turm 1/3	Turm	Rheinbrohl	Arienheller
+817	50.494117	7.397292	Turm 1/15	Turm	Leutesdorf	???
+818	50.512933	7337	Turm 1/4	Turm	Rheinbrohl	???
+819	50.474807	7.476374	Turm 1/32	Turm	Neuwied	Altwied
+820	50.465702	7.452003	Turm 1/28	Turm	Neuwied	Niederbieber-Segendorf
+821	50.463312	7.447461	Turm 1/27	Turm	Neuwied	Rodenbach
+822	50.464363	7.430624	Turm 1/24	Turm	Neuwied	Wollendorf
+823	50.25006	7.823685	Turm 	Turm	Hunzel	???
+824	50.476625	7.502168	Turm 136	Turm	Neuwied	Oberbieber
+825	50.450361	7.571965	Turm 1/49	Turm	Neuwied	Heimbach-Weis
+826	50.478584	7.486087	Turm 1/34	Turm	Neuwied	Oberbieber
+827	50.477994	7.515678	Turm 1/37a	Turm	Neuwied	Oberbieber
+828	50.224081	7.90025	Turm	Turm	Holzhausen a.d. Haide	???
+829	50.477217	7.495119	Turm 1/35 a	Turm	Neuwied	Oberbieber
+830	50.281864	7.759273	Turm	Turm	Schweighausen	???
+831	50.258155	7.79513	Turm 2/15	Turm	Geisig	???
+832	50.250923	7.860695	Turm 2/22	Turm	Pohl	???
+833	50.249991	7.823981	Turm 2/18	Turm	Hunzel	???
+834	50.247174	7.831692	Turm 2/19	Turm	Hunzel	???
+835	50.281811	7.759442	Turm 2/10	Turm	Schweighausen	???
+836	50.25253	7.815492	Turm 2/17	Turm	Berg	???
+837	50.420932	7.674266	Turm 1/66	Turm	Höhr-Grenzhausen	???
+838	50.47671	7.498319	Turm 1/35	Turm	Neuwied	Oberbieber
+839	50.251664	7.867562	Turm 2/23	Turm	Pohl	???
+840	50.411284	7.710087	Turm 1/71	Turm	Hillscheid	???
+841	50.391017	7.741871	Turm 1/79	Turm	Kadenbach	???
+842	50.277899	7.764328	Turm 2/11	Turm	Oberwies	???
+843	50.448388	7.576825	Turm 1/50	Turm	Bendorf	Sayn
+844	50.461772	7.441836	Turm 1/26	Turm	Neuwied	Rodenbach
+845	50.443121	7.585712	Turm 	Turm	Bendorf	Sayn
+846	50.374203	7.749949	Turm 1/83	Turm	Arzbach	???
+847	50.347048	7.74545	Turm 1/90	Turm	Bad Ems	???
+848	50.223929	7.900366	Turm 2/29	Turm	Holzhausen a.d. Haide	???
+849	50.227745	7.892191	Turm 2/28	Turm	Holzhausen a.d. Haide	???
+850	50.240659	7.88414	Turm 2/26	Turm	Obertiefenbach	???
+851	50.35165	7.751146	Turm 1/89	Turm	Bad Ems	???
+852	50.248795	7.841873	Turm 2/20	Turm	Hunzel	???
+853	50.468067	7.564994	Turm 1/46	Turm	Neuwied	Heimbach-Weis
+854	50.470649	7.562958	Turm 1/45	Turm	Neuwied	Heimbach-Weis
+855	50.470688	7.472858	Turm 1/31	Turm	Neuwied	Niederbieber-Segendorf
+856	50.380913	7.74024	Turm 1/81	Turm	Arzbach	???
+857	50.46831	7.565015	Turm 1/46	Turm	Neuwied	Heimbach-Weis
+858	50.503972	7.376645	Turm 1/11	Turm	Rheinbrohl	???
+859	50.478768	7.48022	Turm 1/33	Turm	Neuwied	Altwied
+860	50.233609	8.449605	Turm 3/47	Turm	Schmitten	Niederreifenberg
+861	50.199647	8.298183	Turm 3/27	Turm	Idstein	Dasbach
+862	50.469624	7.412813	Turm 1/21	Turm	Neuwied	Wollendorf
+863	50.427013	7.660402	Turm 1/64	Turm	Höhr-Grenzhausen	Höhr
+864	50.504722	7.317398	Turm 1/1	Turm	Rheinbrohl	???
+865	50.412611	7.69691	Turm 1/69	Turm	Hillscheid	???
+866	50.323306	7.727342	Turm 2/1	Turm	Bad Ems	???
+867	50.296424	7.719105	Turm 2/5	Turm	Becheln	???
+868	50.469789	7.413047	Turm 1/21	Turm	Neuwied	Wollendorf
+869	50.369859	7.756501	Turm 1/84	Turm	Arzbach	???
+870	50.427908	7.658547	Turm 1/64	Turm	Höhr-Grenzhausen	Höhr
+871	50.465843	7.457957	Turm 1/29	Turm	Neuwied	Niederbieber-Segendorf
+872	50.439774	7.616909	Turm 1/57	Turm	Bendorf	???
+873	50.439797	7.616613	Turm 1/57	Turm	Bendorf	Bendorf
+874	50.463401	7.435247	Turm 1/25	Turm	Neuwied	Rodenbach
+875	50.164158	8.02381	Turm 2/50	Turm	Heidenrod	Kemel
+876	50.493553	8.806265	Turm 4/61	Turm	Lich	Birklar
+877	50.251435	7.86796	Turm 2/23	Turm	Pohl	???
+878	50.16676	8.089556	Turm 3/2	Turm	Bad Schwalbach	Adolfseck
+879	50.201638	7.980759	Turm 2/41	Turm	Heidenrod	Laufenselden
+880	50.194626	8.005781	Turm 2/44	Turm	Heidenrod	Huppert
+881	50.191944	8.013847	Turm 2/45	Turm	Heidenrod	Huppert
+882	50.181379	8.152604	Turm 3/9	Turm	Hohenstein	Steckenroth
+883	50.165938	8.063104	Turm 2/54	Turm	Bad Schwalbach	Lindschied
+884	50.163739	8.038319	Turm 2/51	Turm	Heidenrod	Kemel
+885	50.195858	8.268506	Turm 3/24	Turm	Idstein	???
+886	50.187631	8.184532	Turm 3/12	Turm	Taunusstein	Orlen
+887	50.166308	8.085799	Turm 3/1	Turm	Bad Schwalbach	Adolfseck
+888	50.197741	8.283463	Turm 3/26	Turm	Idstein	Dasbach
+889	50.228879	8.98472	Turm 4/107	Turm	Hammersbach	Langen-Bergheim
+890	50.469758	8.888833	Turm 4/70/71	Turm	Hungen	???
+891	50.477185	8.865064	Turm 4/67/68	Turm	Hungen	???
+892	50.392305	8.902753	Turm 4/84	Turm	Echzell	Bisses
+893	50.488057	8.815066	Turm 4/62	Turm	Lich	Muschenheim
+894	50.468331	8.901231	Turm 4/72	Turm	Hungen	???
+895	50.468151	8.901542	Turm 4/72	Turm	Hungen	???
+896	50.50905	8.706773	Turm 4/48	Turm	Pohlheim	Grüningen
+897	50.469793	8.888424	Turm 4/70/71	Turm	Hungen	???
+898	50.380571	8.900458	Turm 4/86	Turm	Echzell	Bingenheim
+899	50.202754	8.987432	Turm 5/3	Turm	Neuberg	Rüdigheim
+900	50.428964	8.912417	Turm 4/78	Turm	Nidda	Unter-Widdersheim
+901	50.268743	8.954678	Turm 4/101	Turm	Altenstadt	Oberau
+902	50.388888	8.902142	Turm 4/85	Turm	Echzell	Bisses
+903	50.399616	8.905003	Turm 4/83	Turm	Echzell	Bisses
+904	50.206359	8.987669	Turm 5/2	Turm	Neuberg	Rüdigheim
+905	50.453591	8.663099	Turm 4/37	Turm	Butzbach	???
+906	50.20635	8.987403	Turm 5/2	Turm	Neuberg	Rüdigheim
+907	50.194213	8.987238	Turm 5/4	Turm	Neuberg	Ravolzhausen
+908	50.364406	8.64033	Turm 4/20	Turm	Ober-Mörlen	Langenhain-Ziegenberg
+909	50.379458	8.635254	Turm 4/23	Turm	Butzbach	Fauerbach v. d. H.
+910	50.162968	8.054905	Turm 2/53	Turm	Bad Schwalbach	Lindschied
+911	50.517788	8.713938	Turm 4/49	Turm	Pohlheim	Grüningen
+912	50.267704	8.55097	Turm 3/63	Turm	Bad Homburg	???
+913	50.200237	8.30211	Turm 3/28	Turm	Idstein	Dasbach
+914	50.16797	8.094936	Turm 3/3	Turm	Bad Schwalbach	Adolfseck
+915	50.48413	8.840471	Turm 4/65	Turm	Lich	Bettenhausen
+916	50.235199	8.980275	Turm 4/106	Turm	Hammersbach	Langen-Bergheim
+917	50.214929	8.361959	Turm 3/36	Turm	Glashütten	Schlossborn
+918	50.164123	8.031495	Turm 2/50a	Turm	Heidenrod	Kemel
+919	50.176258	8.127678	Turm 3/7	Turm	Hohenstein	Steckenroth
+920	50.186672	8.012332	Turm 2/46	Turm	Heidenrod	Huppert
+921	50.212274	8.342129	Turm 3/34	Turm	Idstein	Heftrich
+922	50.189433	8.190256	Turm 3/13	Turm	Taunusstein	Orlen
+923	50.192993	8.208472	Turm 3/16	Turm	Taunusstein	Orlen
+924	50.198833	8.2915	Turm 3/26a	Turm	Idstein	Dasbach
+925	50.208127	8.32906	Turm 3/32	Turm	Idstein	Heftrich
+926	50.274125	8.563325	Turm 3/66	Turm	Bad Homburg	???
+927	50.50422	8.788164	Turm 4/57	Turm	Lich	Arnsburg
+928	50.227926	8.44356	Turm 3/46	Turm	Schmitten	Niederreifenberg
+929	50.223094	8.415338	Turm 3/42a	Turm	Glashütten	???
+930	50.210952	8.335591	Turm 3/33	Turm	Idstein	Heftrich
+931	50.485723	8.823022	Turm 4/63	Turm	Lich	Bettenhausen
+932	50.219521	8.395204	Turm 3/40	Turm	Glashütten	???
+933	50.221583	8.406276	Turm 3/41	Turm	Glashütten	???
+934	50.222462	8.411198	Turm 3/42	Turm	Glashütten	???
+935	50.484052	8.829834	Turm 4/64	Turm	Lich	Bettenhausen
+936	50.516742	8.764463	Turm 4/54	Turm	Pohlheim	Grüningen
+937	50.520393	8.736004	Turm 4/51	Turm	Pohlheim	Grüningen
+938	50.513566	8.7769	Turm 4/55	Turm	Lich	Arnsburg
+939	50.405523	8.905948	Turm 4/82	Turm	Echzell	Grund-Schwalheim
+940	50.443315	8.915995	Turm 4/76	Turm	Hungen	Steinheim
+941	50.147302	8.986425	Turm 5/9	Turm	Hanau	Wolfgang
+942	50.49644	8.80156	Turm 4/60	Turm	Lich	Arnsburg
+943	50.416231	8.908093	Turm 4/80	Turm	Echzell	Grund-Schwalheim
+944	50.41152	8.907244	Turm 4/81	Turm	Echzell	Grund-Schwalheim
+945	50.464615	8.908816	Turm 4/73	Turm	Hungen	Hof Graß
+946	50.374142	8.898981	Turm 4/87	Turm	Echzell	Bingenheim
+947	50.343573	8.905817	Turm 4/91	Turm	Florstadt	Leidhecken
+948	50.299145	8.932108	Turm 4/97	Turm	Altenstadt	???
+949	50.366688	8.897591	Turm 4/88	Turm	Echzell	Bingenheim
+950	50.351885	8.901529	Turm 4/90	Turm	Florstadt	Leidhecken
+951	50.269154	8.55609	Turm 3/64	Turm	Bad Homburg	???
+952	50.322132	8.918034	Turm 4/94a	Turm	Florstadt	Stammheim
+953	50.279302	8.94618	Turm 4/99	Turm	Altenstadt	???
+954	50.448303	8.659082	Turm 4/36	Turm	Butzbach	???
+955	50.221472	8.990342	Turm 5/1	Turm	Hammersbach	Marköbel
+956	50.330224	8.645518	Turm 4/13	Turm	Ober-Mörlen	???
+957	50.161318	8.986841	Turm 5/8	Turm	Erlensee	Rückingen
+958	50.213668	8.988984	Turm 5/1a	Turm	Hammersbach	Marköbel
+959	50.246659	8.97155	Turm 4/104	Turm	Limeshain/Hammersbach	Himbach/Langen-Bergheim
+960	50.472304	8.677391	Turm 4/41	Turm	Münzenberg	Gambach
+961	50.256188	8.519542	Turm 3/58	Turm	Bad Homburg	Ober-Eschbach
+962	50.497862	8.69778	Turm 4/46	Turm	Pohlheim	Holzheim
+963	50.244901	8.495107	Turm 3/54	Turm	Oberursel	Oberstedten
+964	50.34374	8.640894	Turm 4/17	Turm	Ober-Mörlen	???
+965	50.251115	8.508222	Turm 3/56	Turm	Bad Homburg	???
+966	50.391512	8.632025	Turm 4/25	Turm	Butzbach	Fauerbach v. d. H.
+967	50.274099	8.570802	Turm 3/67	Turm	Friedrichsdorf	Dillingen
+968	50.396786	8.63107	Turm 4/26	Turm	Butzbach	Hoch-Weisel
+969	50.440707	8.653337	Turm 4/34	Turm	Butzbach	???
+970	50.403238	8.630331	Turm 4/27	Turm	Butzbach	Hoch-Weisel
+971	50.354971	8.635807	Turm 4/19	Turm	Ober-Mörlen	Langenhain-Ziegenberg
+972	50.270869	8.560268	Turm 3/65	Turm	Bad Homburg	???
+973	50.359745	8.638707	Turm 4/19a	Turm	Ober-Mörlen	Langenhain-Ziegenberg
+974	50.236968	8.452664	Turm 3/48	Turm	Schmitten	Niederreifenberg
+975	50.419231	8.62735	Turm 4/30	Turm	Butzbach	Hausen-Oes
+976	50.369913	8.641933	Turm 4/21	Turm	Ober-Mörlen	Langenhain-Ziegenberg
+977	50.385305	8.633522	Turm 4/24	Turm	Butzbach	Fauerbach v. d. H.
+978	50.244437	8.487724	Turm 3/53	Turm	Oberursel	Oberstedten
+979	50.375242	8.638351	Turm 4/22	Turm	Ober-Mörlen	Langenhain-Ziegenberg
+980	50.41005	8.62942	Turm 4/28	Turm	Butzbach	Hoch-Weisel
+981	48.950018	11.389499	Turm 15/1	Turm	Kipfenberg	???
+982	48.975961	11.27306	Turm 14/67	Turm	Titting	Altdorf
+983	49.103594	10.572227	Turm 13/34	Turm	Ehingen	Dambach
+984	50.189542	8.26478	Turm 3/23	Turm	Idstein	???
+985	50.257544	8.963256	Turm 4/102a	Turm	Altenstadt	Höchst
+986	50.33722	8.909355	Turm 4/92	Turm	Florstadt	Leidhecken
+987	50.308194	8.926312	Turm 4/95a	Turm	Florstadt	Stammheim
+988	50.333473	8.911511	Turm 4/93	Turm	Florstadt	Staden
+989	50.294041	8.935624	Turm 4/98	Turm	Altenstadt	???
+990	50.29103	8.938014	Turm 4/98a	Turm	Altenstadt	???
+991	50.264779	8.957781	Turm 4/101a	Turm	Altenstadt	Höchst
+992	50.316381	8.921385	Turm 4/94b	Turm	Florstadt	Stammheim
+993	50.273847	8.950422	Turm 4/100	Turm	Altenstadt	Oberau
+994	50.121024	8.984615	Turm 5/12	Turm	Hanau	Wolfgang
+995	50.178175	8.987214	Turm 5/6	Turm	Erlensee	Langendiebach
+996	50.185772	8.987604	Turm 5/5	Turm	Erlensee	Langendiebach
+997	50.193084	8.20207	Turm 3/15	Turm	Taunusstein	Orlen
+998	50.225735	8.436704	Turm 3/45	Turm	Glashütten	???
+999	50.10547	8.983292	Turm 5/14	Turm	Hanau	Großauheim
+1000	49.696646	9.274814	Turm 7/3	Turm	Miltenberg	???
+1001	49.061165	10.458789	Turm 13/17	Turm	Wittelshofen	Untermichelbach
+1002	49.035145	10.439865	Turm 13/11	Turm	Weiltingen	???
+1003	49.063194	11.030499	Turm 14/36	Turm	Höttingen	Höttingen | Fiegenstall
+1004	49.095022	10.515937	Turm 13/27	Turm	Ehingen	???
+1005	49.011549	10.364408	Turm 13/2	Turm	Mönchsroth	???
+1006	49.017756	10.38231	Turm 13/4	Turm	Mönchsroth	???
+1007	49.686835	9.290419	Turm 7/7	Turm	Miltenberg	???
+1008	49.067439	10.462558	Turm 13/18	Turm	Wittelshofen	Untermichelbach
+1009	49.082055	10.471516	Turm 13/21	Turm	Wittelshofen	Dühren
+1010	49.058032	10.456918	Turm 13/16	Turm	Wittelshofen	???
+1011	49.073088	10.465995	Turm 13/19	Turm	Wittelshofen	Untermichelbach
+1012	48.883444	11.781021	Turm 15/47	Turm	Neustadt a.d.Donau	Hienheim
+1013	49.077888	10.468956	Turm 13/20	Turm	Wittelshofen	Untermichelbach
+1014	49.088678	10.476038	Turm 13/23	Turm	Wittelshofen	Dühren
+1015	49.110025	10.633616	Turm 13/40	Turm	Markt Arberg	Kleinlellenfeld
+1016	49.023761	10.39965	Turm 13/6	Turm	Wilburgstetten	???
+1017	48.886972	11.694221	Turm 15/37	Turm	Altmannstein	Hagenhill i Tettenwang a
+1018	48.887753	11.676152	Turm 15/35	Turm	Altmannstein	Hagenhill
+1019	49.099944	10.541504	Turm 13/30	Turm	Ehingen	???
+1020	49.096507	10.524732	Turm 13/28	Turm	Ehingen	???
+1021	49.106124	10.597549	Turm 13/37	Turm	Unterschwaningen	Dennenlohe
+1022	49.1021	10.555745	Turm 13/32	Turm	Ehingen	Dambach
+1023	49.10274	10.562928	Turm 13/33	Turm	Ehingen	Dambach
+1024	48.905805	11.592245	Turm 15/24	Turm	Altmannstein	Schamhaupten
+1025	49.104439	10.581484	Turm 13/35	Turm	Ehingen	Dambach
+1026	48.907844	11.615067	Turm 15/27	Turm	Altmannstein	Neuenhinzenhausen
+1027	49.032576	10.425171	Turm 13/9	Turm	Weiltingen	???
+1028	49.113083	10.695305	Turm 13/47	Turm	Gunzenhausen	Wald (Unterhambach)
+1029	48.947297	11.405726	Turm 15/4	Turm	Kipfenberg	???
+1030	49.111876	10.670141	Turm 13/44	Turm	Gunzenhausen	Wald (Unterhambach)
+1031	49.110053	10.634206	Turm 13/40	Turm	Markt Arberg	Kleinlellenfeld
+1032	48.934308	11.458297	Turm 15/10	Turm	Denkendorf	???
+1033	49.113408	10.702562	Turm 13/48	Turm	Gunzenhausen	Unterwurmbach
+1034	49.049709	10.451613	Turm 13/14	Turm	Weiltingen	Wörnitzhofen
+1035	48.911378	11.549664	Turm 15/19	Turm	Altmannstein	Schamhaupten
+1036	48.929087	11.47951	Turm 15/12	Turm	Denkendorf	Zandt
+1037	48.924345	11.498395	Turm 15/14	Turm	Denkendorf	Zandt
+1038	49.114905	10.729463	Turm 13/51	Turm	Gunzenhausen	Unterwurmbach
+1039	48.961286	11.342619	Turm 14/74	Turm	Kipfenberg	Pfahldorf
+1040	48.94999	11.394755	Turm 15/2	Turm	Kipfenberg	???
+1041	49.115524	10.743335	Turm 13/53	Turm	Gunzenhausen	???
+1042	49.092373	10.927924	Turm 14/23	Turm	Ellingen | Pleinfeld	Stopfenheim | St. Veit
+1043	49.116284	10.759622	Turm 14/2	Turm	Gunzenhausen	???
+1044	48.956835	11.356285	Turm 14/76	Turm	Kipfenberg	???
+1045	49.113106	10.8024	Turm 14/9	Turm	Gunzenhausen	???
+1046	48.974237	11.292475	Turm 14/69	Turm	Kipfenberg	Hirnstetten
+1047	49.009469	11.114682	Turm 14/51	Turm	Raitenbuch	???
+1048	48.902757	11.628757	Turm 15/29	Turm	Altmannstein	Neuenhinzenhausen
+1049	49.086768	10.952119	Turm 14/26	Turm	Pleinfeld	Sankt Veit
+1050	49.076573	11.005461	Turm 14/32	Turm	Höttingen	Höttingen | Fiegenstall
+1051	49.106422	10.86534	Turm 14/16	Turm	Theilenhofen	Theilenhofen (Rittern)
+1052	49.082565	10.980266	Turm 14/29	Turm	Höttingen	Höttingen (Ottmarsfeld)
+1053	49.070403	11.018366	Turm 14/34	Turm	Höttingen	???
+1054	49.078348	10.998482	Turm 14/31	Turm	Höttingen	Höttingen (Ottmarsfeld)
+1055	49.065704	11.026359	Turm 14/35	Turm	Höttingen	Höttingen | Fiegenstall
+1056	49.054205	11.043515	Turm 14/38	Turm	Ettenstatt	Hundsdorf
+1057	49.032046	11.081297	Turm 14/45	Turm	Burgsalach	???
+1058	49.004216	11.121636	Turm 14/52	Turm	Raitenbuch	???
+1059	49.041073	11.06541	Turm 14/42	Turm	Weißenburg	Oberhochstatt
+1060	49.019255	11.101834	Turm 14/49	Turm	Burgsalach	???
+1061	49.035139	11.075846	Turm 14/44	Turm	Burgsalach	???
+1062	49.02873	11.087135	Turm 14/46	Turm	Burgsalach	???
+1063	48.888137	11.666558	Turm 15/34	Turm	Altmannstein	Hagenhill
+1064	49.699939	9.270286	Turm 7/2	Turm	Miltenberg	???
+1065	48.980851	11.177643	Turm 14/58	Turm	Titting	Petersbuch
+1066	49.70287	9.266338	Turm 7/1	Turm	Miltenberg	???
+1067	48.981511	11.165075	Turm 14/57	Turm	Titting	Petersbuch
+1068	49.692704	9.280295	Turm 7/4	Turm	Miltenberg	???
+1069	48.939018	11.439348	Turm 15/8	Turm	Denkendorf	Gelbelsee
+1070	49.69051	9.284246	Turm 7/5	Turm	Miltenberg	???
+1071	48.907637	11.564235	Turm 15/21	Turm	Altmannstein	Schamhaupten
+1072	48.926846	11.488352	Turm 15/13	Turm	Denkendorf	Zandt
+1073	48.969355	11.313588	Turm 14/71	Turm	Kipfenberg	Pfahldorf
+1074	48.919085	11.51897	Turm 15/16	Turm	Altmannstein	Schamhaupten
+1075	48.963847	11.332987	Turm 14/73	Turm	Kipfenberg	Pfahldorf
+1076	48.91691	11.527157	Turm 15/17	Turm	Altmannstein	Schamhaupten
+1077	48.943095	11.422986	Turm 15/6	Turm	Kipfenberg	???
+1078	48.886566	11.702723	Turm 15/38	Turm	Altmannstein	Laimerstadt
+1079	49.09182	10.494589	Turm 13/25	Turm	Wittelshofen	Dühren
+1080	49.67718	9.290015	Turm 7/10	Turm	Miltenberg	Wenschdorf
+1081	48.978191	11.230249	Turm 14/63	Turm	Titting	Erkertshofen
+1082	48.978882	11.216822	Turm 14/62	Turm	Titting	Erkertshofen
+1083	48.979701	11.199412	Turm 14/60	Turm	Titting	Petersbuch
+1084	49.034326	10.430527	Turm 13/10	Turm	Weiltingen	???
+1085	49.110217	10.828293	Turm 14/12	Turm	Pfofeld	???
+1086	48.885774	11.720709	Turm 15/40	Turm	Altmannstein	Laimerstadt
+1087	48.885325	11.730176	Turm 15/41	Turm	Altmannstein	Laimerstadt
+1088	48.883345	11.768319	Turm 15/45	Turm	Neustadt a.d.Donau	Hienheim
+1089	49.088352	10.475536	Turm 13/22	Turm	Wittelshofen	Dühren
+1090	48.908037	11.623563	Turm 15/28	Turm	Altmannstein	Neuenhinzenhausen
+1091	49.093203	10.504434	Turm 13/26	Turm	Wittelshofen	Dühren
+1092	49.0981	10.534819	Turm 13/29	Turm	Ehingen	???
+1093	49.111234	10.656079	Turm 13/42	Turm	Markt Arberg	Kleinlellenfeld
+1094	49.109604	10.623987	Turm 13/39	Turm	Markt Arberg	Großlellenfeld
+1095	48.899178	11.634639	Turm 15/30	Turm	Altmannstein	Neuenhinzenhausen
+1096	49.10139	10.547684	Turm 13/31	Turm	Ehingen	???
+1097	49.113939	10.711046	Turm 13/49	Turm	Gunzenhausen	Unterwurmbach
+1098	49055	10.454955	Turm 13/15	Turm	Weiltingen	Wörnitzhofen
+1099	49.041152	10.444921	Turm 13/12	Turm	Weiltingen	???
+1100	49.047078	10.449936	Turm 13/13	Turm	Weiltingen	Wörnitzhofen
+1101	49.115829	10.749907	Turm 13/54	Turm	Gunzenhausen	???
+1102	49.11223	10.676769	Turm 13/45	Turm	Gunzenhausen	Wald (Unterhambach)
+1103	49.110548	10.644948	Turm 13/41	Turm	Markt Arberg	Kleinlellenfeld
+1104	49.116613	10.766936	Turm 14/3	Turm	Gunzenhausen	???
+1105	49.114567	10.721424	Turm 13/50	Turm	Gunzenhausen	Unterwurmbach
+1106	49.115202	10.736652	Turm 13/52	Turm	Gunzenhausen	Unterwurmbach
+1107	48.936612	11.448936	Turm 15/9	Turm	Denkendorf	???
+1108	49.683589	9.290496	Turm 7/8	Turm	Miltenberg	Wenschdorf
+1109	49.104417	10.873661	Turm 14/17	Turm	Theilenhofen	Theilenhofen (Rittern)
+1110	48.982096	11.154484	Turm 14/56	Turm	Titting	Kaldorf
+1111	49.116606	10.786087	Turm 14/7	Turm	Gunzenhausen	???
+1112	49.113826	10.710809	Turm 13/49	Turm	Gunzenhausen	Unterwurmbach
+1113	49.115952	10.750131	Turm 13/54	Turm	Gunzenhausen	???
+1114	49.111735	10.811268	Turm 14/10	Turm	Gunzenhausen	Frickenfelden
+1115	49.114594	10.792878	Turm 14/8	Turm	Gunzenhausen	???
+1116	49.115981	10.752913	Turm 14/1	Turm	Gunzenhausen	???
+1117	49.110971	10.819842	Turm 14/11	Turm	Pfofeld	Pfofeld (Gundelshalm)
+1118	49.110485	10.835768	Turm 14/13	Turm	Pfofeld	???
+1119	49.103001	10.891577	Turm 14/19	Turm	Pleinfeld | Pfofeld	Dorsbrunn | Thannhausen
+1120	49.088341	10.944691	Turm 14/25	Turm	Pleinfeld	Sankt Veit
+1121	49.110479	10.844562	Turm 14/14	Turm	Pfofeld	???
+1122	49.108451	10.85665	Turm 14/15	Turm	Pfofeld	???
+1123	49.110204	10.828512	Turm 14/12	Turm	Pfofeld	???
+1124	49.110521	10.844783	Turm 14/14	Turm	Pfofeld	???
+1125	49.0748	11.010714	Turm 14/33	Turm	Höttingen	Höttingen | Fiegenstall
+1126	49.093626	10.922893	Turm 14/22	Turm	Ellingen | Pleinfeld	Stopfenheim | St. Veit
+1127	49.099461	10.90122	Turm 14/20	Turm	Pleinfeld	Dorsbrunn
+1128	49.096309	10.912383	Turm 14/21	Turm	Pleinfeld	Dorsbrunn
+1129	49.093602	10.9227	Turm 14/22	Turm	Ellingen | Pleinfeld	Stopfenheim | St. Veit
+1130	49.047307	11.054217	Turm 14/40	Turm	Weißenburg | Ettenstatt	Oberhochstatt | Hundsdorf
+1131	49.088293	10.944881	Turm 14/25	Turm	Pleinfeld	Sankt Veit
+1132	49.059089	11.036873	Turm 14/37	Turm	Ettenstatt	Hundsdorf
+1133	49.044155	11.059984	Turm 14/41	Turm	Weißenburg | Ettenstatt	Oberhochstatt | Hundsdorf
+1134	49.079833	10.992176	Turm 14/30	Turm	Höttingen	Höttingen (Ottmarsfeld)
+1135	49.038129	11.070581	Turm 14/43	Turm	Weißenburg | Burgsalach	Oberhochstatt | Indernb.
+1136	48.966065	11.324677	Turm 14/72	Turm	Kipfenberg	Pfahldorf
+1137	49.025428	11.092686	Turm 14/47	Turm	Burgsalach	???
+1138	48.979332	11.206951	Turm 14/61	Turm	Titting	Erkertshofen
+1139	48.887357	11.68505	Turm 15/36	Turm	Altmannstein	Hagenhill
+1140	49.661772	9.292583	Turm 7/14	Turm	Amorbach	Reichartshausen
+1141	49.679922	9.290211	Turm 7/9	Turm	Miltenberg	Wenschdorf
+1142	48.888633	11.655224	Turm 15/33	Turm	Altmannstein	???
+1143	48.886159	11.712397	Turm 15/39	Turm	Altmannstein	Laimerstadt
+1144	48.905324	11.573598	Turm 15/22	Turm	Altmannstein	Schamhaupten
+1145	49.108525	10.856516	Turm 14/15	Turm	Pfofeld	???
+1146	48.980185	11.190047	Turm 14/59	Turm	Titting	Petersbuch
+1147	48.97308	11.301766	Turm 14/70	Turm	Kipfenberg	Hirnstetten
+1148	49.112768	10.687979	Turm 13/46	Turm	Gunzenhausen	Cronheim
+1149	49.090263	10.483575	Turm	Turm	Wittelshofen	Dühren
+1150	49.114717	10.721621	Turm 13/50	Turm	Gunzenhausen	Unterwurmbach
+1151	48.907003	11.604545	Turm 15/26	Turm	Altmannstein	Schamhaupten
+1152	49.084988	10.960592	Turm 14/27	Turm	Ellingen	???
