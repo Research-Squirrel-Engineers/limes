@@ -33,7 +33,7 @@ ID	lat	long	limesobject	limescategory	limestown	limestownpard
 32	50.436637	7.469069	Heddesdorf	Kastell	Neuwied	Heddesdorf
 33	50.467026	7.471947	Niederbieber	Kastell	Neuwied	Niederbieber-Segendorf
 34	50.368855	7.627335	Niederberg	Kastell	Koblenz	Niederberg
-35	50.335923	7713	Bad Ems	Kastell	Bad Ems	???
+35	50.335923	7.7175480	Bad Ems	Kastell	Bad Ems	???
 36	50.375325	7.745646	Arzbach	Kastell	Arzbach	???
 37	50.240273	7.810763	Marienfels	Kastell	Marienfels	???
 38	50.24665	7.827849	Hunzel	Kastell	Hunzel	???
@@ -397,12 +397,12 @@ ID	lat	long	limesobject	limescategory	limestown	limestownpard
 396	50.343373	8.644156	Turm 4/17	Turm	Ober-Mörlen	???
 397	50.239177	8.467525	Turm 3/50	Turm	Oberursel	???
 398	50.432975	8.650184	Turm 4/33	Turm	Butzbach	???
-399	50.42384	8632	Turm 4/31	Turm	Butzbach	Nieder-Weisel
+399	50.42384	8.682222	Turm 4/31	Turm	Butzbach	Nieder-Weisel
 400	50.252448	8.967046	Turm 4/103	Turm	Limeshain	Himbach
 401	50.466338	8.6786	Turm 4/40	Turm	Münzenberg	Gambach
 402	50.427387	8.636645	Turm 4/31	Turm	Butzbach	Nieder-Weisel
 403	50.113705	8.98389	Turm 5/13	Turm	Hanau	Wolfgang
-404	50.303521	8929	Turm 4/96	Turm	Florstadt/Altenstadt	Stammheim
+404	50.303521	8.916308	Turm 4/96	Turm	Florstadt/Altenstadt	Stammheim
 405	50.423921	8.632197	Turm 4/31	Turm	Butzbach	Nieder-Weisel
 406	50.113562	8.983904	Turm 5/13	Turm	Hanau	Wolfgang
 407	50.192453	8.213788	Turm 3/17	Turm	Taunusstein	Orlen
@@ -816,7 +816,7 @@ ID	lat	long	limesobject	limescategory	limestown	limestownpard
 815	50.376848	7.744298	Turm 1/82	Turm	Arzbach	???
 816	50.510516	7.33146	Turm 1/3	Turm	Rheinbrohl	Arienheller
 817	50.494117	7.397292	Turm 1/15	Turm	Leutesdorf	???
-818	50.512933	7337	Turm 1/4	Turm	Rheinbrohl	???
+818	50.512933	7.3334330	Turm 1/4	Turm	Rheinbrohl	???
 819	50.474807	7.476374	Turm 1/32	Turm	Neuwied	Altwied
 820	50.465702	7.452003	Turm 1/28	Turm	Neuwied	Niederbieber-Segendorf
 821	50.463312	7.447461	Turm 1/27	Turm	Neuwied	Rodenbach
@@ -1096,7 +1096,7 @@ ID	lat	long	limesobject	limescategory	limestown	limestownpard
 1095	48.899178	11.634639	Turm 15/30	Turm	Altmannstein	Neuenhinzenhausen
 1096	49.10139	10.547684	Turm 13/31	Turm	Ehingen	???
 1097	49.113939	10.711046	Turm 13/49	Turm	Gunzenhausen	Unterwurmbach
-1098	49055	10.454955	Turm 13/15	Turm	Weiltingen	Wörnitzhofen
+1098	49.045556	10.454955	Turm 13/15	Turm	Weiltingen	Wörnitzhofen
 1099	49.041152	10.444921	Turm 13/12	Turm	Weiltingen	???
 1100	49.047078	10.449936	Turm 13/13	Turm	Weiltingen	Wörnitzhofen
 1101	49.115829	10.749907	Turm 13/54	Turm	Gunzenhausen	???
