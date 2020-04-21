@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"name": "LimesPannoniaSuperior_Kastell",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "typ2": "Kastell", "typ": "Kastell", "name": "Kastell Ad Mures" }, "geometry": { "type": "Point", "coordinates": [ 17.98645, 47.74252 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "typ2": "Kohortenkastell", "typ": "Kastell", "name": "Kastell Klosterneuburg" }, "geometry": { "type": "Point", "coordinates": [ 16.325, 48.305 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "typ2": "Alenkastell", "typ": "Kastell", "name": "Kastell Vindobona" }, "geometry": { "type": "Point", "coordinates": [ 16.370278, 48.210833 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "typ2": "Alenkastell", "typ": "Kastell", "name": "Kastell Ala Nova" }, "geometry": { "type": "Point", "coordinates": [ 16.469908, 48.143917 ] } },
+{ "type": "Feature", "properties": { "fid": 5, "typ2": "Reiterkastell", "typ": "Kastell", "name": "Kastell Aequinoctium" }, "geometry": { "type": "Point", "coordinates": [ 16.616667, 48.116667 ] } },
+{ "type": "Feature", "properties": { "fid": 6, "typ2": "Auxiliarkastelle", "typ": "Kastell", "name": "Kastelle von Carnuntum" }, "geometry": { "type": "Point", "coordinates": [ 16.858333, 48.116111 ] } },
+{ "type": "Feature", "properties": { "fid": 7, "typ2": "Brückenkopfkastell (?)", "typ": "Kastell", "name": "Kleinkastell Stopfenreuth" }, "geometry": { "type": "Point", "coordinates": [ 16.883333, 48.183333 ] } },
+{ "type": "Feature", "properties": { "fid": 8, "typ2": "Auxiliarkastell", "typ": "Kastell", "name": "Kastell Ad Flexum" }, "geometry": { "type": "Point", "coordinates": [ 17.149528, 48.055986 ] } },
+{ "type": "Feature", "properties": { "fid": 9, "typ2": "Kohortenkastell", "typ": "Kastell", "name": "Kastell Ad Flexum" }, "geometry": { "type": "Point", "coordinates": [ 17.277828, 47.869767 ] } },
+{ "type": "Feature", "properties": { "fid": 10, "typ2": "Kleinkastell", "typ": "Kastell", "name": "Kleinkastell Ad Flexum" }, "geometry": { "type": "Point", "coordinates": [ 17.414297, 47.793033 ] } },
+{ "type": "Feature", "properties": { "fid": 11, "typ2": "Alenkastell", "typ": "Kastell", "name": "Kastell Quadrata" }, "geometry": { "type": "Point", "coordinates": [ 17.416303, 47.777689 ] } },
+{ "type": "Feature", "properties": { "fid": 12, "typ2": "temporäres Lager", "typ": "Kastell", "name": "Holz-Erde-Lager Quadrata" }, "geometry": { "type": "Point", "coordinates": [ 17.457581, 47.753331 ] } },
+{ "type": "Feature", "properties": { "fid": 13, "typ2": "Kohortenkastell", "typ": "Kastell", "name": "Kastell Arrabona" }, "geometry": { "type": "Point", "coordinates": [ 17.631467, 47.689028 ] } },
+{ "type": "Feature", "properties": { "fid": 14, "typ2": "Holz-Erde-Lager", "typ": "Kastell", "name": "Holz-Erde-Lager Győr" }, "geometry": { "type": "Point", "coordinates": [ 17.704606, 47.686861 ] } },
+{ "type": "Feature", "properties": { "fid": 15, "typ2": "temporäres Holz-Erde-Lager", "typ": "Kastell", "name": "Holz-Erde-Lager Tápszentmiklós" }, "geometry": { "type": "Point", "coordinates": [ 17.849411, 47.493881 ] } },
+{ "type": "Feature", "properties": { "fid": 16, "typ2": "Kohortenkastell", "typ": "Kastell", "name": "Kastell Ad Statuas (Ács-Vaspuszta)" }, "geometry": { "type": "Point", "coordinates": [ 17.899833, 47.736167 ] } }
+]
+}

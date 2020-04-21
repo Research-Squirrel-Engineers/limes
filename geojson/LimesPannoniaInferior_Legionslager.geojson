@@ -1,0 +1,33 @@
+{
+"type": "FeatureCollection",
+"name": "LimesPannoniaInferior_Legionslager",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "typ": "Legionslager", "name": "Brigetio – Lager XIII–XIV" }, "geometry": { "type": "Point", "coordinates": [ 18.244319, 47.718931 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "typ": "Legionslager", "name": "Brigetio – Lager XV" }, "geometry": { "type": "Point", "coordinates": [ 18.244119, 47.724411 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "typ": "Legionslager", "name": "Brigetio – Lager XII. XXXIII" }, "geometry": { "type": "Point", "coordinates": [ 18.23495, 47.714019 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "typ": "Legionslager", "name": "Brigetio – Lager XXXIV" }, "geometry": { "type": "Point", "coordinates": [ 18.256206, 47.720719 ] } },
+{ "type": "Feature", "properties": { "fid": 5, "typ": "Legionslager", "name": "Brigetio – Lager XXIX" }, "geometry": { "type": "Point", "coordinates": [ 18.154081, 47.6859 ] } },
+{ "type": "Feature", "properties": { "fid": 6, "typ": "Legionslager", "name": "Brigetio – Lager XXVIII" }, "geometry": { "type": "Point", "coordinates": [ 18.155719, 47.689289 ] } },
+{ "type": "Feature", "properties": { "fid": 7, "typ": "Legionslager", "name": "Brigetio – Lager XXVII" }, "geometry": { "type": "Point", "coordinates": [ 18.122669, 47.691469 ] } },
+{ "type": "Feature", "properties": { "fid": 8, "typ": "Legionslager", "name": "Brigetio – Lager XXVI" }, "geometry": { "type": "Point", "coordinates": [ 18.123689, 47.696364 ] } },
+{ "type": "Feature", "properties": { "fid": 9, "typ": "Legionslager", "name": "Brigetio – Lager XXV" }, "geometry": { "type": "Point", "coordinates": [ 18.126431, 47.698119 ] } },
+{ "type": "Feature", "properties": { "fid": 10, "typ": "Legionslager", "name": "Brigetio – Lager XXIV" }, "geometry": { "type": "Point", "coordinates": [ 18.155331, 47.699539 ] } },
+{ "type": "Feature", "properties": { "fid": 11, "typ": "Legionslager", "name": "Brigetio – Lager XXII–XXIII" }, "geometry": { "type": "Point", "coordinates": [ 18.167011, 47.704269 ] } },
+{ "type": "Feature", "properties": { "fid": 12, "typ": "Legionslager", "name": "Brigetio – Lager XVIII" }, "geometry": { "type": "Point", "coordinates": [ 18.16435, 47.6759 ] } },
+{ "type": "Feature", "properties": { "fid": 13, "typ": "Legionslager", "name": "Brigetio – Lager XVII" }, "geometry": { "type": "Point", "coordinates": [ 18.175536, 47.694386 ] } },
+{ "type": "Feature", "properties": { "fid": 14, "typ": "Legionslager", "name": "Brigetio – Lager VII" }, "geometry": { "type": "Point", "coordinates": [ 18.177914, 47.708739 ] } },
+{ "type": "Feature", "properties": { "fid": 15, "typ": "Legionslager", "name": "Brigetio – Lager VI" }, "geometry": { "type": "Point", "coordinates": [ 18.176869, 47.707181 ] } },
+{ "type": "Feature", "properties": { "fid": 16, "typ": "Legionslager", "name": "Brigetio – Lager XXI" }, "geometry": { "type": "Point", "coordinates": [ 18.135219, 47.707489 ] } },
+{ "type": "Feature", "properties": { "fid": 17, "typ": "Legionslager", "name": "Brigetio – Lager XX" }, "geometry": { "type": "Point", "coordinates": [ 18.148461, 47.711711 ] } },
+{ "type": "Feature", "properties": { "fid": 18, "typ": "Legionslager", "name": "Brigetio – Lager XIX" }, "geometry": { "type": "Point", "coordinates": [ 18.153681, 47.708844 ] } },
+{ "type": "Feature", "properties": { "fid": 19, "typ": "Legionslager", "name": "Brigetio – Lager XXX–XXXI" }, "geometry": { "type": "Point", "coordinates": [ 18.093139, 47.729669 ] } },
+{ "type": "Feature", "properties": { "fid": 20, "typ": "Legionslager", "name": "Brigetio – Lager XXXII" }, "geometry": { "type": "Point", "coordinates": [ 18.221419, 47.723231 ] } },
+{ "type": "Feature", "properties": { "fid": 21, "typ": "Legionslager", "name": "Brigetio – Lager VIII–XI" }, "geometry": { "type": "Point", "coordinates": [ 18.221686, 47.720664 ] } },
+{ "type": "Feature", "properties": { "fid": 22, "typ": "Legionslager", "name": "Brigetio – Lager V" }, "geometry": { "type": "Point", "coordinates": [ 18.16405, 47.721061 ] } },
+{ "type": "Feature", "properties": { "fid": 23, "typ": "Legionslager", "name": "Brigetio – Lager IV" }, "geometry": { "type": "Point", "coordinates": [ 18.111389, 47.713781 ] } },
+{ "type": "Feature", "properties": { "fid": 24, "typ": "Legionslager", "name": "Brigetio – Lager III" }, "geometry": { "type": "Point", "coordinates": [ 18.093389, 47.713669 ] } },
+{ "type": "Feature", "properties": { "fid": 25, "typ": "Legionslager", "name": "Brigetio – Lager II" }, "geometry": { "type": "Point", "coordinates": [ 18.095411, 47.718189 ] } },
+{ "type": "Feature", "properties": { "fid": 26, "typ": "Legionslager", "name": "Castra Aquincum" }, "geometry": { "type": "Point", "coordinates": [ 19.048286, 47.55885 ] } }
+]
+}
