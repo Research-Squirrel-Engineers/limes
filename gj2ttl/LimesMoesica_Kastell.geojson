@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"name": "LimesMoesica_Kastell",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "typ": "Kastell", "name": "Kastell Iatrus" }, "geometry": { "type": "Point", "coordinates": [ 25.563056, 43.631667 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "typ": "Kastell", "name": "Kastell Sucidava" }, "geometry": { "type": "Point", "coordinates": [ 24.459131, 43.764422 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "typ": "Kastell", "name": "Kastell Heracleia" }, "geometry": { "type": "Point", "coordinates": [ 28.033611, 44.338056 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "typ": "Kastell", "name": "Kastell Capidava" }, "geometry": { "type": "Point", "coordinates": [ 28.090375, 44.493789 ] } },
+{ "type": "Feature", "properties": { "fid": 5, "typ": "Kastell", "name": "Dinogetia" }, "geometry": { "type": "Point", "coordinates": [ 28.138694, 45.379167 ] } },
+{ "type": "Feature", "properties": { "fid": 6, "typ": "Kastell", "name": "Dinogetia" }, "geometry": { "type": "Point", "coordinates": [ 28.138694, 45.379167 ] } },
+{ "type": "Feature", "properties": { "fid": 7, "typ": "Kastell", "name": "Kastell Noviodunum" }, "geometry": { "type": "Point", "coordinates": [ 28.491914, 45.270525 ] } },
+{ "type": "Feature", "properties": { "fid": 8, "typ": "Kastell", "name": "Kastell Aegyssus" }, "geometry": { "type": "Point", "coordinates": [ 28.806361, 45.179781 ] } },
+{ "type": "Feature", "properties": { "fid": 9, "typ": "Kastell", "name": "Kastell Bononia" }, "geometry": { "type": "Point", "coordinates": [ 22.8759, 43.993222 ] } },
+{ "type": "Feature", "properties": { "fid": 10, "typ": "Kastell", "name": "Castra Martis" }, "geometry": { "type": "Point", "coordinates": [ 22.522222, 43.888889 ] } },
+{ "type": "Feature", "properties": { "fid": 11, "typ": "Kastell", "name": "Kastell Almus" }, "geometry": { "type": "Point", "coordinates": [ 23.233333, 43.816667 ] } },
+{ "type": "Feature", "properties": { "fid": 12, "typ": "Kastell", "name": "Kastell Augustae (Hărlec)" }, "geometry": { "type": "Point", "coordinates": [ 23.733333, 43.783333 ] } },
+{ "type": "Feature", "properties": { "fid": 13, "typ": "Kastell", "name": "Kastell Sexaginta Prista" }, "geometry": { "type": "Point", "coordinates": [ 25.970556, 43.856389 ] } },
+{ "type": "Feature", "properties": { "fid": 14, "typ": "Kastell", "name": "Kastell Transmarisca" }, "geometry": { "type": "Point", "coordinates": [ 26.6, 44.0 ] } }
+]
+}
