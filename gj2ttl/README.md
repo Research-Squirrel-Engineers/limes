@@ -1,3 +1,50 @@
+# Mapping
+
+prefix: archsq: http://archaeoinformatics.link/ontology#
+
+**general**
+
+* `name` => `rdfs:label "name"`
+  * `limesobject` => `rdfs:label "limesobject"`
+  * `city` => `rdfs:label "city"`
+* `typ` => `rdf:type archsq:{typ}`
+  * `limescategory` => `rdf:type archsq:{limescategory}`
+* `typ2` => `rdfs:comment "typ2"`
+* `id` => `archsq:hasID "id"`
+* `limestown` => `archsq:relatedToLocation "limestown"`
+    * `county` => `archsq:relatedToLocation "county"`
+* `limestownpart` => `archsq:relatedToLocationPart "limestownpart"`
+* `roman_name` => `archsq:romanName "roman_name"`
+* `group_id` => `archsq:groupID "group_id"`
+
+**Moesica / Noricum / Pannonia/Inferior/Superior / GermaniaInferior / Dacicus / ORL**
+
+* `typ` => `rdf:type archsq:{typ}`
+  * Kastell = #MillitaryCamp | Legionslager = #LegionaryCamp | Burgus = #Burgus | Wachturm/Turm = #Watchtower
+
+**Midlands/Wales**
+
+* `typ` => `rdf:type archsq:LimesPart`
+
+**ORL**
+
+* `limestown` => map to Wikidata
+* `limestownpart` => map to Wikidata
+
+**ItinerariumAntoniniAugusti**
+
+* `city` => map to Wikidata
+
+**_lines (alle bis auf ItinerariumAntoniniAugusti)**
+
+* `typ` => `rdf:type archsq:LimesRoad`
+* `label` => `individuell`
+
+**_lines (ItinerariumAntoniniAugusti)**
+
+* `typ` => `rdf:type archsq:RomanRoad`
+* `label` => `Itinerarium Antonini Augusti`
+
 # CSVs
 
 ## Obergermanisch-Raetischer Limes
@@ -14,7 +61,6 @@
 * Antonine Itinerary ist eine Karte aus dem 3. Jh.
 * https://web.archive.org/web/20131216035218/http://www.roman-britain.org/antonine-itinerary-map.htm
 * keineswegs nur Kastelle oder Staedte, sondern eher einen Mix
-
 
 ## Midlands, Wales, Cornwall
 
