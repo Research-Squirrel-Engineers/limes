@@ -1,5 +1,11 @@
 # Mapping
 
+instances
+
+* http://lod.squirrel.link/data/limes/
+
+classes
+
 prefix: archsq: http://archaeoinformatics.link/ontology#
 
 **general**
@@ -16,6 +22,18 @@ prefix: archsq: http://archaeoinformatics.link/ontology#
 * `limestownpart` => `archsq:relatedToLocationPart "limestownpart"`
 * `roman_name` => `archsq:romanName "roman_name"`
 * `group_id` => `archsq:groupID "group_id"`
+
+allgemein `rdf:type` {...}
+
+* http://archaeoinformatics.link/ontology#ItinerariumProvinciarumAntoniniAugusti
+* http://archaeoinformatics.link/ontology#LimesDacicus
+* http://archaeoinformatics.link/ontology#LimesGermaniaInferior
+* http://archaeoinformatics.link/ontology#LimesMidlandsWalesCornwall
+* http://archaeoinformatics.link/ontology#LimesMoesica
+* http://archaeoinformatics.link/ontology#LimesNoricum
+* http://archaeoinformatics.link/ontology#LimesPannoniaInferior
+* http://archaeoinformatics.link/ontology#LimesPannoniaSuperior
+* http://archaeoinformatics.link/ontology#LimesUpperGermanicRhaetian
 
 **Moesica / Noricum / Pannonia/Inferior/Superior / GermaniaInferior / Dacicus / ORL**
 
