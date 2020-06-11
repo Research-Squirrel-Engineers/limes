@@ -3,6 +3,7 @@
 instances
 
 * http://lod.squirrel.link/data/limes/
+* http://lod.squirrel.link/data/itinerarium-antonini/
 
 classes
 
