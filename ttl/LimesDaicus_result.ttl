@@ -1,0 +1,1541 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#comment
+rdfs:comment rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.opengis.net/ont/geosparql#wktLiteral
+<http://www.opengis.net/ont/geosparql#wktLiteral> rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.opengis.net/ont/geosparql#hasGeometry
+<http://www.opengis.net/ont/geosparql#hasGeometry> rdf:type owl:ObjectProperty .
+
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+rdf:type rdf:type owl:ObjectProperty ;
+         rdfs:domain <http://archaeoinformatics.link/ontology#Limes> ;
+         rdfs:label "typ"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.opengis.net/ont/geosparql#asWKT
+<http://www.opengis.net/ont/geosparql#asWKT> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://archaeoinformatics.link/ontology#Limes
+<http://archaeoinformatics.link/ontology#Limes> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.opengis.net/ont/geosparql#Feature> .
+
+
+###  http://www.opengis.net/ont/geosparql#Feature
+<http://www.opengis.net/ont/geosparql#Feature> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.opengis.net/ont/geosparql#SpatialObject> .
+
+
+###  http://www.opengis.net/ont/geosparql#Geometry
+<http://www.opengis.net/ont/geosparql#Geometry> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.opengis.net/ont/geosparql#SpatialObject> .
+
+
+###  http://www.opengis.net/ont/geosparql#SpatialObject
+<http://www.opengis.net/ont/geosparql#SpatialObject> rdf:type owl:Class .
+
+
+###  http://www.opengis.net/ont/sf#Point
+<http://www.opengis.net/ont/sf#Point> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://www.opengis.net/ont/geosparql#Geometry> .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://lod.squirrel.link/data/limes/a045d4a9-9001-4e4c-91d0-4d2df2097656
+<http://lod.squirrel.link/data/limes/a045d4a9-9001-4e4c-91d0-4d2df2097656> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/a045d4a9-9001-4e4c-91d0-4d2df2097656_geom> ;
+                                                                           rdfs:comment "Auxiliarkastell" ;
+                                                                           rdfs:label "Kastell Sutoru" .
+
+
+###  http://lod.squirrel.link/data/limes/a045d4a9-9001-4e4c-91d0-4d2df2097656_geom
+<http://lod.squirrel.link/data/limes/a045d4a9-9001-4e4c-91d0-4d2df2097656_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.251667 46.986086)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/a5dbc680-dacc-4387-9085-44dad81f2c19
+<http://lod.squirrel.link/data/limes/a5dbc680-dacc-4387-9085-44dad81f2c19> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/a5dbc680-dacc-4387-9085-44dad81f2c19_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Căineni (Pons Vetus ?)" .
+
+
+###  http://lod.squirrel.link/data/limes/a5dbc680-dacc-4387-9085-44dad81f2c19_geom
+<http://lod.squirrel.link/data/limes/a5dbc680-dacc-4387-9085-44dad81f2c19_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.308611 45.495)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/a6e6dbc6-275b-4596-9d66-9922a116ad35
+<http://lod.squirrel.link/data/limes/a6e6dbc6-275b-4596-9d66-9922a116ad35> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/a6e6dbc6-275b-4596-9d66-9922a116ad35_geom> ;
+                                                                           rdfs:comment "Kohortenkastell" ;
+                                                                           rdfs:label "Kastell Feldioara" .
+
+
+###  http://lod.squirrel.link/data/limes/a6e6dbc6-275b-4596-9d66-9922a116ad35_geom
+<http://lod.squirrel.link/data/limes/a6e6dbc6-275b-4596-9d66-9922a116ad35_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.591561 45.816419)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/ac679b58-9f9a-4541-b772-a96bfa25597f
+<http://lod.squirrel.link/data/limes/ac679b58-9f9a-4541-b772-a96bfa25597f> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/ac679b58-9f9a-4541-b772-a96bfa25597f_geom> ;
+                                                                           rdfs:comment "Kohortenkastell" ;
+                                                                           rdfs:label "Kastell Brețcu " .
+
+
+###  http://lod.squirrel.link/data/limes/ac679b58-9f9a-4541-b772-a96bfa25597f_geom
+<http://lod.squirrel.link/data/limes/ac679b58-9f9a-4541-b772-a96bfa25597f_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (26.312836 46.050994)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/ac7f7b98-c826-4a69-ae50-594c92640f26
+<http://lod.squirrel.link/data/limes/ac7f7b98-c826-4a69-ae50-594c92640f26> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/ac7f7b98-c826-4a69-ae50-594c92640f26_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Câmpulung Muscel II" .
+
+
+###  http://lod.squirrel.link/data/limes/ac7f7b98-c826-4a69-ae50-594c92640f26_geom
+<http://lod.squirrel.link/data/limes/ac7f7b98-c826-4a69-ae50-594c92640f26_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.012694 45.221)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/ac98ba93-09fb-4f60-bf6d-10954b48cb18
+<http://lod.squirrel.link/data/limes/ac98ba93-09fb-4f60-bf6d-10954b48cb18> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/ac98ba93-09fb-4f60-bf6d-10954b48cb18_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Cincsor" .
+
+
+###  http://lod.squirrel.link/data/limes/ac98ba93-09fb-4f60-bf6d-10954b48cb18_geom
+<http://lod.squirrel.link/data/limes/ac98ba93-09fb-4f60-bf6d-10954b48cb18_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.866611 45.842519)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/ae760524-b301-49c2-ac62-2f9fc36fb11c
+<http://lod.squirrel.link/data/limes/ae760524-b301-49c2-ac62-2f9fc36fb11c> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/ae760524-b301-49c2-ac62-2f9fc36fb11c_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Războieni" .
+
+
+###  http://lod.squirrel.link/data/limes/ae760524-b301-49c2-ac62-2f9fc36fb11c_geom
+<http://lod.squirrel.link/data/limes/ae760524-b301-49c2-ac62-2f9fc36fb11c_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.868333 46.417222)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/b33720e8-a736-4582-bdf4-80de9da1874b
+<http://lod.squirrel.link/data/limes/b33720e8-a736-4582-bdf4-80de9da1874b> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/b33720e8-a736-4582-bdf4-80de9da1874b_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Roșiorii de Vede" .
+
+
+###  http://lod.squirrel.link/data/limes/b33720e8-a736-4582-bdf4-80de9da1874b_geom
+<http://lod.squirrel.link/data/limes/b33720e8-a736-4582-bdf4-80de9da1874b_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.947028 44.074472)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/b7d959e0-a3d3-4997-a009-c53b2a8f8f78
+<http://lod.squirrel.link/data/limes/b7d959e0-a3d3-4997-a009-c53b2a8f8f78> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/b7d959e0-a3d3-4997-a009-c53b2a8f8f78_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Brâncoveneşti" .
+
+
+###  http://lod.squirrel.link/data/limes/b7d959e0-a3d3-4997-a009-c53b2a8f8f78_geom
+<http://lod.squirrel.link/data/limes/b7d959e0-a3d3-4997-a009-c53b2a8f8f78_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.766042 46.861514)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/b94c65e0-aca2-466c-bcc9-7ef918dff5ce
+<http://lod.squirrel.link/data/limes/b94c65e0-aca2-466c-bcc9-7ef918dff5ce> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/b94c65e0-aca2-466c-bcc9-7ef918dff5ce_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Teregova (Ad Pannonios)" .
+
+
+###  http://lod.squirrel.link/data/limes/b94c65e0-aca2-466c-bcc9-7ef918dff5ce_geom
+<http://lod.squirrel.link/data/limes/b94c65e0-aca2-466c-bcc9-7ef918dff5ce_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.306831 45.168611)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/baab40ef-7cf6-488b-8e93-084d0d45871e
+<http://lod.squirrel.link/data/limes/baab40ef-7cf6-488b-8e93-084d0d45871e> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/baab40ef-7cf6-488b-8e93-084d0d45871e_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Săpata de Jos II" .
+
+
+###  http://lod.squirrel.link/data/limes/baab40ef-7cf6-488b-8e93-084d0d45871e_geom
+<http://lod.squirrel.link/data/limes/baab40ef-7cf6-488b-8e93-084d0d45871e_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.763694 44.707917)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/bcba18ff-85c2-4064-9d3e-a3bcae8adbe5
+<http://lod.squirrel.link/data/limes/bcba18ff-85c2-4064-9d3e-a3bcae8adbe5> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/bcba18ff-85c2-4064-9d3e-a3bcae8adbe5_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Sămbotin (Castra Traiana)" .
+
+
+###  http://lod.squirrel.link/data/limes/bcba18ff-85c2-4064-9d3e-a3bcae8adbe5_geom
+<http://lod.squirrel.link/data/limes/bcba18ff-85c2-4064-9d3e-a3bcae8adbe5_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.373611 45.173611)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/be19a447-bf3f-43d4-bc76-aed32e4266ca
+<http://lod.squirrel.link/data/limes/be19a447-bf3f-43d4-bc76-aed32e4266ca> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/be19a447-bf3f-43d4-bc76-aed32e4266ca_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Valea Urluii" .
+
+
+###  http://lod.squirrel.link/data/limes/be19a447-bf3f-43d4-bc76-aed32e4266ca_geom
+<http://lod.squirrel.link/data/limes/be19a447-bf3f-43d4-bc76-aed32e4266ca_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.937389 44.061333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/bee69813-51a5-47b4-81ea-ab8d85ddced2
+<http://lod.squirrel.link/data/limes/bee69813-51a5-47b4-81ea-ab8d85ddced2> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/bee69813-51a5-47b4-81ea-ab8d85ddced2_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Căşeiu (Samum)" .
+
+
+###  http://lod.squirrel.link/data/limes/bee69813-51a5-47b4-81ea-ab8d85ddced2_geom
+<http://lod.squirrel.link/data/limes/bee69813-51a5-47b4-81ea-ab8d85ddced2_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.837639 47.186222)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/c083d352-c9a3-455c-92a7-0e58099cc589
+<http://lod.squirrel.link/data/limes/c083d352-c9a3-455c-92a7-0e58099cc589> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/c083d352-c9a3-455c-92a7-0e58099cc589_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Orăştioara de Sus" .
+
+
+###  http://lod.squirrel.link/data/limes/c083d352-c9a3-455c-92a7-0e58099cc589_geom
+<http://lod.squirrel.link/data/limes/c083d352-c9a3-455c-92a7-0e58099cc589_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.166667 45.733333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/c20044fd-fa3a-4dda-9d35-9ee1d1499aff
+<http://lod.squirrel.link/data/limes/c20044fd-fa3a-4dda-9d35-9ee1d1499aff> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/c20044fd-fa3a-4dda-9d35-9ee1d1499aff_geom> ;
+                                                                           rdfs:comment "Auxiliarkastell" ;
+                                                                           rdfs:label "Kastell Grebenac" .
+
+
+###  http://lod.squirrel.link/data/limes/c20044fd-fa3a-4dda-9d35-9ee1d1499aff_geom
+<http://lod.squirrel.link/data/limes/c20044fd-fa3a-4dda-9d35-9ee1d1499aff_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.232794 44.897786)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/c67c0a45-5d27-43e4-864d-96489c0cc9ca
+<http://lod.squirrel.link/data/limes/c67c0a45-5d27-43e4-864d-96489c0cc9ca> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/c67c0a45-5d27-43e4-864d-96489c0cc9ca_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Momoteşti (Rusidava)" .
+
+
+###  http://lod.squirrel.link/data/limes/c67c0a45-5d27-43e4-864d-96489c0cc9ca_geom
+<http://lod.squirrel.link/data/limes/c67c0a45-5d27-43e4-864d-96489c0cc9ca_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.27 44.650306)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/c8be4c7f-80e0-4f84-be6c-db976d938256
+<http://lod.squirrel.link/data/limes/c8be4c7f-80e0-4f84-be6c-db976d938256> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/c8be4c7f-80e0-4f84-be6c-db976d938256_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Reşca (Romula/Malva)" .
+
+
+###  http://lod.squirrel.link/data/limes/c8be4c7f-80e0-4f84-be6c-db976d938256_geom
+<http://lod.squirrel.link/data/limes/c8be4c7f-80e0-4f84-be6c-db976d938256_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.400833 44.166667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/ca11be3d-9d98-4c6e-9a2c-60fe92fee61a
+<http://lod.squirrel.link/data/limes/ca11be3d-9d98-4c6e-9a2c-60fe92fee61a> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/ca11be3d-9d98-4c6e-9a2c-60fe92fee61a_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Orheiul Bistriţei" .
+
+
+###  http://lod.squirrel.link/data/limes/ca11be3d-9d98-4c6e-9a2c-60fe92fee61a_geom
+<http://lod.squirrel.link/data/limes/ca11be3d-9d98-4c6e-9a2c-60fe92fee61a_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.592319 47.096014)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/cd97d09a-bcf4-4006-b293-2d3c97fc3bf4
+<http://lod.squirrel.link/data/limes/cd97d09a-bcf4-4006-b293-2d3c97fc3bf4> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/cd97d09a-bcf4-4006-b293-2d3c97fc3bf4_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Islaz-Razovica" .
+
+
+###  http://lod.squirrel.link/data/limes/cd97d09a-bcf4-4006-b293-2d3c97fc3bf4_geom
+<http://lod.squirrel.link/data/limes/cd97d09a-bcf4-4006-b293-2d3c97fc3bf4_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.870833 43.751667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/d75a8901-90b9-4053-947e-9b7ef4287a8a
+<http://lod.squirrel.link/data/limes/d75a8901-90b9-4053-947e-9b7ef4287a8a> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/d75a8901-90b9-4053-947e-9b7ef4287a8a_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Bumbeşti" .
+
+
+###  http://lod.squirrel.link/data/limes/d75a8901-90b9-4053-947e-9b7ef4287a8a_geom
+<http://lod.squirrel.link/data/limes/d75a8901-90b9-4053-947e-9b7ef4287a8a_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.4 45.166667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/d81afc3a-a8cc-44af-b299-d0931480022f
+<http://lod.squirrel.link/data/limes/d81afc3a-a8cc-44af-b299-d0931480022f> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/d81afc3a-a8cc-44af-b299-d0931480022f_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Zăvoi (Acmonia ?)" .
+
+
+###  http://lod.squirrel.link/data/limes/d81afc3a-a8cc-44af-b299-d0931480022f_geom
+<http://lod.squirrel.link/data/limes/d81afc3a-a8cc-44af-b299-d0931480022f_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.410833 45.525278)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/d89609d6-c20a-47e1-84ea-d9ba8b875eba
+<http://lod.squirrel.link/data/limes/d89609d6-c20a-47e1-84ea-d9ba8b875eba> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/d89609d6-c20a-47e1-84ea-d9ba8b875eba_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Gresia" .
+
+
+###  http://lod.squirrel.link/data/limes/d89609d6-c20a-47e1-84ea-d9ba8b875eba_geom
+<http://lod.squirrel.link/data/limes/d89609d6-c20a-47e1-84ea-d9ba8b875eba_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.917722 44.172583)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/d8c72c1f-1864-4801-8bbc-abead8254742
+<http://lod.squirrel.link/data/limes/d8c72c1f-1864-4801-8bbc-abead8254742> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/d8c72c1f-1864-4801-8bbc-abead8254742_geom> ;
+                                                                           rdfs:comment "Kohortenkastell" ;
+                                                                           rdfs:label "Kastell Olteni" .
+
+
+###  http://lod.squirrel.link/data/limes/d8c72c1f-1864-4801-8bbc-abead8254742_geom
+<http://lod.squirrel.link/data/limes/d8c72c1f-1864-4801-8bbc-abead8254742_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.849619 45.970939)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/daf4a709-b20a-40ad-9448-d92de912635b
+<http://lod.squirrel.link/data/limes/daf4a709-b20a-40ad-9448-d92de912635b> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/daf4a709-b20a-40ad-9448-d92de912635b_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Copăceni (Praetorium I)" .
+
+
+###  http://lod.squirrel.link/data/limes/daf4a709-b20a-40ad-9448-d92de912635b_geom
+<http://lod.squirrel.link/data/limes/daf4a709-b20a-40ad-9448-d92de912635b_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.309861 45.395903)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/dea3066c-400e-4628-bfa5-16f3b8191102
+<http://lod.squirrel.link/data/limes/dea3066c-400e-4628-bfa5-16f3b8191102> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/dea3066c-400e-4628-bfa5-16f3b8191102_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Jiblea" .
+
+
+###  http://lod.squirrel.link/data/limes/dea3066c-400e-4628-bfa5-16f3b8191102_geom
+<http://lod.squirrel.link/data/limes/dea3066c-400e-4628-bfa5-16f3b8191102_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.360556 45.231944)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/e56fd569-1384-41d9-b704-daf87869fc40
+<http://lod.squirrel.link/data/limes/e56fd569-1384-41d9-b704-daf87869fc40> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/e56fd569-1384-41d9-b704-daf87869fc40_geom> ;
+                                                                           rdfs:comment "Vexillationskastell /  Kohortenkastell /  Alenkastell" ;
+                                                                           rdfs:label "Kastell Vršac" .
+
+
+###  http://lod.squirrel.link/data/limes/e56fd569-1384-41d9-b704-daf87869fc40_geom
+<http://lod.squirrel.link/data/limes/e56fd569-1384-41d9-b704-daf87869fc40_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.300194 45.122669)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/ea78df21-a2c1-41e4-aaa8-06dde6405d52
+<http://lod.squirrel.link/data/limes/ea78df21-a2c1-41e4-aaa8-06dde6405d52> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/ea78df21-a2c1-41e4-aaa8-06dde6405d52_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Enoşeşti (Acidava)" .
+
+
+###  http://lod.squirrel.link/data/limes/ea78df21-a2c1-41e4-aaa8-06dde6405d52_geom
+<http://lod.squirrel.link/data/limes/ea78df21-a2c1-41e4-aaa8-06dde6405d52_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.30325 44.374806)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/ef865375-0d61-49b7-9fa8-c8ac64b05a47
+<http://lod.squirrel.link/data/limes/ef865375-0d61-49b7-9fa8-c8ac64b05a47> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/ef865375-0d61-49b7-9fa8-c8ac64b05a47_geom> ;
+                                                                           rdfs:comment "Kohortenkastell (?)" ;
+                                                                           rdfs:label "Kastell Sânnicolau Mare" .
+
+
+###  http://lod.squirrel.link/data/limes/ef865375-0d61-49b7-9fa8-c8ac64b05a47_geom
+<http://lod.squirrel.link/data/limes/ef865375-0d61-49b7-9fa8-c8ac64b05a47_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.629444 46.072222)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/efb4f119-5769-4231-9b36-e71ef7e1e71f
+<http://lod.squirrel.link/data/limes/efb4f119-5769-4231-9b36-e71ef7e1e71f> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/efb4f119-5769-4231-9b36-e71ef7e1e71f_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Căciulătești" .
+
+
+###  http://lod.squirrel.link/data/limes/efb4f119-5769-4231-9b36-e71ef7e1e71f_geom
+<http://lod.squirrel.link/data/limes/efb4f119-5769-4231-9b36-e71ef7e1e71f_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.949167 43.938056)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/f01607e4-12cd-4c07-8172-0374ae3e3de4
+<http://lod.squirrel.link/data/limes/f01607e4-12cd-4c07-8172-0374ae3e3de4> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/f01607e4-12cd-4c07-8172-0374ae3e3de4_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Livezile" .
+
+
+###  http://lod.squirrel.link/data/limes/f01607e4-12cd-4c07-8172-0374ae3e3de4_geom
+<http://lod.squirrel.link/data/limes/f01607e4-12cd-4c07-8172-0374ae3e3de4_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.57075 47.186869)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/f0671792-fd92-4821-905a-d032b74d17ce
+<http://lod.squirrel.link/data/limes/f0671792-fd92-4821-905a-d032b74d17ce> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/f0671792-fd92-4821-905a-d032b74d17ce_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Rădăcineşti" .
+
+
+###  http://lod.squirrel.link/data/limes/f0671792-fd92-4821-905a-d032b74d17ce_geom
+<http://lod.squirrel.link/data/limes/f0671792-fd92-4821-905a-d032b74d17ce_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.441944 45.281528)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/f5d8453d-acd3-457b-b6f9-61350ddd4f8c
+<http://lod.squirrel.link/data/limes/f5d8453d-acd3-457b-b6f9-61350ddd4f8c> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/f5d8453d-acd3-457b-b6f9-61350ddd4f8c_geom> ;
+                                                                           rdfs:comment "Auxiliarkastell" ;
+                                                                           rdfs:label "Kastell Dupljaja" .
+
+
+###  http://lod.squirrel.link/data/limes/f5d8453d-acd3-457b-b6f9-61350ddd4f8c_geom
+<http://lod.squirrel.link/data/limes/f5d8453d-acd3-457b-b6f9-61350ddd4f8c_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.275078 44.927103)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/fd8b0cfa-8076-49b6-9fc2-6d6d395645d7
+<http://lod.squirrel.link/data/limes/fd8b0cfa-8076-49b6-9fc2-6d6d395645d7> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/fd8b0cfa-8076-49b6-9fc2-6d6d395645d7_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Surducul Mare" .
+
+
+###  http://lod.squirrel.link/data/limes/fd8b0cfa-8076-49b6-9fc2-6d6d395645d7_geom
+<http://lod.squirrel.link/data/limes/fd8b0cfa-8076-49b6-9fc2-6d6d395645d7_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.587219 45.265)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/0a213572-575a-4dda-8032-7da0c22b690c
+<http://lod.squirrel.link/data/limes/0a213572-575a-4dda-8032-7da0c22b690c> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/0a213572-575a-4dda-8032-7da0c22b690c_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Castranova" .
+
+
+###  http://lod.squirrel.link/data/limes/0a213572-575a-4dda-8032-7da0c22b690c_geom
+<http://lod.squirrel.link/data/limes/0a213572-575a-4dda-8032-7da0c22b690c_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.016667 44.116667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/0b6007b4-3ee2-4b41-b382-6f0121668bbf
+<http://lod.squirrel.link/data/limes/0b6007b4-3ee2-4b41-b382-6f0121668bbf> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/0b6007b4-3ee2-4b41-b382-6f0121668bbf_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Rucăr" .
+
+
+###  http://lod.squirrel.link/data/limes/0b6007b4-3ee2-4b41-b382-6f0121668bbf_geom
+<http://lod.squirrel.link/data/limes/0b6007b4-3ee2-4b41-b382-6f0121668bbf_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.178583 45.398444)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/0b9744d0-d9d9-42be-b1c2-d15cb2caea0a
+<http://lod.squirrel.link/data/limes/0b9744d0-d9d9-42be-b1c2-d15cb2caea0a> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/0b9744d0-d9d9-42be-b1c2-d15cb2caea0a_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Sânpaul" .
+
+
+###  http://lod.squirrel.link/data/limes/0b9744d0-d9d9-42be-b1c2-d15cb2caea0a_geom
+<http://lod.squirrel.link/data/limes/0b9744d0-d9d9-42be-b1c2-d15cb2caea0a_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.379472 46.194833)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/0da0944f-f7c2-4b32-92bb-df42f2a1e987
+<http://lod.squirrel.link/data/limes/0da0944f-f7c2-4b32-92bb-df42f2a1e987> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/0da0944f-f7c2-4b32-92bb-df42f2a1e987_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Câmpulung Muscel I" .
+
+
+###  http://lod.squirrel.link/data/limes/0da0944f-f7c2-4b32-92bb-df42f2a1e987_geom
+<http://lod.squirrel.link/data/limes/0da0944f-f7c2-4b32-92bb-df42f2a1e987_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.012472 45.22075)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/0dabc63d-8ea4-4af6-8c5e-9cc3f556cec1
+<http://lod.squirrel.link/data/limes/0dabc63d-8ea4-4af6-8c5e-9cc3f556cec1> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/0dabc63d-8ea4-4af6-8c5e-9cc3f556cec1_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Abrud (Alburnus Maior)" .
+
+
+###  http://lod.squirrel.link/data/limes/0dabc63d-8ea4-4af6-8c5e-9cc3f556cec1_geom
+<http://lod.squirrel.link/data/limes/0dabc63d-8ea4-4af6-8c5e-9cc3f556cec1_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.068611 46.272222)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/0e44fb9b-f015-40a6-8423-cf2f9fc607f6
+<http://lod.squirrel.link/data/limes/0e44fb9b-f015-40a6-8423-cf2f9fc607f6> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/0e44fb9b-f015-40a6-8423-cf2f9fc607f6_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Comalău" .
+
+
+###  http://lod.squirrel.link/data/limes/0e44fb9b-f015-40a6-8423-cf2f9fc607f6_geom
+<http://lod.squirrel.link/data/limes/0e44fb9b-f015-40a6-8423-cf2f9fc607f6_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.900222 45.844172)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/0ee43c20-32d2-41e5-a9c0-8fc52cb91f57
+<http://lod.squirrel.link/data/limes/0ee43c20-32d2-41e5-a9c0-8fc52cb91f57> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/0ee43c20-32d2-41e5-a9c0-8fc52cb91f57_geom> ;
+                                                                           rdfs:comment "Kohortenkastell" ;
+                                                                           rdfs:label "Kastell Romanasi (Largiana)" .
+
+
+###  http://lod.squirrel.link/data/limes/0ee43c20-32d2-41e5-a9c0-8fc52cb91f57_geom
+<http://lod.squirrel.link/data/limes/0ee43c20-32d2-41e5-a9c0-8fc52cb91f57_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.181678 47.113403)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/024d7b90-1224-4073-98df-d8cbacd325fa
+<http://lod.squirrel.link/data/limes/024d7b90-1224-4073-98df-d8cbacd325fa> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/024d7b90-1224-4073-98df-d8cbacd325fa_geom> ;
+                                                                           rdfs:comment "Kohortenkastell" ;
+                                                                           rdfs:label "Kastell Călugăreni" .
+
+
+###  http://lod.squirrel.link/data/limes/024d7b90-1224-4073-98df-d8cbacd325fa_geom
+<http://lod.squirrel.link/data/limes/024d7b90-1224-4073-98df-d8cbacd325fa_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.877311 46.628978)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/026dfccc-c6a2-4f64-9c1a-ebff123f6730
+<http://lod.squirrel.link/data/limes/026dfccc-c6a2-4f64-9c1a-ebff123f6730> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/026dfccc-c6a2-4f64-9c1a-ebff123f6730_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Albota" .
+
+
+###  http://lod.squirrel.link/data/limes/026dfccc-c6a2-4f64-9c1a-ebff123f6730_geom
+<http://lod.squirrel.link/data/limes/026dfccc-c6a2-4f64-9c1a-ebff123f6730_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.8375 44.771389)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/03efbd03-b026-4ca9-940f-5b3b3be38378
+<http://lod.squirrel.link/data/limes/03efbd03-b026-4ca9-940f-5b3b3be38378> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/03efbd03-b026-4ca9-940f-5b3b3be38378_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Slăveni" .
+
+
+###  http://lod.squirrel.link/data/limes/03efbd03-b026-4ca9-940f-5b3b3be38378_geom
+<http://lod.squirrel.link/data/limes/03efbd03-b026-4ca9-940f-5b3b3be38378_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.528969 44.081789)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/031622a1-dcd9-4aa9-9300-de62ca30abe1
+<http://lod.squirrel.link/data/limes/031622a1-dcd9-4aa9-9300-de62ca30abe1> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/031622a1-dcd9-4aa9-9300-de62ca30abe1_geom> ;
+                                                                           rdfs:comment "Legionslager" ;
+                                                                           rdfs:label "Kastell Berzovia " .
+
+
+###  http://lod.squirrel.link/data/limes/031622a1-dcd9-4aa9-9300-de62ca30abe1_geom
+<http://lod.squirrel.link/data/limes/031622a1-dcd9-4aa9-9300-de62ca30abe1_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.629394 45.426539)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/07a587d3-7868-4cda-8e3c-b11bea5175dd
+<http://lod.squirrel.link/data/limes/07a587d3-7868-4cda-8e3c-b11bea5175dd> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/07a587d3-7868-4cda-8e3c-b11bea5175dd_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Boiţa (Caput Stenarum) " .
+
+
+###  http://lod.squirrel.link/data/limes/07a587d3-7868-4cda-8e3c-b11bea5175dd_geom
+<http://lod.squirrel.link/data/limes/07a587d3-7868-4cda-8e3c-b11bea5175dd_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.266011 45.635769)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/09b95f74-cf6d-40bd-bb4c-daa4f3fadaf8
+<http://lod.squirrel.link/data/limes/09b95f74-cf6d-40bd-bb4c-daa4f3fadaf8> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/09b95f74-cf6d-40bd-bb4c-daa4f3fadaf8_geom> ;
+                                                                           rdfs:comment "Kohortenkastell" ;
+                                                                           rdfs:label "Kastell Râșnov " .
+
+
+###  http://lod.squirrel.link/data/limes/09b95f74-cf6d-40bd-bb4c-daa4f3fadaf8_geom
+<http://lod.squirrel.link/data/limes/09b95f74-cf6d-40bd-bb4c-daa4f3fadaf8_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.441581 45.618708)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/1c66e5ce-af71-472e-ab57-b24c9a95e9a8
+<http://lod.squirrel.link/data/limes/1c66e5ce-af71-472e-ab57-b24c9a95e9a8> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/1c66e5ce-af71-472e-ab57-b24c9a95e9a8_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Lişteava" .
+
+
+###  http://lod.squirrel.link/data/limes/1c66e5ce-af71-472e-ab57-b24c9a95e9a8_geom
+<http://lod.squirrel.link/data/limes/1c66e5ce-af71-472e-ab57-b24c9a95e9a8_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.92 43.834167)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/1d067486-b367-4d39-bb78-c6d1c5e7e66f
+<http://lod.squirrel.link/data/limes/1d067486-b367-4d39-bb78-c6d1c5e7e66f> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/1d067486-b367-4d39-bb78-c6d1c5e7e66f_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Săpata de Jos I" .
+
+
+###  http://lod.squirrel.link/data/limes/1d067486-b367-4d39-bb78-c6d1c5e7e66f_geom
+<http://lod.squirrel.link/data/limes/1d067486-b367-4d39-bb78-c6d1c5e7e66f_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.763556 44.707333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/1d86ffe7-9244-45f5-a67f-97a170a1440d
+<http://lod.squirrel.link/data/limes/1d86ffe7-9244-45f5-a67f-97a170a1440d> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/1d86ffe7-9244-45f5-a67f-97a170a1440d_geom> ;
+                                                                           rdfs:comment "Alenkastell" ;
+                                                                           rdfs:label "Kastell Gherla" .
+
+
+###  http://lod.squirrel.link/data/limes/1d86ffe7-9244-45f5-a67f-97a170a1440d_geom
+<http://lod.squirrel.link/data/limes/1d86ffe7-9244-45f5-a67f-97a170a1440d_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.899911 47.019833)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/102c5b95-24e8-422b-bc65-27507a274690
+<http://lod.squirrel.link/data/limes/102c5b95-24e8-422b-bc65-27507a274690> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/102c5b95-24e8-422b-bc65-27507a274690_geom> ;
+                                                                           rdfs:comment "Auxiliarkastell" ;
+                                                                           rdfs:label "Kastell Gilău" .
+
+
+###  http://lod.squirrel.link/data/limes/102c5b95-24e8-422b-bc65-27507a274690_geom
+<http://lod.squirrel.link/data/limes/102c5b95-24e8-422b-bc65-27507a274690_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.391764 46.754058)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/124ba82b-fa38-4f92-af61-863b0db1b441
+<http://lod.squirrel.link/data/limes/124ba82b-fa38-4f92-af61-863b0db1b441> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/124ba82b-fa38-4f92-af61-863b0db1b441_geom> ;
+                                                                           rdfs:comment "Kohortenkastell" ;
+                                                                           rdfs:label "Kastell Stolniceni" .
+
+
+###  http://lod.squirrel.link/data/limes/124ba82b-fa38-4f92-af61-863b0db1b441_geom
+<http://lod.squirrel.link/data/limes/124ba82b-fa38-4f92-af61-863b0db1b441_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.360675 45.105944)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/153b75e8-4a31-418c-afc9-eada843b1213
+<http://lod.squirrel.link/data/limes/153b75e8-4a31-418c-afc9-eada843b1213> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/153b75e8-4a31-418c-afc9-eada843b1213_geom> ;
+                                                                           rdfs:comment "Auxiliarkastell" ;
+                                                                           rdfs:label "Kastell Hoghiz" .
+
+
+###  http://lod.squirrel.link/data/limes/153b75e8-4a31-418c-afc9-eada843b1213_geom
+<http://lod.squirrel.link/data/limes/153b75e8-4a31-418c-afc9-eada843b1213_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.300011 45.983367)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/16b65686-172c-45ee-bc61-c97e074d3698
+<http://lod.squirrel.link/data/limes/16b65686-172c-45ee-bc61-c97e074d3698> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/16b65686-172c-45ee-bc61-c97e074d3698_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Ghioca" .
+
+
+###  http://lod.squirrel.link/data/limes/16b65686-172c-45ee-bc61-c97e074d3698_geom
+<http://lod.squirrel.link/data/limes/16b65686-172c-45ee-bc61-c97e074d3698_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.761056 44.307778)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/18096296-6a3f-4672-8bbb-e6749a367c3a
+<http://lod.squirrel.link/data/limes/18096296-6a3f-4672-8bbb-e6749a367c3a> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/18096296-6a3f-4672-8bbb-e6749a367c3a_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Titeşti" .
+
+
+###  http://lod.squirrel.link/data/limes/18096296-6a3f-4672-8bbb-e6749a367c3a_geom
+<http://lod.squirrel.link/data/limes/18096296-6a3f-4672-8bbb-e6749a367c3a_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.394444 45.409722)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/2e1bee7c-d909-487e-a998-d2b0b79f7f22
+<http://lod.squirrel.link/data/limes/2e1bee7c-d909-487e-a998-d2b0b79f7f22> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/2e1bee7c-d909-487e-a998-d2b0b79f7f22_geom> ;
+                                                                           rdfs:comment "Legionslager" ;
+                                                                           rdfs:label "Legionslager Potaissa" .
+
+
+###  http://lod.squirrel.link/data/limes/2e1bee7c-d909-487e-a998-d2b0b79f7f22_geom
+<http://lod.squirrel.link/data/limes/2e1bee7c-d909-487e-a998-d2b0b79f7f22_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.772733 46.570536)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/2384a198-01f2-427f-bb28-0a76d08f89f8
+<http://lod.squirrel.link/data/limes/2384a198-01f2-427f-bb28-0a76d08f89f8> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/2384a198-01f2-427f-bb28-0a76d08f89f8_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Băneasa II" .
+
+
+###  http://lod.squirrel.link/data/limes/2384a198-01f2-427f-bb28-0a76d08f89f8_geom
+<http://lod.squirrel.link/data/limes/2384a198-01f2-427f-bb28-0a76d08f89f8_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.961889 43.935889)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/25cc014a-0d56-4bb3-b089-6887699fb448
+<http://lod.squirrel.link/data/limes/25cc014a-0d56-4bb3-b089-6887699fb448> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/25cc014a-0d56-4bb3-b089-6887699fb448_geom> ;
+                                                                           rdfs:comment "Auxiliarkastelle" ;
+                                                                           rdfs:label "Kastelle von Porolissum" .
+
+
+###  http://lod.squirrel.link/data/limes/25cc014a-0d56-4bb3-b089-6887699fb448_geom
+<http://lod.squirrel.link/data/limes/25cc014a-0d56-4bb3-b089-6887699fb448_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.157319 47.179167)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/26a95fe8-c2ed-4834-aead-7359edbc2f22
+<http://lod.squirrel.link/data/limes/26a95fe8-c2ed-4834-aead-7359edbc2f22> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/26a95fe8-c2ed-4834-aead-7359edbc2f22_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Bologa (Resculum)" .
+
+
+###  http://lod.squirrel.link/data/limes/26a95fe8-c2ed-4834-aead-7359edbc2f22_geom
+<http://lod.squirrel.link/data/limes/26a95fe8-c2ed-4834-aead-7359edbc2f22_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.884611 46.885694)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/26f0d2e6-91d3-425a-b19e-db5f8f7f598a
+<http://lod.squirrel.link/data/limes/26f0d2e6-91d3-425a-b19e-db5f8f7f598a> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/26f0d2e6-91d3-425a-b19e-db5f8f7f598a_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Urluieni II" .
+
+
+###  http://lod.squirrel.link/data/limes/26f0d2e6-91d3-425a-b19e-db5f8f7f598a_geom
+<http://lod.squirrel.link/data/limes/26f0d2e6-91d3-425a-b19e-db5f8f7f598a_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.762111 44.484583)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/2651c9b0-7e85-4244-a10e-28060d594351
+<http://lod.squirrel.link/data/limes/2651c9b0-7e85-4244-a10e-28060d594351> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/2651c9b0-7e85-4244-a10e-28060d594351_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Pinoasa" .
+
+
+###  http://lod.squirrel.link/data/limes/2651c9b0-7e85-4244-a10e-28060d594351_geom
+<http://lod.squirrel.link/data/limes/2651c9b0-7e85-4244-a10e-28060d594351_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.098056 44.9075)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/27b17bb8-882a-4c78-8a5a-9195e9169c2c
+<http://lod.squirrel.link/data/limes/27b17bb8-882a-4c78-8a5a-9195e9169c2c> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/27b17bb8-882a-4c78-8a5a-9195e9169c2c_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Racoviţa (Praetorium II)" .
+
+
+###  http://lod.squirrel.link/data/limes/27b17bb8-882a-4c78-8a5a-9195e9169c2c_geom
+<http://lod.squirrel.link/data/limes/27b17bb8-882a-4c78-8a5a-9195e9169c2c_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.757222 43.733056)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/3b821e76-8396-4b5e-999a-7c5a483bab76
+<http://lod.squirrel.link/data/limes/3b821e76-8396-4b5e-999a-7c5a483bab76> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/3b821e76-8396-4b5e-999a-7c5a483bab76_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Râul Vadului" .
+
+
+###  http://lod.squirrel.link/data/limes/3b821e76-8396-4b5e-999a-7c5a483bab76_geom
+<http://lod.squirrel.link/data/limes/3b821e76-8396-4b5e-999a-7c5a483bab76_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.272806 45.523639)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/3bd92b30-5180-4974-a8e8-92e4e55c5406
+<http://lod.squirrel.link/data/limes/3bd92b30-5180-4974-a8e8-92e4e55c5406> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/3bd92b30-5180-4974-a8e8-92e4e55c5406_geom> ;
+                                                                           rdfs:comment "Kohortenkastell" ;
+                                                                           rdfs:label "Kastell Buciumi" .
+
+
+###  http://lod.squirrel.link/data/limes/3bd92b30-5180-4974-a8e8-92e4e55c5406_geom
+<http://lod.squirrel.link/data/limes/3bd92b30-5180-4974-a8e8-92e4e55c5406_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.044569 47.048264)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/336bf527-d7fc-4484-a1d5-59229d354b0d
+<http://lod.squirrel.link/data/limes/336bf527-d7fc-4484-a1d5-59229d354b0d> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/336bf527-d7fc-4484-a1d5-59229d354b0d_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Cătunele" .
+
+
+###  http://lod.squirrel.link/data/limes/336bf527-d7fc-4484-a1d5-59229d354b0d_geom
+<http://lod.squirrel.link/data/limes/336bf527-d7fc-4484-a1d5-59229d354b0d_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.924444 44.838889)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/36bd1b91-d155-4ae1-9259-5dc1479da2df
+<http://lod.squirrel.link/data/limes/36bd1b91-d155-4ae1-9259-5dc1479da2df> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/36bd1b91-d155-4ae1-9259-5dc1479da2df_geom> ;
+                                                                           rdfs:comment "Legionslager" ;
+                                                                           rdfs:label "Kastell Tibiscum" .
+
+
+###  http://lod.squirrel.link/data/limes/36bd1b91-d155-4ae1-9259-5dc1479da2df_geom
+<http://lod.squirrel.link/data/limes/36bd1b91-d155-4ae1-9259-5dc1479da2df_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.1895 45.4663)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/4c8ea99b-116e-4886-9a08-e7f9d8baa1e0
+<http://lod.squirrel.link/data/limes/4c8ea99b-116e-4886-9a08-e7f9d8baa1e0> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/4c8ea99b-116e-4886-9a08-e7f9d8baa1e0_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Urluieni I" .
+
+
+###  http://lod.squirrel.link/data/limes/4c8ea99b-116e-4886-9a08-e7f9d8baa1e0_geom
+<http://lod.squirrel.link/data/limes/4c8ea99b-116e-4886-9a08-e7f9d8baa1e0_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.761417 44.485833)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/45c8c6a2-05fa-4643-9c0c-b009e13cfd32
+<http://lod.squirrel.link/data/limes/45c8c6a2-05fa-4643-9c0c-b009e13cfd32> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/45c8c6a2-05fa-4643-9c0c-b009e13cfd32_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Mofleni (Pelendava)" .
+
+
+###  http://lod.squirrel.link/data/limes/45c8c6a2-05fa-4643-9c0c-b009e13cfd32_geom
+<http://lod.squirrel.link/data/limes/45c8c6a2-05fa-4643-9c0c-b009e13cfd32_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.571889 44.514111)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/48de5900-069b-4d5a-80fa-7b82c32b4e77
+<http://lod.squirrel.link/data/limes/48de5900-069b-4d5a-80fa-7b82c32b4e77> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/48de5900-069b-4d5a-80fa-7b82c32b4e77_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Sarateni" .
+
+
+###  http://lod.squirrel.link/data/limes/48de5900-069b-4d5a-80fa-7b82c32b4e77_geom
+<http://lod.squirrel.link/data/limes/48de5900-069b-4d5a-80fa-7b82c32b4e77_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.008889 46.562222)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/481c1a2a-38f3-41be-b77f-d7fcdce860e0
+<http://lod.squirrel.link/data/limes/481c1a2a-38f3-41be-b77f-d7fcdce860e0> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/481c1a2a-38f3-41be-b77f-d7fcdce860e0_geom> ;
+                                                                           rdfs:comment "Kohortenkastell" ;
+                                                                           rdfs:label "Kastell Romita" .
+
+
+###  http://lod.squirrel.link/data/limes/481c1a2a-38f3-41be-b77f-d7fcdce860e0_geom
+<http://lod.squirrel.link/data/limes/481c1a2a-38f3-41be-b77f-d7fcdce860e0_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.172444 47.106944)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/5bb171fb-1c03-4c6e-8e16-87e89723b869
+<http://lod.squirrel.link/data/limes/5bb171fb-1c03-4c6e-8e16-87e89723b869> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/5bb171fb-1c03-4c6e-8e16-87e89723b869_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Flămănda (Poiana)" .
+
+
+###  http://lod.squirrel.link/data/limes/5bb171fb-1c03-4c6e-8e16-87e89723b869_geom
+<http://lod.squirrel.link/data/limes/5bb171fb-1c03-4c6e-8e16-87e89723b869_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.983333 43.7345)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/5cb5b56e-bf91-41ab-a18c-40d89416fc2d
+<http://lod.squirrel.link/data/limes/5cb5b56e-bf91-41ab-a18c-40d89416fc2d> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/5cb5b56e-bf91-41ab-a18c-40d89416fc2d_geom> ;
+                                                                           rdfs:comment "Kohortenkastell (?)" ;
+                                                                           rdfs:label "Kastell Aradul Nou" .
+
+
+###  http://lod.squirrel.link/data/limes/5cb5b56e-bf91-41ab-a18c-40d89416fc2d_geom
+<http://lod.squirrel.link/data/limes/5cb5b56e-bf91-41ab-a18c-40d89416fc2d_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.315097 46.146819)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/5e2a3a0c-1841-4c52-9ad6-dcf8dac5b843
+<http://lod.squirrel.link/data/limes/5e2a3a0c-1841-4c52-9ad6-dcf8dac5b843> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/5e2a3a0c-1841-4c52-9ad6-dcf8dac5b843_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Băneasa I" .
+
+
+###  http://lod.squirrel.link/data/limes/5e2a3a0c-1841-4c52-9ad6-dcf8dac5b843_geom
+<http://lod.squirrel.link/data/limes/5e2a3a0c-1841-4c52-9ad6-dcf8dac5b843_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.96525 43.937806)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/51e5331a-58bb-471d-a4f8-4eea33ccd083
+<http://lod.squirrel.link/data/limes/51e5331a-58bb-471d-a4f8-4eea33ccd083> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/51e5331a-58bb-471d-a4f8-4eea33ccd083_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Cristeşti" .
+
+
+###  http://lod.squirrel.link/data/limes/51e5331a-58bb-471d-a4f8-4eea33ccd083_geom
+<http://lod.squirrel.link/data/limes/51e5331a-58bb-471d-a4f8-4eea33ccd083_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.476111 46.510556)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/5280e193-d6cc-4e17-9c63-4772d54e7681
+<http://lod.squirrel.link/data/limes/5280e193-d6cc-4e17-9c63-4772d54e7681> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/5280e193-d6cc-4e17-9c63-4772d54e7681_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell IIoneștii Govorii (Pons Aluti)" .
+
+
+###  http://lod.squirrel.link/data/limes/5280e193-d6cc-4e17-9c63-4772d54e7681_geom
+<http://lod.squirrel.link/data/limes/5280e193-d6cc-4e17-9c63-4772d54e7681_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.236111 44.883333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/539c8a6b-8ce3-4ccb-b25f-d1074a45f11c
+<http://lod.squirrel.link/data/limes/539c8a6b-8ce3-4ccb-b25f-d1074a45f11c> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/539c8a6b-8ce3-4ccb-b25f-d1074a45f11c_geom> ;
+                                                                           rdfs:comment "Auxiliarkastell" ;
+                                                                           rdfs:label "Kastell Cigmău " .
+
+
+###  http://lod.squirrel.link/data/limes/539c8a6b-8ce3-4ccb-b25f-d1074a45f11c_geom
+<http://lod.squirrel.link/data/limes/539c8a6b-8ce3-4ccb-b25f-d1074a45f11c_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.164364 45.897053)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/6b6af583-8fa5-43e4-89a4-624be01fd0ff
+<http://lod.squirrel.link/data/limes/6b6af583-8fa5-43e4-89a4-624be01fd0ff> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/6b6af583-8fa5-43e4-89a4-624be01fd0ff_geom> ;
+                                                                           rdfs:comment "Kohortenkastell" ;
+                                                                           rdfs:label "Kastell Vărădia" .
+
+
+###  http://lod.squirrel.link/data/limes/6b6af583-8fa5-43e4-89a4-624be01fd0ff_geom
+<http://lod.squirrel.link/data/limes/6b6af583-8fa5-43e4-89a4-624be01fd0ff_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.551161 45.079397)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/6d50f0bc-43f8-4290-91b9-eafc4e38a0bd
+<http://lod.squirrel.link/data/limes/6d50f0bc-43f8-4290-91b9-eafc4e38a0bd> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/6d50f0bc-43f8-4290-91b9-eafc4e38a0bd_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Perisani" .
+
+
+###  http://lod.squirrel.link/data/limes/6d50f0bc-43f8-4290-91b9-eafc4e38a0bd_geom
+<http://lod.squirrel.link/data/limes/6d50f0bc-43f8-4290-91b9-eafc4e38a0bd_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.400833 45.370833)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/6ecf7613-1fa2-411a-bd68-f30447ddfd2d
+<http://lod.squirrel.link/data/limes/6ecf7613-1fa2-411a-bd68-f30447ddfd2d> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/6ecf7613-1fa2-411a-bd68-f30447ddfd2d_geom> ;
+                                                                           rdfs:comment "Kohortenkastell" ;
+                                                                           rdfs:label "Kastell Tihău" .
+
+
+###  http://lod.squirrel.link/data/limes/6ecf7613-1fa2-411a-bd68-f30447ddfd2d_geom
+<http://lod.squirrel.link/data/limes/6ecf7613-1fa2-411a-bd68-f30447ddfd2d_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.327689 47.227733)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/6ed7552c-eb8d-4cf4-be46-dbcc5f101aea
+<http://lod.squirrel.link/data/limes/6ed7552c-eb8d-4cf4-be46-dbcc5f101aea> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/6ed7552c-eb8d-4cf4-be46-dbcc5f101aea_geom> ;
+                                                                           rdfs:comment "Legionslager" ;
+                                                                           rdfs:label "Legionslager Alba Julia" .
+
+
+###  http://lod.squirrel.link/data/limes/6ed7552c-eb8d-4cf4-be46-dbcc5f101aea_geom
+<http://lod.squirrel.link/data/limes/6ed7552c-eb8d-4cf4-be46-dbcc5f101aea_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.572314 46.066694)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/60709704-d152-4ceb-b74f-329c296ed771
+<http://lod.squirrel.link/data/limes/60709704-d152-4ceb-b74f-329c296ed771> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/60709704-d152-4ceb-b74f-329c296ed771_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Islaz-Verdea" .
+
+
+###  http://lod.squirrel.link/data/limes/60709704-d152-4ceb-b74f-329c296ed771_geom
+<http://lod.squirrel.link/data/limes/60709704-d152-4ceb-b74f-329c296ed771_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.762222 43.710278)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/66122289-dffa-494d-a422-1cb9df9adc87
+<http://lod.squirrel.link/data/limes/66122289-dffa-494d-a422-1cb9df9adc87> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/66122289-dffa-494d-a422-1cb9df9adc87_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Mehadia (Praetorium)" .
+
+
+###  http://lod.squirrel.link/data/limes/66122289-dffa-494d-a422-1cb9df9adc87_geom
+<http://lod.squirrel.link/data/limes/66122289-dffa-494d-a422-1cb9df9adc87_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.3522 44.9229)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/6688bbb1-8ed8-47a7-87a4-e75d699cb930
+<http://lod.squirrel.link/data/limes/6688bbb1-8ed8-47a7-87a4-e75d699cb930> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/6688bbb1-8ed8-47a7-87a4-e75d699cb930_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Putineiu" .
+
+
+###  http://lod.squirrel.link/data/limes/6688bbb1-8ed8-47a7-87a4-e75d699cb930_geom
+<http://lod.squirrel.link/data/limes/6688bbb1-8ed8-47a7-87a4-e75d699cb930_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.965361 43.897806)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/7bafa2b0-87b1-4c40-8e1f-5d2aba55e69e
+<http://lod.squirrel.link/data/limes/7bafa2b0-87b1-4c40-8e1f-5d2aba55e69e> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/7bafa2b0-87b1-4c40-8e1f-5d2aba55e69e_geom> ;
+                                                                           rdfs:comment "Kohortenkastell (?)" ;
+                                                                           rdfs:label "Kastell Cenad" .
+
+
+###  http://lod.squirrel.link/data/limes/7bafa2b0-87b1-4c40-8e1f-5d2aba55e69e_geom
+<http://lod.squirrel.link/data/limes/7bafa2b0-87b1-4c40-8e1f-5d2aba55e69e_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.585819 46.138106)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/7168c0f9-e6d7-4101-ae26-412c04c44dda
+<http://lod.squirrel.link/data/limes/7168c0f9-e6d7-4101-ae26-412c04c44dda> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/7168c0f9-e6d7-4101-ae26-412c04c44dda_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Borosneu Mare" .
+
+
+###  http://lod.squirrel.link/data/limes/7168c0f9-e6d7-4101-ae26-412c04c44dda_geom
+<http://lod.squirrel.link/data/limes/7168c0f9-e6d7-4101-ae26-412c04c44dda_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (26.016986 45.843861)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/74c06818-a1f7-4f34-a3e5-2af3f6ed1239
+<http://lod.squirrel.link/data/limes/74c06818-a1f7-4f34-a3e5-2af3f6ed1239> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/74c06818-a1f7-4f34-a3e5-2af3f6ed1239_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Purcăreni" .
+
+
+###  http://lod.squirrel.link/data/limes/74c06818-a1f7-4f34-a3e5-2af3f6ed1239_geom
+<http://lod.squirrel.link/data/limes/74c06818-a1f7-4f34-a3e5-2af3f6ed1239_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.8945 44.958083)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/75f6175f-4bd6-4b51-b5fa-866bdbefd569
+<http://lod.squirrel.link/data/limes/75f6175f-4bd6-4b51-b5fa-866bdbefd569> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/75f6175f-4bd6-4b51-b5fa-866bdbefd569_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Odorheiul Secuiesc" .
+
+
+###  http://lod.squirrel.link/data/limes/75f6175f-4bd6-4b51-b5fa-866bdbefd569_geom
+<http://lod.squirrel.link/data/limes/75f6175f-4bd6-4b51-b5fa-866bdbefd569_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.3002 46.3131)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/757d484a-0d97-489b-bcce-a8ca98887e2c
+<http://lod.squirrel.link/data/limes/757d484a-0d97-489b-bcce-a8ca98887e2c> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/757d484a-0d97-489b-bcce-a8ca98887e2c_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Tia Mare" .
+
+
+###  http://lod.squirrel.link/data/limes/757d484a-0d97-489b-bcce-a8ca98887e2c_geom
+<http://lod.squirrel.link/data/limes/757d484a-0d97-489b-bcce-a8ca98887e2c_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.651389 43.866389)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/793bafce-517d-47c4-8ab6-dd7cc69122a6
+<http://lod.squirrel.link/data/limes/793bafce-517d-47c4-8ab6-dd7cc69122a6> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/793bafce-517d-47c4-8ab6-dd7cc69122a6_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Bivolari (Arutela)" .
+
+
+###  http://lod.squirrel.link/data/limes/793bafce-517d-47c4-8ab6-dd7cc69122a6_geom
+<http://lod.squirrel.link/data/limes/793bafce-517d-47c4-8ab6-dd7cc69122a6_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.312389 45.309667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/8a4403b7-6972-4eff-bd50-d9811ba3ae86
+<http://lod.squirrel.link/data/limes/8a4403b7-6972-4eff-bd50-d9811ba3ae86> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/8a4403b7-6972-4eff-bd50-d9811ba3ae86_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Sighisoara" .
+
+
+###  http://lod.squirrel.link/data/limes/8a4403b7-6972-4eff-bd50-d9811ba3ae86_geom
+<http://lod.squirrel.link/data/limes/8a4403b7-6972-4eff-bd50-d9811ba3ae86_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.752103 46.239431)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/8bacb95a-237a-450c-b0fb-51629a79a19b
+<http://lod.squirrel.link/data/limes/8bacb95a-237a-450c-b0fb-51629a79a19b> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/8bacb95a-237a-450c-b0fb-51629a79a19b_geom> ;
+                                                                           rdfs:comment "Kohortenkastell / Alenkastell" ;
+                                                                           rdfs:label "Kastell Banatska Palanka" .
+
+
+###  http://lod.squirrel.link/data/limes/8bacb95a-237a-450c-b0fb-51629a79a19b_geom
+<http://lod.squirrel.link/data/limes/8bacb95a-237a-450c-b0fb-51629a79a19b_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.331111 44.845)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/8d17ef4c-ce8c-4fed-9798-3bce9547b5fe
+<http://lod.squirrel.link/data/limes/8d17ef4c-ce8c-4fed-9798-3bce9547b5fe> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/8d17ef4c-ce8c-4fed-9798-3bce9547b5fe_geom> ;
+                                                                           rdfs:comment "Kohortenkastell (?)" ;
+                                                                           rdfs:label "Kastell Bulci" .
+
+
+###  http://lod.squirrel.link/data/limes/8d17ef4c-ce8c-4fed-9798-3bce9547b5fe_geom
+<http://lod.squirrel.link/data/limes/8d17ef4c-ce8c-4fed-9798-3bce9547b5fe_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.112283 46.006539)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/8e63741c-b77a-4ba1-bdef-4182c4d7d805
+<http://lod.squirrel.link/data/limes/8e63741c-b77a-4ba1-bdef-4182c4d7d805> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/8e63741c-b77a-4ba1-bdef-4182c4d7d805_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Ilişua (Arcobara)" .
+
+
+###  http://lod.squirrel.link/data/limes/8e63741c-b77a-4ba1-bdef-4182c4d7d805_geom
+<http://lod.squirrel.link/data/limes/8e63741c-b77a-4ba1-bdef-4182c4d7d805_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.095361 47.210528)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/8f683208-9131-47d1-aca0-78193a2642c2
+<http://lod.squirrel.link/data/limes/8f683208-9131-47d1-aca0-78193a2642c2> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/8f683208-9131-47d1-aca0-78193a2642c2_geom> ;
+                                                                           rdfs:comment "Legionslager" ;
+                                                                           rdfs:label "Kastell Vețel" .
+
+
+###  http://lod.squirrel.link/data/limes/8f683208-9131-47d1-aca0-78193a2642c2_geom
+<http://lod.squirrel.link/data/limes/8f683208-9131-47d1-aca0-78193a2642c2_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.814906 45.914594)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/867739c0-f1d3-45d1-b535-6ba21f35bd9a
+<http://lod.squirrel.link/data/limes/867739c0-f1d3-45d1-b535-6ba21f35bd9a> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/867739c0-f1d3-45d1-b535-6ba21f35bd9a_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Fâlfani" .
+
+
+###  http://lod.squirrel.link/data/limes/867739c0-f1d3-45d1-b535-6ba21f35bd9a_geom
+<http://lod.squirrel.link/data/limes/867739c0-f1d3-45d1-b535-6ba21f35bd9a_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.785111 44.603278)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/87da0f41-86a4-4708-ae8b-efee38c31b3b
+<http://lod.squirrel.link/data/limes/87da0f41-86a4-4708-ae8b-efee38c31b3b> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/87da0f41-86a4-4708-ae8b-efee38c31b3b_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Vârtop" .
+
+
+###  http://lod.squirrel.link/data/limes/87da0f41-86a4-4708-ae8b-efee38c31b3b_geom
+<http://lod.squirrel.link/data/limes/87da0f41-86a4-4708-ae8b-efee38c31b3b_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.372222 45.1825)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/89a782a0-eebe-4c05-a0b4-2518e6b42353
+<http://lod.squirrel.link/data/limes/89a782a0-eebe-4c05-a0b4-2518e6b42353> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/89a782a0-eebe-4c05-a0b4-2518e6b42353_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Voineşti" .
+
+
+###  http://lod.squirrel.link/data/limes/89a782a0-eebe-4c05-a0b4-2518e6b42353_geom
+<http://lod.squirrel.link/data/limes/89a782a0-eebe-4c05-a0b4-2518e6b42353_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.076083 45.297833)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/9c6e977b-14b4-4f28-826e-95e73c13ccea
+<http://lod.squirrel.link/data/limes/9c6e977b-14b4-4f28-826e-95e73c13ccea> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/9c6e977b-14b4-4f28-826e-95e73c13ccea_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Plesa" .
+
+
+###  http://lod.squirrel.link/data/limes/9c6e977b-14b4-4f28-826e-95e73c13ccea_geom
+<http://lod.squirrel.link/data/limes/9c6e977b-14b4-4f28-826e-95e73c13ccea_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.37 45.18)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/91abdff9-313e-4db9-9cb7-8e6d4a0219ae
+<http://lod.squirrel.link/data/limes/91abdff9-313e-4db9-9cb7-8e6d4a0219ae> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/91abdff9-313e-4db9-9cb7-8e6d4a0219ae_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Aizis" .
+
+
+###  http://lod.squirrel.link/data/limes/91abdff9-313e-4db9-9cb7-8e6d4a0219ae_geom
+<http://lod.squirrel.link/data/limes/91abdff9-313e-4db9-9cb7-8e6d4a0219ae_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.847883 45.486656)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/9444327e-dcd9-48bb-97f6-e1d098dc2077
+<http://lod.squirrel.link/data/limes/9444327e-dcd9-48bb-97f6-e1d098dc2077> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/9444327e-dcd9-48bb-97f6-e1d098dc2077_geom> ;
+                                                                           rdfs:comment "Auxiliarkastell" ;
+                                                                           rdfs:label "Kastell Răcarii de Jos" .
+
+
+###  http://lod.squirrel.link/data/limes/9444327e-dcd9-48bb-97f6-e1d098dc2077_geom
+<http://lod.squirrel.link/data/limes/9444327e-dcd9-48bb-97f6-e1d098dc2077_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.571847 44.514)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/9551cf5a-7632-4a42-948f-f9a407f7eddb
+<http://lod.squirrel.link/data/limes/9551cf5a-7632-4a42-948f-f9a407f7eddb> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/9551cf5a-7632-4a42-948f-f9a407f7eddb_geom> ;
+                                                                           rdfs:comment "Kohortenkastell (?)" ;
+                                                                           rdfs:label "Kastell Szeged" .
+
+
+###  http://lod.squirrel.link/data/limes/9551cf5a-7632-4a42-948f-f9a407f7eddb_geom
+<http://lod.squirrel.link/data/limes/9551cf5a-7632-4a42-948f-f9a407f7eddb_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.145953 46.253697)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/97ce3ff3-a55d-4e44-875e-2d108959aa98
+<http://lod.squirrel.link/data/limes/97ce3ff3-a55d-4e44-875e-2d108959aa98> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/97ce3ff3-a55d-4e44-875e-2d108959aa98_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Orșova (Dierna)" .
+
+
+###  http://lod.squirrel.link/data/limes/97ce3ff3-a55d-4e44-875e-2d108959aa98_geom
+<http://lod.squirrel.link/data/limes/97ce3ff3-a55d-4e44-875e-2d108959aa98_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.4076 44.7382)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/9766ec81-bb78-4a5b-9993-b55fc812a4e5
+<http://lod.squirrel.link/data/limes/9766ec81-bb78-4a5b-9993-b55fc812a4e5> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/9766ec81-bb78-4a5b-9993-b55fc812a4e5_geom> ;
+                                                                           rdfs:comment "nan" ;
+                                                                           rdfs:label "Kastell Sarmizegetusa (Ulpia Traiana)" .
+
+
+###  http://lod.squirrel.link/data/limes/9766ec81-bb78-4a5b-9993-b55fc812a4e5_geom
+<http://lod.squirrel.link/data/limes/9766ec81-bb78-4a5b-9993-b55fc812a4e5_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.786822 45.51665)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://lod.squirrel.link/data/limes/999fc9e6-22d9-496b-a00f-eb9e3cd2dd95
+<http://lod.squirrel.link/data/limes/999fc9e6-22d9-496b-a00f-eb9e3cd2dd95> rdf:type owl:NamedIndividual ,
+                                                                                    <http://archaeoinformatics.link/ontology#Limes> ;
+                                                                           <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/999fc9e6-22d9-496b-a00f-eb9e3cd2dd95_geom> ;
+                                                                           rdfs:comment "Kohortenkastell" ;
+                                                                           rdfs:label "Kastell Inlăceni" .
+
+
+###  http://lod.squirrel.link/data/limes/999fc9e6-22d9-496b-a00f-eb9e3cd2dd95_geom
+<http://lod.squirrel.link/data/limes/999fc9e6-22d9-496b-a00f-eb9e3cd2dd95_geom> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.opengis.net/ont/sf#Point> ;
+                                                                                <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.121806 46.431319)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
