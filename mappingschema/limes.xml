@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<data>
+<file class="http://www.opengis.net/ont/geosparql#Feature" 
+ namespace="http://lod.squirrel.link/data/limes/" attnamespace="http://lod.squirrel.link/data/limes/" epsg="4326" interlinkItem="true" nometadata="true" attachepsg="true">
+    
+	<column name="name" prop="annotation" propiri="http://www.w3.org/2000/01/rdf-schema#label" range="http://www.w3.org/2001/XMLSchema#string"/> 
+    
+	<column name="city" prop="obj" propiri="http://world.squirrel.link/ontologypopulation"
+	query="SELECT ?item WHERE { ?item ?label '%%city%%'@en. SERVICE wikibase:label { bd:serviceParam wikibase:language 'en'. }}" 
+	endpoint="http://query.wikidata.org/sparql" /> 
+
+	<column name="county" prop="obj" propiri="http://world.squirrel.link/ontologypopulation"
+	query="SELECT ?item WHERE { ?item ?label '%%county%%'@en. SERVICE wikibase:label { bd:serviceParam wikibase:language 'en'. }}" 
+	endpoint="http://query.wikidata.org/sparql" /> 
+
+	<column name="group" prop="data" propiri="http://archaeoinformatics.link/ontology#group_Id" range="http://www.w3.org/2001/XMLSchema#integer"/>     
+    
+	<column name="romanName" prop="data" propiri="http://archaeoinformatics.link/ontology#romanName" range="http://www.w3.org/2001/XMLSchema#string"/>   
+	
+</file>
+</data>

@@ -1,0 +1,361 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/61a1eeed-0e4f-45ad-9a54-cee033b0b837>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kastell Caersws I" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/61a1eeed-0e4f-45ad-9a54-cee033b0b837_geom> .
+
+<http://lod.squirrel.link/data/limes/207f89fa-bf61-4abd-9681-d7837ca7d51f>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Gobannium" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/207f89fa-bf61-4abd-9681-d7837ca7d51f_geom> .
+
+<http://lod.squirrel.link/data/limes/d7254927-d49b-45c8-adef-45be35cea8ab_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.181111 51.482222)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/822f96a2-8331-472e-95a8-65093e2be433_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.768194 51.611389)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://archaeoinformatics.link/ontology#Limes>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://www.opengis.net/ont/geosparql#Feature> .
+
+<http://lod.squirrel.link/data/limes/43ce98a8-2fab-4c4a-86ad-d18cbb7548a5_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.49 52.37)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/41fae62b-cdaa-44c7-9a2f-5eb92621db71>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Lunt Roman Fort II" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/41fae62b-cdaa-44c7-9a2f-5eb92621db71_geom> .
+
+<http://lod.squirrel.link/data/limes/66367869-4ca7-44d6-9782-ed7c3bf5efbe_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.573889 52.139167)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/822f96a2-8331-472e-95a8-65093e2be433>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Venta Silurum" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/822f96a2-8331-472e-95a8-65093e2be433_geom> .
+
+<http://lod.squirrel.link/data/limes/58210be9-d5d3-4304-ad2a-5141ecefcdef>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kastell Carmarthen" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/58210be9-d5d3-4304-ad2a-5141ecefcdef_geom> .
+
+<http://www.opengis.net/ont/geosparql#Feature>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://www.opengis.net/ont/geosparql#SpatialObject> .
+
+<http://lod.squirrel.link/data/limes/fcd9beaf-116a-4836-b264-bffd5527663e_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.49 52.37)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/e2fb3019-26d7-4e0e-9f72-1dc415536378>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kastell Caerphilly" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/e2fb3019-26d7-4e0e-9f72-1dc415536378_geom> .
+
+<http://lod.squirrel.link/data/limes/f2634f9a-dca9-4577-a5a3-f4ba92bcd03f>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Isca Silurum" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/f2634f9a-dca9-4577-a5a3-f4ba92bcd03f_geom> .
+
+<http://www.opengis.net/ont/sf#the_geom>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://www.opengis.net/ont/geosparql#Geometry> .
+
+<http://lod.squirrel.link/data/limes/a1d2a417-f83c-42d8-beb0-a66c07205771>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kastell Beulah" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/a1d2a417-f83c-42d8-beb0-a66c07205771_geom> .
+
+<http://lod.squirrel.link/data/limes/3f2c1551-85ca-4f89-81f6-db55736b6325>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kastell Brecon Y Gaer" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/3f2c1551-85ca-4f89-81f6-db55736b6325_geom> .
+
+<http://www.opengis.net/ont/geosparql#hasGeometry>
+        a       owl:ObjectProperty .
+
+<http://lod.squirrel.link/data/limes/2251c787-e2fb-4c65-9662-b3296b2d36b5>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Lunt Roman Fort IV" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/2251c787-e2fb-4c65-9662-b3296b2d36b5_geom> .
+
+<http://lod.squirrel.link/data/limes/2251c787-e2fb-4c65-9662-b3296b2d36b5_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.49 52.37)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/32f81caa-d550-4ce3-bd96-afbd809e0a4d_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.181111 51.482222)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/cf347329-1be3-4a4a-a723-626c10d64722>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kastell Cardiff A" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/cf347329-1be3-4a4a-a723-626c10d64722_geom> .
+
+<http://lod.squirrel.link/data/limes/1ccf2406-bad8-4938-880c-c9a9365f213d_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.668889 52.869028)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://www.opengis.net/ont/geosparql#asWKT>
+        a       owl:DatatypeProperty .
+
+<http://lod.squirrel.link/data/limes/fb9e2432-fec5-43f4-9a60-83d171a5921e>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kastell Caerhun (Canovium)" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/fb9e2432-fec5-43f4-9a60-83d171a5921e_geom> .
+
+<http://lod.squirrel.link/data/limes/e7d62830-39ab-4301-a897-9fe64f5a892c_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-4.238944 53.147278)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/1981b386-39e5-42c1-bca9-6000dfe926ad>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kastell Bryn Y Gefeiliau" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/1981b386-39e5-42c1-bca9-6000dfe926ad_geom> .
+
+<http://lod.squirrel.link/data/limes/9d2fd06d-8b12-46aa-9e88-6d25aadfae6c>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kleinkastell Cae Gaer" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/9d2fd06d-8b12-46aa-9e88-6d25aadfae6c_geom> .
+
+<http://lod.squirrel.link/data/limes/a0c87a08-a3b7-4e6f-90bc-8533f05dfbe5>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Deva Victrix" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/a0c87a08-a3b7-4e6f-90bc-8533f05dfbe5_geom> .
+
+<http://lod.squirrel.link/data/limes/1981b386-39e5-42c1-bca9-6000dfe926ad_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.874583 53.0975)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/ed625560-b8fa-4d82-9322-3594551b8c96_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.432083 52.516944)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+rdfs:label  a   owl:AnnotationProperty .
+
+<http://lod.squirrel.link/data/limes/1ccf2406-bad8-4938-880c-c9a9365f213d>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kastell Caer Gai" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/1ccf2406-bad8-4938-880c-c9a9365f213d_geom> .
+
+<http://lod.squirrel.link/data/limes/e7d62830-39ab-4301-a897-9fe64f5a892c>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kleinkastell Bryn Glas" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/e7d62830-39ab-4301-a897-9fe64f5a892c_geom> .
+
+<http://lod.squirrel.link/data/limes/ad8b8445-fcbb-4697-8f40-404efaec1489>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kastell Carmarthen" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/ad8b8445-fcbb-4697-8f40-404efaec1489_geom> .
+
+<http://lod.squirrel.link/data/limes/8165f2ca-91b5-4148-b5a1-37adebb59043_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.820972 52.753333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/8165f2ca-91b5-4148-b5a1-37adebb59043>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kleinkastell Brithdir" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/8165f2ca-91b5-4148-b5a1-37adebb59043_geom> .
+
+<http://lod.squirrel.link/data/limes/41fae62b-cdaa-44c7-9a2f-5eb92621db71_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.49 52.37)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/d7254927-d49b-45c8-adef-45be35cea8ab>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kastell Cardiff B" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/d7254927-d49b-45c8-adef-45be35cea8ab_geom> .
+
+<http://lod.squirrel.link/data/limes/66367869-4ca7-44d6-9782-ed7c3bf5efbe>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kastell Caerau" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/66367869-4ca7-44d6-9782-ed7c3bf5efbe_geom> .
+
+<http://lod.squirrel.link/data/limes/ed625560-b8fa-4d82-9322-3594551b8c96>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kastell Caersws II" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/ed625560-b8fa-4d82-9322-3594551b8c96_geom> .
+
+<http://lod.squirrel.link/data/limes/ad8b8445-fcbb-4697-8f40-404efaec1489_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-4.303333 51.856944)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/f2634f9a-dca9-4577-a5a3-f4ba92bcd03f_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.955386 51.610647)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/e2fb3019-26d7-4e0e-9f72-1dc415536378_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.222431 51.577569)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/86169d7e-1006-408e-85fd-9bfb06b88d09_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.181111 51.482222)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://www.opengis.net/ont/geosparql#Geometry>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://www.opengis.net/ont/geosparql#SpatialObject> .
+
+<http://lod.squirrel.link/data/limes/43ce98a8-2fab-4c4a-86ad-d18cbb7548a5>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Lunt Roman Fort III" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/43ce98a8-2fab-4c4a-86ad-d18cbb7548a5_geom> .
+
+<http://lod.squirrel.link/data/limes/87505f9f-d868-4d50-8b7d-8cb21d641d36>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kastell Segontium" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/87505f9f-d868-4d50-8b7d-8cb21d641d36_geom> .
+
+<http://lod.squirrel.link/data/limes/ce8aba9e-3c66-4b4b-8cfe-eb942d59052d>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kleinkastell Hen Waliau" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/ce8aba9e-3c66-4b4b-8cfe-eb942d59052d_geom> .
+
+<http://lod.squirrel.link/data/limes/b3ee75b6-e145-4399-aff4-68cbc90b0629_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.988056 53.4525)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/58210be9-d5d3-4304-ad2a-5141ecefcdef_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-4.303333 51.856944)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/9d2fd06d-8b12-46aa-9e88-6d25aadfae6c_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.731542 52.422375)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/3f2c1551-85ca-4f89-81f6-db55736b6325_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.451736 51.9565)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/ce8aba9e-3c66-4b4b-8cfe-eb942d59052d_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-4.269167 53.137778)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/207f89fa-bf61-4abd-9681-d7837ca7d51f_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.018 51.822)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://www.opengis.net/ont/geosparql#SpatialObject>
+        a       owl:Class .
+
+<http://lod.squirrel.link/data/limes/cf347329-1be3-4a4a-a723-626c10d64722_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.181111 51.482222)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/a4904939-1939-42a4-942b-60681dc45f30_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-4.6325 53.311667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/fcd9beaf-116a-4836-b264-bffd5527663e>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Lunt Roman Fort I" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/fcd9beaf-116a-4836-b264-bffd5527663e_geom> .
+
+<http://lod.squirrel.link/data/limes/61a1eeed-0e4f-45ad-9a54-cee033b0b837_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.4225 52.521389)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/b3ee75b6-e145-4399-aff4-68cbc90b0629>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Ardotalia" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/b3ee75b6-e145-4399-aff4-68cbc90b0629_geom> .
+
+<http://lod.squirrel.link/data/limes/a0c87a08-a3b7-4e6f-90bc-8533f05dfbe5_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.892886 53.191503)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/a4904939-1939-42a4-942b-60681dc45f30>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kleinkastell Caer Gybi" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/a4904939-1939-42a4-942b-60681dc45f30_geom> .
+
+<http://lod.squirrel.link/data/limes/a1d2a417-f83c-42d8-beb0-a66c07205771_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.018 51.822)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/fb9e2432-fec5-43f4-9a60-83d171a5921e_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.834167 53.216181)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/87505f9f-d868-4d50-8b7d-8cb21d641d36_geom>
+        a       <http://www.opengis.net/ont/sf#the_geom> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-4.265833 53.137222)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://lod.squirrel.link/data/limes/86169d7e-1006-408e-85fd-9bfb06b88d09>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kastell Cardiff D" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/86169d7e-1006-408e-85fd-9bfb06b88d09_geom> .
+
+<http://lod.squirrel.link/data/limes/32f81caa-d550-4ce3-bd96-afbd809e0a4d>
+        a           <http://archaeoinformatics.link/ontology#Limes> ;
+        rdfs:label  "Kastell Cardiff C" ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://lod.squirrel.link/data/limes/32f81caa-d550-4ce3-bd96-afbd809e0a4d_geom> .

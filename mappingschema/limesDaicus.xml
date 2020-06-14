@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<data>
+<file class="http://www.opengis.net/ont/geosparql#Feature" 
+ namespace="http://lod.squirrel.link/data/limes/" attnamespace="http://lod.squirrel.link/data/limes/" epsg="4326" interlinkItem="true" nometadata="true" attachepsg="true">
+    
+	<column name="name" prop="annotation" propiri="http://www.w3.org/2000/01/rdf-schema#label" range="http://www.w3.org/2001/XMLSchema#string"/> 
+    
+	<column name="typ" prop="subclass" >
+	<valuemapping from="Kastell" to="http://archaeoinformatics.link/ontology#MilitaryCamp"/>
+	<valuemapping from="Legionslager" to="http://archaeoinformatics.link/ontology#LegionaryCamp"/>
+	<valuemapping from="Burgus" to="http://archaeoinformatics.link/ontology#Burgus"/>
+	<valuemapping from="Wachturm" to="http://archaeoinformatics.link/ontology#Watchtower"/>
+	<valuemapping from="Turm" to="http://archaeoinformatics.link/ontology#Watchtower"/>
+	</column>
+
+	<column name="typ2" prop="annotation" propiri="http://www.w3.org/2000/01/rdf-schema#comment" range="http://www.w3.org/2001/XMLSchema#string"/>
+</file>
+</data>
