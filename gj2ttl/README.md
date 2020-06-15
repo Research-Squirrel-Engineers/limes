@@ -26,15 +26,15 @@ prefix: archsq: http://archaeoinformatics.link/ontology#
 
 allgemein `rdf:type` {...}
 
-* http://archaeoinformatics.link/ontology#ItinerariumProvinciarumAntoniniAugusti
-* http://archaeoinformatics.link/ontology#LimesDacicus
-* http://archaeoinformatics.link/ontology#LimesGermaniaInferior
-* http://archaeoinformatics.link/ontology#LimesMidlandsWalesCornwall
-* http://archaeoinformatics.link/ontology#LimesMoesica
-* http://archaeoinformatics.link/ontology#LimesNoricum
-* http://archaeoinformatics.link/ontology#LimesPannoniaInferior
-* http://archaeoinformatics.link/ontology#LimesPannoniaSuperior
-* http://archaeoinformatics.link/ontology#LimesUpperGermanicRhaetian
+* http://archaeoinformatics.link/ontology#ItinerariumProvinciarumAntoniniAugusti > rdf:type archsq:AntonineItinerary
+* http://archaeoinformatics.link/ontology#LimesDacicus > rdf:type archsq:WMDE-RENDER
+* http://archaeoinformatics.link/ontology#LimesGermaniaInferior > rdf:type archsq:WMDE-RENDER
+* http://archaeoinformatics.link/ontology#LimesMidlandsWalesCornwall > rdf:type archsq:WMDE-RENDER
+* http://archaeoinformatics.link/ontology#LimesMoesica > rdf:type archsq:WMDE-RENDER
+* http://archaeoinformatics.link/ontology#LimesNoricum > rdf:type archsq:WMDE-RENDER
+* http://archaeoinformatics.link/ontology#LimesPannoniaInferior > rdf:type archsq:WMDE-RENDER
+* http://archaeoinformatics.link/ontology#LimesPannoniaSuperior > rdf:type archsq:WMDE-RENDER
+* http://archaeoinformatics.link/ontology#LimesUpperGermanicRhaetian > rdf:type archsq:DeutscheLimeskommission
 
 **Moesica / Noricum / Pannonia/Inferior/Superior / GermaniaInferior / Dacicus / ORL**
 
