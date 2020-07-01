@@ -5,20 +5,20 @@ indid="ID" indidprefix="limes_" namespace="http://lod.squirrel.link/data/limes/"
     
 	<column name="limesobject" prop="annotation" propiri="http://www.w3.org/2000/01/rdf-schema#label" range="http://www.w3.org/2001/XMLSchema#string"/> 
     
-	<column name="limestown" prop="obj" propiri="http://archaeoinformatics.link/ontology#limestown"
+	<column name="limestown" prop="obj" propiri="http://hungry.squirrel.link/ontology#limestown"
 	query="SELECT ?item WHERE { ?item ?label '%%limestown%%'@de. SERVICE wikibase:label { bd:serviceParam wikibase:language 'en'. }}" 
 	endpoint="http://query.wikidata.org/sparql" /> 
 
-	<column name="limestownpard" prop="obj" propiri="http://archaeoinformatics.link/ontology#limesobject"
+	<column name="limestownpard" prop="obj" propiri="http://hungry.squirrel.link/ontology#limesobject"
 	query="SELECT ?item WHERE { ?item ?label '%%limesobject%%'@de. SERVICE wikibase:label { bd:serviceParam wikibase:language 'en'. }}" 
 	endpoint="http://query.wikidata.org/sparql" /> 
 	
 	<column name="limescategory" prop="subclass" >
-	<valuemapping from="Kastell" to="http://archaeoinformatics.link/ontology#MilitaryCamp"/>
-	<valuemapping from="Legionslager" to="http://archaeoinformatics.link/ontology#LegionaryCamp"/>
-	<valuemapping from="Burgus" to="http://archaeoinformatics.link/ontology#Burgus"/>
-	<valuemapping from="Wachturm" to="http://archaeoinformatics.link/ontology#Watchtower"/>
-	<valuemapping from="Turm" to="http://archaeoinformatics.link/ontology#Watchtower"/>
+	<valuemapping from="Kastell" to="http://hungry.squirrel.link/ontology#MilitaryCamp"/>
+	<valuemapping from="Legionslager" to="http://hungry.squirrel.link/ontology#LegionaryCamp"/>
+	<valuemapping from="Burgus" to="http://hungry.squirrel.link/ontology#Burgus"/>
+	<valuemapping from="Wachturm" to="http://hungry.squirrel.link/ontology#Watchtower"/>
+	<valuemapping from="Turm" to="http://hungry.squirrel.link/ontology#Watchtower"/>
 	</column> 
 	
 </file>
