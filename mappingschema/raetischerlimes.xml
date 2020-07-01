@@ -5,12 +5,12 @@ indid="ID" indidprefix="limes_" namespace="http://lod.squirrel.link/data/limes/"
     
 	<column name="limesobject" prop="annotation" propiri="http://www.w3.org/2000/01/rdf-schema#label" range="http://www.w3.org/2001/XMLSchema#string"/> 
     
-	<column name="limestown" prop="obj" propiri="http://hungry.squirrel.link/ontology#limestown"
+	<column name="limestown" prop="obj" propiri="http://hungry.squirrel.link/ontology#relatedToLocation"
 	query="SELECT ?item WHERE { ?item ?label '%%limestown%%'@de. SERVICE wikibase:label { bd:serviceParam wikibase:language 'en'. }}" 
 	endpoint="http://query.wikidata.org/sparql" /> 
 
-	<column name="limestownpard" prop="obj" propiri="http://hungry.squirrel.link/ontology#limesobject"
-	query="SELECT ?item WHERE { ?item ?label '%%limesobject%%'@de. SERVICE wikibase:label { bd:serviceParam wikibase:language 'en'. }}" 
+	<column name="limestownpard" prop="obj" propiri="http://hungry.squirrel.link/ontology#relatedToLocationPart"
+	query="SELECT ?item WHERE { ?item ?label '%%limestownpard%%'@de. SERVICE wikibase:label { bd:serviceParam wikibase:language 'en'. }}" 
 	endpoint="http://query.wikidata.org/sparql" /> 
 	
 	<column name="limescategory" prop="subclass" >
