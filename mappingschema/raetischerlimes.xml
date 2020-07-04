@@ -4,21 +4,24 @@
 indid="ID" indidprefix="limes_" namespace="http://lod.squirrel.link/data/limes/" attnamespace="http://lod.squirrel.link/data/limes/" epsg="4326" interlinkItem="true" nometadata="true" attachepsg="true">
     
 	<column name="limesobject" prop="annotation" propiri="http://www.w3.org/2000/01/rdf-schema#label" range="http://www.w3.org/2001/XMLSchema#string"/> 
+	
+	<column name="limesobject" prop="obj" propiri="http://www.w3.org/2000/01/rdf-schema#seeAlso" concept="http://www.opengis.net/ont/geosparql#Feature" query="SELECT ?item WHERE { ?item ?label '%%limesobject%%'@de. SERVICE wikibase:label { bd:serviceParam wikibase:language 'en'. } FILTER(STRSTARTS(STR(?item), &quot;http://www.wikidata.org/entity/&quot;))}" 
+	endpoint="http://query.wikidata.org/sparql"/>
     
-	<column name="limestown" prop="obj" propiri="http://hungry.squirrel.link/ontology#relatedToLocation"
-	query="SELECT ?item WHERE { ?item ?label '%%limestown%%'@de. SERVICE wikibase:label { bd:serviceParam wikibase:language 'en'. }}" 
+	<column name="limestown" prop="obj" propiri="http://onto.squirrel.link/ontology#relatedToLocation" concept="http://www.opengis.net/ont/geosparql#Feature"
+	query="SELECT ?item WHERE { ?item ?label '%%limestown%%'@de. SERVICE wikibase:label { bd:serviceParam wikibase:language 'en'. } FILTER(STRSTARTS(STR(?item), &quot;http://www.wikidata.org/entity/&quot;))}" 
 	endpoint="http://query.wikidata.org/sparql" /> 
 
-	<column name="limestownpard" prop="obj" propiri="http://hungry.squirrel.link/ontology#relatedToLocationPart"
-	query="SELECT ?item WHERE { ?item ?label '%%limestownpard%%'@de. SERVICE wikibase:label { bd:serviceParam wikibase:language 'en'. }}" 
+	<column name="limestownpard" prop="obj" propiri="http://onto.squirrel.link/ontology#relatedToLocationPart" concept="http://www.opengis.net/ont/geosparql#Feature"
+	query="SELECT ?item WHERE { ?item ?label '%%limestownpard%%'@de. SERVICE wikibase:label { bd:serviceParam wikibase:language 'en'. } FILTER(STRSTARTS(STR(?item), &quot;http://www.wikidata.org/entity/&quot;))}" 
 	endpoint="http://query.wikidata.org/sparql" /> 
 	
 	<column name="limescategory" prop="subclass" >
-	<valuemapping from="Kastell" to="http://hungry.squirrel.link/ontology#MilitaryCamp"/>
-	<valuemapping from="Legionslager" to="http://hungry.squirrel.link/ontology#LegionaryCamp"/>
-	<valuemapping from="Burgus" to="http://hungry.squirrel.link/ontology#Burgus"/>
-	<valuemapping from="Wachturm" to="http://hungry.squirrel.link/ontology#Watchtower"/>
-	<valuemapping from="Turm" to="http://hungry.squirrel.link/ontology#Watchtower"/>
+	<valuemapping from="Kastell" to="http://onto.squirrel.link/ontology#MilitaryCamp"/>
+	<valuemapping from="Legionslager" to="http://onto.squirrel.link/ontology#LegionaryCamp"/>
+	<valuemapping from="Burgus" to="http://onto.squirrel.link/ontology#Burgus"/>
+	<valuemapping from="Wachturm" to="http://onto.squirrel.link/ontology#Watchtower"/>
+	<valuemapping from="Turm" to="http://onto.squirrel.link/ontology#Watchtower"/>
 	</column> 
 	
 </file>
