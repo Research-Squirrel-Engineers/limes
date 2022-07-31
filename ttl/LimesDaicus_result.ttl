@@ -36,6 +36,11 @@ rdfs:label rdf:type owl:AnnotationProperty .
 <http://www.opengis.net/ont/geosparql#hasGeometry> rdf:type owl:ObjectProperty .
 
 
+###  http://www.w3.org/2000/01/rdf-schema#member
+rdfs:member rdf:type owl:ObjectProperty ;
+            rdfs:label "member" .
+
+
 #################################################################
 #    Data properties
 #################################################################
@@ -65,13 +70,27 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                rdfs:subClassOf <http://www.opengis.net/ont/geosparql#SpatialObject> .
 
 
+###  http://www.opengis.net/ont/geosparql#FeatureCollection
+<http://www.opengis.net/ont/geosparql#FeatureCollection> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://www.opengis.net/ont/geosparql#SpatialObjectCollection> .
+
+
 ###  http://www.opengis.net/ont/geosparql#Geometry
 <http://www.opengis.net/ont/geosparql#Geometry> rdf:type owl:Class ;
                                                 rdfs:subClassOf <http://www.opengis.net/ont/geosparql#SpatialObject> .
 
 
+###  http://www.opengis.net/ont/geosparql#GeometryCollection
+<http://www.opengis.net/ont/geosparql#GeometryCollection> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://www.opengis.net/ont/geosparql#SpatialObjectCollection> .
+
+
 ###  http://www.opengis.net/ont/geosparql#SpatialObject
 <http://www.opengis.net/ont/geosparql#SpatialObject> rdf:type owl:Class .
+
+
+###  http://www.opengis.net/ont/geosparql#SpatialObjectCollection
+<http://www.opengis.net/ont/geosparql#SpatialObjectCollection> rdf:type owl:Class .
 
 
 ###  http://www.opengis.net/ont/sf#Point
@@ -83,10 +102,119 @@ rdfs:label rdf:type owl:AnnotationProperty .
 #    Individuals
 #################################################################
 
+###  http://lod.squirrel.link/data/limes/LimesDaicusFeatures
+<http://lod.squirrel.link/data/limes/LimesDaicusFeatures> rdf:type owl:NamedIndividual ,
+                                                                   <http://www.opengis.net/ont/geosparql#FeatureCollection> ;
+                                                          rdfs:member <http://lod.squirrel.link/data/limes/aadec8db-70f9-4c40-833a-2a7c39c631d2> ,
+                                                                      <http://lod.squirrel.link/data/limes/ae458e0d-85d0-4756-b265-db4db5bb7fe2> ,
+                                                                      <http://lod.squirrel.link/data/limes/b6e369cd-722a-4a1c-a984-538bb26f3777> ,
+                                                                      <http://lod.squirrel.link/data/limes/c3a471a8-ab67-4e9c-b127-1eff017b0cb4> ,
+                                                                      <http://lod.squirrel.link/data/limes/cba75304-f136-465d-90fb-56dff3acc018> ,
+                                                                      <http://lod.squirrel.link/data/limes/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1> ,
+                                                                      <http://lod.squirrel.link/data/limes/d92ef45f-91c4-442e-b279-61f17fbccb7c> ,
+                                                                      <http://lod.squirrel.link/data/limes/e0423dfe-4fdf-4bf6-8453-97d7bee4d031> ,
+                                                                      <http://lod.squirrel.link/data/limes/e3899f66-1234-4a44-b16e-2ead1e0bf696> ,
+                                                                      <http://lod.squirrel.link/data/limes/e69e6cb2-cded-446c-b159-daec78476f43> ,
+                                                                      <http://lod.squirrel.link/data/limes/e811fe5a-92d2-43a0-a572-51bc5942e242> ,
+                                                                      <http://lod.squirrel.link/data/limes/ed79872f-dcb1-48d0-a008-5a3c65432a67> ,
+                                                                      <http://lod.squirrel.link/data/limes/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb> ,
+                                                                      <http://lod.squirrel.link/data/limes/0ab5e10e-4fb0-4854-835b-389043840ee0> ,
+                                                                      <http://lod.squirrel.link/data/limes/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace> ,
+                                                                      <http://lod.squirrel.link/data/limes/0203af0b-bc52-4f9f-b490-b2bc3fe431fc> ,
+                                                                      <http://lod.squirrel.link/data/limes/096a9a4c-020f-4ce0-a4a6-993d50d08fea> ,
+                                                                      <http://lod.squirrel.link/data/limes/1d8f65a8-c30b-40f1-9676-2e1145691ac3> ,
+                                                                      <http://lod.squirrel.link/data/limes/1e218e82-f264-4241-a8e0-5efd9a1ec8a4> ,
+                                                                      <http://lod.squirrel.link/data/limes/1795d125-e071-4153-b07e-e147bb19ad65> ,
+                                                                      <http://lod.squirrel.link/data/limes/3af3a2c4-8038-482d-9fa9-a0e90584ef6d> ,
+                                                                      <http://lod.squirrel.link/data/limes/3b51185a-d7ca-4c22-b85d-a021b3727c4d> ,
+                                                                      <http://lod.squirrel.link/data/limes/34d0d768-2d4d-42b3-82ae-e29bad5c1eed> ,
+                                                                      <http://lod.squirrel.link/data/limes/3680e065-f377-4f4d-a9d6-84523dcb1727> ,
+                                                                      <http://lod.squirrel.link/data/limes/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa> ,
+                                                                      <http://lod.squirrel.link/data/limes/4df4edbc-facd-42bd-b05e-076f94ae693b> ,
+                                                                      <http://lod.squirrel.link/data/limes/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e> ,
+                                                                      <http://lod.squirrel.link/data/limes/4198c975-e14a-4fb3-9b2e-7be9e145ecac> ,
+                                                                      <http://lod.squirrel.link/data/limes/5b90b8d5-ba6e-4789-94d2-db823824acbf> ,
+                                                                      <http://lod.squirrel.link/data/limes/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce> ,
+                                                                      <http://lod.squirrel.link/data/limes/5e6a65c9-32dd-4581-b6ab-a95afdc4d061> ,
+                                                                      <http://lod.squirrel.link/data/limes/5ea0f057-026f-4556-97f5-3e0e3a9471c3> ,
+                                                                      <http://lod.squirrel.link/data/limes/50320dbe-929c-40e3-aebd-f8f257d6472a> ,
+                                                                      <http://lod.squirrel.link/data/limes/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0> ,
+                                                                      <http://lod.squirrel.link/data/limes/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44> ,
+                                                                      <http://lod.squirrel.link/data/limes/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a> ,
+                                                                      <http://lod.squirrel.link/data/limes/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786> ,
+                                                                      <http://lod.squirrel.link/data/limes/7b05b48b-cd48-4c66-916e-6ea581179843> ,
+                                                                      <http://lod.squirrel.link/data/limes/7c3bf06c-8f79-457e-b56f-77da98c7a69b> ,
+                                                                      <http://lod.squirrel.link/data/limes/7cb289bf-4a31-467d-9c9d-4271a8dc55c9> ,
+                                                                      <http://lod.squirrel.link/data/limes/7e6b0abd-392e-48da-a973-52db57e43459> ,
+                                                                      <http://lod.squirrel.link/data/limes/70d51242-571e-43ce-bd01-3bffca8cb4be> ,
+                                                                      <http://lod.squirrel.link/data/limes/7422f9df-da23-450f-8eac-db2d8dfca42e> ,
+                                                                      <http://lod.squirrel.link/data/limes/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2> ,
+                                                                      <http://lod.squirrel.link/data/limes/815f5c63-8478-4aac-bafb-11eaafa9a923> ,
+                                                                      <http://lod.squirrel.link/data/limes/86dae60a-c827-480d-bb38-04a480b9ea01> ,
+                                                                      <http://lod.squirrel.link/data/limes/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a> ,
+                                                                      <http://lod.squirrel.link/data/limes/9b62118c-9936-42f2-a6e7-49f649c937f2> ,
+                                                                      <http://lod.squirrel.link/data/limes/9ba7d74c-175e-48c8-9403-dbbdd650ed22> ;
+                                                          rdfs:label "Limes Daicus Features" .
+
+
+###  http://lod.squirrel.link/data/limes/LimesDaicusGeometries
+<http://lod.squirrel.link/data/limes/LimesDaicusGeometries> rdf:type owl:NamedIndividual ,
+                                                                     <http://www.opengis.net/ont/geosparql#GeometryCollection> ;
+													  rdfs:member <http://lod.squirrel.link/data/limes/aadec8db-70f9-4c40-833a-2a7c39c631d2_geom> ,
+													  <http://lod.squirrel.link/data/limes/ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom> ,
+													  <http://lod.squirrel.link/data/limes/b6e369cd-722a-4a1c-a984-538bb26f3777_geom> ,
+													  <http://lod.squirrel.link/data/limes/c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom> ,
+													  <http://lod.squirrel.link/data/limes/cba75304-f136-465d-90fb-56dff3acc018_geom> ,
+													  <http://lod.squirrel.link/data/limes/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom> ,
+													  <http://lod.squirrel.link/data/limes/d92ef45f-91c4-442e-b279-61f17fbccb7c_geom> ,
+													  <http://lod.squirrel.link/data/limes/e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom> ,
+													  <http://lod.squirrel.link/data/limes/e3899f66-1234-4a44-b16e-2ead1e0bf696_geom> ,
+													  <http://lod.squirrel.link/data/limes/e69e6cb2-cded-446c-b159-daec78476f43_geom> ,
+													  <http://lod.squirrel.link/data/limes/e811fe5a-92d2-43a0-a572-51bc5942e242_geom> ,
+													  <http://lod.squirrel.link/data/limes/ed79872f-dcb1-48d0-a008-5a3c65432a67_geom> ,
+													  <http://lod.squirrel.link/data/limes/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom> ,
+													  <http://lod.squirrel.link/data/limes/0ab5e10e-4fb0-4854-835b-389043840ee0_geom> ,
+													  <http://lod.squirrel.link/data/limes/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom> ,
+													  <http://lod.squirrel.link/data/limes/0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom> ,
+													  <http://lod.squirrel.link/data/limes/096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom> ,
+													  <http://lod.squirrel.link/data/limes/1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom> ,
+													  <http://lod.squirrel.link/data/limes/1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom> ,
+													  <http://lod.squirrel.link/data/limes/1795d125-e071-4153-b07e-e147bb19ad65_geom> ,
+													  <http://lod.squirrel.link/data/limes/3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom> ,
+													  <http://lod.squirrel.link/data/limes/3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom> ,
+													  <http://lod.squirrel.link/data/limes/34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom> ,
+													  <http://lod.squirrel.link/data/limes/3680e065-f377-4f4d-a9d6-84523dcb1727_geom> ,
+													  <http://lod.squirrel.link/data/limes/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom> ,
+													  <http://lod.squirrel.link/data/limes/4df4edbc-facd-42bd-b05e-076f94ae693b_geom> ,
+													  <http://lod.squirrel.link/data/limes/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom> ,
+													  <http://lod.squirrel.link/data/limes/4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom> ,
+													  <http://lod.squirrel.link/data/limes/5b90b8d5-ba6e-4789-94d2-db823824acbf_geom> ,
+													  <http://lod.squirrel.link/data/limes/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom> ,
+													  <http://lod.squirrel.link/data/limes/5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom> ,
+													  <http://lod.squirrel.link/data/limes/5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom> ,
+													  <http://lod.squirrel.link/data/limes/50320dbe-929c-40e3-aebd-f8f257d6472a_geom> ,
+													  <http://lod.squirrel.link/data/limes/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom> ,
+													  <http://lod.squirrel.link/data/limes/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom> ,
+													  <http://lod.squirrel.link/data/limes/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom> ,
+													  <http://lod.squirrel.link/data/limes/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom> ,
+													  <http://lod.squirrel.link/data/limes/7b05b48b-cd48-4c66-916e-6ea581179843_geom> ,
+													  <http://lod.squirrel.link/data/limes/7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom> ,
+													  <http://lod.squirrel.link/data/limes/7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom> ,
+													  <http://lod.squirrel.link/data/limes/7e6b0abd-392e-48da-a973-52db57e43459_geom> ,
+													  <http://lod.squirrel.link/data/limes/70d51242-571e-43ce-bd01-3bffca8cb4be_geom> ,
+													  <http://lod.squirrel.link/data/limes/7422f9df-da23-450f-8eac-db2d8dfca42e_geom> ,
+													  <http://lod.squirrel.link/data/limes/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom> ,
+													  <http://lod.squirrel.link/data/limes/815f5c63-8478-4aac-bafb-11eaafa9a923_geom> ,
+													  <http://lod.squirrel.link/data/limes/86dae60a-c827-480d-bb38-04a480b9ea01_geom> ,
+													  <http://lod.squirrel.link/data/limes/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom> ,
+													  <http://lod.squirrel.link/data/limes/9b62118c-9936-42f2-a6e7-49f649c937f2_geom> ,
+													  <http://lod.squirrel.link/data/limes/9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom> ;
+                                                            rdfs:label "Limes Daicus Geometries" .
+
+
 ###  http://lod.squirrel.link/data/limes/a6ec226a-3c2a-444a-9221-839201e1135f
 <http://lod.squirrel.link/data/limes/a6ec226a-3c2a-444a-9221-839201e1135f> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/a6ec226a-3c2a-444a-9221-839201e1135f_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Săpata de Jos I" .
@@ -101,8 +229,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/aadec8db-70f9-4c40-833a-2a7c39c631d2
 <http://lod.squirrel.link/data/limes/aadec8db-70f9-4c40-833a-2a7c39c631d2> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/aadec8db-70f9-4c40-833a-2a7c39c631d2_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Cătunele" .
@@ -117,8 +244,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/ae458e0d-85d0-4756-b265-db4db5bb7fe2
 <http://lod.squirrel.link/data/limes/ae458e0d-85d0-4756-b265-db4db5bb7fe2> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom> ;
                                                                            rdfs:comment "Kohortenkastell" ;
                                                                            rdfs:label "Kastell Inlăceni" .
@@ -133,8 +259,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/af909713-68f5-4b6d-89d5-03f7fc7fd5c1
 <http://lod.squirrel.link/data/limes/af909713-68f5-4b6d-89d5-03f7fc7fd5c1> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Sămbotin (Castra Traiana)" .
@@ -149,8 +274,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/b0524f84-a9d2-45fa-9f69-d8164ad73440
 <http://lod.squirrel.link/data/limes/b0524f84-a9d2-45fa-9f69-d8164ad73440> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/b0524f84-a9d2-45fa-9f69-d8164ad73440_geom> ;
                                                                            rdfs:comment "Kohortenkastell" ;
                                                                            rdfs:label "Kastell Olteni" .
@@ -165,8 +289,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/b0cccdd1-2478-40bc-add2-a0e1bad88feb
 <http://lod.squirrel.link/data/limes/b0cccdd1-2478-40bc-add2-a0e1bad88feb> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Slăveni" .
@@ -181,8 +304,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/b5cf0c45-ec51-4710-a03a-75e7dc30a7a3
 <http://lod.squirrel.link/data/limes/b5cf0c45-ec51-4710-a03a-75e7dc30a7a3> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom> ;
                                                                            rdfs:comment "Kohortenkastell" ;
                                                                            rdfs:label "Kastell Romanasi (Largiana)" .
@@ -197,8 +319,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/b6e369cd-722a-4a1c-a984-538bb26f3777
 <http://lod.squirrel.link/data/limes/b6e369cd-722a-4a1c-a984-538bb26f3777> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/b6e369cd-722a-4a1c-a984-538bb26f3777_geom> ;
                                                                            rdfs:comment "Kohortenkastell" ;
                                                                            rdfs:label "Kastell Buciumi" .
@@ -213,8 +334,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/bd14e9f3-dd38-4329-a655-60b00fd8d5b7
 <http://lod.squirrel.link/data/limes/bd14e9f3-dd38-4329-a655-60b00fd8d5b7> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Sighisoara" .
@@ -229,8 +349,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4
 <http://lod.squirrel.link/data/limes/bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Odorheiul Secuiesc" .
@@ -245,8 +364,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/c3451d14-c4ee-42be-b918-af9735167f5f
 <http://lod.squirrel.link/data/limes/c3451d14-c4ee-42be-b918-af9735167f5f> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/c3451d14-c4ee-42be-b918-af9735167f5f_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Sarateni" .
@@ -261,8 +379,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/c3a471a8-ab67-4e9c-b127-1eff017b0cb4
 <http://lod.squirrel.link/data/limes/c3a471a8-ab67-4e9c-b127-1eff017b0cb4> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Albota" .
@@ -277,8 +394,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/c8ecf3da-c535-41df-b06e-298cd8542633
 <http://lod.squirrel.link/data/limes/c8ecf3da-c535-41df-b06e-298cd8542633> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/c8ecf3da-c535-41df-b06e-298cd8542633_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Teregova (Ad Pannonios)" .
@@ -293,8 +409,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/cba75304-f136-465d-90fb-56dff3acc018
 <http://lod.squirrel.link/data/limes/cba75304-f136-465d-90fb-56dff3acc018> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/cba75304-f136-465d-90fb-56dff3acc018_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Enoşeşti (Acidava)" .
@@ -309,8 +424,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1
 <http://lod.squirrel.link/data/limes/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom> ;
                                                                            rdfs:comment "Kohortenkastell / Alenkastell" ;
                                                                            rdfs:label "Kastell Banatska Palanka" .
@@ -325,8 +439,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/d92ef45f-91c4-442e-b279-61f17fbccb7c
 <http://lod.squirrel.link/data/limes/d92ef45f-91c4-442e-b279-61f17fbccb7c> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/d92ef45f-91c4-442e-b279-61f17fbccb7c_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Ilişua (Arcobara)" .
@@ -341,8 +454,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/e0423dfe-4fdf-4bf6-8453-97d7bee4d031
 <http://lod.squirrel.link/data/limes/e0423dfe-4fdf-4bf6-8453-97d7bee4d031> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Ghioca" .
@@ -357,8 +469,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/e2573931-d743-40c3-a6b7-08ffeb244daa
 <http://lod.squirrel.link/data/limes/e2573931-d743-40c3-a6b7-08ffeb244daa> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/e2573931-d743-40c3-a6b7-08ffeb244daa_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Valea Urluii" .
@@ -373,8 +484,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/e3899f66-1234-4a44-b16e-2ead1e0bf696
 <http://lod.squirrel.link/data/limes/e3899f66-1234-4a44-b16e-2ead1e0bf696> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/e3899f66-1234-4a44-b16e-2ead1e0bf696_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Cincsor" .
@@ -389,8 +499,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/e69e6cb2-cded-446c-b159-daec78476f43
 <http://lod.squirrel.link/data/limes/e69e6cb2-cded-446c-b159-daec78476f43> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/e69e6cb2-cded-446c-b159-daec78476f43_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Căciulătești" .
@@ -405,8 +514,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/e811fe5a-92d2-43a0-a572-51bc5942e242
 <http://lod.squirrel.link/data/limes/e811fe5a-92d2-43a0-a572-51bc5942e242> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/e811fe5a-92d2-43a0-a572-51bc5942e242_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Aizis" .
@@ -421,8 +529,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/ec646e12-636f-4c8c-96c2-0f46833adf1c
 <http://lod.squirrel.link/data/limes/ec646e12-636f-4c8c-96c2-0f46833adf1c> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/ec646e12-636f-4c8c-96c2-0f46833adf1c_geom> ;
                                                                            rdfs:comment "Auxiliarkastell" ;
                                                                            rdfs:label "Kastell Răcarii de Jos" .
@@ -437,8 +544,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/ed79872f-dcb1-48d0-a008-5a3c65432a67
 <http://lod.squirrel.link/data/limes/ed79872f-dcb1-48d0-a008-5a3c65432a67> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/ed79872f-dcb1-48d0-a008-5a3c65432a67_geom> ;
                                                                            rdfs:comment "Kohortenkastell (?)" ;
                                                                            rdfs:label "Kastell Aradul Nou" .
@@ -453,8 +559,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb
 <http://lod.squirrel.link/data/limes/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Borosneu Mare" .
@@ -469,8 +574,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/f42bb013-afeb-4044-9886-ece53cc813d4
 <http://lod.squirrel.link/data/limes/f42bb013-afeb-4044-9886-ece53cc813d4> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/f42bb013-afeb-4044-9886-ece53cc813d4_geom> ;
                                                                            rdfs:comment "Auxiliarkastell" ;
                                                                            rdfs:label "Kastell Sutoru" .
@@ -485,8 +589,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/f81e10af-8e41-447d-b601-dcba5311199b
 <http://lod.squirrel.link/data/limes/f81e10af-8e41-447d-b601-dcba5311199b> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/f81e10af-8e41-447d-b601-dcba5311199b_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Reşca (Romula/Malva)" .
@@ -501,8 +604,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/f8305d66-9429-43c0-b6e3-73721df9986b
 <http://lod.squirrel.link/data/limes/f8305d66-9429-43c0-b6e3-73721df9986b> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/f8305d66-9429-43c0-b6e3-73721df9986b_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Urluieni II" .
@@ -517,8 +619,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd
 <http://lod.squirrel.link/data/limes/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom> ;
                                                                            rdfs:comment "Kohortenkastell" ;
                                                                            rdfs:label "Kastell Vărădia" .
@@ -533,8 +634,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e
 <http://lod.squirrel.link/data/limes/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#LegionaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#LegionaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom> ;
                                                                            rdfs:comment "Legionslager" ;
                                                                            rdfs:label "Legionslager Alba Julia" .
@@ -549,8 +649,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/ffd99607-0513-4fa5-8073-c80bddbfab84
 <http://lod.squirrel.link/data/limes/ffd99607-0513-4fa5-8073-c80bddbfab84> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#LegionaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#LegionaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/ffd99607-0513-4fa5-8073-c80bddbfab84_geom> ;
                                                                            rdfs:comment "Legionslager" ;
                                                                            rdfs:label "Kastell Tibiscum" .
@@ -565,8 +664,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/0ab5e10e-4fb0-4854-835b-389043840ee0
 <http://lod.squirrel.link/data/limes/0ab5e10e-4fb0-4854-835b-389043840ee0> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/0ab5e10e-4fb0-4854-835b-389043840ee0_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Lişteava" .
@@ -581,8 +679,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/0ccd99fd-62d1-4978-873a-106b1f5e3880
 <http://lod.squirrel.link/data/limes/0ccd99fd-62d1-4978-873a-106b1f5e3880> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/0ccd99fd-62d1-4978-873a-106b1f5e3880_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Rucăr" .
@@ -597,8 +694,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/0e91c0e7-3991-4a45-89ed-382f7c74731a
 <http://lod.squirrel.link/data/limes/0e91c0e7-3991-4a45-89ed-382f7c74731a> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/0e91c0e7-3991-4a45-89ed-382f7c74731a_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Săpata de Jos II" .
@@ -613,8 +709,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/0f25c729-a3c7-4cb4-b063-ff72c0124b4f
 <http://lod.squirrel.link/data/limes/0f25c729-a3c7-4cb4-b063-ff72c0124b4f> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Urluieni I" .
@@ -629,8 +724,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace
 <http://lod.squirrel.link/data/limes/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Căşeiu (Samum)" .
@@ -645,8 +739,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/000d5176-6b9e-4065-a44f-d7b8f75b1199
 <http://lod.squirrel.link/data/limes/000d5176-6b9e-4065-a44f-d7b8f75b1199> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/000d5176-6b9e-4065-a44f-d7b8f75b1199_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Orăştioara de Sus" .
@@ -661,8 +754,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/01189de6-024d-4022-96ff-eec7e4efee0c
 <http://lod.squirrel.link/data/limes/01189de6-024d-4022-96ff-eec7e4efee0c> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/01189de6-024d-4022-96ff-eec7e4efee0c_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Orșova (Dierna)" .
@@ -677,8 +769,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/0203af0b-bc52-4f9f-b490-b2bc3fe431fc
 <http://lod.squirrel.link/data/limes/0203af0b-bc52-4f9f-b490-b2bc3fe431fc> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom> ;
                                                                            rdfs:comment "Auxiliarkastell" ;
                                                                            rdfs:label "Kastell Cigmău " .
@@ -693,8 +784,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/06eb8de4-750e-4ed9-ad04-9bf16d61c975
 <http://lod.squirrel.link/data/limes/06eb8de4-750e-4ed9-ad04-9bf16d61c975> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Momoteşti (Rusidava)" .
@@ -709,8 +799,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/096a9a4c-020f-4ce0-a4a6-993d50d08fea
 <http://lod.squirrel.link/data/limes/096a9a4c-020f-4ce0-a4a6-993d50d08fea> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Copăceni (Praetorium I)" .
@@ -725,8 +814,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/1b4b9c1f-cb64-4c02-976d-61c2147b0705
 <http://lod.squirrel.link/data/limes/1b4b9c1f-cb64-4c02-976d-61c2147b0705> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Râul Vadului" .
@@ -741,8 +829,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/1c936059-6af8-4f03-8e18-cc61f529c5f3
 <http://lod.squirrel.link/data/limes/1c936059-6af8-4f03-8e18-cc61f529c5f3> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/1c936059-6af8-4f03-8e18-cc61f529c5f3_geom> ;
                                                                            rdfs:comment "Auxiliarkastelle" ;
                                                                            rdfs:label "Kastelle von Porolissum" .
@@ -757,8 +844,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/1d8f65a8-c30b-40f1-9676-2e1145691ac3
 <http://lod.squirrel.link/data/limes/1d8f65a8-c30b-40f1-9676-2e1145691ac3> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Abrud (Alburnus Maior)" .
@@ -773,8 +859,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/1e218e82-f264-4241-a8e0-5efd9a1ec8a4
 <http://lod.squirrel.link/data/limes/1e218e82-f264-4241-a8e0-5efd9a1ec8a4> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Islaz-Razovica" .
@@ -789,8 +874,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/10b043a5-bb2b-48af-a168-84046185d6f7
 <http://lod.squirrel.link/data/limes/10b043a5-bb2b-48af-a168-84046185d6f7> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/10b043a5-bb2b-48af-a168-84046185d6f7_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Pinoasa" .
@@ -805,8 +889,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/120e3991-1f39-4359-b810-37bb24aff05c
 <http://lod.squirrel.link/data/limes/120e3991-1f39-4359-b810-37bb24aff05c> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/120e3991-1f39-4359-b810-37bb24aff05c_geom> ;
                                                                            rdfs:comment "Kohortenkastell" ;
                                                                            rdfs:label "Kastell Romita" .
@@ -821,8 +904,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/1795d125-e071-4153-b07e-e147bb19ad65
 <http://lod.squirrel.link/data/limes/1795d125-e071-4153-b07e-e147bb19ad65> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/1795d125-e071-4153-b07e-e147bb19ad65_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Comalău" .
@@ -837,8 +919,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/19360a61-a15a-4d56-a100-f3be57e93ff1
 <http://lod.squirrel.link/data/limes/19360a61-a15a-4d56-a100-f3be57e93ff1> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/19360a61-a15a-4d56-a100-f3be57e93ff1_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Mofleni (Pelendava)" .
@@ -853,8 +934,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/2c2fb600-f249-469e-a025-1961edf5132d
 <http://lod.squirrel.link/data/limes/2c2fb600-f249-469e-a025-1961edf5132d> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/2c2fb600-f249-469e-a025-1961edf5132d_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Războieni" .
@@ -869,8 +949,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/22bf9a4e-a715-43f7-9fd0-4a60b8b77288
 <http://lod.squirrel.link/data/limes/22bf9a4e-a715-43f7-9fd0-4a60b8b77288> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Tia Mare" .
@@ -885,8 +964,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/3af3a2c4-8038-482d-9fa9-a0e90584ef6d
 <http://lod.squirrel.link/data/limes/3af3a2c4-8038-482d-9fa9-a0e90584ef6d> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom> ;
                                                                            rdfs:comment "Kohortenkastell (?)" ;
                                                                            rdfs:label "Kastell Bulci" .
@@ -901,8 +979,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/3b51185a-d7ca-4c22-b85d-a021b3727c4d
 <http://lod.squirrel.link/data/limes/3b51185a-d7ca-4c22-b85d-a021b3727c4d> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Brâncoveneşti" .
@@ -917,8 +994,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/3f7e0b8c-1a5f-423f-85da-536d87bbdcc8
 <http://lod.squirrel.link/data/limes/3f7e0b8c-1a5f-423f-85da-536d87bbdcc8> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Orheiul Bistriţei" .
@@ -933,8 +1009,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/322e89c0-f571-4be4-a08c-84b35efb69e5
 <http://lod.squirrel.link/data/limes/322e89c0-f571-4be4-a08c-84b35efb69e5> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/322e89c0-f571-4be4-a08c-84b35efb69e5_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Sânpaul" .
@@ -949,8 +1024,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/34d0d768-2d4d-42b3-82ae-e29bad5c1eed
 <http://lod.squirrel.link/data/limes/34d0d768-2d4d-42b3-82ae-e29bad5c1eed> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Gresia" .
@@ -965,8 +1039,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/340738ca-7444-4896-a0fd-cd9e6806eb30
 <http://lod.squirrel.link/data/limes/340738ca-7444-4896-a0fd-cd9e6806eb30> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/340738ca-7444-4896-a0fd-cd9e6806eb30_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Mehadia (Praetorium)" .
@@ -981,8 +1054,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/3680e065-f377-4f4d-a9d6-84523dcb1727
 <http://lod.squirrel.link/data/limes/3680e065-f377-4f4d-a9d6-84523dcb1727> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/3680e065-f377-4f4d-a9d6-84523dcb1727_geom> ;
                                                                            rdfs:comment "Kohortenkastell" ;
                                                                            rdfs:label "Kastell Brețcu " .
@@ -997,8 +1069,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa
 <http://lod.squirrel.link/data/limes/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Flămănda (Poiana)" .
@@ -1013,8 +1084,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/4df4edbc-facd-42bd-b05e-076f94ae693b
 <http://lod.squirrel.link/data/limes/4df4edbc-facd-42bd-b05e-076f94ae693b> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/4df4edbc-facd-42bd-b05e-076f94ae693b_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell IIoneștii Govorii (Pons Aluti)" .
@@ -1029,8 +1099,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e
 <http://lod.squirrel.link/data/limes/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom> ;
                                                                            rdfs:comment "Auxiliarkastell" ;
                                                                            rdfs:label "Kastell Gilău" .
@@ -1045,8 +1114,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/4198c975-e14a-4fb3-9b2e-7be9e145ecac
 <http://lod.squirrel.link/data/limes/4198c975-e14a-4fb3-9b2e-7be9e145ecac> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Jiblea" .
@@ -1061,8 +1129,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/42d9c007-47e1-4b2a-ab2c-c381f93cac96
 <http://lod.squirrel.link/data/limes/42d9c007-47e1-4b2a-ab2c-c381f93cac96> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom> ;
                                                                            rdfs:comment "Auxiliarkastell" ;
                                                                            rdfs:label "Kastell Grebenac" .
@@ -1077,8 +1144,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990
 <http://lod.squirrel.link/data/limes/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Plesa" .
@@ -1093,8 +1159,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/47a7d25e-6315-4256-b257-c2dfaea5e42f
 <http://lod.squirrel.link/data/limes/47a7d25e-6315-4256-b257-c2dfaea5e42f> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/47a7d25e-6315-4256-b257-c2dfaea5e42f_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Zăvoi (Acmonia ?)" .
@@ -1109,8 +1174,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/497eff64-e309-4704-b5f0-3e2872ff379d
 <http://lod.squirrel.link/data/limes/497eff64-e309-4704-b5f0-3e2872ff379d> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#LegionaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#LegionaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/497eff64-e309-4704-b5f0-3e2872ff379d_geom> ;
                                                                            rdfs:comment "Legionslager" ;
                                                                            rdfs:label "Legionslager Potaissa" .
@@ -1125,8 +1189,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/5a43030f-b985-4444-8cf9-3e4a0b132d79
 <http://lod.squirrel.link/data/limes/5a43030f-b985-4444-8cf9-3e4a0b132d79> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/5a43030f-b985-4444-8cf9-3e4a0b132d79_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Vârtop" .
@@ -1141,8 +1204,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/5b90b8d5-ba6e-4789-94d2-db823824acbf
 <http://lod.squirrel.link/data/limes/5b90b8d5-ba6e-4789-94d2-db823824acbf> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/5b90b8d5-ba6e-4789-94d2-db823824acbf_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Căineni (Pons Vetus ?)" .
@@ -1157,8 +1219,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce
 <http://lod.squirrel.link/data/limes/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom> ;
                                                                            rdfs:comment "Auxiliarkastell" ;
                                                                            rdfs:label "Kastell Hoghiz" .
@@ -1173,8 +1234,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/5e33b468-4135-46b4-babc-99f5c423f966
 <http://lod.squirrel.link/data/limes/5e33b468-4135-46b4-babc-99f5c423f966> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/5e33b468-4135-46b4-babc-99f5c423f966_geom> ;
                                                                            rdfs:comment "Kohortenkastell (?)" ;
                                                                            rdfs:label "Kastell Szeged" .
@@ -1189,8 +1249,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/5e6a65c9-32dd-4581-b6ab-a95afdc4d061
 <http://lod.squirrel.link/data/limes/5e6a65c9-32dd-4581-b6ab-a95afdc4d061> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Câmpulung Muscel I" .
@@ -1205,8 +1264,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/5ea0f057-026f-4556-97f5-3e0e3a9471c3
 <http://lod.squirrel.link/data/limes/5ea0f057-026f-4556-97f5-3e0e3a9471c3> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom> ;
                                                                            rdfs:comment "Alenkastell" ;
                                                                            rdfs:label "Kastell Gherla" .
@@ -1221,8 +1279,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/50320dbe-929c-40e3-aebd-f8f257d6472a
 <http://lod.squirrel.link/data/limes/50320dbe-929c-40e3-aebd-f8f257d6472a> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/50320dbe-929c-40e3-aebd-f8f257d6472a_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Castranova" .
@@ -1237,8 +1294,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/5709a2bb-8d86-44af-b582-19151b918068
 <http://lod.squirrel.link/data/limes/5709a2bb-8d86-44af-b582-19151b918068> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#LegionaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#LegionaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/5709a2bb-8d86-44af-b582-19151b918068_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Sarmizegetusa (Ulpia Traiana)" .
@@ -1253,8 +1309,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f
 <http://lod.squirrel.link/data/limes/59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom> ;
                                                                            rdfs:comment "Kohortenkastell (?)" ;
                                                                            rdfs:label "Kastell Sânnicolau Mare" .
@@ -1269,8 +1324,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0
 <http://lod.squirrel.link/data/limes/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Băneasa I" .
@@ -1285,8 +1339,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44
 <http://lod.squirrel.link/data/limes/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Fâlfani" .
@@ -1301,8 +1354,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a
 <http://lod.squirrel.link/data/limes/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Bologa (Resculum)" .
@@ -1317,8 +1369,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc
 <http://lod.squirrel.link/data/limes/7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Roșiorii de Vede" .
@@ -1333,8 +1384,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786
 <http://lod.squirrel.link/data/limes/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom> ;
                                                                            rdfs:comment "Kohortenkastell" ;
                                                                            rdfs:label "Kastell Călugăreni" .
@@ -1349,8 +1399,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/7b05b48b-cd48-4c66-916e-6ea581179843
 <http://lod.squirrel.link/data/limes/7b05b48b-cd48-4c66-916e-6ea581179843> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/7b05b48b-cd48-4c66-916e-6ea581179843_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Islaz-Verdea" .
@@ -1365,8 +1414,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/7c3bf06c-8f79-457e-b56f-77da98c7a69b
 <http://lod.squirrel.link/data/limes/7c3bf06c-8f79-457e-b56f-77da98c7a69b> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Băneasa II" .
@@ -1381,8 +1429,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/7cadca30-bfd9-4628-9916-c20eecafa356
 <http://lod.squirrel.link/data/limes/7cadca30-bfd9-4628-9916-c20eecafa356> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/7cadca30-bfd9-4628-9916-c20eecafa356_geom> ;
                                                                            rdfs:comment "Kohortenkastell" ;
                                                                            rdfs:label "Kastell Stolniceni" .
@@ -1397,8 +1444,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/7cb289bf-4a31-467d-9c9d-4271a8dc55c9
 <http://lod.squirrel.link/data/limes/7cb289bf-4a31-467d-9c9d-4271a8dc55c9> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Boiţa (Caput Stenarum) " .
@@ -1413,8 +1459,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/7dd1742c-a3a5-4494-b148-1d435d754d5d
 <http://lod.squirrel.link/data/limes/7dd1742c-a3a5-4494-b148-1d435d754d5d> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/7dd1742c-a3a5-4494-b148-1d435d754d5d_geom> ;
                                                                            rdfs:comment "Vexillationskastell /  Kohortenkastell /  Alenkastell" ;
                                                                            rdfs:label "Kastell Vršac" .
@@ -1429,8 +1474,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/7e6b0abd-392e-48da-a973-52db57e43459
 <http://lod.squirrel.link/data/limes/7e6b0abd-392e-48da-a973-52db57e43459> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#LegionaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#LegionaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/7e6b0abd-392e-48da-a973-52db57e43459_geom> ;
                                                                            rdfs:comment "Legionslager" ;
                                                                            rdfs:label "Kastell Berzovia " .
@@ -1445,8 +1489,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/70d51242-571e-43ce-bd01-3bffca8cb4be
 <http://lod.squirrel.link/data/limes/70d51242-571e-43ce-bd01-3bffca8cb4be> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/70d51242-571e-43ce-bd01-3bffca8cb4be_geom> ;
                                                                            rdfs:comment "Kohortenkastell" ;
                                                                            rdfs:label "Kastell Feldioara" .
@@ -1461,8 +1504,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/707cb61a-d04e-4c7b-a620-6587db82f116
 <http://lod.squirrel.link/data/limes/707cb61a-d04e-4c7b-a620-6587db82f116> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/707cb61a-d04e-4c7b-a620-6587db82f116_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Purcăreni" .
@@ -1477,8 +1519,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/7422f9df-da23-450f-8eac-db2d8dfca42e
 <http://lod.squirrel.link/data/limes/7422f9df-da23-450f-8eac-db2d8dfca42e> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/7422f9df-da23-450f-8eac-db2d8dfca42e_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Livezile" .
@@ -1493,8 +1534,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2
 <http://lod.squirrel.link/data/limes/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Câmpulung Muscel II" .
@@ -1509,8 +1549,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/8f823c04-d42b-49ec-879d-2c446d575885
 <http://lod.squirrel.link/data/limes/8f823c04-d42b-49ec-879d-2c446d575885> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/8f823c04-d42b-49ec-879d-2c446d575885_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Voineşti" .
@@ -1525,8 +1564,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/8fa245f8-ffe5-4e74-b259-410c7be91afd
 <http://lod.squirrel.link/data/limes/8fa245f8-ffe5-4e74-b259-410c7be91afd> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/8fa245f8-ffe5-4e74-b259-410c7be91afd_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Titeşti" .
@@ -1541,8 +1579,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/80ce787b-1ab0-42e7-b03c-c641d3767774
 <http://lod.squirrel.link/data/limes/80ce787b-1ab0-42e7-b03c-c641d3767774> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/80ce787b-1ab0-42e7-b03c-c641d3767774_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Perisani" .
@@ -1557,8 +1594,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/815f5c63-8478-4aac-bafb-11eaafa9a923
 <http://lod.squirrel.link/data/limes/815f5c63-8478-4aac-bafb-11eaafa9a923> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/815f5c63-8478-4aac-bafb-11eaafa9a923_geom> ;
                                                                            rdfs:comment "Auxiliarkastell" ;
                                                                            rdfs:label "Kastell Dupljaja" .
@@ -1573,8 +1609,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/86dae60a-c827-480d-bb38-04a480b9ea01
 <http://lod.squirrel.link/data/limes/86dae60a-c827-480d-bb38-04a480b9ea01> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/86dae60a-c827-480d-bb38-04a480b9ea01_geom> ;
                                                                            rdfs:comment "Kohortenkastell (?)" ;
                                                                            rdfs:label "Kastell Cenad" .
@@ -1589,8 +1624,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/87009579-c2cc-4c7a-9b02-901bf75a0ee6
 <http://lod.squirrel.link/data/limes/87009579-c2cc-4c7a-9b02-901bf75a0ee6> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#LegionaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#LegionaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom> ;
                                                                            rdfs:comment "Legionslager" ;
                                                                            rdfs:label "Kastell Vețel" .
@@ -1605,8 +1639,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/9a084d40-bf5c-42fa-8aa7-8c678524c631
 <http://lod.squirrel.link/data/limes/9a084d40-bf5c-42fa-8aa7-8c678524c631> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/9a084d40-bf5c-42fa-8aa7-8c678524c631_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Racoviţa (Praetorium II)" .
@@ -1621,8 +1654,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1
 <http://lod.squirrel.link/data/limes/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Rădăcineşti" .
@@ -1637,8 +1669,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a
 <http://lod.squirrel.link/data/limes/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Bivolari (Arutela)" .
@@ -1653,8 +1684,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/9b62118c-9936-42f2-a6e7-49f649c937f2
 <http://lod.squirrel.link/data/limes/9b62118c-9936-42f2-a6e7-49f649c937f2> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/9b62118c-9936-42f2-a6e7-49f649c937f2_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Bumbeşti" .
@@ -1669,8 +1699,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/9ba7d74c-175e-48c8-9403-dbbdd650ed22
 <http://lod.squirrel.link/data/limes/9ba7d74c-175e-48c8-9403-dbbdd650ed22> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Cristeşti" .
@@ -1680,13 +1709,12 @@ rdfs:label rdf:type owl:AnnotationProperty .
 <http://lod.squirrel.link/data/limes/9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom> rdf:type owl:NamedIndividual ,
                                                                                          <http://www.opengis.net/ont/sf#Point> ;
                                                                                 <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.476111 46.510556)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-                                                                                rdfs:label "Kastell Cristeşti" .
+                                                                                rdfs:label "Kastell Cristeşti Geometry" .
 
 
 ###  http://lod.squirrel.link/data/limes/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa
 <http://lod.squirrel.link/data/limes/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom> ;
                                                                            rdfs:comment "Kohortenkastell" ;
                                                                            rdfs:label "Kastell Râșnov " .
@@ -1701,8 +1729,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436
 <http://lod.squirrel.link/data/limes/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Putineiu" .
@@ -1717,8 +1744,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/918ef494-4408-4a91-8ee0-61f6087ffee7
 <http://lod.squirrel.link/data/limes/918ef494-4408-4a91-8ee0-61f6087ffee7> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/918ef494-4408-4a91-8ee0-61f6087ffee7_geom> ;
                                                                            rdfs:comment "nan" ;
                                                                            rdfs:label "Kastell Surducul Mare" .
@@ -1733,8 +1759,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://lod.squirrel.link/data/limes/986efe66-cf8a-4b64-a488-ad95d0f2dd79
 <http://lod.squirrel.link/data/limes/986efe66-cf8a-4b64-a488-ad95d0f2dd79> rdf:type owl:NamedIndividual ,
-                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ,
-                                                                                    <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                                    <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
                                                                            <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom> ;
                                                                            rdfs:comment "Kohortenkastell" ;
                                                                            rdfs:label "Kastell Tihău" .
