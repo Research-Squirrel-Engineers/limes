@@ -1046,9 +1046,6 @@ var tree={
         "text": "Kleinkastell [68]",
         "data": {
           "to": {
-            "http://archaeoinformatics.link/ontology#limesobject": {
-              "instancecount": 1
-            },
             "http://archaeoinformatics.link/ontology#limestown": {
               "instancecount": 1
             },
@@ -1066,7 +1063,7 @@ var tree={
           },
           "from": {}
         },
-        "instancecount": 5
+        "instancecount": 4
       },
       {
         "id": "http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1000",
@@ -16438,22 +16435,26 @@ var tree={
         "text": "Limes [62]",
         "data": {
           "to": {
-            "http://www.opengis.net/ont/geosparql#hasGeometry": {
-              "instancecount": 1,
-              "http://www.w3.org/2002/07/owl#NamedIndividual": 1,
-              "http://www.opengis.net/ont/sf#Point": 1
-            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 2,
-              "http://www.w3.org/2002/07/owl#Class": 1
+              "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#subClassOf": {
+              "instancecount": 1,
+              "http://www.w3.org/2002/07/owl#Class": 1
             }
           },
-          "from": {}
+          "from": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 0,
+              "http://www.w3.org/2002/07/owl#NamedIndividual": 5,
+              "http://lod.squirrel.link/data/limes/midlandswalescornwall/Kleinkastell": 5
+            }
+          }
         },
-        "instancecount": 4
+        "instancecount": 3
       },
       {
         "id": "http://lod.squirrel.link/data/limes/midlandswalescornwall/a0c87a08-a3b7-4e6f-90bc-8533f05dfbe5_geom",
