@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_843> <http://archaeoinformatics.link/ontology#limestown> "Bendorf" .
+<http://lod.squirrel.link/data/limes/limes_843> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_843_geom> .

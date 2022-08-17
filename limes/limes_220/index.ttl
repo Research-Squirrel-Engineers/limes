@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_220> <http://archaeoinformatics.link/ontology#limestown> "Dornholzhausen" .
+<http://lod.squirrel.link/data/limes/limes_220> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_220_geom> .

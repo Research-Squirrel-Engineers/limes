@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_1083> <http://archaeoinformatics.link/ontology#limestown> "Titting" .
+<http://lod.squirrel.link/data/limes/limes_1083> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_1083_geom> .

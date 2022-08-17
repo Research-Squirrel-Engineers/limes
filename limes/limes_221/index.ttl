@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_221> <http://archaeoinformatics.link/ontology#limestown> "Rheinbrohl" .
+<http://lod.squirrel.link/data/limes/limes_221> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_221_geom> .

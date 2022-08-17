@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_400> <http://archaeoinformatics.link/ontology#limestown> "Limeshain" .
+<http://lod.squirrel.link/data/limes/limes_400> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_400_geom> .

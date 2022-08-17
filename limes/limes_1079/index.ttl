@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_1079> <http://archaeoinformatics.link/ontology#limestown> "Wittelshofen" .
+<http://lod.squirrel.link/data/limes/limes_1079> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_1079_geom> .

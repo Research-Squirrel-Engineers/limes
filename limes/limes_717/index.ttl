@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_717> <http://archaeoinformatics.link/ontology#limestown> "Aalen" .
+<http://lod.squirrel.link/data/limes/limes_717> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_717_geom> .

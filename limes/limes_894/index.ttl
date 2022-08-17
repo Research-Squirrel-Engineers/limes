@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_894> <http://archaeoinformatics.link/ontology#limestown> "Hungen" .
+<http://lod.squirrel.link/data/limes/limes_894> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_894_geom> .

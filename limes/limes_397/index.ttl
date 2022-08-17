@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_397> <http://archaeoinformatics.link/ontology#limestown> "Oberursel" .
+<http://lod.squirrel.link/data/limes/limes_397> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_397_geom> .

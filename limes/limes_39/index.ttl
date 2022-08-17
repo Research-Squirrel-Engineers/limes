@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_39> <http://archaeoinformatics.link/ontology#limesobject> "Holzhausen" .
+<http://lod.squirrel.link/data/limes/limes_39> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_39_geom> .

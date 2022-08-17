@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_793> <http://archaeoinformatics.link/ontology#limestown> "Hillscheid" .
+<http://lod.squirrel.link/data/limes/limes_793> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_793_geom> .
