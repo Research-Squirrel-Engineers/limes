@@ -541,9 +541,6 @@ var tree={
         "text": "MilitaryCamp [194]",
         "data": {
           "to": {
-            "http://archaeoinformatics.link/ontology#limesobject": {
-              "instancecount": 1
-            },
             "http://archaeoinformatics.link/ontology#limestown": {
               "instancecount": 1
             },
@@ -561,7 +558,7 @@ var tree={
           },
           "from": {}
         },
-        "instancecount": 6
+        "instancecount": 5
       },
       {
         "id": "http://lod.squirrel.link/data/limes/limes_100",
@@ -1046,9 +1043,6 @@ var tree={
         "text": "Kleinkastell [82]",
         "data": {
           "to": {
-            "http://archaeoinformatics.link/ontology#limesobject": {
-              "instancecount": 1
-            },
             "http://archaeoinformatics.link/ontology#limestown": {
               "instancecount": 1
             },
@@ -1061,12 +1055,12 @@ var tree={
               "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 2
+              "instancecount": 1
             }
           },
           "from": {}
         },
-        "instancecount": 6
+        "instancecount": 4
       },
       {
         "id": "http://lod.squirrel.link/data/limes/limes_1000",
@@ -8241,12 +8235,12 @@ var tree={
               "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 2
             }
           },
           "from": {}
         },
-        "instancecount": 4
+        "instancecount": 5
       },
       {
         "id": "http://lod.squirrel.link/data/limes/limes_1000_geom",
