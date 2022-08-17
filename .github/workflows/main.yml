@@ -18,12 +18,12 @@ jobs:
          sudo apt-get install python3-dev python3-pip -y
          sudo apt-get install python3-venv python3-wheel -y
          sudo pip3 install wheel pylode==2.13.2 rdflib geodaisy
-         python3 docgeneration.py ttl/ docs/limes/LimesDaicus_result.ttl http://lod.squirrel.link/data/limes/ limes
-         python3 docgeneration.py ttl/ docs/limes/LimesGermaniaInferior_result.ttl http://lod.squirrel.link/data/limes/ limes
-         python3 docgeneration.py ttl/ docs/limes/LimesNoricum_result.ttl http://lod.squirrel.link/data/limes/ limes
-         python3 docgeneration.py ttl/ docs/limes/LimesPannoniaInferior_result.ttl http://lod.squirrel.link/data/limes/ limes
-         python3 docgeneration.py ttl/ docs/limes/MidlandsWalesCornwall_result.ttl http://lod.squirrel.link/data/limes/ limes         
-         python3 docgeneration.py ttl/ docs/limes/ObergermanischRaetischerLimes_result.ttl http://lod.squirrel.link/data/limes/ limes
+         python3 docgeneration.py ttl/LimesDaicus_result.ttl docs/limes/ http://lod.squirrel.link/data/limes/ limes
+         python3 docgeneration.py ttl/LimesGermaniaInferior_result.ttl docs/limes/ http://lod.squirrel.link/data/limes/ limes
+         python3 docgeneration.py ttl/LimesNoricum_result.ttl docs/limes/ http://lod.squirrel.link/data/limes/ limes
+         python3 docgeneration.py ttl/LimesPannoniaInferior_result.ttl docs/limes/ http://lod.squirrel.link/data/limes/ limes
+         python3 docgeneration.py ttl/MidlandsWalesCornwall_result.ttl docs/limes/ http://lod.squirrel.link/data/limes/ limes         
+         python3 docgeneration.py ttl/ObergermanischRaetischerLimes_result.ttl docs/limes/ http://lod.squirrel.link/data/limes/ limes
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4.3.3
       with:
