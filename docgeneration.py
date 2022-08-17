@@ -1854,9 +1854,10 @@ class OntDocGeneration:
             f.write(htmltabletemplate.replace("{{tablecontent}}", tablecontents))
             f.write(htmlfooter.replace("{{exports}}",myexports).replace("{{license}}",curlicense))
             f.close()
-
-with open('signlist/prefixes.json', encoding="utf-8") as f:
-    prefixes = json.load(f)
+prefixes={"reversed":{}}
+if os.path.exists('signlist/prefixes.json'):
+	with open('signlist/prefixes.json', encoding="utf-8") as f:
+	    prefixes = json.load(f)
    
 prefixes["reversed"]["http://purl.org/cuneiform/"]="cunei"
 prefixes["reversed"]["http://purl.org/graphemon/"]="graphemon"
