@@ -8251,12 +8251,12 @@ var tree={
               "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 2
             }
           },
           "from": {}
         },
-        "instancecount": 4
+        "instancecount": 5
       },
       {
         "id": "http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1000_geom",
@@ -16453,26 +16453,28 @@ var tree={
         "text": "Limes [62]",
         "data": {
           "to": {
+            "http://www.opengis.net/ont/geosparql#hasGeometry": {
+              "instancecount": 1,
+              "http://www.w3.org/2002/07/owl#NamedIndividual": 1,
+              "http://www.opengis.net/ont/sf#Point": 1
+            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
+              "instancecount": 2,
+              "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#subClassOf": {
-              "instancecount": 1,
-              "http://www.w3.org/2002/07/owl#Class": 1
             }
           },
           "from": {
-            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.w3.org/2002/07/owl#NamedIndividual": 5,
-              "http://lod.squirrel.link/data/limes/midlandswalescornwall/Kleinkastell": 5
+              "http://www.w3.org/2002/07/owl#NamedIndividual": 1,
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
             }
           }
         },
-        "instancecount": 3
+        "instancecount": 4
       },
       {
         "id": "http://lod.squirrel.link/data/limes/midlandswalescornwall/a0c87a08-a3b7-4e6f-90bc-8533f05dfbe5_geom",
@@ -20586,12 +20588,7 @@ var tree={
               "instancecount": 1
             }
           },
-          "from": {
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
-            }
-          }
+          "from": {}
         },
         "instancecount": 4
       },
@@ -22157,7 +22154,12 @@ var tree={
               "instancecount": 1
             }
           },
-          "from": {}
+          "from": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
+            }
+          }
         },
         "instancecount": 4
       }
