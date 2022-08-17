@@ -1468,7 +1468,7 @@ class OntDocGeneration:
                     classlist[item]["item"]["text"]=classlist[item]["item"]["text"][0:classlist[item]["item"]["text"].rfind("[")-1]+" ["+str(classlist[item]["items"])+"]"
                 else:
                     classlist[item]["item"]["text"]=classlist[item]["item"]["text"]+" ["+str(classlist[item]["items"])+"]"
-            if item in SPARQLUtils.collectionclasses:
+            if item in collectionclasses:
                 classlist[item]["item"]["type"] = "collectionclass"
             elif classlist[item]["items"]==classlist[item]["geoitems"] and classlist[item]["items"]>0 and classlist[item]["geoitems"]>0:
                 classlist[item]["item"]["type"]="geoclass"
