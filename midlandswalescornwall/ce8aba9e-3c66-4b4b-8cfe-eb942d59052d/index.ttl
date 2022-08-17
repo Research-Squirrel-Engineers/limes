@@ -1,1 +1,5 @@
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/ce8aba9e-3c66-4b4b-8cfe-eb942d59052d> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/midlandswalescornwall/ce8aba9e-3c66-4b4b-8cfe-eb942d59052d_geom> .
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/ce8aba9e-3c66-4b4b-8cfe-eb942d59052d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/ce8aba9e-3c66-4b4b-8cfe-eb942d59052d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.squirrel.link/data/limes/midlandswalescornwall/Kleinkastell> .
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/ce8aba9e-3c66-4b4b-8cfe-eb942d59052d> <http://www.w3.org/2000/01/rdf-schema#label> "Kleinkastell Hen Waliau" .
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/ce8aba9e-3c66-4b4b-8cfe-eb942d59052d> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

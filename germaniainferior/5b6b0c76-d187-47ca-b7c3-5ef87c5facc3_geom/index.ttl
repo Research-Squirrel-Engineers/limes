@@ -1,1 +1,4 @@
 <http://lod.squirrel.link/data/limes/germaniainferior/5b6b0c76-d187-47ca-b7c3-5ef87c5facc3_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (5.873611 51.970833)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://lod.squirrel.link/data/limes/germaniainferior/5b6b0c76-d187-47ca-b7c3-5ef87c5facc3_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
+<http://lod.squirrel.link/data/limes/germaniainferior/5b6b0c76-d187-47ca-b7c3-5ef87c5facc3_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Castra Herculis Geometry" .
+<http://lod.squirrel.link/data/limes/germaniainferior/5b6b0c76-d187-47ca-b7c3-5ef87c5facc3_geom> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

@@ -1,1 +1,4 @@
 <http://lod.squirrel.link/data/limes/pannoniainferior/baf5509d-053d-4793-9bde-3cd9a372cf43> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/baf5509d-053d-4793-9bde-3cd9a372cf43_geom> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/baf5509d-053d-4793-9bde-3cd9a372cf43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Limes> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/baf5509d-053d-4793-9bde-3cd9a372cf43> <http://www.w3.org/2000/01/rdf-schema#label> "Brigetio – Lager VIII–XI" .
+<http://lod.squirrel.link/data/limes/pannoniainferior/baf5509d-053d-4793-9bde-3cd9a372cf43> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

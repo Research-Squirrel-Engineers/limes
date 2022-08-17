@@ -1,3 +1,7 @@
 <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_86> <http://archaeoinformatics.link/ontology#limesobject> "Buchkopf" .
 <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_86> <http://archaeoinformatics.link/ontology#limestown> "Altenstadt" .
 <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_86> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_86_geom> .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.squirrel.link/data/limes/obergermanischraetisch/Kleinkastell> .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_86> <http://www.w3.org/2000/01/rdf-schema#label> "Höchst" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_86> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 86" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_86> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

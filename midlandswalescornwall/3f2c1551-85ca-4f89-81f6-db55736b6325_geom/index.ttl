@@ -1,1 +1,5 @@
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/3f2c1551-85ca-4f89-81f6-db55736b6325_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.451736 51.9565)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/3f2c1551-85ca-4f89-81f6-db55736b6325_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/3f2c1551-85ca-4f89-81f6-db55736b6325_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/3f2c1551-85ca-4f89-81f6-db55736b6325_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Brecon Y Gaer Geometry" .
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/3f2c1551-85ca-4f89-81f6-db55736b6325_geom> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

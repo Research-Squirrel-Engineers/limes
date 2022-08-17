@@ -1,1 +1,5 @@
 <http://lod.squirrel.link/data/limes/germaniainferior/bcc18f1b-a0fa-4244-bd91-cdfa04a98af3> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/germaniainferior/bcc18f1b-a0fa-4244-bd91-cdfa04a98af3_geom> .
+<http://lod.squirrel.link/data/limes/germaniainferior/bcc18f1b-a0fa-4244-bd91-cdfa04a98af3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
+<http://lod.squirrel.link/data/limes/germaniainferior/bcc18f1b-a0fa-4244-bd91-cdfa04a98af3> <http://www.w3.org/2000/01/rdf-schema#comment> "Kohortenkastell" .
+<http://lod.squirrel.link/data/limes/germaniainferior/bcc18f1b-a0fa-4244-bd91-cdfa04a98af3> <http://www.w3.org/2000/01/rdf-schema#label> "Albaniana" .
+<http://lod.squirrel.link/data/limes/germaniainferior/bcc18f1b-a0fa-4244-bd91-cdfa04a98af3> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

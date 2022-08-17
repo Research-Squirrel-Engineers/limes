@@ -1,1 +1,4 @@
 <http://lod.squirrel.link/data/limes/pannoniainferior/eab5ab59-b69e-4a20-a483-1d5594664c42> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/eab5ab59-b69e-4a20-a483-1d5594664c42_geom> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/eab5ab59-b69e-4a20-a483-1d5594664c42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#MilitaryCamp> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/eab5ab59-b69e-4a20-a483-1d5594664c42> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Teutoburgium" .
+<http://lod.squirrel.link/data/limes/pannoniainferior/eab5ab59-b69e-4a20-a483-1d5594664c42> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

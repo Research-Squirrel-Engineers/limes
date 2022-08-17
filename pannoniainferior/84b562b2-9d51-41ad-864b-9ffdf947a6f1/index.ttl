@@ -1,1 +1,4 @@
 <http://lod.squirrel.link/data/limes/pannoniainferior/84b562b2-9d51-41ad-864b-9ffdf947a6f1> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/84b562b2-9d51-41ad-864b-9ffdf947a6f1_geom> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/84b562b2-9d51-41ad-864b-9ffdf947a6f1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Burgus> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/84b562b2-9d51-41ad-864b-9ffdf947a6f1> <http://www.w3.org/2000/01/rdf-schema#label> "Burgus Szeb (Burgus Selva 34)" .
+<http://lod.squirrel.link/data/limes/pannoniainferior/84b562b2-9d51-41ad-864b-9ffdf947a6f1> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

@@ -1,1 +1,4 @@
 <http://lod.squirrel.link/data/limes/pannoniainferior/e71cd557-0236-4104-8d10-a315099b2a07_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (19.0885 47.717139)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/e71cd557-0236-4104-8d10-a315099b2a07_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/e71cd557-0236-4104-8d10-a315099b2a07_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Burgus Leányfalu (Burgus Cirpi 2) Geometry" .
+<http://lod.squirrel.link/data/limes/pannoniainferior/e71cd557-0236-4104-8d10-a315099b2a07_geom> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

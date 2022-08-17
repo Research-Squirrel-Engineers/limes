@@ -1,1 +1,4 @@
 <http://lod.squirrel.link/data/limes/pannoniainferior/515a97f2-f638-463a-b163-c11e67424da6> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/515a97f2-f638-463a-b163-c11e67424da6_geom> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/515a97f2-f638-463a-b163-c11e67424da6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#MilitaryCamp> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/515a97f2-f638-463a-b163-c11e67424da6> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Matrica" .
+<http://lod.squirrel.link/data/limes/pannoniainferior/515a97f2-f638-463a-b163-c11e67424da6> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .
