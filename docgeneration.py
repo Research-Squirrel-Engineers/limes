@@ -698,7 +698,7 @@ function getClassRelationDialog(node){
         props=node.data
      }
      console.log(nodetype)
-     if(nodetype=="class" || nodetype=="geoclass"){
+     if(nodetype=="class" || nodetype=="geoclass" || node.type=="collectionclass"){
         console.log(props)
         dialogcontent=formatHTMLTableForClassRelations(props,nodeicon,nodelabel,nodeid)
         document.getElementById("classrelationdialog").innerHTML=dialogcontent
@@ -717,7 +717,7 @@ function getDataSchemaDialog(node){
         props=node.data
      }
      console.log(nodetype)
-     if(nodetype=="class" || nodetype=="geoclass"){
+     if(nodetype=="class" || nodetype=="geoclass" || node.type=="collectionclass"){
         console.log(props)
         dialogcontent=formatHTMLTableForResult(props["to"],nodeicon)
         document.getElementById("dataschemadialog").innerHTML=dialogcontent
@@ -792,7 +792,7 @@ function setupJSTree(){
                     console.log(baseurl)
                     if(node.id.includes(baseurl)){
                         getDataSchemaDialog(node) 
-                    }else if(node.type=="class" || node.type=="geoclass"){
+                    }else if(node.type=="class" || node.type=="geoclass" || node.type=="collectionclass"){
                         getDataSchemaDialog(node) 
                     }                                         
                 }
