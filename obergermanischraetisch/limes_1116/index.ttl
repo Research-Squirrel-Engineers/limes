@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1116> <http://archaeoinformatics.link/ontology#limestown> "Gunzenhausen" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1116> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1116_geom> .

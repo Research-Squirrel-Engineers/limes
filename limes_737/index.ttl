@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_737> <http://archaeoinformatics.link/ontology#limestown> "Hüttlingen" .
-<http://lod.squirrel.link/data/limes/limes_737> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_737_geom> .

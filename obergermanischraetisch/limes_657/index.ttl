@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_657> <http://archaeoinformatics.link/ontology#limestown> "Alfdorf" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_657> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_657_geom> .

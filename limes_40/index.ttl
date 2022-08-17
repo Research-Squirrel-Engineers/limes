@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_40> <http://archaeoinformatics.link/ontology#limesobject> "Kemel" .
-<http://lod.squirrel.link/data/limes/limes_40> <http://archaeoinformatics.link/ontology#limestown> "Heidenrod" .
-<http://lod.squirrel.link/data/limes/limes_40> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_40_geom> .

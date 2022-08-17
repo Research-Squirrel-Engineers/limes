@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_691> <http://archaeoinformatics.link/ontology#limestown> "Böbingen" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_691> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_691_geom> .

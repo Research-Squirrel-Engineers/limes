@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_10> <http://archaeoinformatics.link/ontology#limesobject> "Wörth" .
-<http://lod.squirrel.link/data/limes/limes_10> <http://archaeoinformatics.link/ontology#limestown> "Wörth a.Main" .
-<http://lod.squirrel.link/data/limes/limes_10> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_10_geom> .

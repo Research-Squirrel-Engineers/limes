@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_79> <http://archaeoinformatics.link/ontology#limesobject> "Eichkopf" .
-<http://lod.squirrel.link/data/limes/limes_79> <http://archaeoinformatics.link/ontology#limestown> "Ober-Mörlen" .
-<http://lod.squirrel.link/data/limes/limes_79> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_79_geom> .

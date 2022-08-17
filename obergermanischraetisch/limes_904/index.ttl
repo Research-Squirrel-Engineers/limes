@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_904> <http://archaeoinformatics.link/ontology#limestown> "Neuberg" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_904> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_904_geom> .

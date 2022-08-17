@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_297> <http://archaeoinformatics.link/ontology#limestown> "Heidenrod" .
-<http://lod.squirrel.link/data/limes/limes_297> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_297_geom> .

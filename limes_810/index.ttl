@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_810> <http://archaeoinformatics.link/ontology#limestown> "Bad Ems" .
-<http://lod.squirrel.link/data/limes/limes_810> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_810_geom> .

@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_66> <http://archaeoinformatics.link/ontology#limestown> "Miehlen" .
-<http://lod.squirrel.link/data/limes/limes_66> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_66_geom> .

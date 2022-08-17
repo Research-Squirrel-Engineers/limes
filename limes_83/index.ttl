@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_83> <http://archaeoinformatics.link/ontology#limestown> "Münzenberg" .
-<http://lod.squirrel.link/data/limes/limes_83> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_83_geom> .

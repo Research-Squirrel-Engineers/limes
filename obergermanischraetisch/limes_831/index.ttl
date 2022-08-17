@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_831> <http://archaeoinformatics.link/ontology#limestown> "Geisig" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_831> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_831_geom> .

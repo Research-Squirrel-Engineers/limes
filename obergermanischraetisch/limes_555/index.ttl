@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_555> <http://archaeoinformatics.link/ontology#limestown> "Widdern" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_555> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_555_geom> .

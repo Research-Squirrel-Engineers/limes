@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_581> <http://archaeoinformatics.link/ontology#limestown> "Zweiflingen" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_581> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_581_geom> .

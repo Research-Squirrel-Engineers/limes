@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_365> <http://archaeoinformatics.link/ontology#limestown> "Pohlheim" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_365> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_365_geom> .

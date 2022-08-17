@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_370> <http://archaeoinformatics.link/ontology#limestown> "Wehrheim" .
-<http://lod.squirrel.link/data/limes/limes_370> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_370_geom> .

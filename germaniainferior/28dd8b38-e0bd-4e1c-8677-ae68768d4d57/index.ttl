@@ -1,0 +1,1 @@
+<http://lod.squirrel.link/data/limes/germaniainferior/28dd8b38-e0bd-4e1c-8677-ae68768d4d57> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/germaniainferior/28dd8b38-e0bd-4e1c-8677-ae68768d4d57_geom> .

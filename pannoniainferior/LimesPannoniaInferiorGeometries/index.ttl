@@ -1,0 +1,3 @@
+<http://lod.squirrel.link/data/limes/pannoniainferior/LimesPannoniaInferiorGeometries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#GeometryCollection> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/LimesPannoniaInferiorGeometries> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Pannonia Inferior Geometries" .
+<http://lod.squirrel.link/data/limes/pannoniainferior/LimesPannoniaInferiorGeometries> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

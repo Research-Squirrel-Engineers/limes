@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_764> <http://archaeoinformatics.link/ontology#limestown> "Welzheim" .
-<http://lod.squirrel.link/data/limes/limes_764> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_764_geom> .

@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_34> <http://archaeoinformatics.link/ontology#limesobject> "Niederberg" .
-<http://lod.squirrel.link/data/limes/limes_34> <http://archaeoinformatics.link/ontology#limestown> "Koblenz" .
-<http://lod.squirrel.link/data/limes/limes_34> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_34_geom> .

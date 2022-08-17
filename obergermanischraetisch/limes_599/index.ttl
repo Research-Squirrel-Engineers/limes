@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_599> <http://archaeoinformatics.link/ontology#limestown> "Pfedelbach" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_599> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_599_geom> .

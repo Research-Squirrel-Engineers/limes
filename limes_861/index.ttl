@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_861> <http://archaeoinformatics.link/ontology#limestown> "Idstein" .
-<http://lod.squirrel.link/data/limes/limes_861> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_861_geom> .

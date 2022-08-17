@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_798> <http://archaeoinformatics.link/ontology#limestown> "Weitersburg" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_798> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_798_geom> .

@@ -1,0 +1,1 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_879_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (7.980759 50.201638)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .

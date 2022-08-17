@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1023> <http://archaeoinformatics.link/ontology#limestown> "Ehingen" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1023> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1023_geom> .

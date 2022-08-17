@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_78> <http://archaeoinformatics.link/ontology#limestown> "Friedberg" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_78> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_78_geom> .

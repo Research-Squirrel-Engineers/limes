@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_863> <http://archaeoinformatics.link/ontology#limestown> "Höhr-Grenzhausen" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_863> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_863_geom> .

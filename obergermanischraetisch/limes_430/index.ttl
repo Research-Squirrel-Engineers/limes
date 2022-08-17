@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_430> <http://archaeoinformatics.link/ontology#limestown> "Wilburgstetten" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_430> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_430_geom> .

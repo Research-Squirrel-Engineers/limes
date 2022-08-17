@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_623> <http://archaeoinformatics.link/ontology#limestown> "Großerlach" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_623> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_623_geom> .

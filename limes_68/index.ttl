@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_68> <http://archaeoinformatics.link/ontology#limesobject> "Eichelgarten" .
-<http://lod.squirrel.link/data/limes/limes_68> <http://archaeoinformatics.link/ontology#limestown> "Idstein" .
-<http://lod.squirrel.link/data/limes/limes_68> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_68_geom> .

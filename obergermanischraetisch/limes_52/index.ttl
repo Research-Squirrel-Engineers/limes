@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_52> <http://archaeoinformatics.link/ontology#limestown> "Miltenberg" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_52> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_52_geom> .

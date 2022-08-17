@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_839> <http://archaeoinformatics.link/ontology#limestown> "Pohl" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_839> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_839_geom> .

@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_792> <http://archaeoinformatics.link/ontology#limestown> "Schweighausen" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_792> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_792_geom> .

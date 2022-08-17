@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_786> <http://archaeoinformatics.link/ontology#limestown> "Berg" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_786> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_786_geom> .

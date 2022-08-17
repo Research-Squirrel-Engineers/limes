@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_136> <http://archaeoinformatics.link/ontology#limestown> "Walldürn" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_136> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_136_geom> .

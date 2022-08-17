@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_708> <http://archaeoinformatics.link/ontology#limestown> "Aalen" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_708> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_708_geom> .

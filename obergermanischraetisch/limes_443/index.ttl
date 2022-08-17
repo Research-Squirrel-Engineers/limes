@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_443> <http://archaeoinformatics.link/ontology#limestown> "Raitenbuch" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_443> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_443_geom> .

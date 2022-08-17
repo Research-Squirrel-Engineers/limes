@@ -1,0 +1,1 @@
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/32f81caa-d550-4ce3-bd96-afbd809e0a4d> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/midlandswalescornwall/32f81caa-d550-4ce3-bd96-afbd809e0a4d_geom> .

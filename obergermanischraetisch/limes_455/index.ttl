@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_455> <http://archaeoinformatics.link/ontology#limestown> "Weiltingen" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_455> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_455_geom> .

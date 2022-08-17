@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_742> <http://archaeoinformatics.link/ontology#limestown> "Heuchlingen" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_742> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_742_geom> .

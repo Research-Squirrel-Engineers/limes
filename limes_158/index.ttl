@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_158> <http://archaeoinformatics.link/ontology#limestown> "Mainhardt" .
-<http://lod.squirrel.link/data/limes/limes_158> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_158_geom> .

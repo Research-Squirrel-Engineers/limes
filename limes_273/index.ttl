@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_273> <http://archaeoinformatics.link/ontology#limestown> "Neuwied" .
-<http://lod.squirrel.link/data/limes/limes_273> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_273_geom> .

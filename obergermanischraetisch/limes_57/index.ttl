@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_57> <http://archaeoinformatics.link/ontology#limesobject> "Ruffenhofen" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_57> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_57_geom> .

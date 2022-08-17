@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_767> <http://archaeoinformatics.link/ontology#limestown> "Kaisersbach" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_767> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_767_geom> .

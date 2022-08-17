@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_735> <http://archaeoinformatics.link/ontology#limestown> "Essingen" .
-<http://lod.squirrel.link/data/limes/limes_735> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_735_geom> .

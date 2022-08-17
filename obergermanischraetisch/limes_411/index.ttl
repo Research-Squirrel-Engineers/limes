@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_411> <http://archaeoinformatics.link/ontology#limestown> "Lich" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_411> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_411_geom> .

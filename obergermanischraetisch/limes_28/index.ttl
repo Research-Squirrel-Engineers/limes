@@ -1,0 +1,3 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_28> <http://archaeoinformatics.link/ontology#limesobject> "Böhming" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_28> <http://archaeoinformatics.link/ontology#limestown> "Kipfenberg" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_28> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_28_geom> .

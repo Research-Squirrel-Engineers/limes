@@ -1,0 +1,1 @@
+<http://lod.squirrel.link/data/limes/pannoniainferior/fc03de9a-f548-4219-a3ce-ef537d8f41ea_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (19.051417 47.492694)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .

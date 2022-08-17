@@ -1,0 +1,1 @@
+<http://lod.squirrel.link/data/limes/pannoniainferior/aac6edc5-ee7a-439f-9c8f-15161f1da3fa> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/aac6edc5-ee7a-439f-9c8f-15161f1da3fa_geom> .

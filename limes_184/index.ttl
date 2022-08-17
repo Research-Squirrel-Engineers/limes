@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_184> <http://archaeoinformatics.link/ontology#limestown> "Rainau" .
-<http://lod.squirrel.link/data/limes/limes_184> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_184_geom> .

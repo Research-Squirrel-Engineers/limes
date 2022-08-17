@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_948> <http://archaeoinformatics.link/ontology#limestown> "Altenstadt" .
-<http://lod.squirrel.link/data/limes/limes_948> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_948_geom> .

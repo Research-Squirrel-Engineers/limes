@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_86> <http://archaeoinformatics.link/ontology#limesobject> "Buchkopf" .
-<http://lod.squirrel.link/data/limes/limes_86> <http://archaeoinformatics.link/ontology#limestown> "Altenstadt" .
-<http://lod.squirrel.link/data/limes/limes_86> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_86_geom> .

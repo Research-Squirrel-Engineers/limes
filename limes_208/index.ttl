@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_208> <http://archaeoinformatics.link/ontology#limestown> "Glashütten" .
-<http://lod.squirrel.link/data/limes/limes_208> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_208_geom> .

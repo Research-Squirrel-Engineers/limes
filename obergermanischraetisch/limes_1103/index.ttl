@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1103> <http://archaeoinformatics.link/ontology#limestown> "Markt Arberg" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1103> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1103_geom> .

@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_648> <http://archaeoinformatics.link/ontology#limestown> "Stödtlen" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_648> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_648_geom> .

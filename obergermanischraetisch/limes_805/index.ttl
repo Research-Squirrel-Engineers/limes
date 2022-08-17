@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_805> <http://archaeoinformatics.link/ontology#limestown> "Bad Hönningen" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_805> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_805_geom> .

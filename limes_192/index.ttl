@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_192> <http://archaeoinformatics.link/ontology#limestown> "Murrhardt" .
-<http://lod.squirrel.link/data/limes/limes_192> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_192_geom> .

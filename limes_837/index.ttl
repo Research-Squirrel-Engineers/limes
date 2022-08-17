@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_837> <http://archaeoinformatics.link/ontology#limestown> "Höhr-Grenzhausen" .
-<http://lod.squirrel.link/data/limes/limes_837> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_837_geom> .

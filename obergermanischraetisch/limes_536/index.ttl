@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_536> <http://archaeoinformatics.link/ontology#limestown> "Buchen" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_536> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_536_geom> .

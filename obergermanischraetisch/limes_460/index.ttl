@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_460> <http://archaeoinformatics.link/ontology#limestown> "Burgsalach" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_460> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_460_geom> .

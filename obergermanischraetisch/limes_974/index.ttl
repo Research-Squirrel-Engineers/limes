@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_974> <http://archaeoinformatics.link/ontology#limestown> "Schmitten" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_974> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_974_geom> .

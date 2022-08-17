@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_630> <http://archaeoinformatics.link/ontology#limestown> "Lorch" .
-<http://lod.squirrel.link/data/limes/limes_630> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_630_geom> .

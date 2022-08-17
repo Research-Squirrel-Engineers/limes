@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_550> <http://archaeoinformatics.link/ontology#limestown> "Adelsheim" .
-<http://lod.squirrel.link/data/limes/limes_550> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_550_geom> .

@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_1053> <http://archaeoinformatics.link/ontology#limestown> "Höttingen" .
-<http://lod.squirrel.link/data/limes/limes_1053> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_1053_geom> .

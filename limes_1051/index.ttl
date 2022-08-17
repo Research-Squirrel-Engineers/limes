@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_1051> <http://archaeoinformatics.link/ontology#limestown> "Theilenhofen" .
-<http://lod.squirrel.link/data/limes/limes_1051> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_1051_geom> .

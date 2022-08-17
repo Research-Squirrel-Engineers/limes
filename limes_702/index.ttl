@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_702> <http://archaeoinformatics.link/ontology#limestown> "Schwäbisch Gmünd" .
-<http://lod.squirrel.link/data/limes/limes_702> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_702_geom> .

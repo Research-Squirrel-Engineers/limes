@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_406> <http://archaeoinformatics.link/ontology#limestown> "Hanau" .
-<http://lod.squirrel.link/data/limes/limes_406> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_406_geom> .

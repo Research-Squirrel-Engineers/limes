@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_5> <http://archaeoinformatics.link/ontology#limesobject> "Kapersburg" .
-<http://lod.squirrel.link/data/limes/limes_5> <http://archaeoinformatics.link/ontology#limestown> "Rosbach" .
-<http://lod.squirrel.link/data/limes/limes_5> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_5_geom> .

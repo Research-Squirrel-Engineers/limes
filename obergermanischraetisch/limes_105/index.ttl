@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_105> <http://archaeoinformatics.link/ontology#limesobject> "Ferbach" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_105> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_105_geom> .

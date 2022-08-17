@@ -1,0 +1,3 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_44> <http://archaeoinformatics.link/ontology#limesobject> "Echzell" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_44> <http://archaeoinformatics.link/ontology#limestown> "Echzell" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_44> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_44_geom> .

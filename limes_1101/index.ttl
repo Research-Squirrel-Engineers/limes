@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_1101> <http://archaeoinformatics.link/ontology#limestown> "Gunzenhausen" .
-<http://lod.squirrel.link/data/limes/limes_1101> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_1101_geom> .

@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_1015> <http://archaeoinformatics.link/ontology#limestown> "Markt Arberg" .
-<http://lod.squirrel.link/data/limes/limes_1015> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_1015_geom> .

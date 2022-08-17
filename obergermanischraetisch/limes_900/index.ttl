@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_900> <http://archaeoinformatics.link/ontology#limestown> "Nidda" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_900> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_900_geom> .

@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_124> <http://archaeoinformatics.link/ontology#limesobject> "Langendiebach" .
-<http://lod.squirrel.link/data/limes/limes_124> <http://archaeoinformatics.link/ontology#limestown> "Erlensee" .
-<http://lod.squirrel.link/data/limes/limes_124> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_124_geom> .

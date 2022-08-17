@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_188> <http://archaeoinformatics.link/ontology#limestown> "Hanau" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_188> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_188_geom> .

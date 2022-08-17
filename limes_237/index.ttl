@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_237> <http://archaeoinformatics.link/ontology#limestown> "Kemmenau" .
-<http://lod.squirrel.link/data/limes/limes_237> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_237_geom> .

@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_75> <http://archaeoinformatics.link/ontology#limestown> "Rosbach" .
-<http://lod.squirrel.link/data/limes/limes_75> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_75_geom> .

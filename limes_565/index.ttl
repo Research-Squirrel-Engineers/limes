@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_565> <http://archaeoinformatics.link/ontology#limestown> "Forchtenberg" .
-<http://lod.squirrel.link/data/limes/limes_565> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_565_geom> .
