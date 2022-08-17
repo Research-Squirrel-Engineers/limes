@@ -19,6 +19,9 @@ var tree={
     "halfgeoclass": {
       "icon": "https://raw.githubusercontent.com/i3mainz/geopubby/master/public/icons/halfgeoclass.png"
     },
+    "collectionclass": {
+      "icon": "https://raw.githubusercontent.com/i3mainz/geopubby/master/public/icons/collectionclass.png"
+    },
     "geocollection": {
       "icon": "https://raw.githubusercontent.com/i3mainz/geopubby/master/public/icons/geometrycollection.png"
     },
@@ -45,7 +48,7 @@ var tree={
       {
         "id": "http://www.opengis.net/ont/geosparql#FeatureCollection",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
-        "type": "geoclass",
+        "type": "collectionclass",
         "text": "FeatureCollection [6]",
         "data": {
           "to": {
@@ -80,7 +83,7 @@ var tree={
       {
         "id": "http://www.opengis.net/ont/geosparql#GeometryCollection",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
-        "type": "geoclass",
+        "type": "collectionclass",
         "text": "GeometryCollection [6]",
         "data": {
           "to": {
@@ -556,7 +559,7 @@ var tree={
               "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 2
+              "instancecount": 1
             }
           },
           "from": {
@@ -566,7 +569,7 @@ var tree={
             }
           }
         },
-        "instancecount": 6
+        "instancecount": 5
       },
       {
         "id": "http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_100",
@@ -16393,7 +16396,7 @@ var tree={
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "parent": "#",
-        "type": "class",
+        "type": "collectionclass",
         "text": "SpatialObjectCollection",
         "data": {}
       },
