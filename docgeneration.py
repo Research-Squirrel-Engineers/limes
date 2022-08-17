@@ -1199,6 +1199,10 @@ class OntDocGeneration:
     def processLiteral(self,literal, literaltype, reproject,currentlayergeojson=None,triplestoreconf=None):     
         print("Process literal: " + str(literal) + " --- " + str(literaltype))
         if "wkt" in literaltype.lower(): 
+            crsuri=""
+            if "http" in literal:
+                crsuri=literal[0:literal.rfind('>')].replace("<","")
+                literal=literal[literal.rfind('>')+1:]
             print(convert.wkt_to_geojson(literal))
             return json.loads(convert.wkt_to_geojson(literal))
         if "geojson" in literaltype.lower():
@@ -1854,10 +1858,9 @@ class OntDocGeneration:
             f.write(htmltabletemplate.replace("{{tablecontent}}", tablecontents))
             f.write(htmlfooter.replace("{{exports}}",myexports).replace("{{license}}",curlicense))
             f.close()
-prefixes={"reversed":{}}
-if os.path.exists('signlist/prefixes.json'):
-	with open('signlist/prefixes.json', encoding="utf-8") as f:
-	    prefixes = json.load(f)
+
+with open('signlist/prefixes.json', encoding="utf-8") as f:
+    prefixes = json.load(f)
    
 prefixes["reversed"]["http://purl.org/cuneiform/"]="cunei"
 prefixes["reversed"]["http://purl.org/graphemon/"]="graphemon"
