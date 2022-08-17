@@ -1202,7 +1202,7 @@ class OntDocGeneration:
             crsuri=""
             if "http" in literal:
                 crsuri=literal[0:literal.rfind('>')].replace("<","")
-                literal=literal[literal.rfind('>')+1:].trim()
+                literal=literal[literal.rfind('>')+1:].strip()
             print(convert.wkt_to_geojson(literal))
             return json.loads(convert.wkt_to_geojson(literal))
         if "geojson" in literaltype.lower():
