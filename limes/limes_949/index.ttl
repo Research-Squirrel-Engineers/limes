@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_949> <http://archaeoinformatics.link/ontology#limestown> "Echzell" .
-<http://lod.squirrel.link/data/limes/limes_949> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_949_geom> .

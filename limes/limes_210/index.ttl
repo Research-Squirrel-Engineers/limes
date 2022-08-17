@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_210> <http://archaeoinformatics.link/ontology#limestown> "Lahnstein" .
-<http://lod.squirrel.link/data/limes/limes_210> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_210_geom> .

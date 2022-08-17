@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_472> <http://archaeoinformatics.link/ontology#limestown> "Ellingen" .
-<http://lod.squirrel.link/data/limes/limes_472> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_472_geom> .

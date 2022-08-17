@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_389> <http://archaeoinformatics.link/ontology#limestown> "Ober-Mörlen" .
+<http://lod.squirrel.link/data/limes/limes_389> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_389_geom> .

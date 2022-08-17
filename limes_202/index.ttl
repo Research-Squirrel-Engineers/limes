@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_202> <http://archaeoinformatics.link/ontology#limestown> "Taunusstein" .
+<http://lod.squirrel.link/data/limes/limes_202> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_202_geom> .

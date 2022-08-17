@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_1029> <http://archaeoinformatics.link/ontology#limestown> "Kipfenberg" .
-<http://lod.squirrel.link/data/limes/limes_1029> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_1029_geom> .

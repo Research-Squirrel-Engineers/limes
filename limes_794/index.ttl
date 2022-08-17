@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_794> <http://archaeoinformatics.link/ontology#limestown> "Kadenbach" .
+<http://lod.squirrel.link/data/limes/limes_794> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_794_geom> .

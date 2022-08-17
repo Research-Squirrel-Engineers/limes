@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_1056> <http://archaeoinformatics.link/ontology#limestown> "Ettenstatt" .
-<http://lod.squirrel.link/data/limes/limes_1056> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_1056_geom> .

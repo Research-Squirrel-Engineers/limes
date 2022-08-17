@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_1037> <http://archaeoinformatics.link/ontology#limestown> "Denkendorf" .
+<http://lod.squirrel.link/data/limes/limes_1037> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_1037_geom> .

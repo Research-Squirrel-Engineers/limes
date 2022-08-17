@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_808> <http://archaeoinformatics.link/ontology#limestown> "Hammerstein" .
-<http://lod.squirrel.link/data/limes/limes_808> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_808_geom> .

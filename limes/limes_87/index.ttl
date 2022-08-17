@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_87> <http://archaeoinformatics.link/ontology#limesobject> "Neuwirtshaus" .
-<http://lod.squirrel.link/data/limes/limes_87> <http://archaeoinformatics.link/ontology#limestown> "Hanau" .
-<http://lod.squirrel.link/data/limes/limes_87> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_87_geom> .

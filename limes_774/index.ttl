@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_774> <http://archaeoinformatics.link/ontology#limestown> "Buchen" .
+<http://lod.squirrel.link/data/limes/limes_774> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_774_geom> .

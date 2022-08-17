@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_988> <http://archaeoinformatics.link/ontology#limestown> "Florstadt" .
+<http://lod.squirrel.link/data/limes/limes_988> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_988_geom> .

@@ -1,0 +1,1 @@
+<http://lod.squirrel.link/data/limes/b0524f84-a9d2-45fa-9f69-d8164ad73440> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/b0524f84-a9d2-45fa-9f69-d8164ad73440_geom> .

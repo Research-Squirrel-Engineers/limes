@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_833> <http://archaeoinformatics.link/ontology#limestown> "Hunzel" .
-<http://lod.squirrel.link/data/limes/limes_833> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_833_geom> .

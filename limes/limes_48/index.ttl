@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_48> <http://archaeoinformatics.link/ontology#limesobject> "Rückingen" .
-<http://lod.squirrel.link/data/limes/limes_48> <http://archaeoinformatics.link/ontology#limestown> "Erlensee" .
-<http://lod.squirrel.link/data/limes/limes_48> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_48_geom> .

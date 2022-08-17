@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_673> <http://archaeoinformatics.link/ontology#limestown> "Ellwangen" .
-<http://lod.squirrel.link/data/limes/limes_673> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_673_geom> .

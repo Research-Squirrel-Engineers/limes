@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_119> <http://archaeoinformatics.link/ontology#limesobject> "Unter-Widdersheim" .
-<http://lod.squirrel.link/data/limes/limes_119> <http://archaeoinformatics.link/ontology#limestown> "Nidda" .
-<http://lod.squirrel.link/data/limes/limes_119> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_119_geom> .

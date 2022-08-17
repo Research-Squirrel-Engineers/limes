@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_1085> <http://archaeoinformatics.link/ontology#limestown> "Pfofeld" .
-<http://lod.squirrel.link/data/limes/limes_1085> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_1085_geom> .

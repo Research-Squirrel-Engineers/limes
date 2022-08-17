@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_907> <http://archaeoinformatics.link/ontology#limestown> "Neuberg" .
-<http://lod.squirrel.link/data/limes/limes_907> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_907_geom> .

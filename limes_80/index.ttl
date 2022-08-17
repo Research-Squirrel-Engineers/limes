@@ -1,0 +1,3 @@
+<http://lod.squirrel.link/data/limes/limes_80> <http://archaeoinformatics.link/ontology#limesobject> "Kaisergrube" .
+<http://lod.squirrel.link/data/limes/limes_80> <http://archaeoinformatics.link/ontology#limestown> "Ober-Mörlen" .
+<http://lod.squirrel.link/data/limes/limes_80> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_80_geom> .

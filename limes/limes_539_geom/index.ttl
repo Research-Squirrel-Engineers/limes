@@ -1,1 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_539_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (9.409668 49.487068)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .

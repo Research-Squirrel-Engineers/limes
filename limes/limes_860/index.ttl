@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_860> <http://archaeoinformatics.link/ontology#limestown> "Schmitten" .
-<http://lod.squirrel.link/data/limes/limes_860> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_860_geom> .

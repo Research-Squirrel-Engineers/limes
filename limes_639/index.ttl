@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_639> <http://archaeoinformatics.link/ontology#limestown> "Osterburken" .
+<http://lod.squirrel.link/data/limes/limes_639> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_639_geom> .

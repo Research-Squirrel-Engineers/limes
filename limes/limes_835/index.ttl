@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_835> <http://archaeoinformatics.link/ontology#limestown> "Schweighausen" .
-<http://lod.squirrel.link/data/limes/limes_835> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_835_geom> .

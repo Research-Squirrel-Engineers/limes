@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_828> <http://archaeoinformatics.link/ontology#limesobject> "Turm" .
+<http://lod.squirrel.link/data/limes/limes_828> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_828_geom> .

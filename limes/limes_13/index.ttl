@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_13> <http://archaeoinformatics.link/ontology#limesobject> "Jagsthausen" .
-<http://lod.squirrel.link/data/limes/limes_13> <http://archaeoinformatics.link/ontology#limestown> "Jagsthausen" .
-<http://lod.squirrel.link/data/limes/limes_13> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_13_geom> .

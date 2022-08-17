@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_226> <http://archaeoinformatics.link/ontology#limestown> "Becheln" .
-<http://lod.squirrel.link/data/limes/limes_226> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_226_geom> .

@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_213> <http://archaeoinformatics.link/ontology#limestown> "Vallendar" .
+<http://lod.squirrel.link/data/limes/limes_213> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_213_geom> .

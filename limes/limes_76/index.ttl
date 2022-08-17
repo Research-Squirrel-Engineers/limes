@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_76> <http://archaeoinformatics.link/ontology#limestown> "Butzbach" .
-<http://lod.squirrel.link/data/limes/limes_76> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_76_geom> .

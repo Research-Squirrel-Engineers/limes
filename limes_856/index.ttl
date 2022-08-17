@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_856> <http://archaeoinformatics.link/ontology#limestown> "Arzbach" .
+<http://lod.squirrel.link/data/limes/limes_856> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_856_geom> .

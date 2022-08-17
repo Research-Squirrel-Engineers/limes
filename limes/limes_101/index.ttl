@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_101> <http://archaeoinformatics.link/ontology#limesobject> "Hegelohe" .
-<http://lod.squirrel.link/data/limes/limes_101> <http://archaeoinformatics.link/ontology#limestown> "Titting" .
-<http://lod.squirrel.link/data/limes/limes_101> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_101_geom> .

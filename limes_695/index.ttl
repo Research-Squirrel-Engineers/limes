@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_695> <http://archaeoinformatics.link/ontology#limestown> "Mögglingen" .
+<http://lod.squirrel.link/data/limes/limes_695> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_695_geom> .

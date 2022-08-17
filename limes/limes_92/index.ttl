@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_92> <http://archaeoinformatics.link/ontology#limesobject> "Ebnisee" .
-<http://lod.squirrel.link/data/limes/limes_92> <http://archaeoinformatics.link/ontology#limestown> "Kaisersbach" .
-<http://lod.squirrel.link/data/limes/limes_92> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_92_geom> .

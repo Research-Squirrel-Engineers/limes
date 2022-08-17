@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_421> <http://archaeoinformatics.link/ontology#limestown> "Miltenberg" .
-<http://lod.squirrel.link/data/limes/limes_421> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_421_geom> .

@@ -1,0 +1,2 @@
+<http://lod.squirrel.link/data/limes/limes_1059> <http://archaeoinformatics.link/ontology#limestown> "Weißenburg" .
+<http://lod.squirrel.link/data/limes/limes_1059> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_1059_geom> .

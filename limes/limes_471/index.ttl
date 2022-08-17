@@ -1,2 +1,0 @@
-<http://lod.squirrel.link/data/limes/limes_471> <http://archaeoinformatics.link/ontology#limestown> "Pleinfeld" .
-<http://lod.squirrel.link/data/limes/limes_471> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/limes_471_geom> .
