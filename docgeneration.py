@@ -776,7 +776,7 @@ function setupJSTree(){
                 "icon": "https://github.com/i3mainz/geopubby/raw/master/public/icons/classlink.png",
                 "action":function(obj){
                     console.log("class relations")
-                    if(node.type=="class" || node.type=="geoclass"){
+                    if(node.type=="class" || node.type=="geoclass" || node.type=="collectionclass"){
                         getClassRelationDialog(node)
                     }
                 }    
