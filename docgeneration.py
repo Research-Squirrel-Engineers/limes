@@ -2,7 +2,8 @@
 from rdflib import Graph
 from rdflib import URIRef, Literal, BNode
 from rdflib.plugins.sparql import prepareQuery
-import geodaisy.converters as convert
+import shapely.wkt
+import shapely.geometry
 import os
 import json
 import sys
@@ -22,11 +23,16 @@ labelproperties={
 
 collectionclasses=["http://www.opengis.net/ont/geosparql#FeatureCollection","http://www.opengis.net/ont/geosparql#GeometryCollection","http://www.opengis.net/ont/geosparql#SpatialObjectCollection","http://www.w3.org/2004/02/skos/core#Collection","http://www.w3.org/2004/02/skos/core#OrderedCollection","https://www.w3.org/ns/activitystreams#Collection","https://www.w3.org/ns/activitystreams#OrderedCollection"]
 
+geoliteraltypes=["http://www.opengis.net/ont/geosparql#wktLiteral","http://www.opengis.net/ont/geosparql#gmlLiteral","http://www.opengis.net/ont/geosparql#kmlLiteral","http://www.opengis.net/ont/geosparql#geoJSONLiteral","http://www.opengis.net/ont/geosparql#dggsLiteral"]
 
 collectionrelationproperties={
     "http://www.w3.org/2000/01/rdf-schema#member":"ObjectProperty",
+    "http://www.w3.org/2004/02/skos/core#member":"ObjectProperty"
 }
 
+invcollectionrelationproperties={
+    "https://www.w3.org/ns/activitystreams#partOf":"ObjectProperty"
+}
 
 valueproperties={
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#value":"DatatypeProperty",
@@ -34,7 +40,8 @@ valueproperties={
 }
 
 unitproperties={
-    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit":"ObjectProperty"
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit":"ObjectProperty",
+    "https://www.w3.org/ns/activitystreams#units":"DatatypeProperty"
 }
 
 commentproperties={
@@ -63,6 +70,8 @@ geopointerproperties={
 geolatlonproperties={
    "http://www.w3.org/2003/01/geo/wgs84_pos#lat":"DatatypeProperty",
    "http://www.w3.org/2003/01/geo/wgs84_pos#long": "DatatypeProperty",
+   "https://www.w3.org/ns/activitystreams#latitude": "DatatypeProperty",
+   "https://www.w3.org/ns/activitystreams#longitude": "DatatypeProperty",
    "http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#hasLatitude": "DatatypeProperty",
    "http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#hasLongitude": "DatatypeProperty",
    "http://schema.org/longitude": "DatatypeProperty",
@@ -189,13 +198,16 @@ function parseWKTStringToJSON(wktstring){
     resjson=[]
     for(coordset of wktstring.split(",")){
         curobject={}
-        coords=coordset.split(" ")
+        coords=coordset.trim().split(" ")
+        console.log(coordset)
+        console.log(coords)
         if(coords.length==3){
-            resjson.append({"x":coords[0],"y":coords[1],"z":coords[2]})
+            resjson.push({"x":parseFloat(coords[0]),"y":parseFloat(coords[1]),"z":parseFloat(coords[2])})
         }else{
-            resjson.append({"x":coords[0],"y":coords[1]})
+            resjson.push({"x":parseFloat(coords[0]),"y":parseFloat(coords[1])})
         }
     }
+    console.log(resjson)
     return resjson
 }
 
@@ -404,18 +416,16 @@ function download(){
 }
 
 function rewriteLink(thelink){
-    console.log(thelink)
     if(thelink==null){
         rest=search[document.getElementById('search').value].replace(baseurl,"")
     }else{
+        curlocpath=window.location.href.replace(baseurl,"")
         rest=thelink.replace(baseurl,"")
     }
-    console.log(rest)
     count=0
     if(!indexpage){
-        count=rest.split("/").length
+        count=curlocpath.split("/").length-1
     }
-    console.log(count)
     counter=0
     while(counter<count){
         rest="../"+rest
@@ -533,33 +543,97 @@ function start3dhop(meshurl,meshformat){
 }
 
 
-let camera, scene, renderer;
+let camera, scene, renderer,controls;
 
-function init(domelement,verts) {
-    camera = new THREE.PerspectiveCamera( 90, window.innerWidth / window.innerHeight, 0.1, 100 );
-    camera.position.z = 145;
+function viewGeometry(geometry) {
+  const material = new THREE.MeshPhongMaterial({
+    color: 0xffffff,
+    flatShading: true,
+    vertexColors: THREE.VertexColors,
+    wireframe: false
+  });
+  const mesh = new THREE.Mesh(geometry, material);
+  scene.add(mesh);
+}
+
+function initThreeJS(domelement,verts,meshurls) {
     scene = new THREE.Scene();
+    minz=Number.MAX_VALUE
+    maxz=Number.MIN_VALUE
+    miny=Number.MAX_VALUE
+    maxy=Number.MIN_VALUE
+    minx=Number.MAX_VALUE
+    maxx=Number.MIN_VALUE
 	vertarray=[]
-    for(vert in verts){
-        vertarray.append(vert["x"])
-        vertarray.append(vert["y"])
-        vertarray.append(vert["z"])
+    console.log(verts)
+    var svgShape = new THREE.Shape();
+    first=true
+    for(vert of verts){
+        if(first){
+            svgShape.moveTo(vert["x"], vert["y"]);
+           first=false
+        }else{
+            svgShape.lineTo(vert["x"], vert["y"]);
+        }
+        vertarray.push(vert["x"])
+        vertarray.push(vert["y"])
+        vertarray.push(vert["z"])
+        if(vert["z"]>maxz){
+            maxz=vert["z"]
+        }
+        if(vert["z"]<minz){
+            minz=vert["z"]
+        }
+        if(vert["y"]>maxy){
+            maxy=vert["y"]
+        }
+        if(vert["y"]<miny){
+            miny=vert["y"]
+        }
+        if(vert["x"]>maxx){
+            maxy=vert["x"]
+        }
+        if(vert["x"]<minx){
+            miny=vert["x"]
+        }
     }
-    vertices=new Float32Array(vertarray)
-    const geometry =new THREE.BufferGeometry( ); 
-    geometry.setAttribute( 'position', new THREE.BufferAttribute( vertices, 3 ) );    
-    const material = new THREE.MeshBasicMaterial( { color: 0xFFFFFF } );
-    const mesh = new THREE.Mesh( geometry, material );
+    if(meshurls.length>0){
+        var loader = new THREE.PLYLoader();
+        loader.load(meshurls[0], viewGeometry);
+    }
+    camera = new THREE.PerspectiveCamera(90,window.innerWidth / window.innerHeight, 0.1, 150 );
+    scene.add(new THREE.AmbientLight(0x222222));
+    var light = new THREE.DirectionalLight(0xffffff, 1);
+    light.position.set(20, 20, 0);
+    scene.add(light);
+    var axesHelper = new THREE.AxesHelper( Math.max(maxx, maxy, maxz)*4 );
+    scene.add( axesHelper );
+    console.log("Depth: "+(maxz-minz))
+    var extrudedGeometry = new THREE.ExtrudeGeometry(svgShape, {depth: maxz-minz, bevelEnabled: false});
+    extrudedGeometry.computeBoundingBox()
+    centervec=new THREE.Vector3()
+    extrudedGeometry.boundingBox.getCenter(centervec)
+    console.log(centervec)
+    const material = new THREE.MeshBasicMaterial( { color: 0xFFFFFF, wireframe:true } );
+    const mesh = new THREE.Mesh( extrudedGeometry, material );
     scene.add( mesh );
     renderer = new THREE.WebGLRenderer( { antialias: false } );
-		renderer.setPixelRatio( window.devicePixelRatio );
-    renderer.setSize( window.innerWidth, window.innerHeight );
-    document.querySelector(domelement).appendChild( renderer.domElement );		
-	const controls = new THREE.OrbitControls( camera, renderer.domElement );
+	renderer.setPixelRatio( window.devicePixelRatio );
+    renderer.setSize( 480, 500 );
+    document.getElementById(domelement).appendChild( renderer.domElement );
+	controls = new THREE.OrbitControls( camera, renderer.domElement );
+    controls.target.set( centervec.x,centervec.y,centervec.z );
+    camera.position.x= centervec.x
+    camera.position.y= centervec.y
+    camera.position.z = centervec.z+10;
+    controls.maxDistance= Math.max(maxx, maxy, maxz)*5
+    controls.update();
+    animate()
 }
 
 function animate() {
     requestAnimationFrame( animate );
+    controls.update();
     renderer.render( scene, camera );
 }
 
@@ -677,7 +751,7 @@ function formatHTMLTableForResult(result,nodeicon){
             }
             dialogcontent+="</ul></td>"
         }else if((result[res][0]+"").startsWith("http")){
-            dialogcontent+="<td><a href=\\""+rewriteLink(result[res]+"")+"\\" target=\\"_blank\\">"+shortenURI(result[res]+"")+"</a></td>"
+            dialogcontent+="<td><a href=\\""+rewriteLink(result[res][0]+"")+"\\" target=\\"_blank\\">"+shortenURI(result[res][0]+"")+"</a></td>"
         }else{
             dialogcontent+="<td>"+result[res][0]+"</td>"
         }
@@ -939,7 +1013,10 @@ htmltemplate = """<html about=\"{{subject}}\"><head><title>{{toptitle}}</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r99/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three/examples/js/controls/TrackballControls.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three/examples/js/controls/OrbitControls.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/PLYLoader.js"></script>
 <script src="{{scriptfolderpath}}"></script><script src="{{classtreefolderpath}}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.12/jstree.min.js"></script>
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
@@ -972,19 +1049,18 @@ imagecarouselfooter="""</div> <a class="carousel-control-prev" href="#carouselEx
   </a></div>"""
 
 imagestemplate="""<div class="{{carousel}}">
-<img src="{{image}}" style="max-width:485px;max-height:500px" alt="{{image}}" title="{{imagetitle}}" />
+<a href="{{image}}" target=\"_blank\"><img src="{{image}}" style="max-width:485px;max-height:500px" alt="{{image}}" title="{{imagetitle}}" /></a>
 </div>
 """
 
 imageswithannotemplate="""<div class="{{carousel}}">
-<img src="{{image}}" style="max-width:485px;max-height:500px" alt="{{image}}" title="{{imagetitle}}" />
+<a href=\"{{image}}\" target=\"_blank\"><img src="{{image}}" style="max-width:485px;max-height:500px" alt="{{image}}" title="{{imagetitle}}" /></a>
 {{svganno}}
 </div>
 """
 
 
-imagestemplatesvg="""
-<div class="{{carousel}}" style="max-width:485px;max-height:500px">
+imagestemplatesvg="""<div class="{{carousel}}" style="max-width:485px;max-height:500px">
 {{image}}
 </div>
 """
@@ -1008,9 +1084,9 @@ Your browser does not support the audio element.
 """
 
 threejstemplate="""
-<div class="threejscontainer">
-
+<div id="threejs" class="threejscontainer" style="max-width:485px;max-height:500px">
 </div>
+<script>$(document).ready(function(){initThreeJS('threejs',parseWKTStringToJSON("{{wktstring}}"),{{meshurls}})})</script>
 """
 
 image3dtemplate="""<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cnr-isti-vclab/3DHOP@4.3/minimal/stylesheet/3dhop.css"/>
@@ -1148,7 +1224,7 @@ htmltabletemplate="""
 htmlfooter="""<div id="footer"><div class="container-fluid"><b>Download Options:</b>&nbsp;Format:<select id="format" onchange="changeDefLink()">	
 {{exports}}
 </select><a id="formatlink2" href="#" target="_blank"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-info-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg></a>&nbsp;
-<button id="downloadButton" onclick="download()">Download</button>{{license}}</div></div></body><script>setSVGDimensions()</script></html>"""
+<button id="downloadButton" onclick="download()">Download</button>{{license}}</div></div></body><script>$(document).ready(function(){setSVGDimensions()})</script></html>"""
 
 licensetemplate=""""""
 
@@ -1179,7 +1255,7 @@ classtreequery="""PREFIX owl: <http://www.w3.org/2002/07/owl#>\n
 
 class OntDocGeneration:
 
-    def __init__(self, prefixes,prefixnamespace,prefixnsshort,license,labellang,outpath,graph):
+    def __init__(self, prefixes,prefixnamespace,prefixnsshort,license,labellang,outpath,graph,createIndexPages):
         self.prefixes=prefixes
         self.prefixnamespace = prefixnamespace
         self.namespaceshort = prefixnsshort.replace("/","")
@@ -1187,6 +1263,7 @@ class OntDocGeneration:
         self.license=license
         self.licenseuri=None
         self.labellang=labellang
+        self.createIndexPages=createIndexPages
         self.graph=graph
         self.preparedclassquery=prepareQuery(classtreequery)
         if prefixnamespace==None or prefixnsshort==None or prefixnamespace=="" or prefixnsshort=="":
@@ -1201,14 +1278,14 @@ class OntDocGeneration:
         #prefixes["reversed"]["http://purl.org/suni/"] = "suni"
 
     def processLiteral(self,literal, literaltype, reproject,currentlayergeojson=None,triplestoreconf=None):     
-        print("Process literal: " + str(literal) + " --- " + str(literaltype))
+        #print("Process literal: " + str(literal) + " --- " + str(literaltype))
         if "wkt" in literaltype.lower(): 
             crsuri=""
             if "http" in literal:
                 crsuri=literal[0:literal.rfind('>')].replace("<","")
                 literal=literal[literal.rfind('>')+1:].strip()
-            print(convert.wkt_to_geojson(literal))
-            return json.loads(convert.wkt_to_geojson(literal))
+            shapelygeom=shapely.wkt.loads(literal)
+            return json.loads(json.dumps(shapely.geometry.mapping(shapelygeom),indent=2))
         if "geojson" in literaltype.lower():
             return literal
         return {}
@@ -1294,7 +1371,7 @@ class OntDocGeneration:
             f.write(stylesheet)
             f.close()
         with open(outpath + "startscripts.js", 'w', encoding='utf-8') as f:
-            f.write(startscripts)
+            f.write(startscripts.replace("{{baseurl}}",prefixnamespace))
             f.close()
         pathmap = {}
         paths = {}
@@ -1310,7 +1387,7 @@ class OntDocGeneration:
                         self.graph.parse(outpath + path+"/index.ttl")
                     except Exception as e:
                         print(e)
-                self.createHTML(outpath + path, self.graph.predicate_objects(subj), subj, prefixnamespace, self.graph.subject_predicates(subj),
+                postprocessing=self.createHTML(outpath + path, self.graph.predicate_objects(subj), subj, prefixnamespace, self.graph.subject_predicates(subj),
                            self.graph,str(corpusid) + "_search.js", str(corpusid) + "_classtree.js",uritotreeitem,curlicense,subjectstorender,postprocessing)
                 subtorencounter += 1
                 if subtorencounter%500==0:
@@ -1338,50 +1415,51 @@ class OntDocGeneration:
         with open(outpath + corpusid + "_classtree.js", 'w', encoding='utf-8') as f:
             f.write("var tree=" + json.dumps(tree, indent=2))
             f.close()
-        for path in paths:
-            ttlf = open(path + "index.ttl", "w", encoding="utf-8")
-            checkdepth = self.checkDepthFromPath(path, outpath, path)-1
-            sfilelink=self.generateRelativeLinkFromGivenDepth(prefixnamespace,checkdepth,corpusid + '_search.js',False)
-            classtreelink = self.generateRelativeLinkFromGivenDepth(prefixnamespace,checkdepth,corpusid + "_classtree.js",False)
-            stylelink =self.generateRelativeLinkFromGivenDepth(prefixnamespace,checkdepth,"style.css",False)
-            scriptlink = self.generateRelativeLinkFromGivenDepth(prefixnamespace, checkdepth, "startscripts.js", False)
-            nslink=prefixnamespace+str(self.getAccessFromBaseURL(str(outpath),str(path)))
-            for sub in self.graph.subjects():
-                if nslink in sub:
-                    for tup in self.graph.predicate_objects(sub):
-                        if isinstance(tup[1],Literal):
-                            if tup[1].datatype!=None:
-                                ttlf.write("<" + str(sub) + "> <" + str(tup[0]) + "> \"" + str(tup[1]) + "\"^^<"+str(tup[1].datatype)+"> .\n")
-                            else:
-                                ttlf.write("<" + str(sub) + "> <" + str(tup[0]) + "> \"" + str(tup[1]) + "\" .\n")
-                        elif isinstance(tup[1],URIRef):
-                            ttlf.write("<"+str(sub)+"> <"+str(tup[0])+"> <"+str(tup[1])+"> .\n")
-            ttlf.close()
-            indexhtml = htmltemplate.replace("{{baseurl}}", prefixnamespace).replace("{{toptitle}}","Index page for " + nslink).replace("{{title}}","Index page for " + nslink).replace("{{startscriptpath}}", scriptlink).replace("{{stylepath}}", stylelink)\
-                .replace("{{classtreefolderpath}}",classtreelink).replace("{{baseurlhtml}}", nslink).replace("{{scriptfolderpath}}", sfilelink).replace("{{exports}}",nongeoexports)
-            if nslink==prefixnamespace:
-                indexhtml=indexhtml.replace("{{indexpage}}","true")
-            else:
-                indexhtml = indexhtml.replace("{{indexpage}}", "false")
-            indexhtml+="<p>This page shows information about linked data resources in HTML. Choose the classtree navigation or search to browse the data</p>"
-            indexhtml+="<table class=\"description\" style =\"height: 100%; overflow: auto\" border=1 id=indextable><thead><tr><th>Class</th><th>Number of instances</th><th>Instance Example</th></tr></thead><tbody>"
-            for item in tree["core"]["data"]:
-                if (item["type"]=="geoclass" or item["type"]=="class" or item["type"]=="featurecollection" or item["type"]=="geocollection") and "instancecount" in item and item["instancecount"]>0:
-                    exitem=None
-                    for item2 in tree["core"]["data"]:
-                        if item2["parent"]==item["id"] and (item2["type"]=="instance" or item2["type"]=="geoinstance") and nslink in item2["id"]:
-                            checkdepth = self.checkDepthFromPath(path, prefixnamespace, item2["id"])-1
-                            exitem="<td><img src=\""+tree["types"][item2["type"]]["icon"]+"\" height=\"25\" width=\"25\" alt=\""+item2["type"]+"\"/><a href=\""+self.generateRelativeLinkFromGivenDepth(prefixnamespace,checkdepth,str(item2["id"]),True)+"\">"+str(item2["text"])+"</a></td>"
-                            break
-                    if exitem!=None:
-                        indexhtml+="<tr><td><img src=\""+tree["types"][item["type"]]["icon"]+"\" height=\"25\" width=\"25\" alt=\""+item["type"]+"\"/><a href=\""+str(item["id"])+"\" target=\"_blank\">"+str(item["text"])+"</a></td>"
-                        indexhtml+="<td>"+str(item["instancecount"])+"</td>"+exitem+"</tr>"
-            indexhtml += "</tbody></table><script>$('#indextable').DataTable();</script>"
-            indexhtml+=htmlfooter.replace("{{license}}",curlicense).replace("{{exports}}",nongeoexports)
-            print(path)
-            with open(path + "index.html", 'w', encoding='utf-8') as f:
-                f.write(indexhtml)
-                f.close()
+        if self.createIndexPages:
+            for path in paths:
+                ttlf = open(path + "index.ttl", "w", encoding="utf-8")
+                checkdepth = self.checkDepthFromPath(path, outpath, path)-1
+                sfilelink=self.generateRelativeLinkFromGivenDepth(prefixnamespace,checkdepth,corpusid + '_search.js',False)
+                classtreelink = self.generateRelativeLinkFromGivenDepth(prefixnamespace,checkdepth,corpusid + "_classtree.js",False)
+                stylelink =self.generateRelativeLinkFromGivenDepth(prefixnamespace,checkdepth,"style.css",False)
+                scriptlink = self.generateRelativeLinkFromGivenDepth(prefixnamespace, checkdepth, "startscripts.js", False)
+                nslink=prefixnamespace+str(self.getAccessFromBaseURL(str(outpath),str(path)))
+                for sub in self.graph.subjects():
+                    if nslink in sub:
+                        for tup in self.graph.predicate_objects(sub):
+                            if isinstance(tup[1],Literal):
+                                if tup[1].datatype!=None:
+                                    ttlf.write("<" + str(sub) + "> <" + str(tup[0]) + "> \"" + str(tup[1]) + "\"^^<"+str(tup[1].datatype)+"> .\n")
+                                else:
+                                    ttlf.write("<" + str(sub) + "> <" + str(tup[0]) + "> \"" + str(tup[1]) + "\" .\n")
+                            elif isinstance(tup[1],URIRef):
+                                ttlf.write("<"+str(sub)+"> <"+str(tup[0])+"> <"+str(tup[1])+"> .\n")
+                ttlf.close()
+                indexhtml = htmltemplate.replace("{{baseurl}}", prefixnamespace).replace("{{toptitle}}","Index page for " + nslink).replace("{{title}}","Index page for " + nslink).replace("{{startscriptpath}}", scriptlink).replace("{{stylepath}}", stylelink)\
+                    .replace("{{classtreefolderpath}}",classtreelink).replace("{{baseurlhtml}}", nslink).replace("{{scriptfolderpath}}", sfilelink).replace("{{exports}}",nongeoexports)
+                if nslink==prefixnamespace:
+                    indexhtml=indexhtml.replace("{{indexpage}}","true")
+                else:
+                    indexhtml = indexhtml.replace("{{indexpage}}", "false")
+                indexhtml+="<p>This page shows information about linked data resources in HTML. Choose the classtree navigation or search to browse the data</p>"
+                indexhtml+="<table class=\"description\" style =\"height: 100%; overflow: auto\" border=1 id=indextable><thead><tr><th>Class</th><th>Number of instances</th><th>Instance Example</th></tr></thead><tbody>"
+                for item in tree["core"]["data"]:
+                    if (item["type"]=="geoclass" or item["type"]=="class" or item["type"]=="featurecollection" or item["type"]=="geocollection") and "instancecount" in item and item["instancecount"]>0:
+                        exitem=None
+                        for item2 in tree["core"]["data"]:
+                            if item2["parent"]==item["id"] and (item2["type"]=="instance" or item2["type"]=="geoinstance") and nslink in item2["id"]:
+                                checkdepth = self.checkDepthFromPath(path, prefixnamespace, item2["id"])-1
+                                exitem="<td><img src=\""+tree["types"][item2["type"]]["icon"]+"\" height=\"25\" width=\"25\" alt=\""+item2["type"]+"\"/><a href=\""+self.generateRelativeLinkFromGivenDepth(prefixnamespace,checkdepth,str(item2["id"]),True)+"\">"+str(item2["text"])+"</a></td>"
+                                break
+                        if exitem!=None:
+                            indexhtml+="<tr><td><img src=\""+tree["types"][item["type"]]["icon"]+"\" height=\"25\" width=\"25\" alt=\""+item["type"]+"\"/><a href=\""+str(item["id"])+"\" target=\"_blank\">"+str(item["text"])+"</a></td>"
+                            indexhtml+="<td>"+str(item["instancecount"])+"</td>"+exitem+"</tr>"
+                indexhtml += "</tbody></table><script>$('#indextable').DataTable();</script>"
+                indexhtml+=htmlfooter.replace("{{license}}",curlicense).replace("{{exports}}",nongeoexports)
+                print(path)
+                with open(path + "index.html", 'w', encoding='utf-8') as f:
+                    f.write(indexhtml)
+                    f.close()
 
 
     def getClassTree(self,graph, uritolabel,classidset,uritotreeitem):
@@ -1501,7 +1579,7 @@ class OntDocGeneration:
         #QgsMessageLog.logMessage("Relative Link from Given Depth: " + rellink,"OntdocGeneration", Qgis.Info)
         return rellink
 
-    def searchObjectConnectionsForAggregateData(self,graph,object,pred,geojsonrep,foundmedia,imageannos,label):
+    def searchObjectConnectionsForAggregateData(self,graph,object,pred,geojsonrep,foundmedia,imageannos,image3dannos,label,unitlabel):
         geoprop=False
         incollection=False
         if pred in geopointerproperties:
@@ -1513,11 +1591,13 @@ class OntDocGeneration:
         for tup in graph.predicate_objects(object):
             if str(tup[0]) in labelproperties:
                 label=str(tup[1])
-            if pred=="http://www.w3.org/ns/oa#hasSelector" and tup[0]==URIRef("http://www.w3.org/1999/02/22-rdf-syntax-ns#type") and tup[1]==URIRef("http://www.w3.org/ns/oa#SvgSelector"):
+            if pred=="http://www.w3.org/ns/oa#hasSelector" and tup[0]==URIRef("http://www.w3.org/1999/02/22-rdf-syntax-ns#type") and (tup[1]==URIRef("http://www.w3.org/ns/oa#SvgSelector") or tup[1]==URIRef("http://www.w3.org/ns/oa#WKTSelector")):
                 for svglit in graph.objects(object,URIRef("http://www.w3.org/1999/02/22-rdf-syntax-ns#value")):
                     if "<svg" in str(svglit):
                         imageannos.add(str(svglit))
-            if geoprop and str(tup[0]) in geoproperties and isinstance(tup[1], Literal):
+                    elif ("POINT" in str(svglit).upper() or "POLYGON" in str(svglit).upper() or "LINESTRING" in str(svglit).upper()):
+                        image3dannos.add(str(svglit))
+            if isinstance(tup[1], Literal) and (str(tup[0]) in geoproperties or str(tup[1].datatype) in geoliteraltypes):
                 geojsonrep = self.processLiteral(str(tup[1]), tup[1].datatype, "")
             if incollection and "<svg" in str(tup[1]):
                  foundmedia["image"].add(str(tup[1]))
@@ -1530,41 +1610,51 @@ class OntDocGeneration:
             if str(tup[0]) in unitproperties and isinstance(tup[1],URIRef):
                 foundunit=str(tup[1])
         if foundunit!=None and foundval!=None and label!=None:
-            label+=" "+str(foundval)+" ["+str(self.shortenURI(foundunit))+"]"
-        return {"geojsonrep":geojsonrep,"label":label,"foundmedia":foundmedia,"imageannos":imageannos}
+            res=self.replaceNameSpacesInLabel(str(foundunit))
+            if res!=None:
+                unitlabel=str(foundval)+" <a href=\""+str(foundunit)+"\">"+res["uri"]+"</a>"
+            else:
+                unitlabel=str(foundval)+" <a href=\""+str(foundunit)+"\">"+str(self.shortenURI(foundunit))+"</a>"
+        return {"geojsonrep":geojsonrep,"label":label,"unitlabel":unitlabel,"foundmedia":foundmedia,"imageannos":imageannos,"image3dannos":image3dannos}
 
 
-    def createHTMLTableValueEntry(self,subject,pred,object,ttlf,tablecontents,graph,baseurl,checkdepth,geojsonrep,foundmedia,imageannos):
+    def createHTMLTableValueEntry(self,subject,pred,object,ttlf,tablecontents,graph,baseurl,checkdepth,geojsonrep,foundmedia,imageannos,image3dannos):
         if isinstance(object,URIRef) or isinstance(object,BNode):
             if ttlf != None:
                 ttlf.write("<" + str(subject) + "> <" + str(pred) + "> <" + str(object) + "> .\n")
             label = str(self.shortenURI(str(object)))
-            mydata=self.searchObjectConnectionsForAggregateData(graph,object,pred,geojsonrep,foundmedia,imageannos,label)
+            unitlabel=""
+            mydata=self.searchObjectConnectionsForAggregateData(graph,object,pred,geojsonrep,foundmedia,imageannos,image3dannos,label,unitlabel)
             label=mydata["label"]
             geojsonrep=mydata["geojsonrep"]
             foundmedia=mydata["foundmedia"]
             imageannos=mydata["imageannos"]
+            image3dannos=mydata["image3dannos"]
+            unitlabel=mydata["unitlabel"]
             if baseurl in str(object) or isinstance(object,BNode):
                 rellink = self.generateRelativeLinkFromGivenDepth(baseurl,checkdepth,str(object),True)
-                tablecontents += "<span><a property=\"" + str(pred) + "\" resource=\"" + str(object) + "\" href=\"" + rellink + "\">"+ label + " <span style=\"color: #666;\">(" + self.namespaceshort + ":" + str(self.shortenURI(str(object))) + ")</span></a></span>"
+                tablecontents += "<span><a property=\"" + str(pred) + "\" resource=\"" + str(object) + "\" href=\"" + rellink + "\">"+ label + " <span style=\"color: #666;\">(" + self.namespaceshort + ":" + str(self.shortenURI(str(object))) + ")</span></a>"
             else:
                 res = self.replaceNameSpacesInLabel(str(object))
                 if res != None:
                     tablecontents += "<span><a property=\"" + str(pred) + "\" resource=\"" + str(
                         object) + "\" target=\"_blank\" href=\"" + str(
                         object) + "\">" + label + " <span style=\"color: #666;\">(" + res[
-                                         "uri"] + ")</span></a></span>"
+                                         "uri"] + ")</span></a>"                                     
                 else:
                     tablecontents += "<span><a property=\"" + str(pred) + "\" resource=\"" + str(
                         object) + "\" target=\"_blank\" href=\"" + str(
-                        object) + "\">" + label + "</a></span>"
+                        object) + "\">" + label + "</a>"
+            if unitlabel!="":
+                tablecontents+=" <span style=\"font-weight:bold\">["+str(unitlabel)+"]</span>"
+            tablecontents+="</span>"
         else:
             if isinstance(object, Literal) and object.datatype != None:
                 res = self.replaceNameSpacesInLabel(str(object.datatype))
                 if ttlf!=None:
                     ttlf.write("<" + str(subject) + "> <" + str(pred) + "> \"" + str(object) + "\"^^<" + str(
                     object.datatype) + "> .\n")
-                objstring=str(object)
+                objstring=str(object).replace("<", "&lt").replace(">", "&gt;")
                 if str(object.datatype)=="http://www.w3.org/2001/XMLSchema#anyURI":
                     objstring="<a href=\""+str(object)+"\">"+str(object)+"</a>"
                 if res != None:
@@ -1577,18 +1667,20 @@ class OntDocGeneration:
                         object).replace("<", "&lt").replace(">", "&gt;").replace("\"", "'") + "\" datatype=\"" + str(
                         object.datatype) + "\">" + objstring + " <small>(<a style=\"color: #666;\" target=\"_blank\" href=\"" + str(
                         object.datatype) + "\">" + self.shortenURI(str(object.datatype)) + "</a>)</small></span>"
-                if str(pred) in geoproperties and isinstance(object,Literal):
+                if isinstance(object, Literal) and (str(pred) in geoproperties or str(object.datatype) in geoliteraltypes):
                     geojsonrep = self.processLiteral(str(object), object.datatype, "")
             else:
-                if ttlf!=None:
-                    ttlf.write("<" + str(subject) + "> <" + str(pred) + "> \"" + str(object) + "\" .\n")
                 if object.language != None:
+                    if ttlf!=None:
+                        ttlf.write("<" + str(subject) + "> <" + str(pred) + "> \"" + str(object) + "\"@"+str(object.language)+" .\n")
                     tablecontents += "<span property=\"" + str(pred) + "\" content=\"" + str(
-                        object).replace("<", "&lt").replace(">", "&gt;").replace("\"","'") + "\" datatype=\"http://www.w3.org/2001/XMLSchema#string\" xml:lang=\"" + str(object.language) + "\">" + str(object).replace("<", "&lt").replace(">", "&gt;").replace("\"","'") + " <small>(<a style=\"color: #666;\" target=\"_blank\" href=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#langString\">rdf:langString</a>) (<a href=\"http://www.lexvo.org/page/iso639-1/"+str(object.language)+"\" target=\"_blank\">iso6391:" + str(object.language) + "</a>)</small></span>"
+                        object).replace("<", "&lt").replace(">", "&gt;").replace("\"","'") + "\" datatype=\"http://www.w3.org/2001/XMLSchema#string\" xml:lang=\"" + str(object.language) + "\">" + str(object).replace("<", "&lt").replace(">", "&gt;") + " <small>(<a style=\"color: #666;\" target=\"_blank\" href=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#langString\">rdf:langString</a>) (<a href=\"http://www.lexvo.org/page/iso639-1/"+str(object.language)+"\" target=\"_blank\">iso6391:" + str(object.language) + "</a>)</small></span>"
                 else:
+                    if ttlf!=None:
+                        ttlf.write("<" + str(subject) + "> <" + str(pred) + "> \"" + str(object) + "\" .\n")
                     tablecontents += "<span property=\"" + str(pred) + "\" content=\"" + str(
-                        object).replace("<","&lt").replace(">","&gt;").replace("\"","'") + "\" datatype=\"http://www.w3.org/2001/XMLSchema#string\">" + str(object).replace("<","&lt").replace(">","&gt;").replace("\"","'") + " <small>(<a style=\"color: #666;\" target=\"_blank\" href=\"http://www.w3.org/2001/XMLSchema#string\">xsd:string</a>)</small></span>"
-        return {"html":tablecontents,"geojson":geojsonrep,"foundmedia":foundmedia,"imageannos":imageannos}
+                        object).replace("<","&lt").replace(">","&gt;").replace("\"","'") + "\" datatype=\"http://www.w3.org/2001/XMLSchema#string\">" + str(object).replace("<","&lt").replace(">","&gt;") + " <small>(<a style=\"color: #666;\" target=\"_blank\" href=\"http://www.w3.org/2001/XMLSchema#string\">xsd:string</a>)</small></span>"
+        return {"html":tablecontents,"geojson":geojsonrep,"foundmedia":foundmedia,"imageannos":imageannos,"image3dannos":image3dannos}
 
     def formatPredicate(self,tup,baseurl,checkdepth,tablecontents,graph,reverse):
         label = self.shortenURI(str(tup))
@@ -1637,6 +1729,7 @@ class OntDocGeneration:
         checkdepth=self.checkDepthFromPath(savepath, baseurl, subject)
         foundlabel = ""
         imageannos=set()
+        image3dannos=set()
         predobjmap={}
         isgeocollection=False
         comment=None
@@ -1688,35 +1781,47 @@ class OntDocGeneration:
                 if len(predobjmap[tup])>1:
                     tablecontents+="<td class=\"wrapword\"><ul>"
                     for item in predobjmap[tup]:
-                        if "<svg" in str(item):
+                        if ("POINT" in str(item).upper() or "POLYGON" in str(item).upper() or "LINESTRING" in str(item).upper()) and tup in valueproperties and "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" in predobjmap and URIRef("http://www.w3.org/ns/oa#WKTSelector") in predobjmap["http://www.w3.org/1999/02/22-rdf-syntax-ns#type"]:
+                            image3dannos.add(str(item))
+                        elif "<svg" in str(item):
                             foundmedia["image"].add(str(item))
                         elif "http" in str(item):
-                            ext="."+''.join(filter(str.isalpha,str(item).split(".")[-1]))
+                            if isinstance(item,Literal):
+                                ext = "." + ''.join(filter(str.isalpha, str(item.value).split(".")[-1]))
+                            else:
+                                ext = "." + ''.join(filter(str.isalpha, str(item).split(".")[-1]))                            
                             if ext in fileextensionmap:
                                 foundmedia[fileextensionmap[ext]].add(str(item))
                         tablecontents+="<li>"
                         res=self.createHTMLTableValueEntry(subject, tup, item, ttlf, tablecontents, graph,
-                                              baseurl, checkdepth,geojsonrep,foundmedia,imageannos)
+                                              baseurl, checkdepth,geojsonrep,foundmedia,imageannos,image3dannos)
                         tablecontents = res["html"]
                         geojsonrep = res["geojson"]
                         foundmedia = res["foundmedia"]
                         imageannos=res["imageannos"]
+                        image3dannos=res["image3dannos"]
                         tablecontents += "</li>"
                     tablecontents+="</ul></td>"
                 else:
                     tablecontents+="<td class=\"wrapword\">"
-                    if "<svg" in str(predobjmap[tup]):
+                    if ("POINT" in str(predobjmap[tup]).upper() or "POLYGON" in str(predobjmap[tup]).upper() or "LINESTRING" in str(predobjmap[tup]).upper()) and tup in valueproperties and "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" in predobjmap and URIRef("http://www.w3.org/ns/oa#WKTSelector") in predobjmap["http://www.w3.org/1999/02/22-rdf-syntax-ns#type"]:
+                        image3dannos.add(str(predobjmap[tup][0]))
+                    elif "<svg" in str(predobjmap[tup]):
                         foundmedia["image"].add(str(predobjmap[tup][0]))
-                    elif "http" in str(item):
-                        ext = "." + ''.join(filter(str.isalpha, str(predobjmap[tup]).split(".")[-1]))
+                    elif "http" in str(predobjmap[tup]):
+                        if isinstance(predobjmap[tup],Literal):
+                            ext = "." + ''.join(filter(str.isalpha, str(predobjmap[tup][0].value).split(".")[-1]))
+                        else:
+                            ext = "." + ''.join(filter(str.isalpha, str(predobjmap[tup][0]).split(".")[-1]))
                         if ext in fileextensionmap:
                             foundmedia[fileextensionmap[ext]].add(str(predobjmap[tup][0]))
                     res=self.createHTMLTableValueEntry(subject, tup, predobjmap[tup][0], ttlf, tablecontents, graph,
-                                              baseurl, checkdepth,geojsonrep,foundmedia,imageannos)
+                                              baseurl, checkdepth,geojsonrep,foundmedia,imageannos,image3dannos)
                     tablecontents=res["html"]
                     geojsonrep=res["geojson"]
                     foundmedia = res["foundmedia"]
                     imageannos=res["imageannos"]
+                    image3dannos=res["image3dannos"]
                     tablecontents+="</td>"
             else:
                 tablecontents += "<td class=\"wrapword\"></td>"
@@ -1751,10 +1856,11 @@ class OntDocGeneration:
                             print("Postprocessing: " + str(item)+" - "+str(tup)+" - "+str(subject))
                             postprocessing.add((item,URIRef(tup),subject))
                         res = self.createHTMLTableValueEntry(subject, tup, item, None, tablecontents, graph,
-                                                             baseurl, checkdepth, geojsonrep,foundmedia,imageannos)
+                                                             baseurl, checkdepth, geojsonrep,foundmedia,imageannos,image3dannos)
                         tablecontents = res["html"]
                         foundmedia = res["foundmedia"]
                         imageannos=res["imageannos"]
+                        image3dannos=res["image3dannos"]
                         tablecontents += "</li>"
                     tablecontents += "</ul></td>"
                 else:
@@ -1763,10 +1869,11 @@ class OntDocGeneration:
                         print("Postprocessing: " + str(subpredsmap[tup][0]) + " - " + str(tup) + " - " + str(subject))
                         postprocessing.add((subpredsmap[tup][0], URIRef(tup), subject))
                     res = self.createHTMLTableValueEntry(subject, tup, subpredsmap[tup][0], None, tablecontents, graph,
-                                                         baseurl, checkdepth, geojsonrep,foundmedia,imageannos)
+                                                         baseurl, checkdepth, geojsonrep,foundmedia,imageannos,image3dannos)
                     tablecontents = res["html"]
                     foundmedia = res["foundmedia"]
                     imageannos=res["imageannos"]
+                    image3dannos=res["image3dannos"]
                     tablecontents += "</td>"
             else:
                 tablecontents += "<td class=\"wrapword\"></td>"
@@ -1804,14 +1911,22 @@ class OntDocGeneration:
                     "{{scriptfolderpath}}", rellink).replace("{{classtreefolderpath}}", rellink2).replace("{{exports}}",myexports).replace("{{subject}}",str(subject)))
             if comment!=None:
                 f.write(htmlcommenttemplate.replace("{{comment}}",comment))
-            if len(foundmedia["mesh"])>0:
+            if len(foundmedia["mesh"])>0 and len(image3dannos)>0:
+                for anno in image3dannos:
+                    if ("POINT" in anno.upper() or "POLYGON" in anno.upper() or "LINESTRING" in anno.upper()):
+                        f.write(threejstemplate.replace("{{wktstring}}",anno).replace("{{meshurls}}",str(list(foundmedia["mesh"]))))
+            elif len(foundmedia["mesh"])>0 and len(image3dannos)==0:
                 print("Found 3D Model: "+str(foundmedia["mesh"]))
                 for curitem in foundmedia["mesh"]:
                     format="ply"
                     if ".nxs" in curitem or ".nxz" in curitem:
                         format="nexus"
                     f.write(image3dtemplate.replace("{{meshurl}}",curitem).replace("{{meshformat}}",format))
-                    break
+                    break                
+            elif len(foundmedia["mesh"])==0 and len(image3dannos)>0:
+                for anno in image3dannos:
+                    if ("POINT" in anno.upper() or "POLYGON" in anno.upper() or "LINESTRING" in anno.upper()):
+                        f.write(threejstemplate.replace("{{wktstring}}",anno).replace("{{meshurls}}","[]"))
             carousel="image"
             if len(foundmedia["image"])>3:
                 carousel="carousel-item active"
@@ -1826,11 +1941,14 @@ class OntDocGeneration:
                         carousel="carousel-item"                  
             else:
                 for image in foundmedia["image"]:
+                    if image=="<svg width=":
+                        continue
                     if "<svg" in image:
+                        print("SVGGGGG: "+str(image))
                         if "<svg>" in image:
-                            f.write(imagestemplatesvg.replace("{{carousel}}",carousel).replace("{{image}}", str(image.replace("<svg>","<svg class=\"svgview\">"))).replace("{{imagetitle}}",str(image)[0:str(image).rfind('.')]))
+                            f.write(imagestemplatesvg.replace("{{carousel}}",carousel).replace("{{image}}", str(image.replace("<svg>","<svg class=\"svgview\">"))))
                         else:
-                            f.write(imagestemplatesvg.replace("{{carousel}}",carousel).replace("{{image}}",str(image)).replace("{{imagetitle}}",str(image)[0:str(image).rfind('.')]))
+                            f.write(imagestemplatesvg.replace("{{carousel}}",carousel).replace("{{image}}",str(image)))
                     else:
                         f.write(imagestemplate.replace("{{carousel}}",carousel).replace("{{image}}",str(image)).replace("{{imagetitle}}",str(image)[0:str(image).rfind('.')]))
                     if len(foundmedia["image"])>3:
@@ -1850,14 +1968,14 @@ class OntDocGeneration:
                 featcoll={"type":"FeatureCollection", "id":subject, "features":[]}
                 for memberid in graph.objects(subject,URIRef("http://www.w3.org/2000/01/rdf-schema#member")):
                     for geoinstance in graph.predicate_objects(memberid):
-                        geojsonrep=None
-                        if str(geoinstance[0]) in geoproperties and isinstance(geoinstance[1],Literal):
+                        geojsonrep=None                       
+                        if isinstance(geoinstance[1], Literal) and (str(geoinstance[0]) in geoproperties or str(geoinstance[1].datatype) in geoliteraltypes):
                             geojsonrep = self.processLiteral(str(geoinstance[1]), geoinstance[1].datatype, "")
                             uritotreeitem[str(subject)]["type"] = "geocollection"
                         elif str(geoinstance[0]) in geopointerproperties:
                             uritotreeitem[str(subject)]["type"] = "featurecollection"
-                            for geotup in graph.predicate_objects(geoinstance[1]):
-                                if str(geotup[0]) in geoproperties and isinstance(geotup[1],Literal):
+                            for geotup in graph.predicate_objects(geoinstance[1]):             
+                                if isinstance(geotup[1], Literal) and (str(geotup[0]) in geoproperties or str(geotup[1].datatype) in geoliteraltypes):
                                     geojsonrep = self.processLiteral(str(geotup[1]), geotup[1].datatype, "")
                         if geojsonrep!=None:
                             featcoll["features"].append({"type": "Feature", 'id':str(memberid), 'properties': {}, "geometry": geojsonrep})
@@ -1865,19 +1983,24 @@ class OntDocGeneration:
             f.write(htmltabletemplate.replace("{{tablecontent}}", tablecontents))
             f.write(htmlfooter.replace("{{exports}}",myexports).replace("{{license}}",curlicense))
             f.close()
+        return postprocessing
             
 prefixes={"reversed":{}}
-if os.path.exists('signlist/prefixes.json'):
-    with open('signlist/prefixes.json', encoding="utf-8") as f:
+if os.path.exists('prefixes.json'):
+    with open('prefixes.json', encoding="utf-8") as f:
         prefixes = json.load(f)
    
 prefixes["reversed"]["http://purl.org/cuneiform/"]="cunei"
 prefixes["reversed"]["http://purl.org/graphemon/"]="graphemon"
+prefixes["reversed"]["http://www.opengis.net/ont/crs/"]="geocrs"
+prefixes["reversed"]["http://www.ontology-of-units-of-measure.org/resource/om-2/"]="om"
+prefixes["reversed"]["http://purl.org/meshsparql/"]="msp"
 prefixnsshort="cuneidict"
 prefixnamespace="http://purl.org/cuneiform/"
 license="CC BY-SA 4.0"
 outpath="signlist_htmls/"
 labellang="en"
+createIndexPages=True
 if len(sys.argv)<=1:
     print("No TTL file to process has been given as a parameter")
     exit()
@@ -1889,7 +2012,11 @@ if len(sys.argv)>3:
     prefixnamespace=sys.argv[3]
 if len(sys.argv)>4:
     prefixnsshort=sys.argv[4]
+if len(sys.argv)>5:
+    indexp=sys.argv[5]
+    if indexp.lower()=="false":
+        createIndexPages=False
 g = Graph()
 g.parse(filepath)
-docgen=OntDocGeneration(prefixes,prefixnamespace,prefixnsshort,license,labellang,outpath,g)
+docgen=OntDocGeneration(prefixes,prefixnamespace,prefixnsshort,license,labellang,outpath,g,createIndexPages)
 docgen.generateOntDocForNameSpace(prefixnamespace,dataformat="HTML")
