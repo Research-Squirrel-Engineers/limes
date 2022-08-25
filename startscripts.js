@@ -27,7 +27,7 @@ var geoproperties={
                    "http://www.wikidata.org/prop/direct/P3896": "DatatypeProperty"
 }
 
-  var baseurl="{{baseurl}}"
+  var baseurl="http://lod.squirrel.link/data/limes/"
   $( function() {
     var availableTags = Object.keys(search)
     $( "#search" ).autocomplete({
@@ -56,13 +56,16 @@ function parseWKTStringToJSON(wktstring){
     resjson=[]
     for(coordset of wktstring.split(",")){
         curobject={}
-        coords=coordset.split(" ")
+        coords=coordset.trim().split(" ")
+        console.log(coordset)
+        console.log(coords)
         if(coords.length==3){
-            resjson.append({"x":coords[0],"y":coords[1],"z":coords[2]})
+            resjson.push({"x":parseFloat(coords[0]),"y":parseFloat(coords[1]),"z":parseFloat(coords[2])})
         }else{
-            resjson.append({"x":coords[0],"y":coords[1]})
+            resjson.push({"x":parseFloat(coords[0]),"y":parseFloat(coords[1])})
         }
     }
+    console.log(resjson)
     return resjson
 }
 
@@ -271,18 +274,16 @@ function download(){
 }
 
 function rewriteLink(thelink){
-    console.log(thelink)
     if(thelink==null){
         rest=search[document.getElementById('search').value].replace(baseurl,"")
     }else{
+        curlocpath=window.location.href.replace(baseurl,"")
         rest=thelink.replace(baseurl,"")
     }
-    console.log(rest)
     count=0
     if(!indexpage){
-        count=rest.split("/").length
+        count=curlocpath.split("/").length-1
     }
-    console.log(count)
     counter=0
     while(counter<count){
         rest="../"+rest
@@ -400,33 +401,97 @@ function start3dhop(meshurl,meshformat){
 }
 
 
-let camera, scene, renderer;
+let camera, scene, renderer,controls;
 
-function init(domelement,verts) {
-    camera = new THREE.PerspectiveCamera( 90, window.innerWidth / window.innerHeight, 0.1, 100 );
-    camera.position.z = 145;
+function viewGeometry(geometry) {
+  const material = new THREE.MeshPhongMaterial({
+    color: 0xffffff,
+    flatShading: true,
+    vertexColors: THREE.VertexColors,
+    wireframe: false
+  });
+  const mesh = new THREE.Mesh(geometry, material);
+  scene.add(mesh);
+}
+
+function initThreeJS(domelement,verts,meshurls) {
     scene = new THREE.Scene();
+    minz=Number.MAX_VALUE
+    maxz=Number.MIN_VALUE
+    miny=Number.MAX_VALUE
+    maxy=Number.MIN_VALUE
+    minx=Number.MAX_VALUE
+    maxx=Number.MIN_VALUE
 	vertarray=[]
-    for(vert in verts){
-        vertarray.append(vert["x"])
-        vertarray.append(vert["y"])
-        vertarray.append(vert["z"])
+    console.log(verts)
+    var svgShape = new THREE.Shape();
+    first=true
+    for(vert of verts){
+        if(first){
+            svgShape.moveTo(vert["x"], vert["y"]);
+           first=false
+        }else{
+            svgShape.lineTo(vert["x"], vert["y"]);
+        }
+        vertarray.push(vert["x"])
+        vertarray.push(vert["y"])
+        vertarray.push(vert["z"])
+        if(vert["z"]>maxz){
+            maxz=vert["z"]
+        }
+        if(vert["z"]<minz){
+            minz=vert["z"]
+        }
+        if(vert["y"]>maxy){
+            maxy=vert["y"]
+        }
+        if(vert["y"]<miny){
+            miny=vert["y"]
+        }
+        if(vert["x"]>maxx){
+            maxy=vert["x"]
+        }
+        if(vert["x"]<minx){
+            miny=vert["x"]
+        }
     }
-    vertices=new Float32Array(vertarray)
-    const geometry =new THREE.BufferGeometry( ); 
-    geometry.setAttribute( 'position', new THREE.BufferAttribute( vertices, 3 ) );    
-    const material = new THREE.MeshBasicMaterial( { color: 0xFFFFFF } );
-    const mesh = new THREE.Mesh( geometry, material );
+    if(meshurls.length>0){
+        var loader = new THREE.PLYLoader();
+        loader.load(meshurls[0], viewGeometry);
+    }
+    camera = new THREE.PerspectiveCamera(90,window.innerWidth / window.innerHeight, 0.1, 150 );
+    scene.add(new THREE.AmbientLight(0x222222));
+    var light = new THREE.DirectionalLight(0xffffff, 1);
+    light.position.set(20, 20, 0);
+    scene.add(light);
+    var axesHelper = new THREE.AxesHelper( Math.max(maxx, maxy, maxz)*4 );
+    scene.add( axesHelper );
+    console.log("Depth: "+(maxz-minz))
+    var extrudedGeometry = new THREE.ExtrudeGeometry(svgShape, {depth: maxz-minz, bevelEnabled: false});
+    extrudedGeometry.computeBoundingBox()
+    centervec=new THREE.Vector3()
+    extrudedGeometry.boundingBox.getCenter(centervec)
+    console.log(centervec)
+    const material = new THREE.MeshBasicMaterial( { color: 0xFFFFFF, wireframe:true } );
+    const mesh = new THREE.Mesh( extrudedGeometry, material );
     scene.add( mesh );
     renderer = new THREE.WebGLRenderer( { antialias: false } );
-		renderer.setPixelRatio( window.devicePixelRatio );
-    renderer.setSize( window.innerWidth, window.innerHeight );
-    document.querySelector(domelement).appendChild( renderer.domElement );		
-	const controls = new THREE.OrbitControls( camera, renderer.domElement );
+	renderer.setPixelRatio( window.devicePixelRatio );
+    renderer.setSize( 480, 500 );
+    document.getElementById(domelement).appendChild( renderer.domElement );
+	controls = new THREE.OrbitControls( camera, renderer.domElement );
+    controls.target.set( centervec.x,centervec.y,centervec.z );
+    camera.position.x= centervec.x
+    camera.position.y= centervec.y
+    camera.position.z = centervec.z+10;
+    controls.maxDistance= Math.max(maxx, maxy, maxz)*5
+    controls.update();
+    animate()
 }
 
 function animate() {
     requestAnimationFrame( animate );
+    controls.update();
     renderer.render( scene, camera );
 }
 
@@ -544,7 +609,7 @@ function formatHTMLTableForResult(result,nodeicon){
             }
             dialogcontent+="</ul></td>"
         }else if((result[res][0]+"").startsWith("http")){
-            dialogcontent+="<td><a href=\""+rewriteLink(result[res]+"")+"\" target=\"_blank\">"+shortenURI(result[res]+"")+"</a></td>"
+            dialogcontent+="<td><a href=\""+rewriteLink(result[res][0]+"")+"\" target=\"_blank\">"+shortenURI(result[res][0]+"")+"</a></td>"
         }else{
             dialogcontent+="<td>"+result[res][0]+"</td>"
         }
