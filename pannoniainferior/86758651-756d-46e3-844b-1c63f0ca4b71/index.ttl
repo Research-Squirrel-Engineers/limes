@@ -1,4 +1,0 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/86758651-756d-46e3-844b-1c63f0ca4b71> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/86758651-756d-46e3-844b-1c63f0ca4b71_geom> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/86758651-756d-46e3-844b-1c63f0ca4b71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#MilitaryCamp> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/86758651-756d-46e3-844b-1c63f0ca4b71> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Ad Statuas (Várdomb)" .
-<http://lod.squirrel.link/data/limes/pannoniainferior/86758651-756d-46e3-844b-1c63f0ca4b71> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

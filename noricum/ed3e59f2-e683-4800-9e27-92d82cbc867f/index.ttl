@@ -1,4 +1,0 @@
-<http://lod.squirrel.link/data/limes/noricum/ed3e59f2-e683-4800-9e27-92d82cbc867f> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/noricum/ed3e59f2-e683-4800-9e27-92d82cbc867f_geom> .
-<http://lod.squirrel.link/data/limes/noricum/ed3e59f2-e683-4800-9e27-92d82cbc867f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#Burgus> .
-<http://lod.squirrel.link/data/limes/noricum/ed3e59f2-e683-4800-9e27-92d82cbc867f> <http://www.w3.org/2000/01/rdf-schema#label> "Burgus Neumarkt" .
-<http://lod.squirrel.link/data/limes/noricum/ed3e59f2-e683-4800-9e27-92d82cbc867f> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

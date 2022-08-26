@@ -1,4 +1,0 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/b80a9dba-dbeb-4ffd-ac12-95534d5991a4> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/b80a9dba-dbeb-4ffd-ac12-95534d5991a4_geom> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/b80a9dba-dbeb-4ffd-ac12-95534d5991a4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#MilitaryCamp> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/b80a9dba-dbeb-4ffd-ac12-95534d5991a4> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Kiseroszi" .
-<http://lod.squirrel.link/data/limes/pannoniainferior/b80a9dba-dbeb-4ffd-ac12-95534d5991a4> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

@@ -1,5 +1,0 @@
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/e2fb3019-26d7-4e0e-9f72-1dc415536378> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/midlandswalescornwall/e2fb3019-26d7-4e0e-9f72-1dc415536378_geom> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/e2fb3019-26d7-4e0e-9f72-1dc415536378> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/e2fb3019-26d7-4e0e-9f72-1dc415536378> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/e2fb3019-26d7-4e0e-9f72-1dc415536378> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Caerphilly" .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/e2fb3019-26d7-4e0e-9f72-1dc415536378> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

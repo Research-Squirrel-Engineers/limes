@@ -1,5 +1,0 @@
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/a4904939-1939-42a4-942b-60681dc45f30> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/midlandswalescornwall/a4904939-1939-42a4-942b-60681dc45f30_geom> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/a4904939-1939-42a4-942b-60681dc45f30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/a4904939-1939-42a4-942b-60681dc45f30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.squirrel.link/data/limes/midlandswalescornwall/Kleinkastell> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/a4904939-1939-42a4-942b-60681dc45f30> <http://www.w3.org/2000/01/rdf-schema#label> "Kleinkastell Caer Gybi" .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/a4904939-1939-42a4-942b-60681dc45f30> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

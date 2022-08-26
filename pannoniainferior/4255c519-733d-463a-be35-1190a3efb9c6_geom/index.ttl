@@ -1,4 +1,0 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/4255c519-733d-463a-be35-1190a3efb9c6_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.111389 47.713781)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/4255c519-733d-463a-be35-1190a3efb9c6_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/4255c519-733d-463a-be35-1190a3efb9c6_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Brigetio – Lager IV Geometry" .
-<http://lod.squirrel.link/data/limes/pannoniainferior/4255c519-733d-463a-be35-1190a3efb9c6_geom> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

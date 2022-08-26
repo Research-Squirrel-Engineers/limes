@@ -1,5 +1,0 @@
-<http://lod.squirrel.link/data/limes/germaniainferior/2d4a3c93-9ed4-4ca6-be0c-5d0fe8969b4e> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/germaniainferior/2d4a3c93-9ed4-4ca6-be0c-5d0fe8969b4e_geom> .
-<http://lod.squirrel.link/data/limes/germaniainferior/2d4a3c93-9ed4-4ca6-be0c-5d0fe8969b4e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.squirrel.link/data/limes/germaniainferior/Kleinkastell> .
-<http://lod.squirrel.link/data/limes/germaniainferior/2d4a3c93-9ed4-4ca6-be0c-5d0fe8969b4e> <http://www.w3.org/2000/01/rdf-schema#comment> "Wachturm" .
-<http://lod.squirrel.link/data/limes/germaniainferior/2d4a3c93-9ed4-4ca6-be0c-5d0fe8969b4e> <http://www.w3.org/2000/01/rdf-schema#label> "Kleinkastell am Reckberg" .
-<http://lod.squirrel.link/data/limes/germaniainferior/2d4a3c93-9ed4-4ca6-be0c-5d0fe8969b4e> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

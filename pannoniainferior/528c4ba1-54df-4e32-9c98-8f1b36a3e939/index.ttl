@@ -1,4 +1,0 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/528c4ba1-54df-4e32-9c98-8f1b36a3e939> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/528c4ba1-54df-4e32-9c98-8f1b36a3e939_geom> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/528c4ba1-54df-4e32-9c98-8f1b36a3e939> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Burgus> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/528c4ba1-54df-4e32-9c98-8f1b36a3e939> <http://www.w3.org/2000/01/rdf-schema#label> "Burgus Annamatia 11" .
-<http://lod.squirrel.link/data/limes/pannoniainferior/528c4ba1-54df-4e32-9c98-8f1b36a3e939> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

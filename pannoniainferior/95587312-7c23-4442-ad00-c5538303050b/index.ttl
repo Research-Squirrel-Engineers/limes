@@ -1,4 +1,0 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/95587312-7c23-4442-ad00-c5538303050b> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/95587312-7c23-4442-ad00-c5538303050b_geom> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/95587312-7c23-4442-ad00-c5538303050b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Burgus> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/95587312-7c23-4442-ad00-c5538303050b> <http://www.w3.org/2000/01/rdf-schema#label> "Burgus Matrica 2" .
-<http://lod.squirrel.link/data/limes/pannoniainferior/95587312-7c23-4442-ad00-c5538303050b> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .
