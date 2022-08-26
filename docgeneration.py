@@ -1807,8 +1807,8 @@ class OntDocGeneration:
             if len(predobjmap[tup]) > 0:
                 if len(predobjmap[tup])>1:
                     tablecontents+="<td class=\"wrapword\"><ul>"
+                    labelmap={}
                     for item in predobjmap[tup]:
-                        labelmap={}
                         if ("POINT" in str(item).upper() or "POLYGON" in str(item).upper() or "LINESTRING" in str(item).upper()) and tup in valueproperties and "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" in predobjmap and URIRef("http://www.w3.org/ns/oa#WKTSelector") in predobjmap["http://www.w3.org/1999/02/22-rdf-syntax-ns#type"]:
                             image3dannos.add(str(item))
                         elif "<svg" in str(item):
@@ -1847,7 +1847,7 @@ class OntDocGeneration:
                             foundmedia[fileextensionmap[ext]].add(str(predobjmap[tup][0]))
                     res=self.createHTMLTableValueEntry(subject, tup, predobjmap[tup][0], ttlf, graph,
                                               baseurl, checkdepth,geojsonrep,foundmedia,imageannos,image3dannos)
-                    tablecontents=res["html"]
+                    tablecontents+=res["html"]
                     geojsonrep=res["geojson"]
                     foundmedia = res["foundmedia"]
                     imageannos=res["imageannos"]
@@ -1880,8 +1880,8 @@ class OntDocGeneration:
             if len(subpredsmap[tup]) > 0:
                 if len(subpredsmap[tup]) > 1:
                     tablecontents += "<td class=\"wrapword\"><ul>"
+                    labelmap={}
                     for item in subpredsmap[tup]:
-                        labelmap={}
                         if item not in subjectstorender and baseurl in str(item):
                             print("Postprocessing: " + str(item)+" - "+str(tup)+" - "+str(subject))
                             postprocessing.add((item,URIRef(tup),subject))
@@ -1903,7 +1903,7 @@ class OntDocGeneration:
                         postprocessing.add((subpredsmap[tup][0], URIRef(tup), subject))
                     res = self.createHTMLTableValueEntry(subject, tup, subpredsmap[tup][0], None, graph,
                                                          baseurl, checkdepth, geojsonrep,foundmedia,imageannos,image3dannos)
-                    tablecontents = res["html"]
+                    tablecontents += res["html"]
                     foundmedia = res["foundmedia"]
                     imageannos=res["imageannos"]
                     image3dannos=res["image3dannos"]
