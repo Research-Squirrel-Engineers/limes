@@ -1,0 +1,1 @@
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/f2634f9a-dca9-4577-a5a3-f4ba92bcd03f_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.955386 51.610647)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .

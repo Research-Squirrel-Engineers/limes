@@ -1,0 +1,4 @@
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/cf347329-1be3-4a4a-a723-626c10d64722> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/midlandswalescornwall/cf347329-1be3-4a4a-a723-626c10d64722_geom> .
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/cf347329-1be3-4a4a-a723-626c10d64722> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/cf347329-1be3-4a4a-a723-626c10d64722> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/cf347329-1be3-4a4a-a723-626c10d64722> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Cardiff A" .

@@ -1,0 +1,3 @@
+<http://lod.squirrel.link/data/limes/pannoniainferior/86e75d60-d1e3-477f-9830-1c916530259b> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/86e75d60-d1e3-477f-9830-1c916530259b_geom> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/86e75d60-d1e3-477f-9830-1c916530259b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Limes> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/86e75d60-d1e3-477f-9830-1c916530259b> <http://www.w3.org/2000/01/rdf-schema#label> "Erdlager Iža-Leányvár 4" .

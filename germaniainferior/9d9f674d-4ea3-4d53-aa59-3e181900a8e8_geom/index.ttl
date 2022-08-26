@@ -1,0 +1,1 @@
+<http://lod.squirrel.link/data/limes/germaniainferior/9d9f674d-4ea3-4d53-aa59-3e181900a8e8_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (6.721944 51.183889)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
