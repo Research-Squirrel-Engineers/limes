@@ -1,1 +1,4 @@
 <http://lod.squirrel.link/data/limes/pannoniainferior/d0cc770a-8c40-4384-a773-c52cf84e0acb_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.189103 47.745108)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/d0cc770a-8c40-4384-a773-c52cf84e0acb_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/d0cc770a-8c40-4384-a773-c52cf84e0acb_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Erdlager Iža-Leányvár 2 Geometry" .
+<http://lod.squirrel.link/data/limes/pannoniainferior/d0cc770a-8c40-4384-a773-c52cf84e0acb_geom> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

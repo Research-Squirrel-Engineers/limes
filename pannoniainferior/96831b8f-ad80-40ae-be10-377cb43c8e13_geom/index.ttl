@@ -1,1 +1,4 @@
 <http://lod.squirrel.link/data/limes/pannoniainferior/96831b8f-ad80-40ae-be10-377cb43c8e13_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.683917 45.956111)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/96831b8f-ad80-40ae-be10-377cb43c8e13_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/96831b8f-ad80-40ae-be10-377cb43c8e13_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Mehács-Kölked Geometry" .
+<http://lod.squirrel.link/data/limes/pannoniainferior/96831b8f-ad80-40ae-be10-377cb43c8e13_geom> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

@@ -1,3 +1,4 @@
 <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_804> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_804_geom> .
 <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_804> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Watchtower> .
 <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_804> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 804" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_804> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

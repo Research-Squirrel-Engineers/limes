@@ -1,3 +1,4 @@
 <http://lod.squirrel.link/data/limes/pannoniainferior/8eaee659-3e88-4e1e-8e3c-a359094d1b3c> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/8eaee659-3e88-4e1e-8e3c-a359094d1b3c_geom> .
 <http://lod.squirrel.link/data/limes/pannoniainferior/8eaee659-3e88-4e1e-8e3c-a359094d1b3c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Burgus> .
 <http://lod.squirrel.link/data/limes/pannoniainferior/8eaee659-3e88-4e1e-8e3c-a359094d1b3c> <http://www.w3.org/2000/01/rdf-schema#label> "Burgus Selva 4" .
+<http://lod.squirrel.link/data/limes/pannoniainferior/8eaee659-3e88-4e1e-8e3c-a359094d1b3c> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

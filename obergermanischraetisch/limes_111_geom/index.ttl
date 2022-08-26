@@ -1,1 +1,4 @@
 <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_111_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.339083 50.211682)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_111_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_111_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 111 Geometry" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_111_geom> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

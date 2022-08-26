@@ -2,3 +2,4 @@
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/a0c87a08-a3b7-4e6f-90bc-8533f05dfbe5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/a0c87a08-a3b7-4e6f-90bc-8533f05dfbe5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Limes> .
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/a0c87a08-a3b7-4e6f-90bc-8533f05dfbe5> <http://www.w3.org/2000/01/rdf-schema#label> "Deva Victrix" .
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/a0c87a08-a3b7-4e6f-90bc-8533f05dfbe5> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .
