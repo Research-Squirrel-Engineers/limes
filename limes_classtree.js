@@ -1054,9 +1054,6 @@ var tree={
             "http://archaeoinformatics.link/ontology#limesobject": {
               "instancecount": 1
             },
-            "http://archaeoinformatics.link/ontology#limestown": {
-              "instancecount": 1
-            },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
               "http://www.opengis.net/ont/sf#Point": 1
@@ -1076,7 +1073,7 @@ var tree={
             }
           }
         },
-        "instancecount": 5
+        "instancecount": 4
       },
       {
         "id": "http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1000",
@@ -8254,12 +8251,7 @@ var tree={
               "instancecount": 2
             }
           },
-          "from": {
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
-            }
-          }
+          "from": {}
         },
         "instancecount": 5
       },
