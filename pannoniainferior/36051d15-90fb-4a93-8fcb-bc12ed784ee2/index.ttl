@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/36051d15-90fb-4a93-8fcb-bc12ed784ee2> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/36051d15-90fb-4a93-8fcb-bc12ed784ee2_geom> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/36051d15-90fb-4a93-8fcb-bc12ed784ee2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Burgus> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/36051d15-90fb-4a93-8fcb-bc12ed784ee2> <http://www.w3.org/2000/01/rdf-schema#label> "Burgus Bač-Bács" .

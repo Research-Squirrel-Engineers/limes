@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_130_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (9.561952 49.080419)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_130_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_130_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 130 Geometry" .

@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/3bcf2479-8e0d-4cf0-996f-174a25282a47> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/3bcf2479-8e0d-4cf0-996f-174a25282a47_geom> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/3bcf2479-8e0d-4cf0-996f-174a25282a47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#MilitaryCamp> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/3bcf2479-8e0d-4cf0-996f-174a25282a47> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Dunabogdány" .

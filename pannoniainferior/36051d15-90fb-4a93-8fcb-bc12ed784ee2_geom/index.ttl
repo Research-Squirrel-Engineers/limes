@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/36051d15-90fb-4a93-8fcb-bc12ed784ee2_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (19.233972 45.345583)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/36051d15-90fb-4a93-8fcb-bc12ed784ee2_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/36051d15-90fb-4a93-8fcb-bc12ed784ee2_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Burgus Bač-Bács Geometry" .

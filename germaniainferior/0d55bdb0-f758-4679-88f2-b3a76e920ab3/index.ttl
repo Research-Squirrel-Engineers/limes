@@ -1,4 +1,0 @@
-<http://lod.squirrel.link/data/limes/germaniainferior/0d55bdb0-f758-4679-88f2-b3a76e920ab3> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/germaniainferior/0d55bdb0-f758-4679-88f2-b3a76e920ab3_geom> .
-<http://lod.squirrel.link/data/limes/germaniainferior/0d55bdb0-f758-4679-88f2-b3a76e920ab3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#LegionaryCamp> .
-<http://lod.squirrel.link/data/limes/germaniainferior/0d55bdb0-f758-4679-88f2-b3a76e920ab3> <http://www.w3.org/2000/01/rdf-schema#comment> "Legionslager" .
-<http://lod.squirrel.link/data/limes/germaniainferior/0d55bdb0-f758-4679-88f2-b3a76e920ab3> <http://www.w3.org/2000/01/rdf-schema#label> "Apud aram Ubiorum" .

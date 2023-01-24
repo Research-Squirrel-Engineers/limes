@@ -1,5 +1,0 @@
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_982> <http://archaeoinformatics.link/ontology#limestown> "Titting" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_982> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_982_geom> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_982> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Watchtower> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_982> <http://www.w3.org/2000/01/rdf-schema#label> "Altdorf" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_982> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 982" .

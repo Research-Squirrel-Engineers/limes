@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/germaniainferior/ee4fb6bf-1cac-4f05-bc6e-74188071c2fb_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (5.885642 51.839292)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/germaniainferior/ee4fb6bf-1cac-4f05-bc6e-74188071c2fb_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/germaniainferior/ee4fb6bf-1cac-4f05-bc6e-74188071c2fb_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Ulpia Noviomagus Batavorum Geometry" .

@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/germaniainferior/d3acc4c8-e6b7-4c77-b2f4-c2b1d5cdd027_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (6.128333 51.813333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/germaniainferior/d3acc4c8-e6b7-4c77-b2f4-c2b1d5cdd027_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/germaniainferior/d3acc4c8-e6b7-4c77-b2f4-c2b1d5cdd027_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Harenatium Geometry" .

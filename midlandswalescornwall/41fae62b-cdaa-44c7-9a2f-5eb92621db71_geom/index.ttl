@@ -1,4 +1,0 @@
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/41fae62b-cdaa-44c7-9a2f-5eb92621db71_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.49 52.37)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/41fae62b-cdaa-44c7-9a2f-5eb92621db71_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/41fae62b-cdaa-44c7-9a2f-5eb92621db71_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/41fae62b-cdaa-44c7-9a2f-5eb92621db71_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Lunt Roman Fort II Geometry" .

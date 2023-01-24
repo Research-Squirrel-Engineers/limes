@@ -1,4 +1,0 @@
-<http://lod.squirrel.link/data/limes/germaniainferior/0fecff6f-8513-4e0f-9c4f-752b70fd3459> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/germaniainferior/0fecff6f-8513-4e0f-9c4f-752b70fd3459_geom> .
-<http://lod.squirrel.link/data/limes/germaniainferior/0fecff6f-8513-4e0f-9c4f-752b70fd3459> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
-<http://lod.squirrel.link/data/limes/germaniainferior/0fecff6f-8513-4e0f-9c4f-752b70fd3459> <http://www.w3.org/2000/01/rdf-schema#comment> "Kohortenkastell" .
-<http://lod.squirrel.link/data/limes/germaniainferior/0fecff6f-8513-4e0f-9c4f-752b70fd3459> <http://www.w3.org/2000/01/rdf-schema#label> "Traiectum (Utrecht)" .

@@ -1,4 +1,0 @@
-<http://lod.squirrel.link/data/limes/germaniainferior/f92cc454-3ac7-400e-ad3f-9cd247965f37> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/germaniainferior/f92cc454-3ac7-400e-ad3f-9cd247965f37_geom> .
-<http://lod.squirrel.link/data/limes/germaniainferior/f92cc454-3ac7-400e-ad3f-9cd247965f37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#LegionaryCamp> .
-<http://lod.squirrel.link/data/limes/germaniainferior/f92cc454-3ac7-400e-ad3f-9cd247965f37> <http://www.w3.org/2000/01/rdf-schema#comment> "Legionslager" .
-<http://lod.squirrel.link/data/limes/germaniainferior/f92cc454-3ac7-400e-ad3f-9cd247965f37> <http://www.w3.org/2000/01/rdf-schema#label> "Novaesium" .

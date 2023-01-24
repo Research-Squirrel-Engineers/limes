@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/germaniainferior/d091de62-a690-4c5b-af5e-29a6a38ca333_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (4.518406 52.149711)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/germaniainferior/d091de62-a690-4c5b-af5e-29a6a38ca333_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/germaniainferior/d091de62-a690-4c5b-af5e-29a6a38ca333_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Matilo Geometry" .

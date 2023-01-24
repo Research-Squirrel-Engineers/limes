@@ -1,6 +1,0 @@
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_109> <http://archaeoinformatics.link/ontology#limesobject> "Adolfseck" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_109> <http://archaeoinformatics.link/ontology#limestown> "Bad Schwalbach" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_109> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_109_geom> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.squirrel.link/data/limes/obergermanischraetisch/Kleinkastell> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_109> <http://www.w3.org/2000/01/rdf-schema#label> "Adolfseck" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_109> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 109" .

@@ -1,5 +1,0 @@
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_973> <http://archaeoinformatics.link/ontology#limestown> "Ober-Mörlen" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_973> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_973_geom> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Watchtower> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_973> <http://www.w3.org/2000/01/rdf-schema#label> "Langenhain-Ziegenberg" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_973> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 973" .

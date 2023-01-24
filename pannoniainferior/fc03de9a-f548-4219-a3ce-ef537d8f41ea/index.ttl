@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/fc03de9a-f548-4219-a3ce-ef537d8f41ea> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/fc03de9a-f548-4219-a3ce-ef537d8f41ea_geom> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/fc03de9a-f548-4219-a3ce-ef537d8f41ea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Limes> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/fc03de9a-f548-4219-a3ce-ef537d8f41ea> <http://www.w3.org/2000/01/rdf-schema#label> "Contra Aquincum" .

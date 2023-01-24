@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/11ee6efa-bae8-4fcb-b21d-f8dcfb4bcf44_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.858003 47.140581)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/11ee6efa-bae8-4fcb-b21d-f8dcfb4bcf44_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/11ee6efa-bae8-4fcb-b21d-f8dcfb4bcf44_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Adóny-Iváncsa (Vetus Salina. Nordkastell) Geometry" .

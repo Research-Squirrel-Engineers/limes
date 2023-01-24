@@ -1,4 +1,0 @@
-<http://lod.squirrel.link/data/limes/germaniainferior/495c7990-9252-4402-89b5-a3cc8d74ab4c> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/germaniainferior/495c7990-9252-4402-89b5-a3cc8d74ab4c_geom> .
-<http://lod.squirrel.link/data/limes/germaniainferior/495c7990-9252-4402-89b5-a3cc8d74ab4c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
-<http://lod.squirrel.link/data/limes/germaniainferior/495c7990-9252-4402-89b5-a3cc8d74ab4c> <http://www.w3.org/2000/01/rdf-schema#comment> "Kohortenkastell" .
-<http://lod.squirrel.link/data/limes/germaniainferior/495c7990-9252-4402-89b5-a3cc8d74ab4c> <http://www.w3.org/2000/01/rdf-schema#label> "Rigomagus" .

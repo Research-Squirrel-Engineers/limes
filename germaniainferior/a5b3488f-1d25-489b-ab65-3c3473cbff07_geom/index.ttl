@@ -1,3 +1,0 @@
-<http://lod.squirrel.link/data/limes/germaniainferior/a5b3488f-1d25-489b-ab65-3c3473cbff07_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (4.431667 52.179722)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/germaniainferior/a5b3488f-1d25-489b-ab65-3c3473cbff07_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/germaniainferior/a5b3488f-1d25-489b-ab65-3c3473cbff07_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Praetorium Agrippinae Geometry" .

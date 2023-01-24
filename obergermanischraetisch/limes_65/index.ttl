@@ -1,6 +1,0 @@
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65> <http://archaeoinformatics.link/ontology#limesobject> "Becheln" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65> <http://archaeoinformatics.link/ontology#limestown> "Lahnstein" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65_geom> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.squirrel.link/data/limes/obergermanischraetisch/Kleinkastell> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 65" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65> <http://www.w3.org/2000/01/rdf-schema#label> "Oberlahnstein/Becheln" .
