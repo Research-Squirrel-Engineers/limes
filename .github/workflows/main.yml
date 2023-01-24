@@ -10,7 +10,7 @@ jobs:
    with: 
      rdffilepath: ttl/LimesDaicus_result.ttl ttl/LimesGermaniaInferior_result.ttl ttl/LimesNoricum_result.ttl ttl/LimesPannoniaInferior_result.ttl ttl/MidlandsWalesCornwall_result.ttl ttl/ObergermanischRaetischerLimes_result.ttl
      docpath: docs/ 
-     prefixns: http://lod.squirrel.link/data/limes
+     prefixns: http://lod.squirrel.link/data/limes/
      prefixnsshort: limes
      indexpages: true
      ghpages: true
