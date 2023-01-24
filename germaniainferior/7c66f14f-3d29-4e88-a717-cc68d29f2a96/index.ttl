@@ -2,4 +2,3 @@
 <http://lod.squirrel.link/data/limes/germaniainferior/7c66f14f-3d29-4e88-a717-cc68d29f2a96> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.squirrel.link/data/limes/germaniainferior/Kleinkastell> .
 <http://lod.squirrel.link/data/limes/germaniainferior/7c66f14f-3d29-4e88-a717-cc68d29f2a96> <http://www.w3.org/2000/01/rdf-schema#comment> "Kleinkastell" .
 <http://lod.squirrel.link/data/limes/germaniainferior/7c66f14f-3d29-4e88-a717-cc68d29f2a96> <http://www.w3.org/2000/01/rdf-schema#label> "Kleinkastell am Reckberg" .
-<http://lod.squirrel.link/data/limes/germaniainferior/7c66f14f-3d29-4e88-a717-cc68d29f2a96> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

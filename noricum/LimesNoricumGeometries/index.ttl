@@ -31,4 +31,3 @@
 <http://lod.squirrel.link/data/limes/noricum/LimesNoricumGeometries> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/noricum/80943cf4-f263-44f2-bd49-2a2c405b3be6_geom> .
 <http://lod.squirrel.link/data/limes/noricum/LimesNoricumGeometries> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/noricum/8135cb6b-504d-4cae-9835-b9a7b0613163_geom> .
 <http://lod.squirrel.link/data/limes/noricum/LimesNoricumGeometries> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/noricum/9f8f4e96-12d9-449b-b9ab-6e6080e34c9f_geom> .
-<http://lod.squirrel.link/data/limes/noricum/LimesNoricumGeometries> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

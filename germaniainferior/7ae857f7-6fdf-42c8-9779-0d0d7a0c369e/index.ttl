@@ -2,4 +2,3 @@
 <http://lod.squirrel.link/data/limes/germaniainferior/7ae857f7-6fdf-42c8-9779-0d0d7a0c369e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
 <http://lod.squirrel.link/data/limes/germaniainferior/7ae857f7-6fdf-42c8-9779-0d0d7a0c369e> <http://www.w3.org/2000/01/rdf-schema#comment> "Auxiliarkastell" .
 <http://lod.squirrel.link/data/limes/germaniainferior/7ae857f7-6fdf-42c8-9779-0d0d7a0c369e> <http://www.w3.org/2000/01/rdf-schema#label> "Carvo" .
-<http://lod.squirrel.link/data/limes/germaniainferior/7ae857f7-6fdf-42c8-9779-0d0d7a0c369e> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

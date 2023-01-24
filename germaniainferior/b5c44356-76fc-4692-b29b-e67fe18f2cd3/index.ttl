@@ -2,4 +2,3 @@
 <http://lod.squirrel.link/data/limes/germaniainferior/b5c44356-76fc-4692-b29b-e67fe18f2cd3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
 <http://lod.squirrel.link/data/limes/germaniainferior/b5c44356-76fc-4692-b29b-e67fe18f2cd3> <http://www.w3.org/2000/01/rdf-schema#comment> "Auxiliarkastell" .
 <http://lod.squirrel.link/data/limes/germaniainferior/b5c44356-76fc-4692-b29b-e67fe18f2cd3> <http://www.w3.org/2000/01/rdf-schema#label> "Ceuclum" .
-<http://lod.squirrel.link/data/limes/germaniainferior/b5c44356-76fc-4692-b29b-e67fe18f2cd3> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

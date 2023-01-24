@@ -2,4 +2,3 @@
 <http://lod.squirrel.link/data/limes/daicus/f81e10af-8e41-447d-b601-dcba5311199b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#MilitaryCamp> .
 <http://lod.squirrel.link/data/limes/daicus/f81e10af-8e41-447d-b601-dcba5311199b> <http://www.w3.org/2000/01/rdf-schema#comment> "nan" .
 <http://lod.squirrel.link/data/limes/daicus/f81e10af-8e41-447d-b601-dcba5311199b> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Reşca (Romula/Malva)" .
-<http://lod.squirrel.link/data/limes/daicus/f81e10af-8e41-447d-b601-dcba5311199b> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

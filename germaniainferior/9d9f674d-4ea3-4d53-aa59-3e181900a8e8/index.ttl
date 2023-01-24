@@ -2,4 +2,3 @@
 <http://lod.squirrel.link/data/limes/germaniainferior/9d9f674d-4ea3-4d53-aa59-3e181900a8e8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#LegionaryCamp> .
 <http://lod.squirrel.link/data/limes/germaniainferior/9d9f674d-4ea3-4d53-aa59-3e181900a8e8> <http://www.w3.org/2000/01/rdf-schema#comment> "Legionslager" .
 <http://lod.squirrel.link/data/limes/germaniainferior/9d9f674d-4ea3-4d53-aa59-3e181900a8e8> <http://www.w3.org/2000/01/rdf-schema#label> "Novaesium" .
-<http://lod.squirrel.link/data/limes/germaniainferior/9d9f674d-4ea3-4d53-aa59-3e181900a8e8> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

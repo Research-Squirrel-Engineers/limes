@@ -2,4 +2,3 @@
 <http://lod.squirrel.link/data/limes/germaniainferior/1a5bddd1-5aa5-4d1d-8ac3-29ab4043ee8b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
 <http://lod.squirrel.link/data/limes/germaniainferior/1a5bddd1-5aa5-4d1d-8ac3-29ab4043ee8b> <http://www.w3.org/2000/01/rdf-schema#comment> "Vexillationskastell" .
 <http://lod.squirrel.link/data/limes/germaniainferior/1a5bddd1-5aa5-4d1d-8ac3-29ab4043ee8b> <http://www.w3.org/2000/01/rdf-schema#label> "Castra Herculis" .
-<http://lod.squirrel.link/data/limes/germaniainferior/1a5bddd1-5aa5-4d1d-8ac3-29ab4043ee8b> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

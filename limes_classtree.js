@@ -11,28 +11,28 @@ var tree={
   },
   "types": {
     "class": {
-      "icon": "https://raw.githubusercontent.com/i3mainz/geopubby/master/public/icons/class.png"
+      "icon": "https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/class.png"
     },
     "geoclass": {
-      "icon": "https://raw.githubusercontent.com/i3mainz/geopubby/master/public/icons/geoclass.png"
+      "icon": "https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoclass.png"
     },
     "halfgeoclass": {
-      "icon": "https://raw.githubusercontent.com/i3mainz/geopubby/master/public/icons/halfgeoclass.png"
+      "icon": "https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/halfgeoclass.png"
     },
     "collectionclass": {
-      "icon": "https://raw.githubusercontent.com/i3mainz/geopubby/master/public/icons/collectionclass.png"
+      "icon": "https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/collectionclass.png"
     },
     "geocollection": {
-      "icon": "https://raw.githubusercontent.com/i3mainz/geopubby/master/public/icons/geometrycollection.png"
+      "icon": "https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geometrycollection.png"
     },
     "featurecollection": {
-      "icon": "https://raw.githubusercontent.com/i3mainz/geopubby/master/public/icons/featurecollection.png"
+      "icon": "https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/featurecollection.png"
     },
     "instance": {
-      "icon": "https://raw.githubusercontent.com/i3mainz/geopubby/master/public/icons/instance.png"
+      "icon": "https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/instance.png"
     },
     "geoinstance": {
-      "icon": "https://raw.githubusercontent.com/i3mainz/geopubby/master/public/icons/geoinstance.png"
+      "icon": "https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoinstance.png"
     }
   },
   "core": {
@@ -49,7 +49,7 @@ var tree={
         "id": "http://www.opengis.net/ont/geosparql#FeatureCollection",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "type": "collectionclass",
-        "text": "FeatureCollection [6]",
+        "text": "FeatureCollection (gsp:FeatureCollection) [6]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -84,7 +84,7 @@ var tree={
         "id": "http://www.opengis.net/ont/geosparql#GeometryCollection",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "type": "collectionclass",
-        "text": "GeometryCollection [6]",
+        "text": "GeometryCollection (gsp:GeometryCollection) [6]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -559,7 +559,7 @@ var tree={
               "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 2
             }
           },
           "from": {
@@ -569,7 +569,7 @@ var tree={
             }
           }
         },
-        "instancecount": 5
+        "instancecount": 6
       },
       {
         "id": "http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_100",
@@ -1054,9 +1054,6 @@ var tree={
         "text": "Kleinkastell [68]",
         "data": {
           "to": {
-            "http://archaeoinformatics.link/ontology#limesobject": {
-              "instancecount": 1
-            },
             "http://archaeoinformatics.link/ontology#limestown": {
               "instancecount": 1
             },
@@ -1079,7 +1076,7 @@ var tree={
             }
           }
         },
-        "instancecount": 6
+        "instancecount": 5
       },
       {
         "id": "http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1000",
@@ -8242,9 +8239,6 @@ var tree={
         "text": "Watchtower [1022]",
         "data": {
           "to": {
-            "http://archaeoinformatics.link/ontology#limestown": {
-              "instancecount": 1
-            },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
               "http://www.opengis.net/ont/sf#Point": 1
@@ -8259,7 +8253,7 @@ var tree={
           },
           "from": {}
         },
-        "instancecount": 5
+        "instancecount": 4
       },
       {
         "id": "http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1000_geom",
@@ -16329,7 +16323,7 @@ var tree={
         "id": "http://www.opengis.net/ont/sf#Point",
         "parent": "http://www.opengis.net/ont/geosparql#Geometry",
         "type": "geoclass",
-        "text": "Point [1537]",
+        "text": "Point (sf:Point) [1537]",
         "data": {
           "to": {
             "http://www.opengis.net/ont/geosparql#asWKT": {
@@ -16356,7 +16350,7 @@ var tree={
         "id": "http://www.opengis.net/ont/geosparql#Feature",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObject",
         "type": "class",
-        "text": "Feature",
+        "text": "Feature (gsp:Feature)",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -16383,21 +16377,21 @@ var tree={
         "id": "http://www.opengis.net/ont/geosparql#Geometry",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObject",
         "type": "class",
-        "text": "Geometry",
+        "text": "Geometry (gsp:Geometry)",
         "data": {}
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
         "parent": "#",
         "type": "class",
-        "text": "SpatialObject",
+        "text": "SpatialObject (gsp:SpatialObject)",
         "data": {}
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "parent": "#",
         "type": "collectionclass",
-        "text": "SpatialObjectCollection",
+        "text": "SpatialObjectCollection (gsp:SpatialObjectCollection)",
         "data": {}
       },
       {
@@ -16821,13 +16815,7 @@ var tree={
               "instancecount": 1
             }
           },
-          "from": {
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.w3.org/2002/07/owl#NamedIndividual": 1,
-              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
-            }
-          }
+          "from": {}
         },
         "instancecount": 4
       },

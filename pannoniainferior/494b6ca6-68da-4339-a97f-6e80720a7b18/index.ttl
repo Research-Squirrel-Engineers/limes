@@ -1,4 +1,3 @@
 <http://lod.squirrel.link/data/limes/pannoniainferior/494b6ca6-68da-4339-a97f-6e80720a7b18> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/494b6ca6-68da-4339-a97f-6e80720a7b18_geom> .
 <http://lod.squirrel.link/data/limes/pannoniainferior/494b6ca6-68da-4339-a97f-6e80720a7b18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Burgus> .
 <http://lod.squirrel.link/data/limes/pannoniainferior/494b6ca6-68da-4339-a97f-6e80720a7b18> <http://www.w3.org/2000/01/rdf-schema#label> "Burgus Altinum 1" .
-<http://lod.squirrel.link/data/limes/pannoniainferior/494b6ca6-68da-4339-a97f-6e80720a7b18> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

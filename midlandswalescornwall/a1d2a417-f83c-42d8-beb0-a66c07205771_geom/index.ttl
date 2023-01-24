@@ -2,4 +2,3 @@
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/a1d2a417-f83c-42d8-beb0-a66c07205771_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/a1d2a417-f83c-42d8-beb0-a66c07205771_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/a1d2a417-f83c-42d8-beb0-a66c07205771_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Beulah Geometry" .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/a1d2a417-f83c-42d8-beb0-a66c07205771_geom> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

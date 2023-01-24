@@ -49,4 +49,3 @@
 <http://lod.squirrel.link/data/limes/daicus/LimesDaicusGeometries> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom> .
 <http://lod.squirrel.link/data/limes/daicus/LimesDaicusGeometries> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/daicus/9b62118c-9936-42f2-a6e7-49f649c937f2_geom> .
 <http://lod.squirrel.link/data/limes/daicus/LimesDaicusGeometries> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom> .
-<http://lod.squirrel.link/data/limes/daicus/LimesDaicusGeometries> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

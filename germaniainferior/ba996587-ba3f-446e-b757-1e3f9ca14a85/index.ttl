@@ -2,4 +2,3 @@
 <http://lod.squirrel.link/data/limes/germaniainferior/ba996587-ba3f-446e-b757-1e3f9ca14a85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
 <http://lod.squirrel.link/data/limes/germaniainferior/ba996587-ba3f-446e-b757-1e3f9ca14a85> <http://www.w3.org/2000/01/rdf-schema#comment> "Kohortenkastell" .
 <http://lod.squirrel.link/data/limes/germaniainferior/ba996587-ba3f-446e-b757-1e3f9ca14a85> <http://www.w3.org/2000/01/rdf-schema#label> "Asciburgium" .
-<http://lod.squirrel.link/data/limes/germaniainferior/ba996587-ba3f-446e-b757-1e3f9ca14a85> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

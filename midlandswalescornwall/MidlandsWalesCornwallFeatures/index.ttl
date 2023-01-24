@@ -30,4 +30,3 @@
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/MidlandsWalesCornwallFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/midlandswalescornwall/86169d7e-1006-408e-85fd-9bfb06b88d09> .
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/MidlandsWalesCornwallFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/midlandswalescornwall/87505f9f-d868-4d50-8b7d-8cb21d641d36> .
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/MidlandsWalesCornwallFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/midlandswalescornwall/9d2fd06d-8b12-46aa-9e88-6d25aadfae6c> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/MidlandsWalesCornwallFeatures> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

@@ -2,4 +2,3 @@
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/e7d62830-39ab-4301-a897-9fe64f5a892c_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/e7d62830-39ab-4301-a897-9fe64f5a892c_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/e7d62830-39ab-4301-a897-9fe64f5a892c_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Kleinkastell Bryn Glas Geometry" .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/e7d62830-39ab-4301-a897-9fe64f5a892c_geom> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

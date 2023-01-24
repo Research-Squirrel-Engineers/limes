@@ -59,4 +59,3 @@
 <http://lod.squirrel.link/data/limes/pannoniainferior/LimesPannoniaInferiorGeometries> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/pannoniainferior/93b40ea3-5477-4f15-98e8-acbc0af281da_geom> .
 <http://lod.squirrel.link/data/limes/pannoniainferior/LimesPannoniaInferiorGeometries> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/pannoniainferior/96831b8f-ad80-40ae-be10-377cb43c8e13_geom> .
 <http://lod.squirrel.link/data/limes/pannoniainferior/LimesPannoniaInferiorGeometries> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/pannoniainferior/99ec9c4c-7b84-463b-9238-adce834944f4_geom> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/LimesPannoniaInferiorGeometries> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

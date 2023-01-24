@@ -2,4 +2,3 @@
 <http://lod.squirrel.link/data/limes/germaniainferior/28cb0c9b-8e4e-4c1b-9b62-79cc16fb0165> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Limes> .
 <http://lod.squirrel.link/data/limes/germaniainferior/28cb0c9b-8e4e-4c1b-9b62-79cc16fb0165> <http://www.w3.org/2000/01/rdf-schema#comment> "Marschlager" .
 <http://lod.squirrel.link/data/limes/germaniainferior/28cb0c9b-8e4e-4c1b-9b62-79cc16fb0165> <http://www.w3.org/2000/01/rdf-schema#label> "Gelduba" .
-<http://lod.squirrel.link/data/limes/germaniainferior/28cb0c9b-8e4e-4c1b-9b62-79cc16fb0165> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

@@ -2,4 +2,3 @@
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/822f96a2-8331-472e-95a8-65093e2be433_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/822f96a2-8331-472e-95a8-65093e2be433_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/822f96a2-8331-472e-95a8-65093e2be433_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Venta Silurum Geometry" .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/822f96a2-8331-472e-95a8-65093e2be433_geom> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

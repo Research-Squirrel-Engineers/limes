@@ -2,4 +2,3 @@
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/1ccf2406-bad8-4938-880c-c9a9365f213d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/1ccf2406-bad8-4938-880c-c9a9365f213d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
 <http://lod.squirrel.link/data/limes/midlandswalescornwall/1ccf2406-bad8-4938-880c-c9a9365f213d> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Caer Gai" .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/1ccf2406-bad8-4938-880c-c9a9365f213d> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

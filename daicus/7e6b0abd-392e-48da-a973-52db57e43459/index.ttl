@@ -2,4 +2,3 @@
 <http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#LegionaryCamp> .
 <http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459> <http://www.w3.org/2000/01/rdf-schema#comment> "Legionslager" .
 <http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Berzovia " .
-<http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .
