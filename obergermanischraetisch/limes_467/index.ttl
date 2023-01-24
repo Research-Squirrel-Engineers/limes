@@ -1,0 +1,5 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_467> <http://archaeoinformatics.link/ontology#limestown> "Raitenbuch" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_467> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_467_geom> .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_467> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Watchtower> .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_467> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 467" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_467> <http://www.w3.org/2000/01/rdf-schema#label> "Raitenbuch, Reuth a. Wald" .

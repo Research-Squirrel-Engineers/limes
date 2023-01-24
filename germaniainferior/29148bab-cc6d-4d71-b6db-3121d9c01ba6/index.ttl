@@ -1,0 +1,4 @@
+<http://lod.squirrel.link/data/limes/germaniainferior/29148bab-cc6d-4d71-b6db-3121d9c01ba6> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/germaniainferior/29148bab-cc6d-4d71-b6db-3121d9c01ba6_geom> .
+<http://lod.squirrel.link/data/limes/germaniainferior/29148bab-cc6d-4d71-b6db-3121d9c01ba6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Limes> .
+<http://lod.squirrel.link/data/limes/germaniainferior/29148bab-cc6d-4d71-b6db-3121d9c01ba6> <http://www.w3.org/2000/01/rdf-schema#comment> "nan" .
+<http://lod.squirrel.link/data/limes/germaniainferior/29148bab-cc6d-4d71-b6db-3121d9c01ba6> <http://www.w3.org/2000/01/rdf-schema#label> "Haus Bürgel" .

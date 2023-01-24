@@ -1,0 +1,6 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_58> <http://archaeoinformatics.link/ontology#limesobject> "Unterschwaningen" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_58> <http://archaeoinformatics.link/ontology#limestown> "Unterschwaningen" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_58> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_58_geom> .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#MilitaryCamp> .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_58> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 58" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_58> <http://www.w3.org/2000/01/rdf-schema#label> "Unterschwaningen | Altent" .

@@ -1,0 +1,3 @@
+<http://lod.squirrel.link/data/limes/pannoniainferior/70fade86-1df9-4788-9031-22b8b2859802> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/70fade86-1df9-4788-9031-22b8b2859802_geom> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/70fade86-1df9-4788-9031-22b8b2859802> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Limes> .
+<http://lod.squirrel.link/data/limes/pannoniainferior/70fade86-1df9-4788-9031-22b8b2859802> <http://www.w3.org/2000/01/rdf-schema#label> "Castra Aquincum" .

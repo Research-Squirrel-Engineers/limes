@@ -1,0 +1,6 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_61> <http://archaeoinformatics.link/ontology#limesobject> "Oberhochstatt" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_61> <http://archaeoinformatics.link/ontology#limestown> "Weißenburg" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_61> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_61_geom> .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#MilitaryCamp> .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_61> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 61" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_61> <http://www.w3.org/2000/01/rdf-schema#label> "Oberhochstatt" .

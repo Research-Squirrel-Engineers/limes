@@ -1,0 +1,4 @@
+<http://lod.squirrel.link/data/limes/germaniainferior/27df7c06-b16d-4f57-a2f3-c5d4544cf58f> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/germaniainferior/27df7c06-b16d-4f57-a2f3-c5d4544cf58f_geom> .
+<http://lod.squirrel.link/data/limes/germaniainferior/27df7c06-b16d-4f57-a2f3-c5d4544cf58f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
+<http://lod.squirrel.link/data/limes/germaniainferior/27df7c06-b16d-4f57-a2f3-c5d4544cf58f> <http://www.w3.org/2000/01/rdf-schema#comment> "Kohortenkastell" .
+<http://lod.squirrel.link/data/limes/germaniainferior/27df7c06-b16d-4f57-a2f3-c5d4544cf58f> <http://www.w3.org/2000/01/rdf-schema#label> "Praetorium Agrippinae" .

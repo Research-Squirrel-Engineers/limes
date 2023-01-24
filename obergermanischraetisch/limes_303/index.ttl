@@ -1,0 +1,5 @@
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_303> <http://archaeoinformatics.link/ontology#limestown> "Hohenstein" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_303> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_303_geom> .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_303> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Watchtower> .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_303> <http://www.w3.org/2000/01/rdf-schema#label> "Born" .
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_303> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 303" .

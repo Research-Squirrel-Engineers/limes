@@ -1,0 +1,4 @@
+<http://lod.squirrel.link/data/limes/germaniainferior/a5b3488f-1d25-489b-ab65-3c3473cbff07> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/germaniainferior/a5b3488f-1d25-489b-ab65-3c3473cbff07_geom> .
+<http://lod.squirrel.link/data/limes/germaniainferior/a5b3488f-1d25-489b-ab65-3c3473cbff07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
+<http://lod.squirrel.link/data/limes/germaniainferior/a5b3488f-1d25-489b-ab65-3c3473cbff07> <http://www.w3.org/2000/01/rdf-schema#comment> "Vexillationskastell" .
+<http://lod.squirrel.link/data/limes/germaniainferior/a5b3488f-1d25-489b-ab65-3c3473cbff07> <http://www.w3.org/2000/01/rdf-schema#label> "Praetorium Agrippinae" .

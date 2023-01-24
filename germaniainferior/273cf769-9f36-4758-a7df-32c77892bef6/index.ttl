@@ -1,0 +1,4 @@
+<http://lod.squirrel.link/data/limes/germaniainferior/273cf769-9f36-4758-a7df-32c77892bef6> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/germaniainferior/273cf769-9f36-4758-a7df-32c77892bef6_geom> .
+<http://lod.squirrel.link/data/limes/germaniainferior/273cf769-9f36-4758-a7df-32c77892bef6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
+<http://lod.squirrel.link/data/limes/germaniainferior/273cf769-9f36-4758-a7df-32c77892bef6> <http://www.w3.org/2000/01/rdf-schema#comment> "Kohortenkastell" .
+<http://lod.squirrel.link/data/limes/germaniainferior/273cf769-9f36-4758-a7df-32c77892bef6> <http://www.w3.org/2000/01/rdf-schema#label> "Levefanum" .

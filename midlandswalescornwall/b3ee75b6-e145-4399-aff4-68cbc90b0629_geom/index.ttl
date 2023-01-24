@@ -1,0 +1,4 @@
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/b3ee75b6-e145-4399-aff4-68cbc90b0629_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.988056 53.4525)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/b3ee75b6-e145-4399-aff4-68cbc90b0629_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/b3ee75b6-e145-4399-aff4-68cbc90b0629_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/b3ee75b6-e145-4399-aff4-68cbc90b0629_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Ardotalia Geometry" .
