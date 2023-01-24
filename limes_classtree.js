@@ -544,9 +544,6 @@ var tree={
         "text": "MilitaryCamp [194]",
         "data": {
           "to": {
-            "http://archaeoinformatics.link/ontology#limesobject": {
-              "instancecount": 1
-            },
             "http://archaeoinformatics.link/ontology#limestown": {
               "instancecount": 1
             },
@@ -569,7 +566,7 @@ var tree={
             }
           }
         },
-        "instancecount": 5
+        "instancecount": 4
       },
       {
         "id": "http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_100",
@@ -1054,6 +1051,9 @@ var tree={
         "text": "Kleinkastell [68]",
         "data": {
           "to": {
+            "http://archaeoinformatics.link/ontology#limesobject": {
+              "instancecount": 1
+            },
             "http://archaeoinformatics.link/ontology#limestown": {
               "instancecount": 1
             },
@@ -1066,7 +1066,7 @@ var tree={
               "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 2
             }
           },
           "from": {
@@ -1076,7 +1076,7 @@ var tree={
             }
           }
         },
-        "instancecount": 4
+        "instancecount": 6
       },
       {
         "id": "http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1000",
@@ -8254,12 +8254,7 @@ var tree={
               "instancecount": 1
             }
           },
-          "from": {
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
-            }
-          }
+          "from": {}
         },
         "instancecount": 4
       },
@@ -20599,12 +20594,7 @@ var tree={
               "instancecount": 1
             }
           },
-          "from": {
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
-            }
-          }
+          "from": {}
         },
         "instancecount": 4
       },
