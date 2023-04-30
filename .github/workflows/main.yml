@@ -13,4 +13,9 @@ jobs:
      prefixns: http://lod.squirrel.link/data/limes/
      prefixnsshort: limes
      indexpages: true
+     createcollections: true
+     createnonNSPages: true
+     createVOWL: true
+     metadatatable: true
+     preferredlang: en
      ghpages: true
