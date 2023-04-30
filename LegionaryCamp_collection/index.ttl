@@ -1,0 +1,22 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/LegionaryCamp_collection> a geo:FeatureCollection ;
+    rdfs:label "LegionaryCamp Instances Collection" ;
+    rdfs:member <http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d>,
+        <http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068>,
+        <http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459>,
+        <http://lod.squirrel.link/data/limes/daicus/87009579-c2cc-4c7a-9b02-901bf75a0ee6>,
+        <http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e>,
+        <http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84>,
+        <http://lod.squirrel.link/data/limes/germaniainferior/0d55bdb0-f758-4679-88f2-b3a76e920ab3>,
+        <http://lod.squirrel.link/data/limes/germaniainferior/2d666246-3029-4fa9-a05b-97217811ceb3>,
+        <http://lod.squirrel.link/data/limes/germaniainferior/47f2a125-dd8e-4617-8301-b1198eb59c91>,
+        <http://lod.squirrel.link/data/limes/germaniainferior/8c713b0d-4442-4a1c-9177-0d2fa9ab36f5>,
+        <http://lod.squirrel.link/data/limes/germaniainferior/9d9f674d-4ea3-4d53-aa59-3e181900a8e8>,
+        <http://lod.squirrel.link/data/limes/germaniainferior/ee4fb6bf-1cac-4f05-bc6e-74188071c2fb>,
+        <http://lod.squirrel.link/data/limes/germaniainferior/f6cee380-f253-4202-bcab-5f3e3c4ac67d>,
+        <http://lod.squirrel.link/data/limes/germaniainferior/f92cc454-3ac7-400e-ad3f-9cd247965f37>,
+        <http://lod.squirrel.link/data/limes/germaniainferior/fb3300d3-ba95-4efe-909f-618ff028e521>,
+        <http://lod.squirrel.link/data/limes/noricum/64755b3a-9ff6-4c12-b9fb-778e3bde5b1f> .
+

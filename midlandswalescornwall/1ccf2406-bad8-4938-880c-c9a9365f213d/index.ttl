@@ -1,4 +1,9 @@
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/1ccf2406-bad8-4938-880c-c9a9365f213d> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/midlandswalescornwall/1ccf2406-bad8-4938-880c-c9a9365f213d_geom> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/1ccf2406-bad8-4938-880c-c9a9365f213d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/1ccf2406-bad8-4938-880c-c9a9365f213d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/1ccf2406-bad8-4938-880c-c9a9365f213d> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Caer Gai" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/1ccf2406-bad8-4938-880c-c9a9365f213d> a <http://onto.squirrel.link/ontology#MilitaryCamp>,
+        owl:NamedIndividual ;
+    rdfs:label "Kastell Caer Gai" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/midlandswalescornwall/1ccf2406-bad8-4938-880c-c9a9365f213d_geom> .
+

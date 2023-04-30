@@ -1,3 +1,7 @@
-<http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.571889 44.514111)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Mofleni (Pelendava) Geometry" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    rdfs:label "Kastell Mofleni (Pelendava) Geometry" ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.571889 44.514111)"^^geo:wktLiteral .
+

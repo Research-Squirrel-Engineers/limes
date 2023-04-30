@@ -1,4 +1,8 @@
-<http://lod.squirrel.link/data/limes/germaniainferior/28cb0c9b-8e4e-4c1b-9b62-79cc16fb0165> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/germaniainferior/28cb0c9b-8e4e-4c1b-9b62-79cc16fb0165_geom> .
-<http://lod.squirrel.link/data/limes/germaniainferior/28cb0c9b-8e4e-4c1b-9b62-79cc16fb0165> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Limes> .
-<http://lod.squirrel.link/data/limes/germaniainferior/28cb0c9b-8e4e-4c1b-9b62-79cc16fb0165> <http://www.w3.org/2000/01/rdf-schema#comment> "Marschlager" .
-<http://lod.squirrel.link/data/limes/germaniainferior/28cb0c9b-8e4e-4c1b-9b62-79cc16fb0165> <http://www.w3.org/2000/01/rdf-schema#label> "Gelduba" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/germaniainferior/28cb0c9b-8e4e-4c1b-9b62-79cc16fb0165> a <http://archaeoinformatics.link/ontology#Limes> ;
+    rdfs:label "Gelduba" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/germaniainferior/28cb0c9b-8e4e-4c1b-9b62-79cc16fb0165_geom> ;
+    rdfs:comment "Marschlager" .
+

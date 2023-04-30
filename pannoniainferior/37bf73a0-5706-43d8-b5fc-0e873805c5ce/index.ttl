@@ -1,3 +1,7 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/37bf73a0-5706-43d8-b5fc-0e873805c5ce> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/37bf73a0-5706-43d8-b5fc-0e873805c5ce_geom> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/37bf73a0-5706-43d8-b5fc-0e873805c5ce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Burgus> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/37bf73a0-5706-43d8-b5fc-0e873805c5ce> <http://www.w3.org/2000/01/rdf-schema#label> "Burgus Selva 5" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/pannoniainferior/37bf73a0-5706-43d8-b5fc-0e873805c5ce> a <http://archaeoinformatics.link/ontology#Burgus> ;
+    rdfs:label "Burgus Selva 5" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/pannoniainferior/37bf73a0-5706-43d8-b5fc-0e873805c5ce_geom> .
+

@@ -1,3 +1,7 @@
-<http://lod.squirrel.link/data/limes/noricum/d0ef2a62-6c85-44ce-a995-65ab6d5a5f43_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.462222 48.569722)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/noricum/d0ef2a62-6c85-44ce-a995-65ab6d5a5f43_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/noricum/d0ef2a62-6c85-44ce-a995-65ab6d5a5f43_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Boiotro Geometry" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/noricum/d0ef2a62-6c85-44ce-a995-65ab6d5a5f43_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    rdfs:label "Kastell Boiotro Geometry" ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.462222 48.569722)"^^geo:wktLiteral .
+

@@ -1,4 +1,9 @@
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/1981b386-39e5-42c1-bca9-6000dfe926ad_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.874583 53.0975)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/1981b386-39e5-42c1-bca9-6000dfe926ad_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/1981b386-39e5-42c1-bca9-6000dfe926ad_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/1981b386-39e5-42c1-bca9-6000dfe926ad_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Bryn Y Gefeiliau Geometry" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/1981b386-39e5-42c1-bca9-6000dfe926ad_geom> a <http://www.opengis.net/ont/sf#Point>,
+        owl:NamedIndividual ;
+    rdfs:label "Kastell Bryn Y Gefeiliau Geometry" ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.874583 53.0975)"^^geo:wktLiteral .
+

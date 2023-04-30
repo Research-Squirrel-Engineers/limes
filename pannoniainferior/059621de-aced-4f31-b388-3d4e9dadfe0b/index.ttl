@@ -1,3 +1,7 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/059621de-aced-4f31-b388-3d4e9dadfe0b> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/059621de-aced-4f31-b388-3d4e9dadfe0b_geom> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/059621de-aced-4f31-b388-3d4e9dadfe0b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Burgus> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/059621de-aced-4f31-b388-3d4e9dadfe0b> <http://www.w3.org/2000/01/rdf-schema#label> "Burgus Lussenium 6" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/pannoniainferior/059621de-aced-4f31-b388-3d4e9dadfe0b> a <http://archaeoinformatics.link/ontology#Burgus> ;
+    rdfs:label "Burgus Lussenium 6" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/pannoniainferior/059621de-aced-4f31-b388-3d4e9dadfe0b_geom> .
+

@@ -1,4 +1,8 @@
-<http://lod.squirrel.link/data/limes/germaniainferior/e0ca600e-5d30-4965-af63-874b48814d3d> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/germaniainferior/e0ca600e-5d30-4965-af63-874b48814d3d_geom> .
-<http://lod.squirrel.link/data/limes/germaniainferior/e0ca600e-5d30-4965-af63-874b48814d3d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
-<http://lod.squirrel.link/data/limes/germaniainferior/e0ca600e-5d30-4965-af63-874b48814d3d> <http://www.w3.org/2000/01/rdf-schema#comment> "Auxiliarkastell" .
-<http://lod.squirrel.link/data/limes/germaniainferior/e0ca600e-5d30-4965-af63-874b48814d3d> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Wesel-Büderich" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/germaniainferior/e0ca600e-5d30-4965-af63-874b48814d3d> a <http://onto.squirrel.link/ontology#MilitaryCamp> ;
+    rdfs:label "Kastell Wesel-Büderich" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/germaniainferior/e0ca600e-5d30-4965-af63-874b48814d3d_geom> ;
+    rdfs:comment "Auxiliarkastell" .
+

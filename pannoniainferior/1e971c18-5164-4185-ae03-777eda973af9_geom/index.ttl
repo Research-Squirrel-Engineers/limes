@@ -1,3 +1,7 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/1e971c18-5164-4185-ae03-777eda973af9_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.198906 47.744806)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/1e971c18-5164-4185-ae03-777eda973af9_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/1e971c18-5164-4185-ae03-777eda973af9_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Iža-Leányvár Geometry" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/pannoniainferior/1e971c18-5164-4185-ae03-777eda973af9_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    rdfs:label "Kastell Iža-Leányvár Geometry" ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.198906 47.744806)"^^geo:wktLiteral .
+

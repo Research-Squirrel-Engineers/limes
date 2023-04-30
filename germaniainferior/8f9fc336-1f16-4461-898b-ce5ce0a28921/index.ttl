@@ -1,4 +1,8 @@
-<http://lod.squirrel.link/data/limes/germaniainferior/8f9fc336-1f16-4461-898b-ce5ce0a28921> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/germaniainferior/8f9fc336-1f16-4461-898b-ce5ce0a28921_geom> .
-<http://lod.squirrel.link/data/limes/germaniainferior/8f9fc336-1f16-4461-898b-ce5ce0a28921> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
-<http://lod.squirrel.link/data/limes/germaniainferior/8f9fc336-1f16-4461-898b-ce5ce0a28921> <http://www.w3.org/2000/01/rdf-schema#comment> "Alenkastell" .
-<http://lod.squirrel.link/data/limes/germaniainferior/8f9fc336-1f16-4461-898b-ce5ce0a28921> <http://www.w3.org/2000/01/rdf-schema#label> "Burginatium" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/germaniainferior/8f9fc336-1f16-4461-898b-ce5ce0a28921> a <http://onto.squirrel.link/ontology#MilitaryCamp> ;
+    rdfs:label "Burginatium" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/germaniainferior/8f9fc336-1f16-4461-898b-ce5ce0a28921_geom> ;
+    rdfs:comment "Alenkastell" .
+

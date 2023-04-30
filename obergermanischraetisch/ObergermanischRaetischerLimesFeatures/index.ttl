@@ -1,203 +1,207 @@
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#FeatureCollection> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#comment> "FeatureCollection of Obergermanisch Rätischer Limes" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#label> "Obergermanisch Rätischer Limes Features" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_200> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_199> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_198> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_197> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_196> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_195> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_194> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_193> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_192> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_191> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_190> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_189> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_188> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_187> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_186> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_185> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_184> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_183> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_182> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_181> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_180> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_179> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_178> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_177> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_176> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_175> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_174> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_173> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_172> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_171> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_170> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_169> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_168> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_167> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_166> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_165> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_164> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_163> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_162> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_161> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_160> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_159> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_158> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_157> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_156> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_155> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_154> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_153> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_152> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_151> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_150> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_149> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_148> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_147> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_146> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_145> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_144> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_143> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_142> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_141> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_140> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_139> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_138> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_137> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_136> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_135> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_134> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_133> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_132> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_131> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_130> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_129> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_128> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_127> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_126> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_125> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_124> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_123> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_122> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_121> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_120> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_119> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_118> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_117> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_116> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_115> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_114> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_113> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_112> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_111> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_110> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_109> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_108> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_107> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_106> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_105> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_104> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_103> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_102> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_101> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_100> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_99> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_98> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_97> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_96> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_95> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_94> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_93> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_92> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_91> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_90> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_89> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_88> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_87> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_86> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_85> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_84> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_83> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_82> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_81> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_80> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_79> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_78> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_77> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_76> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_75> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_74> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_73> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_72> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_71> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_70> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_69> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_68> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_67> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_66> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_64> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_63> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_62> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_61> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_60> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_59> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_58> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_57> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_56> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_55> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_54> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_53> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_52> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_51> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_50> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_49> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_48> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_47> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_46> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_45> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_44> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_43> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_42> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_41> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_40> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_39> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_38> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_37> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_36> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_35> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_34> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_33> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_32> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_31> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_30> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_29> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_28> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_27> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_26> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_25> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_24> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_23> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_22> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_21> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_20> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_19> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_18> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_17> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_16> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_15> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_14> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_13> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_12> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_11> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_10> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_9> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_8> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_7> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_6> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_5> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_4> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_3> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_2> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> <http://www.w3.org/2000/01/rdf-schema#member> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures> a geo:FeatureCollection ;
+    rdfs:label "Obergermanisch Rätischer Limes Features" ;
+    rdfs:comment "FeatureCollection of Obergermanisch Rätischer Limes" ;
+    rdfs:member <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_10>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_100>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_101>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_102>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_103>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_104>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_105>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_106>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_107>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_108>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_109>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_11>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_110>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_111>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_112>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_113>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_114>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_115>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_116>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_117>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_118>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_119>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_12>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_120>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_121>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_122>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_123>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_124>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_125>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_126>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_127>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_128>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_129>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_13>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_130>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_131>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_132>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_133>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_134>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_135>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_136>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_137>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_138>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_139>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_14>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_140>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_141>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_142>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_143>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_144>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_145>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_146>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_147>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_148>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_149>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_15>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_150>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_151>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_152>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_153>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_154>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_155>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_156>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_157>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_158>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_159>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_16>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_160>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_161>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_162>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_163>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_164>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_165>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_166>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_167>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_168>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_169>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_17>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_170>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_171>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_172>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_173>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_174>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_175>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_176>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_177>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_178>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_179>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_18>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_180>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_181>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_182>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_183>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_184>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_185>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_186>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_187>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_188>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_189>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_19>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_190>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_191>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_192>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_193>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_194>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_195>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_196>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_197>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_198>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_199>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_2>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_20>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_200>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_21>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_22>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_23>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_24>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_25>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_26>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_27>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_28>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_29>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_3>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_30>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_31>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_32>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_33>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_34>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_35>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_36>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_37>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_38>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_39>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_4>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_40>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_41>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_42>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_43>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_44>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_45>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_46>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_47>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_48>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_49>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_5>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_50>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_51>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_52>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_53>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_54>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_55>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_56>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_57>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_58>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_59>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_6>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_60>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_61>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_62>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_63>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_64>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_66>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_67>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_68>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_69>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_7>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_70>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_71>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_72>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_73>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_74>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_75>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_76>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_77>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_78>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_79>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_8>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_80>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_81>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_82>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_83>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_84>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_85>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_86>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_87>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_88>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_89>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_9>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_90>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_91>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_92>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_93>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_94>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_95>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_96>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_97>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_98>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_99> .
+

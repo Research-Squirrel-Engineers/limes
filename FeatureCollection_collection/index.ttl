@@ -1,0 +1,12 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://lod.squirrel.link/data/limes/FeatureCollection_collection> a skos:Collection ;
+    rdfs:label "FeatureCollection Instances Collection" ;
+    rdfs:member <http://lod.squirrel.link/data/limes/daicus/LimesDaicusFeatures>,
+        <http://lod.squirrel.link/data/limes/germaniainferior/LimesGermaniaInferiorFeatures>,
+        <http://lod.squirrel.link/data/limes/midlandswalescornwall/MidlandsWalesCornwallFeatures>,
+        <http://lod.squirrel.link/data/limes/noricum/LimesNoricumFeatures>,
+        <http://lod.squirrel.link/data/limes/obergermanischraetisch/ObergermanischRaetischerLimesFeatures>,
+        <http://lod.squirrel.link/data/limes/pannoniainferior/LimesPannoniaInferiorFeatures> .
+

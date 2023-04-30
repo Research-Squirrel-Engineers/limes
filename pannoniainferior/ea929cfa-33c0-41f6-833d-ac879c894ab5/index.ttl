@@ -1,3 +1,7 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/ea929cfa-33c0-41f6-833d-ac879c894ab5> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/ea929cfa-33c0-41f6-833d-ac879c894ab5_geom> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/ea929cfa-33c0-41f6-833d-ac879c894ab5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Burgus> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/ea929cfa-33c0-41f6-833d-ac879c894ab5> <http://www.w3.org/2000/01/rdf-schema#label> "Burgus Budakalász-Luppa csárda (Burgus Ulcisia 2)" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/pannoniainferior/ea929cfa-33c0-41f6-833d-ac879c894ab5> a <http://archaeoinformatics.link/ontology#Burgus> ;
+    rdfs:label "Burgus Budakalász-Luppa csárda (Burgus Ulcisia 2)" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/pannoniainferior/ea929cfa-33c0-41f6-833d-ac879c894ab5_geom> .
+

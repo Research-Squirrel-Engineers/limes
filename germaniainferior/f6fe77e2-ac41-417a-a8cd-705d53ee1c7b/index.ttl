@@ -1,4 +1,8 @@
-<http://lod.squirrel.link/data/limes/germaniainferior/f6fe77e2-ac41-417a-a8cd-705d53ee1c7b> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/germaniainferior/f6fe77e2-ac41-417a-a8cd-705d53ee1c7b_geom> .
-<http://lod.squirrel.link/data/limes/germaniainferior/f6fe77e2-ac41-417a-a8cd-705d53ee1c7b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Limes> .
-<http://lod.squirrel.link/data/limes/germaniainferior/f6fe77e2-ac41-417a-a8cd-705d53ee1c7b> <http://www.w3.org/2000/01/rdf-schema#comment> "Marschlager" .
-<http://lod.squirrel.link/data/limes/germaniainferior/f6fe77e2-ac41-417a-a8cd-705d53ee1c7b> <http://www.w3.org/2000/01/rdf-schema#label> "Marschlager Ermelo" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/germaniainferior/f6fe77e2-ac41-417a-a8cd-705d53ee1c7b> a <http://archaeoinformatics.link/ontology#Limes> ;
+    rdfs:label "Marschlager Ermelo" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/germaniainferior/f6fe77e2-ac41-417a-a8cd-705d53ee1c7b_geom> ;
+    rdfs:comment "Marschlager" .
+

@@ -1,0 +1,11 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/Fort_collection> a geo:FeatureCollection ;
+    rdfs:label "Fort Instances Collection" ;
+    rdfs:member <http://lod.squirrel.link/data/limes/germaniainferior/71dbde54-b2e6-4b60-a1f5-2a08cd10bfb0>,
+        <http://lod.squirrel.link/data/limes/midlandswalescornwall/2251c787-e2fb-4c65-9662-b3296b2d36b5>,
+        <http://lod.squirrel.link/data/limes/midlandswalescornwall/41fae62b-cdaa-44c7-9a2f-5eb92621db71>,
+        <http://lod.squirrel.link/data/limes/midlandswalescornwall/43ce98a8-2fab-4c4a-86ad-d18cbb7548a5>,
+        <http://lod.squirrel.link/data/limes/midlandswalescornwall/fcd9beaf-116a-4836-b264-bffd5527663e> .
+

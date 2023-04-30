@@ -1,3 +1,7 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/aca1955a-ed95-4f85-8f8c-df7c86a2d91a> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/aca1955a-ed95-4f85-8f8c-df7c86a2d91a_geom> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/aca1955a-ed95-4f85-8f8c-df7c86a2d91a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Limes> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/aca1955a-ed95-4f85-8f8c-df7c86a2d91a> <http://www.w3.org/2000/01/rdf-schema#label> "Brigetio – Lager XXX–XXXI" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/pannoniainferior/aca1955a-ed95-4f85-8f8c-df7c86a2d91a> a <http://archaeoinformatics.link/ontology#Limes> ;
+    rdfs:label "Brigetio – Lager XXX–XXXI" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/pannoniainferior/aca1955a-ed95-4f85-8f8c-df7c86a2d91a_geom> .
+

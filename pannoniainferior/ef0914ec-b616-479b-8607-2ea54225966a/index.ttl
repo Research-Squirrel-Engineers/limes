@@ -1,3 +1,7 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/ef0914ec-b616-479b-8607-2ea54225966a> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/ef0914ec-b616-479b-8607-2ea54225966a_geom> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/ef0914ec-b616-479b-8607-2ea54225966a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Burgus> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/ef0914ec-b616-479b-8607-2ea54225966a> <http://www.w3.org/2000/01/rdf-schema#label> "Burgus Annamatia 7 (Burgus Léanyvár)" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/pannoniainferior/ef0914ec-b616-479b-8607-2ea54225966a> a <http://archaeoinformatics.link/ontology#Burgus> ;
+    rdfs:label "Burgus Annamatia 7 (Burgus Léanyvár)" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/pannoniainferior/ef0914ec-b616-479b-8607-2ea54225966a_geom> .
+

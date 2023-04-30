@@ -1,3 +1,7 @@
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_935_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.829834 50.484052)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_935_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_935_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 935 Geometry" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_935_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    rdfs:label "Limes Part 935 Geometry" ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.829834 50.484052)"^^geo:wktLiteral .
+

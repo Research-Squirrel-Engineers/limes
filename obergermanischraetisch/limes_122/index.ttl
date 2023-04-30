@@ -1,5 +1,10 @@
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_122> <http://archaeoinformatics.link/ontology#limestown> "Hungen" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_122> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_122_geom> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.squirrel.link/data/limes/obergermanischraetisch/Kleinkastell> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_122> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 122" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_122> <http://www.w3.org/2000/01/rdf-schema#label> "Steinheim" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_122> a <http://lod.squirrel.link/data/limes/obergermanischraetisch/Kleinkastell> ;
+    rdfs:label "Limes Part 122",
+        "Steinheim" ;
+    ns1:limestown "Hungen" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_122_geom> .
+

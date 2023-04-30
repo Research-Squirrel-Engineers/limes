@@ -1,4 +1,8 @@
-<http://lod.squirrel.link/data/limes/germaniainferior/4b55f485-4cd2-4a8d-b130-aa4adc882d7c> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/germaniainferior/4b55f485-4cd2-4a8d-b130-aa4adc882d7c_geom> .
-<http://lod.squirrel.link/data/limes/germaniainferior/4b55f485-4cd2-4a8d-b130-aa4adc882d7c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
-<http://lod.squirrel.link/data/limes/germaniainferior/4b55f485-4cd2-4a8d-b130-aa4adc882d7c> <http://www.w3.org/2000/01/rdf-schema#comment> "Auxiliarkastell" .
-<http://lod.squirrel.link/data/limes/germaniainferior/4b55f485-4cd2-4a8d-b130-aa4adc882d7c> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Duiven-Loowaard" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/germaniainferior/4b55f485-4cd2-4a8d-b130-aa4adc882d7c> a <http://onto.squirrel.link/ontology#MilitaryCamp> ;
+    rdfs:label "Kastell Duiven-Loowaard" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/germaniainferior/4b55f485-4cd2-4a8d-b130-aa4adc882d7c_geom> ;
+    rdfs:comment "Auxiliarkastell" .
+

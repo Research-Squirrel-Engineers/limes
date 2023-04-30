@@ -1,5 +1,10 @@
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1073> <http://archaeoinformatics.link/ontology#limestown> "Kipfenberg" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1073> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1073_geom> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Watchtower> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1073> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 1073" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1073> <http://www.w3.org/2000/01/rdf-schema#label> "Pfahldorf" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1073> a ns1:Watchtower ;
+    rdfs:label "Limes Part 1073",
+        "Pfahldorf" ;
+    ns1:limestown "Kipfenberg" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1073_geom> .
+

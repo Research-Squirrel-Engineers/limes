@@ -1,3 +1,7 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/3d1b9e48-8058-47bb-b6b8-912148844075_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (19.046778 47.439222)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/3d1b9e48-8058-47bb-b6b8-912148844075_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/3d1b9e48-8058-47bb-b6b8-912148844075_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Budapest-Albertfalva Geometry" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/pannoniainferior/3d1b9e48-8058-47bb-b6b8-912148844075_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    rdfs:label "Kastell Budapest-Albertfalva Geometry" ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (19.046778 47.439222)"^^geo:wktLiteral .
+

@@ -1,3 +1,7 @@
-<http://lod.squirrel.link/data/limes/noricum/71192446-c179-4a45-9214-44ef9a3a996b> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/noricum/71192446-c179-4a45-9214-44ef9a3a996b_geom> .
-<http://lod.squirrel.link/data/limes/noricum/71192446-c179-4a45-9214-44ef9a3a996b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#Burgus> .
-<http://lod.squirrel.link/data/limes/noricum/71192446-c179-4a45-9214-44ef9a3a996b> <http://www.w3.org/2000/01/rdf-schema#label> "Burgus Bacharnsdorf" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/noricum/71192446-c179-4a45-9214-44ef9a3a996b> a <http://onto.squirrel.link/ontology#Burgus> ;
+    rdfs:label "Burgus Bacharnsdorf" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/noricum/71192446-c179-4a45-9214-44ef9a3a996b_geom> .
+

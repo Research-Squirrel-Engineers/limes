@@ -1,5 +1,10 @@
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_64> <http://archaeoinformatics.link/ontology#limesobject> "Hillscheid" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_64> <http://archaeoinformatics.link/ontology#limestown> "Hillscheid" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_64> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_64_geom> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.squirrel.link/data/limes/obergermanischraetisch/Kleinkastell> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_64> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 64" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_64> a <http://lod.squirrel.link/data/limes/obergermanischraetisch/Kleinkastell> ;
+    rdfs:label "Limes Part 64" ;
+    ns1:limesobject "Hillscheid" ;
+    ns1:limestown "Hillscheid" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_64_geom> .
+

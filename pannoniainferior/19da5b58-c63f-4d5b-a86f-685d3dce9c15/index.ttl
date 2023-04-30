@@ -1,3 +1,7 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/19da5b58-c63f-4d5b-a86f-685d3dce9c15> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/19da5b58-c63f-4d5b-a86f-685d3dce9c15_geom> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/19da5b58-c63f-4d5b-a86f-685d3dce9c15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#MilitaryCamp> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/19da5b58-c63f-4d5b-a86f-685d3dce9c15> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Cernacum" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/pannoniainferior/19da5b58-c63f-4d5b-a86f-685d3dce9c15> a <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
+    rdfs:label "Kastell Cernacum" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/pannoniainferior/19da5b58-c63f-4d5b-a86f-685d3dce9c15_geom> .
+

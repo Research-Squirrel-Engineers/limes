@@ -1,6 +1,11 @@
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_34> <http://archaeoinformatics.link/ontology#limesobject> "Niederberg" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_34> <http://archaeoinformatics.link/ontology#limestown> "Koblenz" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_34> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_34_geom> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#MilitaryCamp> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_34> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 34" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_34> <http://www.w3.org/2000/01/rdf-schema#label> "Niederberg" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_34> a ns1:MilitaryCamp ;
+    rdfs:label "Limes Part 34",
+        "Niederberg" ;
+    ns1:limesobject "Niederberg" ;
+    ns1:limestown "Koblenz" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_34_geom> .
+

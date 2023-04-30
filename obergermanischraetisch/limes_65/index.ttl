@@ -1,6 +1,11 @@
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65> <http://archaeoinformatics.link/ontology#limesobject> "Becheln" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65> <http://archaeoinformatics.link/ontology#limestown> "Lahnstein" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65_geom> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.squirrel.link/data/limes/obergermanischraetisch/Kleinkastell> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 65" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65> <http://www.w3.org/2000/01/rdf-schema#label> "Oberlahnstein/Becheln" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65> a <http://lod.squirrel.link/data/limes/obergermanischraetisch/Kleinkastell> ;
+    rdfs:label "Limes Part 65",
+        "Oberlahnstein/Becheln" ;
+    ns1:limesobject "Becheln" ;
+    ns1:limestown "Lahnstein" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_65_geom> .
+

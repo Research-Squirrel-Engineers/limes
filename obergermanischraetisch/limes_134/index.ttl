@@ -1,5 +1,10 @@
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_134> <http://archaeoinformatics.link/ontology#limestown> "Walldürn" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_134> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_134_geom> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Watchtower> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_134> <http://www.w3.org/2000/01/rdf-schema#label> "Glashofen" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_134> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 134" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_134> a ns1:Watchtower ;
+    rdfs:label "Glashofen",
+        "Limes Part 134" ;
+    ns1:limestown "Walldürn" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_134_geom> .
+

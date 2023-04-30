@@ -1,4 +1,9 @@
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/58210be9-d5d3-4304-ad2a-5141ecefcdef> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/midlandswalescornwall/58210be9-d5d3-4304-ad2a-5141ecefcdef_geom> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/58210be9-d5d3-4304-ad2a-5141ecefcdef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/58210be9-d5d3-4304-ad2a-5141ecefcdef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://onto.squirrel.link/ontology#MilitaryCamp> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/58210be9-d5d3-4304-ad2a-5141ecefcdef> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Carmarthen" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/58210be9-d5d3-4304-ad2a-5141ecefcdef> a <http://onto.squirrel.link/ontology#MilitaryCamp>,
+        owl:NamedIndividual ;
+    rdfs:label "Kastell Carmarthen" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/midlandswalescornwall/58210be9-d5d3-4304-ad2a-5141ecefcdef_geom> .
+

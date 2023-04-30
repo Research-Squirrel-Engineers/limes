@@ -1,4 +1,9 @@
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/f2634f9a-dca9-4577-a5a3-f4ba92bcd03f> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/midlandswalescornwall/f2634f9a-dca9-4577-a5a3-f4ba92bcd03f_geom> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/f2634f9a-dca9-4577-a5a3-f4ba92bcd03f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/f2634f9a-dca9-4577-a5a3-f4ba92bcd03f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Limes> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/f2634f9a-dca9-4577-a5a3-f4ba92bcd03f> <http://www.w3.org/2000/01/rdf-schema#label> "Isca Silurum" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/f2634f9a-dca9-4577-a5a3-f4ba92bcd03f> a <http://archaeoinformatics.link/ontology#Limes>,
+        owl:NamedIndividual ;
+    rdfs:label "Isca Silurum" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/midlandswalescornwall/f2634f9a-dca9-4577-a5a3-f4ba92bcd03f_geom> .
+

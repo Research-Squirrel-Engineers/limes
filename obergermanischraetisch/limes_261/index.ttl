@@ -1,5 +1,10 @@
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_261> <http://archaeoinformatics.link/ontology#limestown> "Bendorf" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_261> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_261_geom> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_261> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Watchtower> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_261> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 261" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_261> <http://www.w3.org/2000/01/rdf-schema#label> "Sayn" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_261> a ns1:Watchtower ;
+    rdfs:label "Limes Part 261",
+        "Sayn" ;
+    ns1:limestown "Bendorf" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_261_geom> .
+

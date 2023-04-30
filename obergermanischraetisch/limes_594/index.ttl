@@ -1,5 +1,10 @@
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_594> <http://archaeoinformatics.link/ontology#limestown> "Pfedelbach" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_594> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_594_geom> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_594> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Watchtower> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_594> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 594" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_594> <http://www.w3.org/2000/01/rdf-schema#label> "Oberohrn" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_594> a ns1:Watchtower ;
+    rdfs:label "Limes Part 594",
+        "Oberohrn" ;
+    ns1:limestown "Pfedelbach" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_594_geom> .
+

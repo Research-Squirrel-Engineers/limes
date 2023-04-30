@@ -1,3 +1,7 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/ceac5833-9f93-4540-8d66-cda88c604156> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/pannoniainferior/ceac5833-9f93-4540-8d66-cda88c604156_geom> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/ceac5833-9f93-4540-8d66-cda88c604156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#MilitaryCamp> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/ceac5833-9f93-4540-8d66-cda88c604156> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Esztergóm" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/pannoniainferior/ceac5833-9f93-4540-8d66-cda88c604156> a <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
+    rdfs:label "Kastell Esztergóm" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/pannoniainferior/ceac5833-9f93-4540-8d66-cda88c604156_geom> .
+

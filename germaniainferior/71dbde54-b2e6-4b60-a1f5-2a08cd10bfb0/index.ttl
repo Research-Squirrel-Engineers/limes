@@ -1,4 +1,8 @@
-<http://lod.squirrel.link/data/limes/germaniainferior/71dbde54-b2e6-4b60-a1f5-2a08cd10bfb0> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/germaniainferior/71dbde54-b2e6-4b60-a1f5-2a08cd10bfb0_geom> .
-<http://lod.squirrel.link/data/limes/germaniainferior/71dbde54-b2e6-4b60-a1f5-2a08cd10bfb0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://hadrianswall.squirrel.link/ontology#Fort> .
-<http://lod.squirrel.link/data/limes/germaniainferior/71dbde54-b2e6-4b60-a1f5-2a08cd10bfb0> <http://www.w3.org/2000/01/rdf-schema#comment> "Festung" .
-<http://lod.squirrel.link/data/limes/germaniainferior/71dbde54-b2e6-4b60-a1f5-2a08cd10bfb0> <http://www.w3.org/2000/01/rdf-schema#label> "Rigomagus" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/germaniainferior/71dbde54-b2e6-4b60-a1f5-2a08cd10bfb0> a <http://hadrianswall.squirrel.link/ontology#Fort> ;
+    rdfs:label "Rigomagus" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/germaniainferior/71dbde54-b2e6-4b60-a1f5-2a08cd10bfb0_geom> ;
+    rdfs:comment "Festung" .
+

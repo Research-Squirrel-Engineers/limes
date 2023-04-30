@@ -1,4 +1,9 @@
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/61a1eeed-0e4f-45ad-9a54-cee033b0b837_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.4225 52.521389)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/61a1eeed-0e4f-45ad-9a54-cee033b0b837_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/61a1eeed-0e4f-45ad-9a54-cee033b0b837_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/61a1eeed-0e4f-45ad-9a54-cee033b0b837_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Kastell Caersws I Geometry" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/61a1eeed-0e4f-45ad-9a54-cee033b0b837_geom> a <http://www.opengis.net/ont/sf#Point>,
+        owl:NamedIndividual ;
+    rdfs:label "Kastell Caersws I Geometry" ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.4225 52.521389)"^^geo:wktLiteral .
+

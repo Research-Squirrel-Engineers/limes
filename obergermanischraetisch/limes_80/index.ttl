@@ -1,5 +1,10 @@
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_80> <http://archaeoinformatics.link/ontology#limesobject> "Kaisergrube" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_80> <http://archaeoinformatics.link/ontology#limestown> "Ober-Mörlen" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_80> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_80_geom> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.squirrel.link/data/limes/obergermanischraetisch/Kleinkastell> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_80> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 80" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_80> a <http://lod.squirrel.link/data/limes/obergermanischraetisch/Kleinkastell> ;
+    rdfs:label "Limes Part 80" ;
+    ns1:limesobject "Kaisergrube" ;
+    ns1:limestown "Ober-Mörlen" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_80_geom> .
+

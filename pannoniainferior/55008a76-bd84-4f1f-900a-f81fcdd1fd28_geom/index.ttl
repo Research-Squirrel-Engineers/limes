@@ -1,3 +1,7 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/55008a76-bd84-4f1f-900a-f81fcdd1fd28_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.984194 46.741556)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/55008a76-bd84-4f1f-900a-f81fcdd1fd28_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/55008a76-bd84-4f1f-900a-f81fcdd1fd28_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Burgus Bölcske (Burgus Annamatia 12) Geometry" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/pannoniainferior/55008a76-bd84-4f1f-900a-f81fcdd1fd28_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    rdfs:label "Burgus Bölcske (Burgus Annamatia 12) Geometry" ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.984194 46.741556)"^^geo:wktLiteral .
+

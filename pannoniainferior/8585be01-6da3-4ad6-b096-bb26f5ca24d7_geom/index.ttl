@@ -1,3 +1,7 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/8585be01-6da3-4ad6-b096-bb26f5ca24d7_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.153681 47.708844)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/8585be01-6da3-4ad6-b096-bb26f5ca24d7_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/8585be01-6da3-4ad6-b096-bb26f5ca24d7_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Brigetio – Lager XIX Geometry" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/pannoniainferior/8585be01-6da3-4ad6-b096-bb26f5ca24d7_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    rdfs:label "Brigetio – Lager XIX Geometry" ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.153681 47.708844)"^^geo:wktLiteral .
+

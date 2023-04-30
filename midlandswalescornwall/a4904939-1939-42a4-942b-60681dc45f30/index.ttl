@@ -1,4 +1,9 @@
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/a4904939-1939-42a4-942b-60681dc45f30> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/midlandswalescornwall/a4904939-1939-42a4-942b-60681dc45f30_geom> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/a4904939-1939-42a4-942b-60681dc45f30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/a4904939-1939-42a4-942b-60681dc45f30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lod.squirrel.link/data/limes/midlandswalescornwall/Kleinkastell> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/a4904939-1939-42a4-942b-60681dc45f30> <http://www.w3.org/2000/01/rdf-schema#label> "Kleinkastell Caer Gybi" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/a4904939-1939-42a4-942b-60681dc45f30> a <http://lod.squirrel.link/data/limes/midlandswalescornwall/Kleinkastell>,
+        owl:NamedIndividual ;
+    rdfs:label "Kleinkastell Caer Gybi" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/midlandswalescornwall/a4904939-1939-42a4-942b-60681dc45f30_geom> .
+

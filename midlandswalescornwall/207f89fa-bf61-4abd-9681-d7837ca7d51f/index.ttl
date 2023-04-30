@@ -1,4 +1,9 @@
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/207f89fa-bf61-4abd-9681-d7837ca7d51f> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/midlandswalescornwall/207f89fa-bf61-4abd-9681-d7837ca7d51f_geom> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/207f89fa-bf61-4abd-9681-d7837ca7d51f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/207f89fa-bf61-4abd-9681-d7837ca7d51f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Limes> .
-<http://lod.squirrel.link/data/limes/midlandswalescornwall/207f89fa-bf61-4abd-9681-d7837ca7d51f> <http://www.w3.org/2000/01/rdf-schema#label> "Gobannium" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/midlandswalescornwall/207f89fa-bf61-4abd-9681-d7837ca7d51f> a <http://archaeoinformatics.link/ontology#Limes>,
+        owl:NamedIndividual ;
+    rdfs:label "Gobannium" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/midlandswalescornwall/207f89fa-bf61-4abd-9681-d7837ca7d51f_geom> .
+

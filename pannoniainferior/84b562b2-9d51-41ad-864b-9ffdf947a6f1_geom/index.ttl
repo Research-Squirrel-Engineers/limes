@@ -1,3 +1,7 @@
-<http://lod.squirrel.link/data/limes/pannoniainferior/84b562b2-9d51-41ad-864b-9ffdf947a6f1_geom> <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.853278 47.817361)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/84b562b2-9d51-41ad-864b-9ffdf947a6f1_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .
-<http://lod.squirrel.link/data/limes/pannoniainferior/84b562b2-9d51-41ad-864b-9ffdf947a6f1_geom> <http://www.w3.org/2000/01/rdf-schema#label> "Burgus Szeb (Burgus Selva 34) Geometry" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/pannoniainferior/84b562b2-9d51-41ad-864b-9ffdf947a6f1_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    rdfs:label "Burgus Szeb (Burgus Selva 34) Geometry" ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.853278 47.817361)"^^geo:wktLiteral .
+

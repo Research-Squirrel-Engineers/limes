@@ -1,5 +1,10 @@
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_142> <http://archaeoinformatics.link/ontology#limestown> "Osterburken" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_142> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_142_geom> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://archaeoinformatics.link/ontology#Watchtower> .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_142> <http://www.w3.org/2000/01/rdf-schema#label> "Bofsheim" .
-<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_142> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Part 142" .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeoinformatics.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_142> a ns1:Watchtower ;
+    rdfs:label "Bofsheim",
+        "Limes Part 142" ;
+    ns1:limestown "Osterburken" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_142_geom> .
+
