@@ -81,17 +81,27 @@ var tree={
               "instancecount": 1,
               "http://www.w3.org/2002/07/owl#Class": 1
             },
+            "http://www.w3.org/2000/01/rdf-schema#comment": {
+              "instancecount": 1
+            },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 1030,
-              "http://archaeoinformatics.link/ontology#Watchtower": 1022
+              "instancecount": 200,
+              "http://archaeoinformatics.link/ontology#Watchtower": 70,
+              "http://lod.squirrel.link/data/limes/obergermanischraetisch/Kleinkastell": 68,
+              "http://archaeoinformatics.link/ontology#MilitaryCamp": 62
             }
           },
-          "from": {}
+          "from": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.w3.org/2004/02/skos/core#Collection": 1
+            }
+          }
         },
-        "instancecount": 1033
+        "instancecount": 204
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
@@ -129,18 +139,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 200,
-              "http://www.opengis.net/ont/sf#Point": 200
+              "instancecount": 1537,
+              "http://www.opengis.net/ont/sf#Point": 1152
             }
           },
-          "from": {
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1
-            }
-          }
+          "from": {}
         },
-        "instancecount": 203
+        "instancecount": 1540
       },
       {
         "id": "http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1",
@@ -598,7 +603,7 @@ var tree={
               "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 2
             }
           },
           "from": {
@@ -608,7 +613,7 @@ var tree={
             }
           }
         },
-        "instancecount": 5
+        "instancecount": 6
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -1124,9 +1129,6 @@ var tree={
         "text": "Kleinkastell [68]",
         "data": {
           "to": {
-            "http://archaeoinformatics.link/ontology#limesobject": {
-              "instancecount": 1
-            },
             "http://archaeoinformatics.link/ontology#limestown": {
               "instancecount": 1
             },
@@ -1149,7 +1151,7 @@ var tree={
             }
           }
         },
-        "instancecount": 5
+        "instancecount": 4
       },
       {
         "id": "http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1000",
@@ -8324,7 +8326,7 @@ var tree={
               "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 2
             }
           },
           "from": {
@@ -8334,7 +8336,7 @@ var tree={
             }
           }
         },
-        "instancecount": 4
+        "instancecount": 5
       },
       {
         "id": "http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1000_geom",
@@ -16421,11 +16423,11 @@ var tree={
           "from": {
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 0,
-              "http://archaeoinformatics.link/ontology#Watchtower": 1
+              "http://lod.squirrel.link/data/limes/obergermanischraetisch/Kleinkastell": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#GeometryCollection": 1
+              "http://www.opengis.net/ont/geosparql#GeometryCollection": 2
             }
           }
         },
@@ -16473,13 +16475,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 4,
-              "http://www.w3.org/2002/07/owl#Class": 1
+              "instancecount": 6,
+              "http://www.opengis.net/ont/geosparql#GeometryCollection": 1
             }
           },
           "from": {}
         },
-        "instancecount": 6
+        "instancecount": 8
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
@@ -20732,7 +20734,7 @@ var tree={
           "from": {
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#FeatureCollection": 2
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
             }
           }
         },
