@@ -81,27 +81,17 @@ var tree={
               "instancecount": 1,
               "http://www.w3.org/2002/07/owl#Class": 1
             },
-            "http://www.w3.org/2000/01/rdf-schema#comment": {
-              "instancecount": 1
-            },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 200,
-              "http://archaeoinformatics.link/ontology#Watchtower": 70,
-              "http://lod.squirrel.link/data/limes/obergermanischraetisch/Kleinkastell": 68,
-              "http://archaeoinformatics.link/ontology#MilitaryCamp": 62
+              "instancecount": 1030,
+              "http://archaeoinformatics.link/ontology#Watchtower": 1022
             }
           },
-          "from": {
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1
-            }
-          }
+          "from": {}
         },
-        "instancecount": 204
+        "instancecount": 1033
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
@@ -588,9 +578,6 @@ var tree={
         "text": "MilitaryCamp [194]",
         "data": {
           "to": {
-            "http://archaeoinformatics.link/ontology#limesobject": {
-              "instancecount": 1
-            },
             "http://archaeoinformatics.link/ontology#limestown": {
               "instancecount": 1
             },
@@ -613,10 +600,10 @@ var tree={
             }
           }
         },
-        "instancecount": 6
+        "instancecount": 5
       },
       {
-        "id": "http://www.opengis.net/ont/geosparql#Feature",
+        "id": "http://lod.squirrel.link/data/limes/nonns_Feature.html",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObject",
         "type": "class",
         "text": "Feature (gsp:Feature)",
@@ -1141,7 +1128,7 @@ var tree={
               "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 2
             }
           },
           "from": {
@@ -1151,7 +1138,7 @@ var tree={
             }
           }
         },
-        "instancecount": 4
+        "instancecount": 5
       },
       {
         "id": "http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1000",
@@ -16423,11 +16410,11 @@ var tree={
           "from": {
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 0,
-              "http://lod.squirrel.link/data/limes/obergermanischraetisch/Kleinkastell": 1
+              "http://archaeoinformatics.link/ontology#Watchtower": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#GeometryCollection": 2
+              "http://www.opengis.net/ont/geosparql#GeometryCollection": 1
             }
           }
         },
@@ -16476,7 +16463,7 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 6,
-              "http://www.opengis.net/ont/geosparql#GeometryCollection": 1
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
             }
           },
           "from": {}
@@ -16554,10 +16541,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://archaeoinformatics.link/ontology#Limes",
+        "id": "http://lod.squirrel.link/data/limes/nonns_Limes.html",
         "parent": "http://www.opengis.net/ont/geosparql#Feature",
         "type": "geoclass",
-        "text": "Limes [62]",
+        "text": "Limes (Limes)",
         "data": {
           "to": {
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
@@ -19149,6 +19136,34 @@ var tree={
         "instancecount": 3
       },
       {
+        "id": "http://lod.squirrel.link/data/limes/nonns_Limes.html",
+        "parent": "http://www.opengis.net/ont/geosparql#Feature",
+        "type": "geoclass",
+        "text": "Limes (Limes)",
+        "data": {
+          "to": {
+            "http://www.opengis.net/ont/geosparql#hasGeometry": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Point": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1,
+              "http://www.w3.org/2002/07/owl#Class": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            }
+          },
+          "from": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 2
+            }
+          }
+        },
+        "instancecount": 3
+      },
+      {
         "id": "http://lod.squirrel.link/data/limes/noricum/a41296e5-fca2-4ce3-843e-a17871a5d85b_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
@@ -19812,6 +19827,37 @@ var tree={
         "type": "geoinstance",
         "text": "Grinnes (96c96491-656c-4e07-90bb-c40dcd8d5ce8)",
         "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/nonns_Limes.html",
+        "parent": "http://www.opengis.net/ont/geosparql#Feature",
+        "type": "geoclass",
+        "text": "Limes (Limes)",
+        "data": {
+          "to": {
+            "http://www.opengis.net/ont/geosparql#hasGeometry": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Point": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1,
+              "http://www.w3.org/2002/07/owl#Class": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#comment": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            }
+          },
+          "from": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
+            }
+          }
+        },
+        "instancecount": 4
       },
       {
         "id": "http://lod.squirrel.link/data/limes/germaniainferior/a2bea8d5-01f2-4d4f-b0b3-0137a51c5441_geom",
