@@ -85,13 +85,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 268,
-              "http://archaeoinformatics.link/ontology#MilitaryCamp": 62
+              "instancecount": 1030,
+              "http://archaeoinformatics.link/ontology#Watchtower": 1022
             }
           },
           "from": {}
         },
-        "instancecount": 271
+        "instancecount": 1033
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
@@ -129,13 +129,18 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 1537,
-              "http://www.opengis.net/ont/sf#Point": 1152
+              "instancecount": 200,
+              "http://www.opengis.net/ont/sf#Point": 200
             }
           },
-          "from": {}
+          "from": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.w3.org/2004/02/skos/core#Collection": 1
+            }
+          }
         },
-        "instancecount": 1540
+        "instancecount": 203
       },
       {
         "id": "http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1",
@@ -1116,6 +1121,9 @@ var tree={
         "text": "Kleinkastell [68]",
         "data": {
           "to": {
+            "http://archaeoinformatics.link/ontology#limesobject": {
+              "instancecount": 1
+            },
             "http://archaeoinformatics.link/ontology#limestown": {
               "instancecount": 1
             },
@@ -1138,7 +1146,7 @@ var tree={
             }
           }
         },
-        "instancecount": 5
+        "instancecount": 6
       },
       {
         "id": "http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1000",
@@ -8313,7 +8321,7 @@ var tree={
               "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 2
             }
           },
           "from": {
@@ -8323,7 +8331,7 @@ var tree={
             }
           }
         },
-        "instancecount": 4
+        "instancecount": 5
       },
       {
         "id": "http://lod.squirrel.link/data/limes/obergermanischraetisch/limes_1000_geom",
@@ -19853,7 +19861,7 @@ var tree={
           "from": {
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#FeatureCollection": 2
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
             }
           }
         },
